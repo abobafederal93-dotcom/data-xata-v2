@@ -30,16 +30,16 @@ export default function HomeSearchResults({ servers }: HomeSearchResultsProps) {
               id={s.id}
               name={s.name}
               cpu={s.cpu}
-              ram={s.ram}
-              storage={s.storage}
-              location={s.location}
-              locationFlag={s.locationFlag}
+              ram={s.ram as number}
+              storage={s.storage as { ssd?: string; hdd?: string } | string}
+              location={s.location as string}
+              locationFlag={s.locationFlag as string}
               bandwidth={s.bandwidth}
               locationStorage={s.locationStorage}
               price={s.price}
               priceOld={s.priceOld}
               discount={s.discount}
-              os={s.os}
+              os={(s.os ?? []) as string[]}
               instant={s.instant}
               active={i === 1}
             />
