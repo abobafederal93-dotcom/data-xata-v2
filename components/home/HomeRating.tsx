@@ -1,27 +1,18 @@
 import Container from '../ui/Container';
+import SectionHeading from '../ui/SectionHeading';
 
 export default function HomeRating() {
   return (
-    <section className="bg-gradient-to-r from-accent to-accent-dark min-h-[47.9rem] overflow-hidden">
+    <section className="py-60">
       <Container>
-        <div className="grid desktop:grid-cols-[1fr_auto] items-center min-h-[47.9rem] gap-30">
-          <div className="py-60">
-            <span className="block text-30 leading-43 desktop:text-55 desktop:leading-80 font-bold text-white opacity-[0.15] -mb-36 desktop:-mb-49 whitespace-nowrap pointer-events-none select-none">
-              Клиенты считают, что
-            </span>
-            <h2 className="text-25 leading-29 desktop:text-40 desktop:leading-58 font-medium text-white mb-20">
-              Наш сервис просто супер!
-            </h2>
-            <p className="text-20 leading-29 desktop:leading-27 text-white mb-30">
-              Нас оценивают на ведущих рейтингах
-            </p>
-            <div className="flex items-baseline gap-12 mb-30">
+        <div className="grid desktop:grid-cols-[1fr_auto] items-center gap-30">
+          <div>
+            <SectionHeading ghost="Репутация" title="Нас оценивают на ведущих рейтингах" />
+            <div className="mt-30 flex items-baseline gap-12 mb-30">
               <span className="text-45 leading-65 desktop:text-65 desktop:leading-94 font-semibold text-accent">
                 4.7
               </span>
-              <span className="text-20 leading-29 desktop:text-25 desktop:leading-36 font-medium text-white">
-                из
-              </span>
+              <span className="text-25 leading-36 font-medium text-white">из</span>
               <span className="text-45 leading-65 desktop:text-65 desktop:leading-94 font-semibold text-white">
                 5
               </span>
@@ -43,13 +34,13 @@ export default function HomeRating() {
               />
             </div>
           </div>
-          <div className="hidden desktop:block self-center justify-self-end w-[52.5vw] max-w-[75.6rem]">
+          <div className="hidden desktop:block w-[42rem]">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/img/rating-section-image.png"
               alt=""
-              width={756}
-              height={665}
+              width={420}
+              height={332}
               className="w-full h-auto"
             />
           </div>

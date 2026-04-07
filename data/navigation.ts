@@ -17,6 +17,42 @@ export const mainNav: NavItem[] = [
 export const langOptions = ["RU", "UA", "EN"] as const;
 export type Lang = (typeof langOptions)[number];
 
+export interface LangCountry {
+  code: "ee" | "ru" | "ua";
+  title: string;
+  country: string;
+  phone: string;
+  phoneHref: string;
+  href: string;
+}
+
+export const langCountries: LangCountry[] = [
+  {
+    code: "ee",
+    title: "ЭСТОНИЯ",
+    country: "Эстония",
+    phone: "+372 880 7873",
+    phoneHref: "tel:+3728807873",
+    href: "/et",
+  },
+  {
+    code: "ru",
+    title: "РОССИЯ",
+    country: "Русский",
+    phone: "+7 (499) 348 1331",
+    phoneHref: "tel:+74993481331",
+    href: "/ru",
+  },
+  {
+    code: "ua",
+    title: "УКРАИНА",
+    country: "Украина",
+    phone: "+380 (44) 23 88 946",
+    phoneHref: "tel:+380442388946",
+    href: "/ua",
+  },
+];
+
 export const contacts: ContactItem[] = [
   {
     type: "phone",
@@ -118,6 +154,21 @@ export const footerColumns: FooterColumn[] = [
       { label: "Оплата и доставка", href: "/payment" },
       { label: "Блог", href: "/blog" },
       { label: "Партнерская программа", href: "/affiliate" },
+    ],
+  },
+  {
+    title: "Контакты",
+    links: [
+      { label: "Sepapaja 6 Tallinn", href: "/contacts" },
+      { label: "+380 (44) 23 88 946", href: "tel:+380442388946" },
+      { label: "support@data-xata.com", href: "mailto:support@data-xata.com" },
+    ],
+  },
+  {
+    title: "Служба поддержки",
+    links: [
+      { label: "+372 (800) 7873", href: "tel:+3728007873" },
+      { label: "support@data-xata.com", href: "mailto:support@data-xata.com" },
     ],
   },
 ];

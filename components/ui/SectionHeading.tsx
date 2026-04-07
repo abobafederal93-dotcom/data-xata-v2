@@ -3,17 +3,18 @@ import { cn } from '../../lib/cn';
 interface SectionHeadingProps {
   ghost: string;
   title: string;
-  as?: 'h1' | 'h2' | 'h3';
   className?: string;
 }
 
-export default function SectionHeading({ ghost, title, as: Tag = 'h2', className }: SectionHeadingProps) {
+export default function SectionHeading({ ghost, title, className }: SectionHeadingProps) {
   return (
-    <div className={cn('mb-30', className)}>
-      <span className="block text-30 leading-43 tablet:text-55 tablet:leading-80 font-bold text-white opacity-[0.08] -mb-36 tablet:-mb-49 whitespace-nowrap pointer-events-none select-none">
+    <div className={cn(className)}>
+      <span className="block text-30 leading-43 desktop:text-55 desktop:leading-79 font-bold text-white opacity-[0.08] -mb-20 desktop:-mb-30 whitespace-nowrap pointer-events-none select-none">
         {ghost}
       </span>
-      <Tag className="text-25 leading-29 tablet:text-40 tablet:leading-58 font-medium text-white">{title}</Tag>
+      <h2 className="relative text-25 leading-28 desktop:text-40 desktop:leading-58 font-medium text-white">
+        {title}
+      </h2>
     </div>
   );
 }

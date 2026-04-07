@@ -1,0 +1,161 @@
+=== ORDER-PAYMENT (1118:645) 1440px ===
+TEXT fs:12 lh:17 fw:500 color:#ffffff "память"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "диски"
+TEXT fs:40 lh:58 fw:500 color:#ffffff "Оплаты"
+TEXT fs:40 lh:58 fw:500 color:#ffffff "Оплата"
+TEXT fs:55 lh:79 fw:700 color:#ffffff "Методы"
+TEXT fs:55 lh:79 fw:700 color:#ffffff "Методы"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Способ оплаты"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Кредитная карта (VISA, MasterCard, American Express)"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Webmoney WMZ"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Webmoney WME"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Интеркасса (Яндекс.Деньги, Qiwi, терминалы и пр.)"
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+GROUP [Group] 73x22 fill:#ffffff
+FRAME [Mastercard-logo 1] 28x22 fill:#ffffff
+  GROUP [Group] 28x22
+    GROUP [Group] 28x22
+      GROUP [Group] 27x3
+      GROUP [Group] 1x0
+      GROUP [Group] 14x17
+      GROUP [Group] 14x17
+FRAME [20190329082007!Логотип_Яндекс.Денег 1] 98x22 fill:#ffffff
+  GROUP [surface350] 91x17
+GROUP [Group] 95x22
+  GROUP [Group] 68x14
+GROUP [Group] 95x22
+  GROUP [Group] 68x14
+FRAME [qiwi-wallet-logo 1] 44x22 fill:#ffffff
+  GROUP [Group] 44x20
+GROUP [Group 101] 1111x330
+  GROUP [Group 27] 548x48
+    RECTANGLE [Rectangle 28] 548x48 fill:#ff8311
+    TEXT fs:16 lh:23 fw:600 color:#ffffff "Оплатить и получить доступ"
+  RECTANGLE [Rectangle 49] 548x48
+  TEXT fs:16 lh:23 fw:600 color:#ffffff "Получить ссылку на оплату для отправки третьему лицу"
+  TEXT fs:14 lh:17 fw:400 color:#ffffff "Вводные цены действуют на первый семестр. Гарантия возврата денег распространяет"
+  TEXT fs:14 lh:17 fw:400 color:#ffffff "Я хочу получать информационный бюллетень со статьями, хитростями, обучающими мат"
+  TEXT fs:14 lh:17 fw:400 color:#ffffff "Я прочитал, понимаю и согласен с Условиями продаж в отношении обработки моих пер"
+  TEXT fs:14 lh:17 fw:400 color:#ffffff "Мы рекомендуем и советуем вам щелкать отдельные ссылки и сохранять или распечаты"
+  FRAME [Frame] 24x24 fill:#ffffff
+  FRAME [Frame] 24x24 fill:#ffffff
+GROUP [Group 100] 1440x809
+  RECTANGLE [Rectangle 45] 1440x723 fill:#010437
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  RECTANGLE [Rectangle 172] 1110x164
+  RECTANGLE [Rectangle 50] 157x43 fill:#d66702
+  TEXT fs:40 lh:58 fw:500 color:#ffffff "Хочу скидку!"
+  TEXT fs:55 lh:79 fw:700 color:#ffffff "Хочу скидку!"
+  RECTANGLE [Rectangle 47] 177x48 fill:#ffffff
+  RECTANGLE [Rectangle 48] 548x48
+  RECTANGLE [Rectangle 173] 548x48
+  TEXT fs:16 lh:23 fw:600 color:#0041be "Выбрать сервер"
+  TEXT fs:16 lh:23 fw:600 color:#ffffff "Заработайте на нас!"
+  FRAME [Frame] 24x24 fill:#ffffff
+  TEXT fs:16 lh:23 fw:600 color:#ffffff "Пожаловаться директору!"
+  FRAME [Frame] 24x24 fill:#ffffff
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Windows сервера"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Linux Сервера"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда игрового сервера"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда хранилища"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда офисного сервера"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Резервное копирование"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Администрирование серверов"
+  GROUP [Group 9] 895x20
+    TEXT fs:14 lh:20 fw:400 color:#ffffff "Terms and conditions"
+    TEXT fs:14 lh:20 fw:400 color:#ffffff "Privacy policy"
+    TEXT fs:14 lh:20 fw:400 color:#ffffff "Refund policy"
+    TEXT fs:14 lh:20 fw:400 color:#ffffff "Delivery time frame"
+    TEXT fs:14 lh:20 fw:400 color:#ffffff "Abuse"
+    TEXT fs:14 lh:20 fw:400 color:#ffffff "Acceptable Use Policy"
+  TEXT fs:11 lh:12 fw:500 color:#ffffff "Безналичный расчёт"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в США"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Германии"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера во Франции"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Голландии"
+  TEXT fs:12 lh:17 fw:500 color:#ffffff "Аренда сервера"
+  TEXT fs:12 lh:17 fw:500 color:#ffffff "Аренда виртуального сервера"
+  TEXT fs:12 lh:17 fw:500 color:#ffffff "Остальное"
+  TEXT fs:12 lh:17 fw:500 color:#ffffff "Контакты"
+  TEXT fs:12 lh:17 fw:500 color:#ffffff "служба поддержки"
+  TEXT fs:12 lh:17 fw:500 color:#ffffff "мы в социальных сетях"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS на Windows"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS на Linux"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера с тестовым периодом"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Помощь"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Оплата и доставка"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Блог"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Партнерская программа"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в США"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Sepapaja 6 Tallinn"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "+380 (44) 23 88 946"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в Германии"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "+372 (800) 7873"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "support@data-xata.com"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "support@data-xata.com"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS во Франции"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в Голландии"
+  FRAME [Vkontakte (VK)] 24x24 fill:#ffffff
+    GROUP [Vkontakte (VK)] 24x24
+      BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+        RECTANGLE [Rectangle] 24x24 fill:#5181b8 r:24
+  FRAME [Twitter] 24x24 fill:#ffffff
+    GROUP [Twitter] 24x24
+      BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+        RECTANGLE [Rectangle] 24x24 fill:#1da1f2 r:24
+  FRAME [Slack] 24x24 fill:#ffffff
+    GROUP [Slack] 24x24
+      BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+        RECTANGLE [Rectangle] 24x24 fill:#611f69 r:24
+        GROUP [Group] 16x16
+  FRAME [Facebook] 24x24 fill:#ffffff
+    GROUP [Facebook] 24x24
+      BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+        RECTANGLE [Rectangle] 24x24 fill:#4267b2 r:24
+  FRAME [logo 2] 118x26
+    GROUP [Layer 2] 118x26
+      GROUP [Слой 1] 118x26
+  GROUP [Group] 67x20 fill:#ffffff
+  FRAME [Mastercard-logo 2] 31x24 fill:#ffffff
+    GROUP [Group] 31x24
+      GROUP [Group] 31x24
+        GROUP [Group] 29x4
+        GROUP [Group] 1x0
+        GROUP [Group] 15x19
+        GROUP [Group] 16x19
+  GROUP [Group] 104x24
+    GROUP [Group] 74x15
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Посмотреть все способы оплаты"
+  TEXT fs:19 lh:27 fw:600 color:#ffffff "Оформи заказ в течение 10 минут и получи бонус $50 на счет!"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Мы знаем, что расставаться с деньгами - всегда стресс"
+TEXT fs:14 lh:17 fw:400 color:#839ada "Чтобы подсластить пилюлю - выберите бесплатную плюшку к вашему заказу:"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Защита от DDoS"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "100Гб для бекапа"
+RECTANGLE [Rectangle 14] 369x230
+RECTANGLE [Rectangle 177] 369x230
+RECTANGLE [Rectangle 178] 369x230
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Failover IP"
+RECTANGLE [Rectangle 558] 350x305 fill:#0041be
+TEXT fs:20 lh:29 fw:500 color:#ffffff "К оплате сейчас"
+TEXT fs:32 lh:46 fw:500 color:#27e35c "€157.00"
+TEXT fs:12 lh:17 fw:500 color:#839ada "Абонентская плата"
+TEXT fs:12 lh:17 fw:500 color:#839ada "плата за установку"
+TEXT fs:16 lh:23 fw:500 color:#27e35c "€129.00 / 3 месяца со скидкой 5%"
+TEXT fs:16 lh:23 fw:500 color:#ffffff "€28.00 / единоразово"
+TEXT fs:16 lh:23 fw:400 color:#839ada "€169.00"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Срок оплаты"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "1 месяц"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "3 месяца"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "6 месяцев"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "12 месяцев"
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff

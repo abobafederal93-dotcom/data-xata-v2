@@ -1,0 +1,133 @@
+=== MENU (80:19147) 1440px ===
+GROUP [Group 12] 1182x828
+  RECTANGLE [Rectangle 17] 141x36
+  FRAME [logo 1] 118x26
+    GROUP [Layer 2] 118x26
+      GROUP [Слой 1] 118x26
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Личный кабинет"
+  GROUP [Group 5] 93x24
+    FRAME [Frame] 24x24 fill:#ffffff
+    TEXT fs:14 lh:20 fw:500 color:#ffffff "gurnik-dtx"
+  TEXT fs:14 lh:20 fw:500 color:#839ada "Скрольте чтобы узнать детали"
+  TEXT fs:60 lh:87 fw:500 color:#ffffff "Аренда сервера"
+  TEXT fs:40 lh:58 fw:500 color:#ffffff "для DevOps|"
+  TEXT fs:65 lh:94 fw:700 color:#ffffff "Готовое решение"
+  RECTANGLE [Rectangle 4] 330x43 fill:#002f8e
+  RECTANGLE [Rectangle 2] 350x48 fill:#ff8311
+  TEXT fs:16 lh:23 fw:600 color:#ffffff "Сервера с мгновенной активацией"
+  TEXT fs:16 lh:23 fw:600 color:#ffffff "Я знаю что делаю - покажите мне ВСЕ!"
+  TEXT fs:20 lh:27 fw:400 color:#839ada "Мы предлагаем более 1278 конфигураций выделенных серверов в 11 дата-центрах. Быс"
+  GROUP [Group 6] 90x24
+    TEXT fs:14 lh:20 fw:500 color:#ffffff "data_xata"
+    FRAME [Frame] 24x24 fill:#ffffff
+  FRAME [Frame] 24x24 fill:#ffffff
+  TEXT fs:14 lh:20 fw:500 color:#ff8311 "+7 (499) 348 1331"
+  FRAME [Frame] 18x18 fill:#ffffff
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Помощь"
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Оплата и доставка"
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Блог"
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Партнерская программа"
+  TEXT fs:14 lh:20 fw:500 color:#ff8311 "RU"
+FRAME [Frame] 18x18 fill:#ffffff
+TEXT fs:14 lh:20 fw:500 color:#ff8311 "Аренда сервера"
+GROUP [Group 13] 684x505
+  RECTANGLE [Rectangle 19] 684x505 fill:#0041be@85%
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Аренда сервера"
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Аренда виртуального сервера VPS/VDS"
+  TEXT fs:12 lh:17 fw:500 color:#839ada "Страны"
+  TEXT fs:12 lh:17 fw:500 color:#839ada "Страны"
+  TEXT fs:12 lh:17 fw:500 color:#839ada "Технологии"
+  TEXT fs:12 lh:17 fw:500 color:#839ada "Технологии"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Windows сервера"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда виртуального сервера VPS/VDS на Windows"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Linux Сервера"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда виртуального сервера VPS/VDS на Linux"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда игрового сервера"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда хранилища"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда офисного сервера"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Резервное копирование"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Администрирование серверов"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в США"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда виртуального сервера VPS/VDS в США"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Германии"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда виртуального сервера VPS/VDS в Германии"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера во Франции"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда виртуального сервера VPS/VDS во Франции"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Голландии"
+  TEXT fs:14 lh:20 fw:400 color:#ff8311 "Аренда виртуального сервера VPS/VDS в Голландии"
+  FRAME [aAsset 2 1] 24x14 fill:#ffffff
+    GROUP [Layer 2] 24x14
+      GROUP [Layer 1] 24x14
+        GROUP [Group] 24x14
+  FRAME [aAsset 2 2] 24x14 fill:#ffffff
+    GROUP [Layer 2] 24x14
+      GROUP [Layer 1] 24x14
+        GROUP [Group] 24x14
+  FRAME [a2Asset 3 1] 24x14 fill:#ffffff
+    GROUP [Layer 2] 24x14
+      GROUP [Layer 1] 24x14
+        GROUP [Group] 24x14
+  FRAME [a2Asset 3 2] 24x14 fill:#ffffff
+    GROUP [Layer 2] 24x14
+      GROUP [Layer 1] 24x14
+        GROUP [Group] 24x14
+  FRAME [a3Asset 4 1] 24x14 fill:#ffffff
+    GROUP [Layer 2] 24x14
+      GROUP [Layer 1] 24x14
+        GROUP [Group] 24x14
+  FRAME [a3Asset 4 2] 24x14 fill:#ffffff
+    GROUP [Layer 2] 24x14
+      GROUP [Layer 1] 24x14
+        GROUP [Group] 24x14
+  FRAME [Asset 1 1] 24x14 fill:#ffffff
+    GROUP [Layer 2] 24x14
+      GROUP [Layer 1] 24x14
+        GROUP [Group] 24x14
+  FRAME [Asset 1 2] 24x14 fill:#ffffff
+    GROUP [Layer 2] 24x14
+      GROUP [Layer 1] 24x14
+        GROUP [Group] 24x14
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  RECTANGLE [Rectangle 20] 270x36 fill:#ffffff
+  TEXT fs:14 lh:20 fw:500 color:#0033af "Аренда сервера с тестовым периодом"
+  FRAME [Cursor – Hand] 36x36
+    BOOLEAN_OPERATION [Lines] 8x6 fill:#000000
+RECTANGLE [Rectangle 19] 169x179 fill:#0041be@85%
+RECTANGLE [Rectangle 20] 194x257 fill:#0041be@85%
+FRAME [Cursor – Hand] 36x36
+  BOOLEAN_OPERATION [Lines] 8x6 fill:#000000
+FRAME [Cursor – Hand] 36x36
+  BOOLEAN_OPERATION [Lines] 8x6 fill:#000000
+FRAME [Cursor – Hand] 36x36
+  BOOLEAN_OPERATION [Lines] 8x6 fill:#000000
+TEXT fs:12 lh:17 fw:500 color:#839ada "ЯЗЫКИ"
+TEXT fs:12 lh:17 fw:500 color:#839ada "ЭСТОНИЯ"
+TEXT fs:12 lh:17 fw:500 color:#839ada "Россия"
+TEXT fs:12 lh:17 fw:500 color:#839ada "украина"
+FRAME [aAsset 2 1] 24x14 fill:#ffffff
+  GROUP [Layer 2] 24x14
+    GROUP [Layer 1] 24x14
+      GROUP [Group] 24x14
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Украина"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "+372 880 7873"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Русский"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "+7 (499) 348 1331"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Английский"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "+380 (44) 23 88 946"
+FRAME [1Asset 1 2] 24x14 fill:#ffffff
+  GROUP [Layer 2] 24x14
+    GROUP [Layer 1] 24x14
+      GROUP [Group] 24x14
+FRAME [1Asset 2 2] 24x14 fill:#ffffff
+  GROUP [Layer 2] 24x14
+    GROUP [Layer 1] 24x14
+      GROUP [Group] 24x14
+FRAME [Frame] 24x24 fill:#ffffff

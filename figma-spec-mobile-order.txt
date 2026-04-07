@@ -1,0 +1,253 @@
+=== MOBILE-ORDER (80:22097) 360px ===
+FRAME [logo 1] 118x26
+  GROUP [Layer 2] 118x26
+    GROUP [Слой 1] 118x26
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:34 lh:49 fw:500 color:#ffffff "Сравнение серверов"
+TEXT fs:40 lh:58 fw:700 color:#ffffff "Сервер"
+FRAME [Frame 104] 263x24 gap:8 dir:HORIZONTAL
+  FRAME [Frame] 24x24 fill:#ffffff
+  RECTANGLE [Rectangle 555] 18x1 fill:#839ada
+  TEXT fs:14 lh:20 fw:400 color:#839ada "Услуги"
+  RECTANGLE [Rectangle 556] 18x1 fill:#839ada
+  TEXT fs:14 lh:20 fw:400 color:#839ada "Сравнение серверов"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "2x Xeon E5-2430 v2 • 32GB DDR3 2x240GB SSD"
+TEXT fs:12 lh:17 fw:500 color:#839ada "Аренда сервера"
+RECTANGLE [Rectangle 114] 330x105
+TEXT fs:14 lh:20 fw:400 color:#ffffff "1 Gbps, 100TB, NL - Netherlands"
+TEXT fs:12 lh:17 fw:500 color:#839ada "Подключение"
+RECTANGLE [Rectangle 115] 330x85
+TEXT fs:14 lh:20 fw:400 color:#ffffff "€99"
+TEXT fs:12 lh:17 fw:500 color:#839ada "Абонплата"
+RECTANGLE [Rectangle 116] 330x85
+GROUP [Group 83] 330x48
+  RECTANGLE [Rectangle 151] 330x48
+  FRAME [Frame] 24x24 fill:#ffffff
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Смотреть подробности"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Выслать доступ на этот E-mail"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Хочу указать все свои реквизиты сейчас"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Оплата"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Оплата"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Получить доступ"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Мои реквизиты"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Методы"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Методы"
+RECTANGLE [Rectangle 46] 330x211
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Оформи заказ в течение 10 минут и получи бонус $50 на счет!"
+RECTANGLE [Rectangle 24] 274x48 fill:#ffffff
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите e-mail"
+TEXT fs:16 lh:23 fw:500 color:#ffffff "или зарегистрироваться через социальные сети"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Контактные данные"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Контактные данные"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Контактные данные"
+RECTANGLE [Rectangle 152] 328x48 fill:#ffffff
+RECTANGLE [Rectangle 160] 328x48 fill:#ffffff
+RECTANGLE [Rectangle 164] 328x48 fill:#ffffff
+RECTANGLE [Rectangle 153] 328x48 fill:#ffffff
+RECTANGLE [Rectangle 161] 328x48 fill:#ffffff
+RECTANGLE [Rectangle 165] 328x48 fill:#ffffff
+RECTANGLE [Rectangle 154] 328x48 fill:#ffffff
+RECTANGLE [Rectangle 162] 328x48 fill:#ffffff
+RECTANGLE [Rectangle 166] 328x48 fill:#ffffff
+RECTANGLE [Rectangle 155] 328x48 fill:#ffffff
+RECTANGLE [Rectangle 163] 328x48 fill:#ffffff
+RECTANGLE [Rectangle 156] 328x48 fill:#ffffff
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Ваше имя"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Страна"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Страна*"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Страна*"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Название*"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Город*"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Номер телефона*"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Номер регистрации*"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Улица"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Город*"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Налоговый номер*"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Улица"
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+RECTANGLE [Rectangle 157] 100x48 fill:#ffffff
+RECTANGLE [Rectangle 167] 100x48 fill:#ffffff
+RECTANGLE [Rectangle 158] 100x48 fill:#ffffff
+RECTANGLE [Rectangle 168] 100x48 fill:#ffffff
+RECTANGLE [Rectangle 159] 100x48 fill:#ffffff
+RECTANGLE [Rectangle 169] 100x48 fill:#ffffff
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Квартира"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Квартира"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Дом"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Дом"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Индекс"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Индекс"
+RECTANGLE [Rectangle 170] 328x200 fill:#ffffff
+TEXT fs:14 lh:20 fw:400 color:#839ada "Введите"
+TEXT fs:12 lh:17 fw:400 color:#ffffff "Примечание"
+GROUP [Group 85] 330x48
+  RECTANGLE [Rectangle 171] 330x48
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Укажу данные позже"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Мы знаем, что расставаться с деньгами - всегда стресс"
+TEXT fs:14 lh:17 fw:400 color:#839ada "Чтобы подсластить пилюлю - выберите бесплатную плюшку к вашему заказу:"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Защита от DDoS"
+RECTANGLE [Rectangle 14] 328x230
+TEXT fs:19 lh:27 fw:600 color:#ffffff "100Гб для бекапа"
+RECTANGLE [Rectangle 177] 328x230
+RECTANGLE [Rectangle 178] 328x230
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Failover IP"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Срок оплаты"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "1 мес."
+TEXT fs:14 lh:20 fw:500 color:#ffffff "3 мес."
+TEXT fs:14 lh:20 fw:500 color:#ffffff "6 мес."
+TEXT fs:14 lh:20 fw:500 color:#ffffff "12 мес."
+TEXT fs:14 lh:20 fw:500 color:#ffffff "€29.00"
+TEXT fs:14 lh:20 fw:500 color:#27e35c "-2,5%"
+TEXT fs:14 lh:20 fw:500 color:#27e35c "-2,5%"
+TEXT fs:14 lh:20 fw:500 color:#27e35c "-2,5%"
+TEXT fs:14 lh:20 fw:500 color:#27e35c "€29.00 / мес."
+TEXT fs:14 lh:20 fw:500 color:#27e35c "€47.00 / мес."
+TEXT fs:14 lh:20 fw:500 color:#27e35c "€56.00 / мес."
+TEXT fs:16 lh:23 fw:600 color:#27e35c "€329.00"
+TEXT fs:16 lh:23 fw:600 color:#27e35c "€496.00"
+TEXT fs:16 lh:23 fw:600 color:#27e35c "€564.00"
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Способ оплаты"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Кредитная карта (VISA, MasterCard,  American Express)"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Webmoney WMZ"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Webmoney WME"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Интеркасса (Яндекс.Деньги, Qiwi, терминалы и пр.)"
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:14 lh:17 fw:400 color:#ffffff "Вводные цены действуют на первый семестр. Гарантия возврата денег распространяет"
+TEXT fs:14 lh:17 fw:400 color:#ffffff "Я хочу получать информационный бюллетень со статьями, хитростями, обучающими мат"
+TEXT fs:14 lh:17 fw:400 color:#ffffff "Я прочитал, понимаю и согласен с Условиями продаж в отношении обработки моих пер"
+TEXT fs:14 lh:17 fw:400 color:#ffffff "Мы рекомендуем и советуем вам щелкать отдельные ссылки и сохранять или распечаты"
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+GROUP [Group 27] 330x48
+  RECTANGLE [Rectangle 28] 330x48 fill:#ff8311
+  TEXT fs:16 lh:23 fw:600 color:#ffffff "Оплатить и получить доступ"
+RECTANGLE [Rectangle 49] 330x70
+TEXT fs:16 lh:23 fw:600 color:#ffffff "Получить ссылку на оплату для отправки третьему лицу"
+RECTANGLE [Rectangle 45] 360x1683 fill:#010437
+RECTANGLE [Rectangle 179] 360x324
+GROUP [Group 23] 330x54
+  RECTANGLE [Rectangle 50] 310x43 fill:#d66702
+  RECTANGLE [Rectangle 47] 330x48 fill:#ffffff
+  TEXT fs:16 lh:23 fw:600 color:#0041be "Выбрать сервер"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Оформи заказ в течение 10 минут и получи бонус $50 на счет!"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Хочу скидку!"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Хочу скидку!"
+RECTANGLE [Rectangle 48] 330x48
+TEXT fs:16 lh:23 fw:600 color:#ffffff "Пожаловаться директору!"
+FRAME [Frame] 24x24 fill:#ffffff
+RECTANGLE [Rectangle 180] 330x48
+GROUP [Group 24] 187x24
+  TEXT fs:16 lh:23 fw:600 color:#ffffff "Заработайте на нас!"
+  FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Windows сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Linux Сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда игрового сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда хранилища"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда офисного сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Резервное копирование"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Администрирование серверов"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в США"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Германии"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера во Франции"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Голландии"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Аренда сервера"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Аренда виртуального сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS на Windows"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS на Linux"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в США"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в Германии"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS во Франции"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в Голландии"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Остальное"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера с тестовым периодом"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Помощь"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Оплата и доставка"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Блог"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Партнерская программа"
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Контакты"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "служба поддержки"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "мы в социальных сетях"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Sepapaja 6 Tallinn"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "+380 (44) 23 88 946"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "+372 (800) 7873"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "support@data-xata.com"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "support@data-xata.com"
+INSTANCE [Vkontakte (VK)] 24x24 fill:#ffffff
+  GROUP [Vkontakte (VK)] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#5181b8 r:24
+INSTANCE [Twitter] 24x24 fill:#ffffff
+  GROUP [Twitter] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#1da1f2 r:24
+INSTANCE [Slack] 24x24 fill:#ffffff
+  GROUP [Slack] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#611f69 r:24
+      GROUP [Group] 16x16
+INSTANCE [Facebook] 24x24 fill:#ffffff
+  GROUP [Facebook] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#4267b2 r:24
+FRAME [logo 2] 118x26
+  GROUP [Layer 2] 118x26
+    GROUP [Слой 1] 118x26
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Посмотреть все способы оплаты"
+GROUP [Group 26] 204x24
+  TEXT fs:11 lh:12 fw:500 color:#ffffff "Безналичный расчёт"
+  GROUP [Group] 104x24
+    GROUP [Group] 74x15
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Terms and conditions"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Privacy policy"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Refund policy"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Delivery time frame"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Abuse"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Acceptable Use Policy"

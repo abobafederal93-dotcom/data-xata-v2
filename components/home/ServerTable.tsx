@@ -1,7 +1,6 @@
 import Container from '../ui/Container';
 import Badge from '../ui/Badge';
 import Flag from '../ui/Flag';
-import Button from '../ui/Button';
 import Icon from '../ui/Icon';
 import { cn } from '../../lib/cn';
 import type { Server, ServerStorage, ServerLocation } from '../../types';
@@ -31,7 +30,7 @@ function StorageList({ storage }: { storage: Server['storage'] }) {
         </span>
       )}
       {hdd.length > 0 && (
-        <span className="text-14 leading-20 text-secondary">
+        <span className="text-14 leading-20 text-white">
           HDD: {hdd.map((s) => `${s.count}x ${s.size}`).join(', ')}
         </span>
       )}
@@ -41,38 +40,71 @@ function StorageList({ storage }: { storage: Server['storage'] }) {
 
 function ServerRow({ server, isActive }: { server: Server; isActive: boolean }) {
   const loc = isLocationObject(server.location) ? server.location : null;
+  const locLabel = loc?.label ?? 'Frankfut';
   return (
     <div
       className={cn(
-        'border-b border-primary/30 min-h-[11.4rem]',
-        isActive && 'bg-primary/10 border-l-4 border-l-accent'
+        'mb-12',
+        isActive ? 'min-h-166 bg-[#215aee]' : 'min-h-114 border border-white/10'
       )}
     >
-      <div className="hidden desktop:grid grid-cols-[1.6fr_1fr_0.8fr_1.2fr_1fr] items-center gap-20 px-20 py-24">
-        <div className="flex items-center gap-12">
+      <div className="hidden desktop:flex items-center gap-20 px-20 py-24">
+        <div className="flex items-center gap-12 flex-1">
           {loc && <Flag code={loc.code} />}
           <div className="flex flex-col gap-6">
             <span className="text-14 leading-20 font-medium text-white">{server.cpu}</span>
+            <span className="text-14 leading-20 font-normal text-white">
+              {locLabel} • {server.bandwidth ?? '200 Mbps'} • {server.locationStorage ?? '1 TB'}
+            </span>
             <div className="flex flex-wrap items-center gap-6">
-              <Badge variant="secondary">NAT IPV4</Badge>
-              {server.type && <Badge variant="primary">{server.type}</Badge>}
+              <Badge variant="green">Беспалтная установка</Badge>
+              <Badge variant="red">Доступ через 3-5 мин</Badge>
             </div>
           </div>
         </div>
-        <div className="text-14 leading-20 text-secondary">{server.type ?? 'Dedicated'}</div>
-        <div className="text-14 leading-20 text-white">
+        <div className="text-14 leading-20 font-normal text-white w-[8rem]">
+          {server.type ?? 'VPS'}
+        </div>
+        <div className="text-14 leading-20 font-normal text-white w-[8rem]">
           {typeof server.ram === 'number' ? `${server.ram} GB` : server.ram}
         </div>
-        <div>
+        <div className="w-[16rem]">
           <StorageList storage={server.storage} />
         </div>
-        <div className="flex flex-col gap-4">
-          <span className="text-16 leading-23 font-semibold text-white">
+        <div className="flex flex-col gap-4 w-[10rem] text-right">
+          <span className="text-14 leading-20 font-semibold text-white">
             €{server.price.toFixed(2)}
           </span>
-          <span className="text-12 leading-17 text-white opacity-40">абонплата</span>
+          <span className="text-12 leading-17 font-medium text-white opacity-50">абонплата</span>
         </div>
       </div>
+      {isActive && (
+        <div className="hidden desktop:block px-20 pb-20">
+          <div className="flex items-center gap-30">
+            <a
+              href="#"
+              className="flex items-center gap-8 text-14 leading-20 font-medium text-white hover:text-accent"
+            >
+              <Icon name="star" className="text-16" />
+              Добавить в избранное
+            </a>
+            <a
+              href="#"
+              className="flex items-center gap-8 text-14 leading-20 font-medium text-white hover:text-accent"
+            >
+              <Icon name="compare" className="text-16" />
+              Сравнить с конкурентами
+            </a>
+            <a
+              href={`/server/${server.slug ?? server.id}`}
+              className="flex items-center gap-8 text-14 leading-20 font-medium text-white hover:text-accent"
+            >
+              Смотреть подробности
+              <Icon name="caret-right" className="text-16" />
+            </a>
+          </div>
+        </div>
+      )}
       {/* Mobile card */}
       <div className="desktop:hidden flex flex-col gap-12 p-20">
         <div className="flex items-center gap-12">
@@ -80,52 +112,24 @@ function ServerRow({ server, isActive }: { server: Server; isActive: boolean }) 
           <span className="text-14 leading-20 font-medium text-white">{server.cpu}</span>
         </div>
         <div className="flex flex-wrap gap-6">
-          <Badge variant="secondary">NAT IPV4</Badge>
-          {server.type && <Badge variant="primary">{server.type}</Badge>}
+          <Badge variant="green">Беспалтная установка</Badge>
+          <Badge variant="red">Доступ через 3-5 мин</Badge>
         </div>
         <div className="grid grid-cols-2 gap-12">
           <div>
-            <div className="text-12 text-secondary uppercase">RAM</div>
-            <div className="text-14 text-white">
+            <div className="text-12 leading-17 font-medium text-[#839ada]">RAM</div>
+            <div className="text-14 leading-20 text-white">
               {typeof server.ram === 'number' ? `${server.ram} GB` : server.ram}
             </div>
           </div>
           <div>
-            <div className="text-12 text-secondary uppercase">Цена</div>
-            <div className="text-16 text-white font-semibold">€{server.price.toFixed(2)}</div>
+            <div className="text-12 leading-17 font-medium text-[#839ada]">Цена</div>
+            <div className="text-14 leading-20 text-white font-semibold">
+              €{server.price.toFixed(2)}
+            </div>
           </div>
         </div>
         <StorageList storage={server.storage} />
-      </div>
-      {isActive && <ExpandedBlock server={server} />}
-    </div>
-  );
-}
-
-function ExpandedBlock({ server }: { server: Server }) {
-  const loc = isLocationObject(server.location) ? server.location.label : 'Frankfut';
-  return (
-    <div className="px-20 pb-30 pt-0 desktop:pl-[3.2rem]">
-      <div className="flex flex-col desktop:flex-row desktop:items-center gap-20 desktop:gap-30 mb-20">
-        <span className="text-14 text-secondary">
-          {loc} • {server.bandwidth ?? '200 Mbps'} • {server.locationStorage ?? '1 TB'}
-        </span>
-        <div className="flex flex-wrap gap-8">
-          <Badge variant="green">Беспалтная установка</Badge>
-          <Badge variant="red">Доступ через 3-5 мин</Badge>
-        </div>
-      </div>
-      <div className="flex flex-col desktop:flex-row gap-12">
-        <Button variant="outline" size="md">
-          Сравнить с конкурентами
-        </Button>
-        <Button variant="outline" size="md">
-          Добавить в избранное
-        </Button>
-        <Button href={`/server/${server.slug ?? server.id}`} variant="accent" size="md">
-          Смотреть подробности
-          <Icon name="caret-right" className="text-12 ml-8" />
-        </Button>
       </div>
     </div>
   );
@@ -135,15 +139,16 @@ export default function ServerTable({ servers, activeId }: ServerTableProps) {
   return (
     <section className="py-40">
       <Container>
-        <div className="hidden desktop:grid grid-cols-[1.6fr_1fr_0.8fr_1.2fr_1fr] gap-20 px-20 pb-16 border-b border-primary/30">
-          {['Сервер', 'Продукт', 'RAM', 'Место на диске', 'Цена в месяц'].map((h) => (
-            <span
-              key={h}
-              className="text-12 leading-17 font-medium text-secondary uppercase tracking-wider"
-            >
-              {h}
-            </span>
-          ))}
+        <div className="hidden desktop:flex gap-20 px-20 pb-16">
+          <span className="text-12 leading-17 font-medium text-[#839ada] flex-1">Сервер</span>
+          <span className="text-12 leading-17 font-medium text-[#839ada] w-[8rem]">Продукт</span>
+          <span className="text-12 leading-17 font-medium text-[#839ada] w-[8rem]">RAM</span>
+          <span className="text-12 leading-17 font-medium text-[#839ada] w-[16rem]">
+            Место на диске
+          </span>
+          <span className="text-12 leading-17 font-medium text-[#839ada] w-[10rem] text-right">
+            Цена в месяц
+          </span>
         </div>
         <div>
           {servers.map((s) => (
@@ -151,10 +156,13 @@ export default function ServerTable({ servers, activeId }: ServerTableProps) {
           ))}
         </div>
         <div className="flex flex-col desktop:flex-row items-center justify-between gap-20 mt-40">
-          <Button href="/search" variant="outline" size="lg">
+          <a
+            href="/search"
+            className="text-16 leading-23 font-semibold text-white hover:text-accent"
+          >
             Показать больше конфигураций
-          </Button>
-          <span className="text-[1.8rem] leading-[2.6rem] text-secondary text-center">
+          </a>
+          <span className="text-18 leading-26 font-normal text-[#839ada]">
             еще 1378шт от €7.89
           </span>
         </div>

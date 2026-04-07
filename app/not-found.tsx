@@ -50,13 +50,7 @@ export default function NotFound() {
       {/* PromoBanner + Action buttons */}
       <section className="pb-60">
         <Container>
-          <PromoBanner
-            ghost="Хочу скидку!"
-            title="Хочу скидку!"
-            subtitle="Оформи заказ в течение 10 минут и получи бонус $50 на счет!"
-            buttonLabel="Выбрать сервер"
-            buttonHref="/search"
-          />
+          <PromoBanner />
           <div className="flex flex-col desktop:flex-row gap-20 mt-20">
             <Button
               href="/complaint"

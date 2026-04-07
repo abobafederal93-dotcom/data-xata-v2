@@ -54,7 +54,7 @@ export default function OrderPage() {
       <Container>
         <div className="pt-40">
           <Breadcrumb items={[{ label: 'Оформление заказа' }]} className="mb-30" />
-          <SectionHeading ghost="Заказ" title="Оформление заказа" as="h1" />
+          <SectionHeading ghost="Заказ" title="Оформление заказа" />
 
           <OrderSummary items={summary} total="Итого: €99.00" />
 
@@ -103,7 +103,7 @@ export default function OrderPage() {
 
           <OrderForm sections={formSections} />
 
-          <Button variant="outline" className="w-full h-48 mb-40" fullWidth>
+          <Button variant="outline" className="w-full h-48 mb-40">
             Укажу данные позже
           </Button>
 
@@ -151,13 +151,7 @@ export default function OrderPage() {
       </Container>
 
       <Container className="py-60">
-        <PromoBanner
-          ghost="Скидка"
-          title="Получите скидку 15% на первый заказ"
-          subtitle="Промокод действует на все выделенные серверы"
-          buttonLabel="Заказать"
-          buttonHref="/order"
-        />
+        <PromoBanner promoText="Промокод действует на все выделенные серверы" />
       </Container>
     </main>
   );

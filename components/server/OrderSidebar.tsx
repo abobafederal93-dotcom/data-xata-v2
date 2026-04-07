@@ -46,7 +46,7 @@ export default function OrderSidebar({ server }: OrderSidebarProps) {
         <span className="block text-16 leading-23 font-medium text-white">€{(server.setupFee ?? 46.75).toFixed(2)}</span>
       </div>
 
-      <Button href="/order" variant="accent" className="h-48 mb-15" fullWidth>
+      <Button href="/order" variant="accent" className="h-48 mb-15 w-full">
         Оформить заказ
       </Button>
 

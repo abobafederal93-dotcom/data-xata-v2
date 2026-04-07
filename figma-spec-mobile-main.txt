@@ -1,0 +1,189 @@
+=== MOBILE-MAIN (80:19897) 360px ===
+RECTANGLE [Rectangle 45] 360x1683 fill:#010437
+FRAME [logo 1] 118x26
+  GROUP [Layer 2] 118x26
+    GROUP [Слой 1] 118x26
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:35 lh:51 fw:500 color:#ffffff "Аренда сервера"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "для DevOps|"
+TEXT fs:40 lh:58 fw:700 color:#ffffff "Готовое решение"
+TEXT fs:15 lh:20 fw:400 color:#839ada "Мы предлагаем более 1278 конфигураций выделенных серверов в 11 дата-центрах. Быс"
+RECTANGLE [Rectangle 2] 330x48 fill:#ff8311
+TEXT fs:16 lh:23 fw:600 color:#ffffff "Сервера с мгновенной активацией"
+TEXT fs:16 lh:23 fw:600 color:#ffffff "Я знаю что делаю - покажите мне ВСЕ!"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Давайте подберем вам сервер"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "О нас и выделенных серверах"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Начитались? Айда выбирать!"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Процесс заказа"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Наши клиенты используют выделенные серверы для:"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "9 уникальных характеристик Дата-Хата"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Наши сервера"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Предыстория"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Как оформить заказ?"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Процесс заказа"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "О клиентах"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Преимущества"
+RECTANGLE [Rectangle 22] 330x48 fill:#ff8311
+TEXT fs:16 lh:23 fw:600 color:#ffffff "Поиск"
+RECTANGLE [Rectangle 21] 330x48 fill:#ffffff
+RECTANGLE [Rectangle 23] 330x48 fill:#ffffff
+RECTANGLE [Rectangle 24] 330x48 fill:#ffffff
+TEXT fs:14 lh:20 fw:500 color:#0041be "Ram"
+TEXT fs:14 lh:20 fw:500 color:#0041be "Диски"
+TEXT fs:14 lh:20 fw:500 color:#0041be "Цена"
+TEXT fs:14 lh:20 fw:500 color:#ff8311 "4-768 GB"
+TEXT fs:14 lh:20 fw:500 color:#ff8311 "Все"
+TEXT fs:14 lh:20 fw:500 color:#ff8311 "7.89-920 €"
+RECTANGLE [Rectangle 12] 330x330
+RECTANGLE [Rectangle 25] 330x330
+TEXT fs:14 lh:17 fw:400 color:#839ada "Дата-Хата работает на рынке с 2006 года. На нашем сайте есть огромное количество"
+TEXT fs:14 lh:17 fw:400 color:#839ada "Сколько стоит длительная аренда выделенного online сервера и услуга интернет хос"
+TEXT fs:16 lh:23 fw:600 color:#ffffff "Подробнее"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Как оформить заказ?"
+TEXT fs:14 lh:17 fw:400 color:#839ada "Чтобы подобрать сервер нужной вам конфигурации - воспользуйтесь нашим поиском. М"
+RECTANGLE [Rectangle 27] 138x43 fill:#002f8e
+RECTANGLE [Rectangle 30] 138x43 fill:#002f8e
+RECTANGLE [Rectangle 28] 158x48 fill:#ff8311
+RECTANGLE [Rectangle 29] 158x48 fill:#ffffff
+TEXT fs:16 lh:23 fw:600 color:#ffffff "Искать сейчас"
+TEXT fs:16 lh:23 fw:600 color:#0041be "Спросить в чате"
+GROUP [Group 22] 1110x250
+  TEXT fs:19 lh:27 fw:600 color:#ffffff "Хостинг"
+  TEXT fs:19 lh:27 fw:600 color:#ffffff "VDI, VPN и Прокси"
+  TEXT fs:19 lh:27 fw:600 color:#ffffff "Разработка"
+  RECTANGLE [Rectangle 13] 278x250
+  RECTANGLE [Rectangle 15] 278x250 fill:#215aee
+  RECTANGLE [Rectangle 14] 277x250
+  RECTANGLE [Rectangle 16] 277x250
+  FRAME [Frame] 36x36 fill:#ffffff
+  TEXT fs:14 lh:17 fw:400 color:#839ada "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество"
+  TEXT fs:14 lh:17 fw:400 color:#839ada "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество"
+  TEXT fs:14 lh:17 fw:400 color:#839ada "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество"
+  TEXT fs:14 lh:17 fw:400 color:#ffffff "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество"
+  FRAME [Frame] 36x36 fill:#ffffff
+  FRAME [Frame] 36x36 fill:#ffffff
+  FRAME [Frame] 36x36 fill:#ffffff
+  TEXT fs:19 lh:27 fw:600 color:#ffffff "Бизнес"
+RECTANGLE [Rectangle 32] 360x404
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Наш сервис просто супер!"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Клиенты считают, что"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Нас оценивают на ведущих рейтингах"
+RECTANGLE [Rectangle 33] 134x90 fill:#ffffff
+RECTANGLE [Rectangle 34] 90x90
+TEXT fs:20 lh:29 fw:500 color:#ffffff "из"
+TEXT fs:45 lh:65 fw:600 color:#ff8311 "4.7"
+TEXT fs:45 lh:65 fw:600 color:#ffffff "5"
+RECTANGLE [host1 1] 136x20
+RECTANGLE [xTOP_TOP-300x60.png.pagespeed.ic 1] 100x20
+TEXT fs:40 lh:58 fw:500 color:#ff8311 "#1"
+TEXT fs:40 lh:58 fw:500 color:#ff8311 "#4"
+TEXT fs:40 lh:58 fw:500 color:#ff8311 "#7"
+TEXT fs:40 lh:58 fw:500 color:#ff8311 "#2"
+TEXT fs:40 lh:58 fw:500 color:#ff8311 "#5"
+TEXT fs:40 lh:58 fw:500 color:#ff8311 "#8"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Уникальность"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Иновация"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Менеджмент"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Скорость"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Ассистент"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Worldwide DNA"
+RECTANGLE [Rectangle 36] 277x344
+RECTANGLE [Rectangle 38] 277x344
+RECTANGLE [Rectangle 40] 277x344
+RECTANGLE [Rectangle 37] 277x344
+RECTANGLE [Rectangle 39] 277x344
+RECTANGLE [Rectangle 41] 277x344
+TEXT fs:14 lh:17 fw:400 color:#839ada "Оформление заказа происходит в дистанционном режиме, поэтому купить нужные мощно"
+TEXT fs:14 lh:17 fw:400 color:#839ada "Оформление заказа происходит в дистанционном режиме, поэтому купить нужные мощно"
+TEXT fs:14 lh:17 fw:400 color:#839ada "Оформление заказа происходит в дистанционном режиме, поэтому купить нужные мощно"
+TEXT fs:14 lh:17 fw:400 color:#839ada "Оформление заказа происходит в дистанционном режиме, поэтому купить нужные мощно"
+TEXT fs:14 lh:17 fw:400 color:#839ada "Оформление заказа происходит в дистанционном режиме, поэтому купить нужные мощно"
+TEXT fs:14 lh:17 fw:400 color:#839ada "Оформление заказа происходит в дистанционном режиме, поэтому купить нужные мощно"
+RECTANGLE [Rectangle 46] 360x324
+GROUP [Group 23] 330x54
+  RECTANGLE [Rectangle 50] 310x43 fill:#d66702
+  RECTANGLE [Rectangle 47] 330x48 fill:#ffffff
+  TEXT fs:16 lh:23 fw:600 color:#0041be "Выбрать сервер"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Оформи заказ в течение 10 минут и получи бонус $50 на счет!"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Хочу скидку!"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Хочу скидку!"
+RECTANGLE [Rectangle 48] 330x48
+TEXT fs:16 lh:23 fw:600 color:#ffffff "Пожаловаться директору!"
+FRAME [Frame] 24x24 fill:#ffffff
+RECTANGLE [Rectangle 49] 330x48
+GROUP [Group 24] 187x24
+  TEXT fs:16 lh:23 fw:600 color:#ffffff "Заработайте на нас!"
+  FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Windows сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Linux Сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда игрового сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда хранилища"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда офисного сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Резервное копирование"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Администрирование серверов"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в США"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Германии"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера во Франции"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Голландии"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Аренда сервера"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Аренда виртуального сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS на Windows"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS на Linux"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в США"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в Германии"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS во Франции"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в Голландии"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Остальное"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера с тестовым периодом"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Помощь"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Оплата и доставка"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Блог"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Партнерская программа"
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Контакты"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "служба поддержки"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "мы в социальных сетях"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Sepapaja 6 Tallinn"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "+380 (44) 23 88 946"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "+372 (800) 7873"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "support@data-xata.com"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "support@data-xata.com"
+INSTANCE [Vkontakte (VK)] 24x24 fill:#ffffff
+  GROUP [Vkontakte (VK)] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#5181b8 r:24
+INSTANCE [Twitter] 24x24 fill:#ffffff
+  GROUP [Twitter] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#1da1f2 r:24
+INSTANCE [Slack] 24x24 fill:#ffffff
+  GROUP [Slack] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#611f69 r:24
+      GROUP [Group] 16x16
+INSTANCE [Facebook] 24x24 fill:#ffffff
+  GROUP [Facebook] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#4267b2 r:24
+FRAME [logo 2] 118x26
+  GROUP [Layer 2] 118x26
+    GROUP [Слой 1] 118x26
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Посмотреть все способы оплаты"
+GROUP [Group 26] 204x24
+  TEXT fs:11 lh:12 fw:500 color:#ffffff "Безналичный расчёт"
+  GROUP [Group] 104x24
+    GROUP [Group] 74x15
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Terms and conditions"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Privacy policy"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Refund policy"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Delivery time frame"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Abuse"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Acceptable Use Policy"
+FRAME [Frame] 24x24 fill:#ffffff
+RECTANGLE [image 19] 292x231
+RECTANGLE [image 18] 268x188

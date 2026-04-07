@@ -1,53 +1,67 @@
 import Link from 'next/link';
 import { cn } from '../../lib/cn';
 
-type ButtonVariant = 'accent' | 'primary' | 'outline' | 'ghost';
+type ButtonVariant =
+  | 'accent'
+  | 'primary'
+  | 'secondary'
+  | 'outline'
+  | 'outline-white'
+  | 'white'
+  | 'ghost';
 type ButtonSize = 'sm' | 'md' | 'lg';
 
 interface ButtonProps {
   variant?: ButtonVariant;
   size?: ButtonSize;
   href?: string;
-  children: React.ReactNode;
+  external?: boolean;
   className?: string;
+  children: React.ReactNode;
   type?: 'button' | 'submit';
-  fullWidth?: boolean;
-  rel?: string;
-  target?: string;
 }
 
-const base = 'inline-flex items-center justify-center font-semibold transition-colors cursor-pointer';
+const base =
+  'inline-flex items-center justify-center transition-colors cursor-pointer';
 
 const variants: Record<ButtonVariant, string> = {
-  accent: 'bg-accent hover:bg-accent-dark text-white',
-  primary: 'bg-primary hover:bg-primary-dark text-white',
-  outline: 'border border-white text-white hover:bg-white/10',
-  ghost: 'text-white hover:text-accent underline-offset-2',
+  accent:
+    'bg-accent text-white h-48 px-20 text-16 leading-23 font-semibold hover:bg-accent-dark',
+  primary:
+    'bg-primary text-white h-48 px-20 text-16 leading-23 font-semibold hover:bg-primary-dark',
+  secondary:
+    'bg-[#002f8e] text-white h-43 px-20 text-16 leading-23 font-semibold',
+  outline:
+    'border border-white/30 text-white h-36 px-15 text-13 leading-20 hover:bg-white hover:text-bg',
+  'outline-white':
+    'border border-white text-white h-48 px-20 text-16 leading-23 font-semibold hover:bg-white hover:text-bg',
+  white:
+    'bg-white text-bg h-48 px-20 text-16 leading-23 font-semibold hover:bg-white/90',
+  ghost:
+    'bg-transparent text-white text-14 leading-20 hover:text-accent',
 };
 
 const sizes: Record<ButtonSize, string> = {
-  sm: 'h-36 px-16 text-14 leading-20 font-medium',
-  md: 'h-48 px-24 text-16 leading-23',
-  lg: 'h-48 px-40 text-16 leading-23',
+  sm: 'h-36 px-15',
+  md: 'h-48 px-20',
+  lg: 'h-48 px-30',
 };
 
 export default function Button({
   variant = 'accent',
-  size = 'md',
+  size,
   href,
-  children,
+  external,
   className,
-  type = 'button',
-  fullWidth,
-  rel,
-  target,
+  children,
+  type,
 }: ButtonProps) {
-  const classes = cn(base, variants[variant], sizes[size], fullWidth && 'w-full', className);
+  const classes = cn(base, variants[variant], size && sizes[size], className);
 
   if (href) {
-    if (href.startsWith('http') || href.startsWith('tg:') || href.startsWith('skype:')) {
+    if (external) {
       return (
-        <a href={href} className={classes} rel={rel} target={target}>
+        <a href={href} className={classes} rel="nofollow noopener" target="_blank">
           {children}
         </a>
       );
@@ -60,7 +74,7 @@ export default function Button({
   }
 
   return (
-    <button type={type} className={classes}>
+    <button type={type || 'button'} className={classes}>
       {children}
     </button>
   );

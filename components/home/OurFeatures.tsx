@@ -22,19 +22,19 @@ export default function OurFeatures({ features }: OurFeaturesProps) {
   return (
     <section className="py-60">
       <Container>
-        <SectionHeading ghost="Преимущества" title="9 уникальных характеристик Дата-Хата" />
-        <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-30">
+        <SectionHeading ghost="Иновация" title="9 уникальных характеристик Дата-Хата" />
+        <div className="mt-30 grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-30">
           {features.map((f, idx) => (
             <div
               key={f.id}
-              className="border border-primary/30 p-30 min-h-[31rem] flex flex-col gap-16"
+              className="border border-white/10 p-24 flex flex-col gap-12"
             >
-              <span className="text-40 leading-50 font-medium text-accent">
+              <span className="text-40 leading-58 font-semibold text-accent">
                 #{idx + 1}
               </span>
               <Icon name={stripIconPrefix(f.icon)} className="text-30 text-white" />
-              <h3 className="text-19 font-semibold text-white">{f.title}</h3>
-              <p className="text-14 leading-17 text-secondary">{f.description}</p>
+              <h3 className="text-19 leading-27 font-semibold text-white">{f.title}</h3>
+              <p className="text-14 leading-17 text-[#839ada]">{f.description}</p>
             </div>
           ))}
         </div>

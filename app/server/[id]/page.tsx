@@ -186,13 +186,7 @@ export default function ServerDetailPage() {
       </Container>
 
       <Container className="py-60">
-        <PromoBanner
-          ghost="Хочу скидку!"
-          title="Хочу скидку!"
-          subtitle="Оформи заказ в течение 10 минут и получи бонус $50 на счет!"
-          buttonLabel="Выбрать сервер"
-          buttonHref="/order"
-        />
+        <PromoBanner />
       </Container>
     </main>
   );

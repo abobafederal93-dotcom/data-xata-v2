@@ -11,7 +11,7 @@ export default function Pagination({ className }: PaginationProps) {
     <button
       type="button"
       className={cn(
-        'w-full h-48 inline-flex items-center justify-center bg-accent hover:bg-accent-dark text-white text-16 leading-23 font-semibold rounded-sm transition-colors mt-10',
+        'w-full h-48 bg-accent text-white text-16 leading-23 font-semibold flex items-center justify-center rounded-sm',
         className
       )}
     >

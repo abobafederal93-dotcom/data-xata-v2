@@ -1,0 +1,243 @@
+=== MOBILE-ARTICLE (80:23177) 360px ===
+FRAME [logo 1] 118x26
+  GROUP [Layer 2] 118x26
+    GROUP [Слой 1] 118x26
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:34 lh:49 fw:500 color:#ffffff "Сравнение серверов"
+TEXT fs:40 lh:58 fw:700 color:#ffffff "Сервер"
+FRAME [Frame 104] 263x24 gap:8 dir:HORIZONTAL
+  FRAME [Frame] 24x24 fill:#ffffff
+  RECTANGLE [Rectangle 555] 18x1 fill:#839ada
+  TEXT fs:14 lh:20 fw:400 color:#839ada "Услуги"
+  RECTANGLE [Rectangle 556] 18x1 fill:#839ada
+  TEXT fs:14 lh:20 fw:400 color:#839ada "Сравнение серверов"
+RECTANGLE [Rectangle 181] 360x1683 fill:#010437
+RECTANGLE [Rectangle 182] 360x324
+GROUP [Group 28] 330x54
+  RECTANGLE [Rectangle 50] 310x43 fill:#d66702
+  RECTANGLE [Rectangle 47] 330x48 fill:#ffffff
+  TEXT fs:16 lh:23 fw:600 color:#0041be "Выбрать сервер"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Оформи заказ в течение 10 минут и получи бонус $50 на счет!"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Хочу скидку!"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Хочу скидку!"
+RECTANGLE [Rectangle 183] 330x48
+TEXT fs:16 lh:23 fw:600 color:#ffffff "Пожаловаться директору!"
+FRAME [Frame] 24x24 fill:#ffffff
+RECTANGLE [Rectangle 184] 330x48
+GROUP [Group 29] 187x24
+  TEXT fs:16 lh:23 fw:600 color:#ffffff "Заработайте на нас!"
+  FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Windows сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Linux Сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда игрового сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда хранилища"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда офисного сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Резервное копирование"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Администрирование серверов"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в США"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Германии"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера во Франции"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Голландии"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Аренда сервера"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Аренда виртуального сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS на Windows"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS на Linux"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в США"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в Германии"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS во Франции"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в Голландии"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Остальное"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера с тестовым периодом"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Помощь"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Оплата и доставка"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Блог"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Партнерская программа"
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Контакты"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "служба поддержки"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "мы в социальных сетях"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Sepapaja 6 Tallinn"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "+380 (44) 23 88 946"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "+372 (800) 7873"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "support@data-xata.com"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "support@data-xata.com"
+INSTANCE [Vkontakte (VK)] 24x24 fill:#ffffff
+  GROUP [Vkontakte (VK)] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#5181b8 r:24
+INSTANCE [Twitter] 24x24 fill:#ffffff
+  GROUP [Twitter] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#1da1f2 r:24
+INSTANCE [Slack] 24x24 fill:#ffffff
+  GROUP [Slack] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#611f69 r:24
+      GROUP [Group] 16x16
+INSTANCE [Facebook] 24x24 fill:#ffffff
+  GROUP [Facebook] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#4267b2 r:24
+FRAME [logo 3] 118x26
+  GROUP [Layer 2] 118x26
+    GROUP [Слой 1] 118x26
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Посмотреть все способы оплаты"
+GROUP [Group 31] 204x24
+  TEXT fs:11 lh:12 fw:500 color:#ffffff "Безналичный расчёт"
+  GROUP [Group] 104x24
+    GROUP [Group] 74x15
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Terms and conditions"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Privacy policy"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Refund policy"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Delivery time frame"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Abuse"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Acceptable Use Policy"
+RECTANGLE [Rectangle 19] 438x84 fill:#215aee
+TEXT fs:14 lh:20 fw:400 color:#839ada "Пространства"
+TEXT fs:14 lh:20 fw:400 color:#839ada "Мониторинг"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "PGadmin"
+TEXT fs:14 lh:20 fw:400 color:#839ada "База данных"
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Пространства и мониторинг (h2)"
+TEXT fs:14 lh:18 fw:400 color:#839ada "У меня в тарифном плане 2 базы данных, и их размер меньше 8 ГБ (4300 МБ + 3000 М"
+FRAME [Frame 93] 205x21 gap:8 dir:HORIZONTAL
+  FRAME [Frame 26] 76x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "Мониторинг"
+  FRAME [Frame 15] 30x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "API"
+  FRAME [Frame 16] 83x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "Пространства"
+RECTANGLE [Rectangle 12] 331x133 fill:#215aee
+TEXT fs:14 lh:17 fw:400 color:#ffffff "Я пробую это две недели назад, и мне нравится этот хостер! Очень стабильная проп"
+FRAME [Frame] 36x36 fill:#ffffff
+TEXT fs:14 lh:18 fw:400 color:#839ada "По умолчанию на экземплярах будет установлена чистая ОС без этих дополнительных "
+TEXT fs:18 lh:26 fw:500 color:#ffffff "База данных (h3)"
+TEXT fs:14 lh:18 fw:400 color:#839ada "Файлы (объекты), передаваемые в Vultr Object Storage, по умолчанию являются «час"
+TEXT fs:16 lh:23 fw:500 color:#ffffff "Каковы требования (h4)"
+FRAME [Frame 16] 204x16 fill:#ffffff pad:2/3/2/3 dir:HORIZONTAL
+  TEXT fs:12 lh:17 fw:400 color:#0041be "fileHeader.Open() // IT BREAKS HERE"
+RECTANGLE [Rectangle 174] 327x490 fill:#f0f3fa
+TEXT fs:14 lh:17 fw:400 color:#0041be "// Limit Upload File Size     c.Request.Body = http.MaxBytesReader(c.Writer, c."
+TEXT fs:14 lh:18 fw:400 color:#839ada "По умолчанию на экземплярах будет установлена чистая ОС без этих дополнительных "
+RECTANGLE [Rectangle 96] 96x56
+RECTANGLE [Rectangle 105] 114x56
+RECTANGLE [Rectangle 185] 114x56
+RECTANGLE [Rectangle 194] 114x56
+RECTANGLE [Rectangle 106] 114x56 fill:#215aee
+RECTANGLE [Rectangle 186] 114x56 fill:#215aee
+RECTANGLE [Rectangle 195] 114x56 fill:#215aee
+RECTANGLE [Rectangle 107] 114x56
+RECTANGLE [Rectangle 187] 114x56
+RECTANGLE [Rectangle 196] 114x56
+RECTANGLE [Rectangle 108] 114x56 fill:#215aee
+RECTANGLE [Rectangle 188] 114x56 fill:#215aee
+RECTANGLE [Rectangle 197] 114x56 fill:#215aee
+RECTANGLE [Rectangle 109] 114x56
+RECTANGLE [Rectangle 189] 114x56
+RECTANGLE [Rectangle 198] 114x56
+RECTANGLE [Rectangle 110] 114x56 fill:#215aee
+RECTANGLE [Rectangle 190] 114x56 fill:#215aee
+RECTANGLE [Rectangle 199] 114x56 fill:#215aee
+RECTANGLE [Rectangle 111] 114x56
+RECTANGLE [Rectangle 191] 114x56
+RECTANGLE [Rectangle 200] 114x56
+RECTANGLE [Rectangle 112] 114x56 fill:#215aee
+RECTANGLE [Rectangle 192] 114x56 fill:#215aee
+RECTANGLE [Rectangle 201] 114x56 fill:#215aee
+RECTANGLE [Rectangle 113] 114x56
+RECTANGLE [Rectangle 193] 114x56
+RECTANGLE [Rectangle 202] 114x56
+RECTANGLE [Rectangle 97] 96x56 fill:#215aee
+RECTANGLE [Rectangle 98] 96x56
+RECTANGLE [Rectangle 99] 96x56 fill:#215aee
+RECTANGLE [Rectangle 102] 96x56
+RECTANGLE [Rectangle 100] 96x56
+RECTANGLE [Rectangle 103] 96x56 fill:#215aee
+RECTANGLE [Rectangle 101] 96x56 fill:#215aee
+RECTANGLE [Rectangle 104] 96x56
+TEXT fs:12 lh:17 fw:500 color:#ffffff "NYC1"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "NYC3"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "LON1"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "LON2"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "SFO1"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "AMS3"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "SGP1"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "AMS4"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "FRA2"
+TEXT fs:12 lh:17 fw:500 color:#839ada "Сервер"
+TEXT fs:12 lh:17 fw:500 color:#839ada "SOC 1 Type ii"
+TEXT fs:12 lh:17 fw:500 color:#839ada "SOC 2 Type ii"
+TEXT fs:12 lh:17 fw:500 color:#839ada "ISO/iec 27001:2013"
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:20 lh:29 fw:500 color:#ffffff "Скриншот (h4)"
+TEXT fs:14 lh:18 fw:400 color:#839ada "Файлы (объекты), передаваемые в Vultr Object Storage, по умолчанию являются «час"
+RECTANGLE [image 17] 330x242
+TEXT fs:12 lh:17 fw:500 color:#839ada "нумерованый список"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "1. Внешняя и внутренняя система видео наблюдения"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "2. Внешняя и внутренняя система видео наблюдения"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "3. Внешняя и внутренняя система видео наблюдения"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "4. Внешняя и внутренняя система видео наблюдения"
+TEXT fs:12 lh:17 fw:500 color:#839ada "ненумерованный список"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "• Внешняя и внутренняя система видео наблюдения"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "• Внешняя и внутренняя система видео наблюдения"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "• Внешняя и внутренняя система видео наблюдения"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "• Внешняя и внутренняя система видео наблюдения"
+RECTANGLE [Rectangle 51] 330x188
+TEXT fs:25 lh:36 fw:500 color:#ffffff "Впервые на сайте?"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Хочу скидку!"
+RECTANGLE [Rectangle 53] 274x48 fill:#ffffff
+TEXT fs:16 lh:23 fw:600 color:#0041be "Хочу выиграть!"
+TEXT fs:25 lh:28 fw:500 color:#ffffff "Читайте также"
+TEXT fs:30 lh:43 fw:700 color:#ffffff "Наши рекомендации"
+FRAME [Frame 97] 330x266
+  RECTANGLE [Rectangle 550] 330x266
+  TEXT fs:20 lh:29 fw:500 color:#ffffff "Пространства и мониторинг"
+  TEXT fs:14 lh:17 fw:400 color:#839ada "Согласно вашей документации (любая операция) на IP-адрес в секунду для всех прос"
+  FRAME [Frame 93] 205x21 gap:8 dir:HORIZONTAL
+    FRAME [Frame 26] 76x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+      TEXT fs:12 lh:17 fw:400 color:#ffffff "Мониторинг"
+    FRAME [Frame 15] 30x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+      TEXT fs:12 lh:17 fw:400 color:#ffffff "API"
+    FRAME [Frame 16] 83x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+      TEXT fs:12 lh:17 fw:400 color:#ffffff "Пространства"
+FRAME [Frame 105] 330x278
+  RECTANGLE [Rectangle 550] 330x278
+  TEXT fs:20 lh:29 fw:500 color:#ffffff "Нет подключения к Интернету после обновления"
+  TEXT fs:14 lh:17 fw:400 color:#839ada "Доступ к странице консоли на сайте DO. Когда я пытаюсь что-нибудь пинговать - по"
+  FRAME [Frame 93] 121x21 gap:8 dir:HORIZONTAL
+    FRAME [Frame 15] 30x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+      TEXT fs:12 lh:17 fw:400 color:#ffffff "API"
+    FRAME [Frame 16] 83x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+      TEXT fs:12 lh:17 fw:400 color:#ffffff "Пространства"
+FRAME [Frame 106] 330x261
+  RECTANGLE [Rectangle 550] 330x261
+  TEXT fs:20 lh:29 fw:500 color:#ffffff "Плавающий IP-адрес для капли с SSL"
+  TEXT fs:14 lh:17 fw:400 color:#839ada "Раньше это работало нормально, пока я не реализовал ssl моих каплях, поскольку я"
+  FRAME [Frame 93] 165x21 gap:8 dir:HORIZONTAL
+    FRAME [Frame 15] 36x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+      TEXT fs:12 lh:17 fw:400 color:#ffffff "Сеть"
+    FRAME [Frame 17] 30x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+      TEXT fs:12 lh:17 fw:400 color:#ffffff "API"
+    FRAME [Frame 16] 83x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+      TEXT fs:12 lh:17 fw:400 color:#ffffff "Пространства"

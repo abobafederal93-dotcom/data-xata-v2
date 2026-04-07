@@ -28,7 +28,7 @@ export default function OrderSummary({ items, total }: OrderSummaryProps) {
         ))}
       </div>
       <div className="text-right text-25 leading-36 font-medium text-white mb-15">{total}</div>
-      <Button href="#details" variant="outline" className="w-full h-48" fullWidth>
+      <Button href="#details" variant="outline" className="w-full h-48">
         <Icon name="server" className="mr-10" />
         Смотреть подробности
       </Button>

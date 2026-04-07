@@ -1,60 +1,71 @@
 import Icon from '../ui/Icon';
+import Button from '../ui/Button';
 import { cn } from '../../lib/cn';
 
 interface SearchToolbarProps {
+  activeCategory?: string;
   className?: string;
 }
 
-const dropdownBase =
-  'inline-flex items-center gap-6 h-36 px-12 text-14 leading-20 font-medium rounded-sm border border-primary text-white';
+const categories = [
+  { id: 'all', label: 'Все' },
+  { id: 'windows', label: 'Windows' },
+  { id: 'linux', label: 'Linux' },
+  { id: 'gaming', label: 'Игровой' },
+  { id: 'storage', label: 'Хранилище' },
+  { id: 'office', label: 'Офис' },
+  { id: 'backup', label: 'Бекап' },
+];
 
-export default function SearchToolbar({ className }: SearchToolbarProps) {
+export default function SearchToolbar({ activeCategory = 'storage', className }: SearchToolbarProps) {
   return (
-    <div className={cn('flex flex-col gap-12', className)}>
-      <div className="flex flex-wrap items-center gap-12">
-        <button type="button" className={dropdownBase}>
-          <span>Сортировать по:</span>
-          <span className="text-accent">цене</span>
-          <Icon name="caret" className="text-24 -rotate-90" />
-        </button>
-        <button type="button" className={dropdownBase}>
-          <span>Формат вывода:</span>
-          <span className="text-accent">расширено</span>
-          <Icon name="caret" className="text-24 -rotate-90" />
-        </button>
-        <button type="button" className={dropdownBase}>
-          <span>Валюта:</span>
-          <span className="text-accent">Евро</span>
-          <Icon name="caret" className="text-24 -rotate-90" />
-        </button>
-        <button
-          type="button"
-          className="inline-flex items-center justify-center h-36 px-16 text-14 leading-20 font-medium rounded-sm bg-accent hover:bg-accent-dark text-white transition-colors ml-auto"
-        >
-          Сообщить мне
-        </button>
+    <div className={cn('flex flex-col gap-15', className)}>
+      <div className="flex flex-wrap items-center gap-10">
+        {categories.map((c) => {
+          const isActive = c.id === activeCategory;
+          return (
+            <button
+              key={c.id}
+              type="button"
+              className={cn(
+                'h-36 px-15 inline-flex items-center text-13 leading-20 rounded-sm',
+                isActive
+                  ? 'bg-white text-[#010437] font-medium'
+                  : 'border border-white/30 text-white'
+              )}
+            >
+              {c.label}
+            </button>
+          );
+        })}
+        <Button variant="accent" size="sm">
+          Подбор по спекам
+        </Button>
       </div>
-      <div className="flex flex-wrap items-center gap-20">
-        <label className="inline-flex items-center gap-6 text-14 leading-20 font-medium text-white cursor-pointer">
-          <Icon name="check" className="text-24" />
-          <span>Цена за месяц</span>
-        </label>
-        <label className="inline-flex items-center gap-6 text-14 leading-20 font-medium text-white cursor-pointer">
-          <Icon name="check" className="text-24" />
-          <span>Бесплатная установка</span>
-        </label>
+      <div className="flex flex-wrap items-center gap-15">
         <button
           type="button"
-          className="inline-flex items-center gap-6 h-36 px-12 text-14 leading-20 font-medium rounded-sm bg-white text-primary-dark border border-white"
+          className="h-36 flex items-center gap-6 px-12 border border-white/30 rounded-sm"
         >
-          <Icon name="check" className="text-24" />
-          <span>Control Panel</span>
+          <span className="text-14 leading-20 text-white">Сортировать по:</span>
+          <span className="text-14 leading-20 text-accent">цене</span>
+          <Icon name="caret" className="text-16" />
         </button>
         <button
           type="button"
-          className="text-14 leading-20 font-medium text-accent hover:text-accent-dark transition-colors"
+          className="h-36 flex items-center gap-6 px-12 border border-white/30 rounded-sm"
         >
-          Очистить фильтр
+          <span className="text-14 leading-20 text-white">Формат вывода:</span>
+          <span className="text-14 leading-20 text-accent">расширено</span>
+          <Icon name="caret" className="text-16" />
+        </button>
+        <button
+          type="button"
+          className="h-36 flex items-center gap-6 px-12 border border-white/30 rounded-sm"
+        >
+          <span className="text-14 leading-20 text-white">Валюта:</span>
+          <span className="text-14 leading-20 text-accent">Евро</span>
+          <Icon name="caret" className="text-16" />
         </button>
       </div>
     </div>

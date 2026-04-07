@@ -1,6 +1,5 @@
 import Container from '../ui/Container';
 import SectionHeading from '../ui/SectionHeading';
-import Button from '../ui/Button';
 import Icon from '../ui/Icon';
 
 interface OrderStep {
@@ -17,39 +16,15 @@ export default function OrderProcess({ steps }: OrderProcessProps) {
   return (
     <section className="py-60">
       <Container>
-        <SectionHeading ghost="Как оформить заказ?" title="Начитались? Айда выбирать!" />
-        <h3 className="text-20 leading-29 desktop:text-30 desktop:leading-43 font-medium text-white mb-20">
-          Как оформить заказ?
-        </h3>
-        <p className="text-14 leading-17 text-secondary max-w-[60rem] mb-30">
-          Выбирайте сервер прямо сейчас или задавайте вопросы в чате — мы всегда на связи и поможем
-          с подбором оптимальной конфигурации.
-        </p>
-        <div className="flex flex-col desktop:flex-row gap-20 mb-60">
-          <Button href="/search" variant="accent" size="lg">
-            Искать сейчас
-          </Button>
-          <Button href="https://cp.data-xata.com/" variant="outline" size="lg">
-            Спросить в чате
-          </Button>
-        </div>
-        <SectionHeading ghost="Процесс заказа" title="Процесс заказа" />
-        <div className="flex desktop:grid desktop:grid-cols-4 gap-20 overflow-x-auto desktop:overflow-visible pb-20 desktop:pb-0">
-          {steps.map((step, index) => (
-            <div key={step.id} className="flex-shrink-0 w-[26rem] desktop:w-auto flex gap-16">
-              <div className="flex-1">
-                <h3 className="text-20 leading-29 desktop:text-25 desktop:leading-36 font-medium text-white mb-12">
-                  {step.title}
-                </h3>
-                <p className="text-14 leading-17 text-secondary">{step.description}</p>
+        <SectionHeading ghost="Как оформить заказ?" title="Пошаговая инструкция" />
+        <div className="mt-30 flex flex-col desktop:flex-row gap-30">
+          {steps.map((step) => (
+            <div key={step.id} className="flex-1 flex flex-col gap-16">
+              <div className="w-32 h-32 rounded-full bg-accent flex items-center justify-center">
+                <Icon name="check" className="text-16 text-white" />
               </div>
-              <div className="pt-16 text-accent">
-                {index === steps.length - 1 ? (
-                  <Icon name="check" className="text-20" />
-                ) : (
-                  <Icon name="caret-right" className="text-20" />
-                )}
-              </div>
+              <h3 className="text-25 leading-36 font-medium text-white">{step.title}</h3>
+              <p className="text-14 leading-17 text-[#839ada]">{step.description}</p>
             </div>
           ))}
         </div>

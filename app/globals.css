@@ -9,6 +9,8 @@
   --color-bg: #010437;
   --color-primary: #215aee;
   --color-primary-dark: #0041be;
+  --color-primary-hover: #215aee;
+  --color-article-bg: #f0f3fa;
   --color-accent: #ff8311;
   --color-accent-dark: #ff5c00;
   --color-secondary: #839ada;
@@ -25,6 +27,7 @@
   --text-12: 1.2rem;
   --text-13: 1.3rem;
   --text-14: 1.4rem;
+  --text-15: 1.5rem;
   --text-16: 1.6rem;
   --text-19: 1.9rem;
   --text-20: 2rem;
@@ -41,14 +44,19 @@
   --leading-17: 1.7rem;
   --leading-20: 2rem;
   --leading-23: 2.3rem;
+  --leading-26: 2.6rem;
   --leading-27: 2.7rem;
+  --leading-28: 2.8rem;
   --leading-29: 2.9rem;
   --leading-36: 3.6rem;
   --leading-43: 4.3rem;
   --leading-50: 5rem;
+  --leading-51: 5.1rem;
   --leading-58: 5.8rem;
   --leading-65: 6.5rem;
+  --leading-79: 7.9rem;
   --leading-80: 8rem;
+  --leading-87: 8.7rem;
   --leading-94: 9.4rem;
 
   --radius-sm: 0.6rem;

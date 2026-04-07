@@ -1,0 +1,336 @@
+=== SEARCH (80:2920) 1440px ===
+RECTANGLE [Rectangle 17] 141x36
+RECTANGLE [Rectangle 88] 194x36
+RECTANGLE [Rectangle 92] 147x36
+RECTANGLE [Rectangle 93] 190x36
+RECTANGLE [Rectangle 95] 135x36 fill:#ffffff
+RECTANGLE [Rectangle 89] 236x36
+RECTANGLE [Rectangle 90] 140x36
+RECTANGLE [Rectangle 91] 130x36 fill:#ff8311
+TEXT fs:40 lh:58 fw:500 color:#ffffff "Результаты поиска"
+TEXT fs:55 lh:79 fw:700 color:#ffffff "Поиск сервера"
+FRAME [logo 1] 118x26
+  GROUP [Layer 2] 118x26
+    GROUP [Слой 1] 118x26
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Личный кабинет"
+RECTANGLE [Rectangle 77] 255x616 fill:#215aee
+TEXT fs:12 lh:17 fw:500 color:#839ada "Сервер"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "память"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "диски"
+TEXT fs:12 lh:17 fw:500 color:#839ada "Продукт"
+TEXT fs:12 lh:17 fw:500 color:#839ada "RAM"
+TEXT fs:12 lh:17 fw:500 color:#839ada "Место на диске"
+TEXT fs:12 lh:17 fw:500 color:#839ada "Цена в месяц"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Помощь"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Оплата и доставка"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Блог"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Партнерская программа"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Аренда сервера"
+FRAME [Frame] 18x18 fill:#ffffff
+RECTANGLE [Rectangle 45] 1440x723 fill:#010437
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+FRAME [Frame] 18x18 fill:#ffffff
+RECTANGLE [Rectangle 46] 1110x164
+RECTANGLE [Rectangle 50] 157x43 fill:#d66702
+TEXT fs:40 lh:58 fw:500 color:#ffffff "Хочу скидку!"
+TEXT fs:55 lh:79 fw:700 color:#ffffff "Хочу скидку!"
+RECTANGLE [Rectangle 47] 177x48 fill:#ffffff
+RECTANGLE [Rectangle 48] 548x48
+RECTANGLE [Rectangle 49] 548x48
+TEXT fs:16 lh:23 fw:600 color:#0041be "Выбрать сервер"
+TEXT fs:16 lh:23 fw:600 color:#ffffff "Заработайте на нас!"
+FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:16 lh:23 fw:600 color:#ffffff "Пожаловаться директору!"
+FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Windows сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда Linux Сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда игрового сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда хранилища"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда офисного сервера"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Резервное копирование"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Администрирование серверов"
+GROUP [Group 9] 895x20
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Terms and conditions"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Privacy policy"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Refund policy"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Delivery time frame"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Abuse"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Acceptable Use Policy"
+TEXT fs:11 lh:12 fw:500 color:#ffffff "Безналичный расчёт"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в США"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Германии"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера во Франции"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера в Голландии"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Аренда сервера"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Аренда виртуального сервера"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Остальное"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "Контакты"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "служба поддержки"
+TEXT fs:12 lh:17 fw:500 color:#ffffff "мы в социальных сетях"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS на Windows"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS на Linux"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда сервера с тестовым периодом"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Помощь"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Оплата и доставка"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Блог"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Партнерская программа"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в США"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Sepapaja 6 Tallinn"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "+380 (44) 23 88 946"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в Германии"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "+372 (800) 7873"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "support@data-xata.com"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "support@data-xata.com"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS во Франции"
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Аренда VPS/VDS в Голландии"
+INSTANCE [Vkontakte (VK)] 24x24 fill:#ffffff
+  GROUP [Vkontakte (VK)] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#5181b8 r:24
+INSTANCE [Twitter] 24x24 fill:#ffffff
+  GROUP [Twitter] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#1da1f2 r:24
+INSTANCE [Slack] 24x24 fill:#ffffff
+  GROUP [Slack] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#611f69 r:24
+      GROUP [Group] 16x16
+INSTANCE [Facebook] 24x24 fill:#ffffff
+  GROUP [Facebook] 24x24
+    BOOLEAN_OPERATION [Subtract] 24x24 fill:#ffffff
+      RECTANGLE [Rectangle] 24x24 fill:#4267b2 r:24
+FRAME [logo 2] 118x26
+  GROUP [Layer 2] 118x26
+    GROUP [Слой 1] 118x26
+GROUP [Group] 67x20 fill:#ffffff
+FRAME [Mastercard-logo 1] 31x24 fill:#ffffff
+  GROUP [Group] 31x24
+    GROUP [Group] 31x24
+      GROUP [Group] 29x4
+      GROUP [Group] 1x0
+      GROUP [Group] 15x19
+      GROUP [Group] 16x19
+GROUP [Group] 104x24
+  GROUP [Group] 74x15
+TEXT fs:14 lh:20 fw:400 color:#ffffff "Посмотреть все способы оплаты"
+TEXT fs:19 lh:27 fw:600 color:#ffffff "Оформи заказ в течение 10 минут и получи бонус $50 на счет!"
+RECTANGLE [Rectangle 74] 255x56 fill:#215aee
+RECTANGLE [Rectangle 78] 255x56 fill:#215aee
+RECTANGLE [Rectangle 79] 255x56 fill:#215aee
+RECTANGLE [Rectangle 80] 255x56 fill:#215aee
+RECTANGLE [Rectangle 81] 255x56 fill:#215aee
+RECTANGLE [Rectangle 82] 255x56 fill:#ffffff
+RECTANGLE [Rectangle 83] 255x56 fill:#215aee
+RECTANGLE [Rectangle 84] 255x56 fill:#215aee
+RECTANGLE [Rectangle 85] 255x56 fill:#215aee
+RECTANGLE [Rectangle 86] 255x56 fill:#215aee
+RECTANGLE [Rectangle 87] 255x56 fill:#215aee
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Основные"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Цена"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Провайдер"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Процессор"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Память"
+TEXT fs:14 lh:20 fw:500 color:#0041be "Жесткий диск"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Скорость"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "ПО"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Виртуализация"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Локация"
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Особенности"
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Cursor – Hand] 36x36
+  BOOLEAN_OPERATION [Lines] 8x6 fill:#000000
+FRAME [Cursor – Hand] 36x36
+  BOOLEAN_OPERATION [Lines] 8x6 fill:#000000
+FRAME [Frame 5] 172x24 gap:6 dir:HORIZONTAL
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Сортировать по:"
+  TEXT fs:14 lh:20 fw:500 color:#ff8311 "цене"
+  FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame 6] 214x24 gap:6 dir:HORIZONTAL
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Формат вывода:"
+  TEXT fs:14 lh:20 fw:500 color:#ff8311 "расширено"
+  FRAME [Frame] 24x24 fill:#ffffff
+FRAME [Frame 7] 118x24 gap:6 dir:HORIZONTAL
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Валюта:"
+  TEXT fs:14 lh:20 fw:500 color:#ff8311 "Евро"
+  FRAME [Frame] 24x24 fill:#ffffff
+TEXT fs:14 lh:20 fw:500 color:#ffffff "Сообщить мне"
+FRAME [Frame 8] 125x24 gap:6 dir:HORIZONTAL
+  FRAME [Frame] 24x24 fill:#ffffff
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Цена за месяц"
+FRAME [Frame 9] 168x24 gap:6 dir:HORIZONTAL
+  FRAME [Frame] 24x24 fill:#ffffff
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Бесплатная установка"
+FRAME [Frame 11] 113x24 gap:6 dir:HORIZONTAL
+  FRAME [Frame] 24x24 fill:#ffffff
+  TEXT fs:14 lh:20 fw:500 color:#0041be "Control Panel"
+TEXT fs:14 lh:20 fw:500 color:#ff8311 "Очистить фильтр"
+FRAME [Frame 14] 825x274
+  RECTANGLE [Rectangle 96] 825x274
+  FRAME [Frame] 24x24 fill:#ffffff
+  FRAME [Frame] 24x24 fill:#ffffff
+  FRAME [Frame] 24x24 fill:#ffffff
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "INTEL XEON"
+  TEXT fs:14 lh:20 fw:600 color:#ffffff "€29.00 €69.00"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "VPS"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "72GB"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "SSD: 1x 120 GB"
+  FRAME [a3Asset 4 2] 24x14 fill:#ffffff
+    GROUP [Layer 2] 24x14
+      GROUP [Layer 1] 24x14
+        GROUP [Group] 24x14
+  FRAME [Frame 12] 62x21 fill:#839ada pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "NAT IPV4"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "HDD: 2x 20 TB"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "HDD: 1x 10 TB"
+  FRAME [Frame 26] 96x21 fill:#27e35c pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "Купон доступен"
+  FRAME [Frame 22] 53x21 fill:#27e35c pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "4 Cores"
+  FRAME [Frame 15] 83x21 fill:#27e35c pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "DDoS защита"
+  FRAME [Frame 16] 66x21 fill:#27e35c pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "IPv6 ready"
+  FRAME [Frame 17] 84x21 fill:#27e35c pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "до 12 дисков"
+  FRAME [Frame 18] 241x21 fill:#27e35c pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "TIER III, ISO 27001, PCI DSS, SOC 1, HIPAA"
+  FRAME [Frame 19] 35x21 fill:#27e35c pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "IPMI"
+  FRAME [Frame 20] 56x21 fill:#27e35c pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "FreeBSD"
+  FRAME [Frame 21] 39x21 fill:#27e35c pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "Linux"
+  FRAME [Frame 25] 232x18 gap:6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "Хост: Hosteons"
+    FRAME [Frame 24] 98x18 gap:2 dir:HORIZONTAL
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "(1 отзыв)"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "1x Intel Xeon E5530"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Windows 2020, 2016 • Linux • CentOS, Debian,Ubuntu"
+  FRAME [Frame] 18x18 fill:#ffffff
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Frankfut • 200 Mbps • 1 TB"
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  TEXT fs:12 lh:17 fw:500 color:#27e35c "Беспалтная установка"
+  TEXT fs:12 lh:17 fw:500 color:#f50e38 "Доступ через 3-5 мин"
+  FRAME [Frame] 18x18 fill:#ffffff
+  TEXT fs:14 lh:20 fw:400 color:#ff8311 "Игровой сервер • Сервер для стримминга • Сервер для высоких нагрузок"
+FRAME [Frame 15] 825x245
+  RECTANGLE [Rectangle 96] 825x245
+  FRAME [Frame] 24x24 fill:#ffffff
+  FRAME [Frame] 24x24 fill:#ffffff
+  FRAME [Frame] 24x24 fill:#ffffff
+  TEXT fs:14 lh:20 fw:600 color:#ffffff "€29.00"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "VPS"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "72GB"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "SSD: 1x 120 GB"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "HDD: 2x 20 TB"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "HDD: 1x 10 TB"
+  FRAME [Frame 26] 96x21 fill:#27e35c pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "Купон доступен"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "1x Intel Xeon E5530"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Windows 2020, 2016 • Linux • CentOS, Debian,Ubuntu"
+  FRAME [Frame] 18x18 fill:#ffffff
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Frankfut • 200 Mbps • 1 TB"
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  TEXT fs:12 lh:17 fw:500 color:#27e35c "Беспалтная установка"
+  TEXT fs:12 lh:17 fw:500 color:#f50e38 "Доступ через 3-5 мин"
+  FRAME [Frame] 18x18 fill:#ffffff
+  TEXT fs:14 lh:20 fw:400 color:#ff8311 "Игровой сервер • Сервер для стримминга"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "XEON E5530"
+  FRAME [a2Asset 3 2] 24x14 fill:#ffffff
+    GROUP [Layer 2] 24x14
+      GROUP [Layer 1] 24x14
+        GROUP [Group] 24x14
+  FRAME [Frame 27] 245x18 gap:6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#839ada "Хост: Hosteons"
+    FRAME [Frame 24] 98x18 gap:2 dir:HORIZONTAL
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+    TEXT fs:12 lh:17 fw:400 color:#839ada "(0 отзывов)"
+FRAME [Frame 16] 825x294
+  RECTANGLE [Rectangle 97] 825x294 fill:#215aee
+  TEXT fs:14 lh:20 fw:500 color:#ff8311 "Добавить в избранное"
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Сравнить с конкурентами"
+  FRAME [Frame] 24x24 fill:#ffffff
+  FRAME [Frame] 24x24 fill:#ffffff
+  TEXT fs:14 lh:20 fw:500 color:#ffffff "Смотреть подробности"
+  FRAME [Frame] 24x24 fill:#ffffff
+  FRAME [Frame] 24x24 fill:#ffffff
+  FRAME [Frame] 24x24 fill:#ffffff
+  FRAME [Frame] 24x24 fill:#ffffff
+  TEXT fs:14 lh:20 fw:600 color:#ffffff "€29.00"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "VPS"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "72GB"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "SSD: 1x 120 GB"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "HDD: 2x 20 TB"
+  FRAME [Frame 26] 96x21 fill:#27e35c pad:2/6/2/6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#ffffff "Купон доступен"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "1x Intel Xeon E5530"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Windows 2020, 2016 • Linux • CentOS, Debian,Ubuntu"
+  FRAME [Frame] 18x18 fill:#ffffff
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "Frankfut • 200 Mbps • 1 TB"
+  FRAME [Frame] 18x18 fill:#ffffff
+  FRAME [Frame] 18x18 fill:#ffffff
+  TEXT fs:12 lh:17 fw:500 color:#27e35c "Беспалтная установка"
+  TEXT fs:12 lh:17 fw:500 color:#f50e38 "Доступ через 3-5 мин"
+  FRAME [Frame] 18x18 fill:#ffffff
+  TEXT fs:14 lh:20 fw:400 color:#ff8311 "Игровой сервер • Сервер для стримминга"
+  FRAME [Frame 27] 245x18 gap:6 dir:HORIZONTAL
+    TEXT fs:12 lh:17 fw:400 color:#839ada "Хост: Hosteons"
+    FRAME [Frame 24] 98x18 gap:2 dir:HORIZONTAL
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+      FRAME [Frame] 18x18 fill:#ffffff
+    TEXT fs:12 lh:17 fw:400 color:#839ada "(0 отзывов)"
+  TEXT fs:14 lh:20 fw:400 color:#ffffff "NAT-128 GER"
+  FRAME [Asset 1 1] 24x14 fill:#ffffff
+    GROUP [Layer 2] 24x14
+      GROUP [Layer 1] 24x14
+        GROUP [Group] 24x14
+GROUP [Group 27] 825x48
+  RECTANGLE [Rectangle 28] 825x48 fill:#ff8311
+  TEXT fs:16 lh:23 fw:600 color:#ffffff "Показать больше конфигураций"
+FRAME [Cursor – Hand] 36x36
+  BOOLEAN_OPERATION [Lines] 8x6 fill:#000000
+FRAME [Frame 104] 243x24 gap:8 dir:HORIZONTAL
+  FRAME [Frame] 24x24 fill:#ffffff
+  RECTANGLE [Rectangle 555] 18x1 fill:#839ada
+  TEXT fs:14 lh:20 fw:400 color:#839ada "Поиск"
+  RECTANGLE [Rectangle 556] 18x1 fill:#839ada
+  TEXT fs:14 lh:20 fw:400 color:#839ada "Результаты поиска"

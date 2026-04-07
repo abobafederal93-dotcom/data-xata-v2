@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { mainNav } from '../../data/navigation';
+import { mainNav, langCountries } from '../../data/navigation';
 import Container from '../ui/Container';
 import Flag from '../ui/Flag';
 import MobileMenu from './MobileMenu';
@@ -32,12 +32,6 @@ const vpsItems: VpsItem[] = [
   { label: 'VDS Dedicated', href: '/vds', price: 'от 45 €/мес' },
 ];
 
-const langOptions = [
-  { code: 'ua' as const, label: 'UA', href: '/ua' },
-  { code: 'ru' as const, label: 'RU', href: '/ru' },
-  { code: 'en' as const, label: 'en', href: '/en' },
-];
-
 export default function Header() {
   return (
     <header className="h-68 bg-bg border-b border-white/10 sticky top-0 z-50">
@@ -55,32 +49,31 @@ export default function Header() {
             <div className="group relative h-68 flex items-center">
               <Link
                 href="/search"
-                className="flex items-center gap-6 text-14 text-white hover:text-accent transition-colors"
+                className="flex items-center gap-6 text-14 leading-20 font-medium text-white hover:text-accent transition-colors"
               >
                 Аренда сервера
                 <i className="icons i-caret text-10" aria-hidden="true" />
               </Link>
 
-              <div className="hidden group-hover:block absolute top-full left-0 z-50 min-w-[52rem] bg-[#0041be] p-20 shadow-2xl">
-                <div className="grid grid-cols-2 gap-30">
+              <div className="hidden group-hover:block absolute top-full left-0 z-50 min-w-[68.4rem] bg-[#0041be]/85 p-30 shadow-2xl">
+                <div className="grid grid-cols-3 gap-30">
                   <div>
-                    <p className="text-11 font-medium uppercase tracking-[0.05em] text-white/50 mb-10">Страны</p>
+                    <p className="text-12 leading-17 font-medium uppercase text-[#839ada] mb-15">Страны</p>
                     <ul className="mb-20">
                       {dropdownCountries.map((c) => (
                         <li key={c.code}>
-                          <Link href={c.href} className="flex items-center gap-8 py-5 text-13 text-white hover:text-accent">
+                          <Link href={c.href} className="flex items-center gap-8 py-5 text-14 leading-20 font-medium text-white hover:text-accent">
                             <Flag code={c.code} alt={c.label} />
                             {c.label}
                           </Link>
                         </li>
                       ))}
                     </ul>
-
-                    <p className="text-11 font-medium uppercase tracking-[0.05em] text-white/50 mb-10">Технологии</p>
+                    <p className="text-12 leading-17 font-medium uppercase text-[#839ada] mb-15">Технологии</p>
                     <ul>
                       {dropdownTechs.map((t) => (
                         <li key={t.icon}>
-                          <Link href={t.href} className="flex items-center gap-8 py-5 text-13 text-white hover:text-accent">
+                          <Link href={t.href} className="flex items-center gap-8 py-5 text-14 leading-20 font-medium text-white hover:text-accent">
                             <i className={`icons ${t.icon}`} aria-hidden="true" />
                             {t.label}
                           </Link>
@@ -90,20 +83,33 @@ export default function Header() {
                   </div>
 
                   <div>
-                    <p className="text-11 font-medium uppercase tracking-[0.05em] text-white/50 mb-10">VPS / VDS</p>
-                    <ul className="mb-20">
+                    <p className="text-12 leading-17 font-medium uppercase text-[#839ada] mb-15">Аренда сервера</p>
+                    <ul className="flex flex-col gap-10">
+                      <li><Link href="/search?os=windows" className="text-14 leading-20 text-white hover:text-accent">Аренда Windows сервера</Link></li>
+                      <li><Link href="/search?os=linux" className="text-14 leading-20 text-white hover:text-accent">Аренда Linux Сервера</Link></li>
+                      <li><Link href="/search?type=game" className="text-14 leading-20 text-white hover:text-accent">Аренда игрового сервера</Link></li>
+                      <li><Link href="/search?type=storage" className="text-14 leading-20 text-white hover:text-accent">Аренда хранилища</Link></li>
+                      <li><Link href="/search?type=office" className="text-14 leading-20 text-white hover:text-accent">Аренда офисного сервера</Link></li>
+                      <li><Link href="/backup" className="text-14 leading-20 text-white hover:text-accent">Резервное копирование</Link></li>
+                      <li><Link href="/admin" className="text-14 leading-20 text-white hover:text-accent">Администрирование серверов</Link></li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <p className="text-12 leading-17 font-medium uppercase text-[#839ada] mb-15">VPS / VDS</p>
+                    <ul className="flex flex-col gap-10 mb-20">
                       {vpsItems.map((v) => (
-                        <li key={v.href} className="flex items-center justify-between py-6">
-                          <Link href={v.href} className="text-13 text-white hover:text-accent">{v.label}</Link>
+                        <li key={v.href} className="flex items-center justify-between">
+                          <Link href={v.href} className="text-14 leading-20 text-white hover:text-accent">{v.label}</Link>
                           <span className="text-12 text-white/60 ml-15">{v.price}</span>
                         </li>
                       ))}
                     </ul>
                     <Link
-                      href="/search"
-                      className="inline-flex items-center justify-center h-36 px-20 border border-white/30 text-13 text-white hover:bg-white hover:text-bg transition-colors rounded-sm"
+                      href="/trial"
+                      className="inline-flex items-center justify-center h-36 px-20 bg-white text-14 leading-20 font-medium text-[#0033af] hover:opacity-90 transition-opacity"
                     >
-                      Все серверы
+                      Аренда сервера с тестовым периодом
                     </Link>
                   </div>
                 </div>
@@ -114,7 +120,7 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-14 text-white hover:text-accent transition-colors"
+                className="text-14 leading-20 font-medium text-white hover:text-accent transition-colors"
               >
                 {item.label}
               </Link>
@@ -125,21 +131,28 @@ export default function Header() {
           <div className="hidden desktop:flex items-center gap-20">
             {/* Language */}
             <div className="group relative h-68 flex items-center">
-              <button type="button" className="flex items-center gap-6 text-14 text-white hover:text-accent">
+              <button type="button" className="flex items-center gap-6 text-14 leading-20 font-medium text-accent hover:opacity-80">
                 <Flag code="ru" alt="RU" />
                 RU
                 <i className="icons i-caret text-10" aria-hidden="true" />
               </button>
-              <ul className="hidden group-hover:block absolute top-full right-0 z-50 min-w-[12rem] bg-[#0041be] py-8 shadow-2xl">
-                {langOptions.map((lang) => (
-                  <li key={lang.label}>
-                    <Link href={lang.href} className="flex items-center gap-8 px-15 py-6 text-13 text-white hover:text-accent">
-                      <Flag code={lang.code} alt={lang.label} />
-                      {lang.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              <div className="hidden group-hover:block absolute top-full right-0 z-50 w-[19.4rem] bg-[#0041be]/85 p-20 shadow-2xl">
+                <p className="text-12 leading-17 font-medium uppercase text-[#839ada] mb-15">Языки</p>
+                <ul className="flex flex-col gap-20">
+                  {langCountries.map((lc) => (
+                    <li key={lc.code}>
+                      <p className="text-12 leading-17 font-medium uppercase text-[#839ada] mb-8">{lc.title}</p>
+                      <Link href={lc.href} className="flex items-center gap-8 text-14 leading-20 text-white hover:text-accent mb-4">
+                        <Flag code={lc.code} alt={lc.country} />
+                        {lc.country}
+                      </Link>
+                      <a href={lc.phoneHref} className="block text-14 leading-20 text-white hover:text-accent">
+                        {lc.phone}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
 
             {/* Login button */}
