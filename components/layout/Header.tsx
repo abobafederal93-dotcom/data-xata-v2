@@ -1,251 +1,266 @@
 import Link from "next/link";
 
-interface NavItem {
+// ── Types ────────────────────────────────────────────────────────────────────
+
+interface DropdownCountry {
+  code: string;      // icon class suffix, e.g. "de"
   label: string;
   href: string;
-  hasDropdown?: boolean;
+}
+
+interface DropdownTech {
+  icon: string;      // icons class suffix, e.g. "i-windows"
+  label: string;
+  href: string;
+}
+
+interface VpsItem {
+  label: string;
+  href: string;
+  price: string;
 }
 
 interface LangOption {
-  code: string;
-  iconClass: string;
+  iconClass: string; // full flag class, e.g. "i-ua"
   label: string;
+  href: string;
 }
 
-const navItems: NavItem[] = [
-  { label: "Аренда сервера", href: "/server", hasDropdown: true },
-  { label: "Помощь", href: "/help" },
-  { label: "Оплата и документы", href: "/payment" },
-  { label: "Блог", href: "/blog" },
-  { label: "Партнерская программа", href: "/partner" },
+// ── Static data ───────────────────────────────────────────────────────────────
+
+const dropdownCountries: DropdownCountry[] = [
+  { code: "de", label: "Германия",    href: "/server/de" },
+  { code: "fr", label: "Франция",     href: "/server/fr" },
+  { code: "nl", label: "Нидерланды",  href: "/server/nl" },
+  { code: "us", label: "США",         href: "/server/us" },
+];
+
+const dropdownTechs: DropdownTech[] = [
+  { icon: "i-windows",    label: "Windows",    href: "/server/windows" },
+  { icon: "i-linux",      label: "Linux",      href: "/server/linux" },
+  { icon: "i-game",       label: "Игровой",    href: "/server/game" },
+  { icon: "i-repository", label: "Репозиторий",href: "/server/repository" },
+  { icon: "i-office",     label: "Office",     href: "/server/office" },
+  { icon: "i-backup",     label: "Backup",     href: "/server/backup" },
+  { icon: "i-admin",      label: "Admin",      href: "/server/admin" },
+];
+
+const vpsItems: VpsItem[] = [
+  { label: "VPS SSD NVMe",   href: "/vps/nvme",    price: "от 3.5 €/мес" },
+  { label: "VPS KVM",        href: "/vps/kvm",     price: "от 2.9 €/мес" },
+  { label: "VPS OpenVZ",     href: "/vps/openvz",  price: "от 1.5 €/мес" },
+  { label: "VDS Dedicated",  href: "/vds",         price: "от 45 €/мес" },
 ];
 
 const langOptions: LangOption[] = [
-  { code: "RU", iconClass: "i-flag", label: "RU" },
-  { code: "EN", iconClass: "i-us",   label: "EN" },
-  { code: "DE", iconClass: "i-de",   label: "DE" },
-  { code: "FR", iconClass: "i-fr",   label: "FR" },
-  { code: "NL", iconClass: "i-nl",   label: "NL" },
-  { code: "US", iconClass: "i-us",   label: "US" },
+  { iconClass: "i-ua", label: "UA", href: "/ua" },
+  { iconClass: "i-ru", label: "RU", href: "/ru" },
+  { iconClass: "i-us", label: "EN", href: "/en" },
 ];
+
+// ── Component ─────────────────────────────────────────────────────────────────
 
 export default function Header() {
   return (
-    <header>
-      {/* ── Action Banner ── */}
-      <div
-        className="hidden md:flex items-center justify-center"
-        style={{
-          background: "#ff8311",
-          padding: "0.9rem 1.5rem",
-          fontSize: "1.4rem",
-          lineHeight: "2rem",
-          color: "#fff",
-          fontWeight: 500,
-          gap: "0.8rem",
-          textAlign: "center",
-        }}
-      >
-        <span className="icons i-present" style={{ fontSize: "1.8rem" }} />
-        <span>
-          Закажи хостинг до конца карантина и получи домен в подарок!&nbsp;
-          <strong>Супер предложения!</strong>&nbsp;Не пропусти!
-        </span>
-      </div>
+    <header style={{ padding: "1.1rem 0", position: "relative", zIndex: 9999 }}>
+      <div className="container">
+        <div className="header-container">
 
-      {/* ── Main Header Bar ── */}
-      <div
-        style={{
-          background: "#010437",
-          borderBottom: "1px solid rgba(131,154,218,0.15)",
-        }}
-      >
-        <div
-          className="container"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "2.4rem",
-            padding: "1.6rem 1.5rem",
-          }}
-        >
-          {/* Logo */}
-          <Link href="/" style={{ flexShrink: 0, display: "flex", alignItems: "center" }}>
+          {/* ── Logo ── */}
+          <Link href="/" className="logo">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/icons/logo.svg"
-              alt="Data-Xata"
-              style={{ height: "3.6rem", width: "auto" }}
+              src="/img/logo.svg"
+              width={118}
+              height={26}
+              alt="Маркетплейс Data-Xata аренда сервера"
             />
           </Link>
 
-          {/* Desktop Nav */}
-          <nav
-            className="hidden md:flex"
-            style={{ flex: 1, alignItems: "center", gap: "0.4rem" }}
-          >
-            {navItems.map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.4rem",
-                  padding: "0.8rem 1.2rem",
-                  fontSize: "1.4rem",
-                  lineHeight: "2rem",
-                  color: "#fff",
-                  whiteSpace: "nowrap",
-                  transition: "color 0.15s",
-                }}
-                className="hover:text-[#ff8311]"
-              >
-                {item.label}
-                {item.hasDropdown && (
-                  <span
-                    className="icons i-caret-sm"
-                    style={{ fontSize: "1rem", color: "#839ada", marginTop: "0.1rem" }}
-                  />
-                )}
-              </Link>
-            ))}
-          </nav>
+          {/* ── Main Nav ── */}
+          <div className="wrap-nav">
+            <ul className="nav navbar-nav">
 
-          {/* Right Controls */}
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "1.6rem",
-              marginLeft: "auto",
-              flexShrink: 0,
-            }}
-          >
-            {/* Заказать button */}
-            <Link href="/order" className="btn btn-warning hidden md:inline-flex">
-              Заказать
-            </Link>
+              {/* "Аренда сервера" — mega dropdown */}
+              <li className="dropdown">
+                <a
+                  href="/server"
+                  className="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  Аренда сервера
+                  <span className="icons i-caret" />
+                </a>
 
-            {/* Login */}
-            <Link
-              href="/login"
-              className="hidden md:inline-flex"
-              style={{
-                fontSize: "1.4rem",
-                color: "#839ada",
-                whiteSpace: "nowrap",
-                transition: "color 0.15s",
-              }}
-            >
-              Войти
-            </Link>
+                <div className="dropdown-menu dropdown-menu-large">
+                  <div className="row">
 
-            {/* Language Selector */}
-            <div
-              className="hidden md:flex"
-              style={{
-                alignItems: "center",
-                gap: "0.6rem",
-                cursor: "pointer",
-                padding: "0.6rem 1rem",
-                border: "1px solid rgba(131,154,218,0.25)",
-                borderRadius: "0.4rem",
-                position: "relative",
-              }}
-            >
-              <span
-                className="icons i-flag"
-                style={{ fontSize: "1.6rem", color: "#fff" }}
-              />
-              <span style={{ fontSize: "1.4rem", color: "#fff", fontWeight: 500 }}>
-                RU
-              </span>
-              <span
-                className="icons i-caret-sm"
-                style={{ fontSize: "0.9rem", color: "#839ada" }}
-              />
+                    {/* col left: Страны + Технологии */}
+                    <div className="col-sm-5">
+                      <p className="header-dropdown__title">Страны</p>
+                      <ul className="icon-list">
+                        {dropdownCountries.map((c) => (
+                          <li key={c.code}>
+                            <Link href={c.href}>
+                              <span className={`icons i-flag i-${c.code}`} />
+                              {c.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
 
-              {/* Dropdown list (static — visible on hover via CSS group pattern) */}
-              <div
-                style={{
-                  display: "none",
-                  position: "absolute",
-                  top: "calc(100% + 0.4rem)",
-                  right: 0,
-                  background: "#020983",
-                  border: "1px solid rgba(131,154,218,0.2)",
-                  borderRadius: "0.4rem",
-                  minWidth: "9rem",
-                  zIndex: 100,
-                  padding: "0.4rem 0",
-                }}
-              >
-                {langOptions.map((lang) => (
-                  <div
-                    key={lang.code}
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.8rem",
-                      padding: "0.7rem 1.2rem",
-                      fontSize: "1.4rem",
-                      color: "#fff",
-                      cursor: "pointer",
-                    }}
-                  >
-                    <span
-                      className={`icons ${lang.iconClass}`}
-                      style={{ fontSize: "1.6rem" }}
-                    />
-                    {lang.label}
+                      <p className="header-dropdown__title">Технологии</p>
+                      <ul className="icon-list">
+                        {dropdownTechs.map((t) => (
+                          <li key={t.icon}>
+                            <Link href={t.href}>
+                              <span className={`icons ${t.icon}`} />
+                              {t.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    {/* col right: VPS/VDS — hidden on xs */}
+                    <div className="col-sm-7 hidden-xs">
+                      <p className="header-dropdown__title">VPS / VDS</p>
+                      <ul>
+                        {vpsItems.map((v) => (
+                          <li key={v.href}>
+                            <Link href={v.href} className="dropdown-link">
+                              {v.label}
+                            </Link>
+                            <span style={{ color: "rgba(255,255,255,0.45)", marginLeft: "0.6rem" }}>
+                              {v.price}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                      <Link href="/server" className="btn btn-default btn-sm">
+                        Все серверы
+                      </Link>
+                    </div>
+
                   </div>
-                ))}
-              </div>
-            </div>
+                </div>
+              </li>
 
-            {/* Mobile: Hamburger */}
-            <div
-              className="flex md:hidden"
-              style={{
-                flexDirection: "column",
-                gap: "0.5rem",
-                cursor: "pointer",
-                padding: "0.4rem",
-              }}
-              aria-label="Меню"
-            >
-              <span
-                style={{
-                  display: "block",
-                  width: "2.4rem",
-                  height: "0.2rem",
-                  background: "#fff",
-                  borderRadius: "0.1rem",
-                }}
-              />
-              <span
-                style={{
-                  display: "block",
-                  width: "2.4rem",
-                  height: "0.2rem",
-                  background: "#fff",
-                  borderRadius: "0.1rem",
-                }}
-              />
-              <span
-                style={{
-                  display: "block",
-                  width: "2.4rem",
-                  height: "0.2rem",
-                  background: "#fff",
-                  borderRadius: "0.1rem",
-                }}
-              />
-            </div>
+              {/* "Аренда VDS" */}
+              <li>
+                <Link href="/vds">Аренда VDS</Link>
+              </li>
+
+              {/* "Аренда сервера с тестовым периодом" */}
+              <li>
+                <Link href="/server/trial">
+                  Аренда сервера с тестовым периодом
+                </Link>
+              </li>
+
+              {/* Контакты dropdown — visible only on xs */}
+              <li className="dropdown visible-xs">
+                <a
+                  href="#"
+                  className="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                >
+                  Контакты
+                  <span className="icons i-caret" />
+                </a>
+                <ul className="dropdown-menu footer-contatcs">
+                  <li>
+                    <p>
+                      <span className="icons i-phone" />
+                      <a href="tel:+3728807873">+372 880 7873</a>
+                    </p>
+                    <p>
+                      <a href="tel:+380442388946">+380 (44) 23 88 946</a>
+                    </p>
+                  </li>
+                  <li>
+                    <a href="tg://resolve?domain=dtxvti" target="_blank">
+                      <span className="icons i-telegram" />
+                      Telegram
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:support@data-xata.com">
+                      <span className="icons i-email" />
+                      support@data-xata.com
+                    </a>
+                  </li>
+                </ul>
+              </li>
+
+            </ul>
           </div>
+          {/* /.wrap-nav */}
+
+          {/* ── Language dropdown ── */}
+          <div className="language dropdown hidden-xs">
+            <a
+              href="#"
+              className="dropdown-toggle"
+              data-toggle="dropdown"
+              role="button"
+              aria-expanded="false"
+            >
+              <span className="icons i-flag i-ru" />
+              RU
+              <span className="icons i-caret" />
+            </a>
+            <ul className="dropdown-menu">
+              {langOptions.map((lang) => (
+                <li key={lang.label}>
+                  <Link href={lang.href}>
+                    <span className={`icons i-flag ${lang.iconClass}`} />
+                    {lang.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* ── Desktop: Login ── */}
+          <div className="language-login">
+            <a
+              href="https://cp.data-xata.com/"
+              className="btn btn-default hidden-xs login-link btn-sm"
+              rel="noindex, nofollow"
+            >
+              Личный кабинет
+            </a>
+
+            {/* Mobile: login icon */}
+            <a href="https://cp.data-xata.com/" className="visible-xs" rel="noindex, nofollow">
+              <span className="icons i-login" />
+            </a>
+          </div>
+
+          {/* ── Hamburger ── */}
+          <button
+            className="navbar-toggle"
+            type="button"
+            name="mainMenu"
+            data-toggle="collapse"
+            data-target="#navbar-collapse"
+            aria-expanded="false"
+            aria-label="mainMenu"
+          >
+            <span className="icon-bar" />
+            <span className="icon-bar" />
+            <span className="icon-bar" />
+          </button>
+
         </div>
+        {/* /.header-container */}
       </div>
+      {/* /.container */}
     </header>
   );
 }

@@ -1,317 +1,228 @@
 import Link from "next/link";
 
+// ── Types ────────────────────────────────────────────────────────────────────
+
 interface FooterLink {
   label: string;
   href: string;
 }
 
-const companyLinks: FooterLink[] = [
-  { label: "Аренда сервера",          href: "/server" },
-  { label: "Помощь",                  href: "/help" },
-  { label: "Оплата и документы",      href: "/payment" },
-  { label: "Блог",                    href: "/blog" },
-  { label: "Партнерская программа",   href: "/partner" },
+// ── Static data ───────────────────────────────────────────────────────────────
+
+const serverLinks: FooterLink[] = [
+  { label: "Аренда сервера в США",                href: "/arenda-servera-v-ssha" },
+  { label: "Аренда сервера в Германии",           href: "/arenda-servera-v-germanii" },
+  { label: "Аренда сервера во Франции",           href: "/arenda-servera-vo-francii" },
+  { label: "Аренда сервера в Голландии",          href: "/arenda-servera-v-gollandii" },
+  { label: "Аренда Windows сервера",              href: "/arenda-windows-servera" },
+  { label: "Аренда Linux сервера",                href: "/arenda-linux-servera" },
+  { label: "Аренда игрового сервера",             href: "/arenda-igrovyh-serverov" },
+  { label: "Аренда хранилища",                    href: "/arenda-hranilishcha" },
+  { label: "Аренда офисного сервера",             href: "/arenda-ofisnogo-servera" },
+  { label: "Резервное копирование",               href: "/rezervnoe-kopirovanie" },
+  { label: "Администрирование серверов",          href: "/administrirovanie-serverov" },
 ];
 
-const locationLinks: FooterLink[] = [
-  { label: "Серверы в Германии",      href: "/server/de" },
-  { label: "Серверы во Франции",      href: "/server/fr" },
-  { label: "Серверы в Нидерландах",   href: "/server/nl" },
-  { label: "Серверы в США",           href: "/server/us" },
+const vpsLinks: FooterLink[] = [
+  { label: "Аренда VPS SSD NVMe",   href: "/vps/nvme" },
+  { label: "Аренда VPS KVM",        href: "/vps/kvm" },
+  { label: "Аренда VPS OpenVZ",     href: "/vps/openvz" },
+  { label: "Аренда VDS Dedicated",  href: "/vds" },
+  { label: "Все VPS / VDS",         href: "/vps" },
 ];
 
-interface PaymentMethod {
-  label: string;
-  icon: string; // text-based badge label
-}
-
-const paymentMethods: PaymentMethod[] = [
-  { label: "Visa",               icon: "VISA" },
-  { label: "Mastercard",         icon: "MC" },
-  { label: "PayPal",             icon: "PayPal" },
-  { label: "Bitcoin",            icon: "BTC" },
-  { label: "USDT",               icon: "USDT" },
-  { label: "Банковский перевод", icon: "BANK" },
+const otherLinks: FooterLink[] = [
+  { label: "Партнёрская программа", href: "/partner" },
 ];
 
-const bottomLinks: FooterLink[] = [
-  { label: "Политика конфиденциальности", href: "/privacy" },
-  { label: "Условия использования",       href: "/terms" },
-  { label: "Карта сайта",                 href: "/sitemap" },
+const navLinks: FooterLink[] = [
+  { label: "Пользовательское соглашение",         href: "/terms_and_conditions" },
+  { label: "Политика конфиденциальности",          href: "/privacy_policy" },
+  { label: "Возврат средств",                      href: "/refund_policy" },
+  { label: "Условия доставки",                     href: "/delivery_time_frame" },
+  { label: "Допустимое использование",             href: "/acceptable-use-policy" },
+  { label: "Abuse",                                href: "/abuse" },
 ];
+
+// ── Component ─────────────────────────────────────────────────────────────────
 
 export default function Footer() {
   return (
-    <footer
-      style={{
-        background: "#010437",
-        borderTop: "1px solid rgba(131,154,218,0.15)",
-        marginTop: "auto",
-      }}
-    >
-      {/* ── Main Footer Grid ── */}
-      <div className="container" style={{ padding: "5rem 1.5rem 4rem" }}>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(20rem, 1fr))",
-            gap: "3.2rem 2.4rem",
-          }}
-        >
-          {/* Column 1 — Company info */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
-            {/* Logo */}
-            <Link href="/" style={{ display: "inline-flex" }}>
+    <footer>
+      {/* ── Main footer content ── */}
+      <div className="footer-content">
+        <div className="container">
+          <div className="row flex-block flex-wrap">
+
+            {/* Column 1 — Аренда сервера */}
+            <div className="col-sm-3 col-xs-12">
+              <p className="title-xs">Аренда сервера</p>
+              <ul>
+                {serverLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href}>{link.label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Column 2 — Аренда виртуального сервера */}
+            <div className="col-sm-3 col-xs-12">
+              <p className="title-xs">Аренда виртуального сервера</p>
+              <ul>
+                {vpsLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href}>{link.label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Column 3 — Остальное */}
+            <div className="col-sm-3 col-xs-12">
+              <p className="title-xs">Остальное</p>
+              <ul>
+                {otherLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href}>{link.label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Column 4 — Контакты */}
+            <div className="col-sm-3 col-xs-12 footer-lat-col">
+              <p className="title-xs">Контакты</p>
+
+              <ul className="footer-contacts">
+                {/* Address */}
+                <li>
+                  <address style={{ fontStyle: "normal" }}>
+                    Tuukri tn 19-216, Tallinn, Estonia
+                  </address>
+                </li>
+
+                {/* Phone 1 */}
+                <li>
+                  <span className="icons i-phone" />
+                  <a href="tel:+37280078730">+372 (800) 7873</a>
+                </li>
+
+                {/* Phone 2 */}
+                <li>
+                  <span className="icons i-phone" />
+                  <a href="tel:+380442388946">+380 (44) 23 88 946</a>
+                </li>
+
+                {/* Email */}
+                <li>
+                  <span className="icons i-email" />
+                  <a href="mailto:support@data-xata.com">
+                    support@data-xata.com
+                  </a>
+                </li>
+              </ul>
+
+              {/* Social icons */}
+              <ul className="social-list">
+                <li>
+                  <a
+                    href="https://www.facebook.com/data.xata"
+                    target="_blank"
+                    rel="nofollow"
+                    aria-label="Facebook"
+                  >
+                    <span className="icons i-fb" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/dataxata"
+                    target="_blank"
+                    rel="nofollow"
+                    aria-label="Twitter"
+                  >
+                    <span
+                      className="icons i-tw"
+                      style={{ display: "inline-block" }}
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          {/* /.row */}
+        </div>
+        {/* /.container */}
+      </div>
+      {/* /.footer-content */}
+
+      {/* ── Footer bottom ── */}
+      <div className="footer-bottom">
+        <div className="container flex-block flex-wrap">
+
+          {/* Logo */}
+          <Link href="/" className="logo">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/logo.svg"
+              width={118}
+              height={26}
+              alt="Data-Xata"
+            />
+          </Link>
+
+          {/* Payment */}
+          <div className="footer-payment">
+            <Link href="/payment">Посмотреть все способы оплаты</Link>
+
+            <a href="/payment">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/icons/logo.svg"
-                alt="Data-Xata"
-                style={{ height: "3.2rem", width: "auto" }}
+                src="/img/icons/i-visa.svg"
+                width={67}
+                height={20}
+                alt="Visa"
               />
-            </Link>
+            </a>
+            <a href="/payment">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/icons/i-mastercard.svg"
+                width={31}
+                height={24}
+                alt="Mastercard"
+              />
+            </a>
+            <a href="/payment">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/img/icons/i-paypal.svg"
+                width={75}
+                height={20}
+                alt="PayPal"
+              />
+            </a>
 
-            {/* Company name + address */}
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-              <span
-                style={{
-                  fontSize: "1.6rem",
-                  lineHeight: "2.4rem",
-                  fontWeight: 600,
-                  color: "#fff",
-                }}
-              >
-                Data-Xata OU
-              </span>
-              <span
-                style={{
-                  fontSize: "1.3rem",
-                  lineHeight: "2rem",
-                  color: "#839ada",
-                }}
-              >
-                Harju maakond, Tallinn, Lasnamäe linnaosa,<br />
-                Lõõtsa tn 2a, 11415, Estonia
-              </span>
-            </div>
-
-            {/* Contacts */}
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.8rem" }}>
-              {/* Telegram */}
-              <a
-                href="https://t.me/dtxvti"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.8rem",
-                  fontSize: "1.4rem",
-                  color: "#839ada",
-                  transition: "color 0.15s",
-                }}
-              >
-                <span className="icons i-tg" style={{ fontSize: "1.6rem", color: "#2acaf7" }} />
-                @dtxvti
-              </a>
-
-              {/* Phone 1 */}
-              <a
-                href="tel:+37288078730"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.8rem",
-                  fontSize: "1.4rem",
-                  color: "#839ada",
-                  transition: "color 0.15s",
-                }}
-              >
-                <span className="icons i-phone" style={{ fontSize: "1.6rem", color: "#839ada" }} />
-                +372 880 7873
-              </a>
-
-              {/* Phone 2 */}
-              <a
-                href="tel:+380442388946"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.8rem",
-                  fontSize: "1.4rem",
-                  color: "#839ada",
-                  transition: "color 0.15s",
-                }}
-              >
-                <span className="icons i-phone" style={{ fontSize: "1.6rem", color: "#839ada" }} />
-                +380 (44) 23 88 946
-              </a>
-            </div>
+            <span style={{fontStyle: "italic"}}>Безналичный <br />расчёт</span>
           </div>
 
-          {/* Column 2 — Site links */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
-            <span
-              style={{
-                fontSize: "1.6rem",
-                lineHeight: "2.4rem",
-                fontWeight: 600,
-                color: "#fff",
-                marginBottom: "1.2rem",
-              }}
-            >
-              Навигация
-            </span>
-            {companyLinks.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                style={{
-                  fontSize: "1.4rem",
-                  lineHeight: "2.4rem",
-                  color: "#839ada",
-                  transition: "color 0.15s",
-                  padding: "0.3rem 0",
-                }}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </div>
-
-          {/* Column 3 — Locations */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
-            <span
-              style={{
-                fontSize: "1.6rem",
-                lineHeight: "2.4rem",
-                fontWeight: 600,
-                color: "#fff",
-                marginBottom: "1.2rem",
-              }}
-            >
-              Локации
-            </span>
-            {locationLinks.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                style={{
-                  fontSize: "1.4rem",
-                  lineHeight: "2.4rem",
-                  color: "#839ada",
-                  transition: "color 0.15s",
-                  padding: "0.3rem 0",
-                }}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </div>
-
-          {/* Column 4 — Payment methods */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "1.2rem" }}>
-            <span
-              style={{
-                fontSize: "1.6rem",
-                lineHeight: "2.4rem",
-                fontWeight: 600,
-                color: "#fff",
-                marginBottom: "0.4rem",
-              }}
-            >
-              Способы оплаты
-            </span>
-            <div
-              style={{
-                display: "flex",
-                flexWrap: "wrap",
-                gap: "0.8rem",
-              }}
-            >
-              {paymentMethods.map((method) => (
-                <div
-                  key={method.label}
-                  title={method.label}
-                  style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    padding: "0.5rem 1rem",
-                    border: "1px solid rgba(131,154,218,0.25)",
-                    borderRadius: "0.4rem",
-                    fontSize: "1.1rem",
-                    fontWeight: 700,
-                    color: "#839ada",
-                    letterSpacing: "0.03em",
-                    minWidth: "5rem",
-                    background: "rgba(131,154,218,0.05)",
-                  }}
-                >
-                  {method.icon}
-                </div>
+          {/* Footer nav */}
+          <nav className="footer-nav">
+            <ul>
+              {navLinks.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href}>{link.label}</Link>
+                </li>
               ))}
-            </div>
-            <p
-              style={{
-                fontSize: "1.2rem",
-                lineHeight: "1.8rem",
-                color: "#839ada",
-                marginTop: "0.4rem",
-                marginBottom: 0,
-              }}
-            >
-              Безопасные платёжные системы.<br />
-              Гарантия возврата средств.
-            </p>
-          </div>
-        </div>
-      </div>
+            </ul>
+          </nav>
 
-      {/* ── Bottom Bar ── */}
-      <div
-        style={{
-          borderTop: "1px solid rgba(131,154,218,0.15)",
-        }}
-      >
-        <div
-          className="container"
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            alignItems: "center",
-            justifyContent: "space-between",
-            gap: "1.2rem",
-            padding: "1.8rem 1.5rem",
-          }}
-        >
-          {/* Copyright */}
-          <span
-            style={{
-              fontSize: "1.3rem",
-              color: "#839ada",
-            }}
-          >
-            &copy; 2006–2024 Data-Xata OU
-          </span>
-
-          {/* Bottom links */}
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "2rem" }}>
-            {bottomLinks.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                style={{
-                  fontSize: "1.3rem",
-                  color: "#839ada",
-                  transition: "color 0.15s",
-                }}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </div>
         </div>
+        {/* /.container */}
       </div>
+      {/* /.footer-bottom */}
     </footer>
   );
 }
