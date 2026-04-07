@@ -62,7 +62,7 @@ const langOptions: LangOption[] = [
 
 export default function Header() {
   return (
-    <header style={{ padding: "1.1rem 0", position: "relative", zIndex: 9999 }}>
+    <header className="site-header">
       <div className="container">
         <div className="header-container">
 

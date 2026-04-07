@@ -8,16 +8,9 @@ export const metadata: Metadata = {
   description: "Аренда выделенных серверов. Более 1278 конфигураций в 11 дата-центрах.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ru">
-      <head>
-        <link rel="stylesheet" href="/css/style.css" />
-      </head>
       <body>
         <div id="wrap">
           <Header />
