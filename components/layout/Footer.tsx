@@ -10,6 +10,28 @@ import {
 export default function Footer() {
   return (
     <footer className="bg-bg">
+      {/* Top action buttons row */}
+      <div className="pt-40">
+        <Container>
+          <div className="grid grid-cols-1 tablet:grid-cols-2 gap-20">
+            <a
+              href="/complaint"
+              className="flex items-center justify-center gap-12 h-56 border border-white/20 text-16 leading-23 font-semibold text-white hover:border-accent hover:text-accent transition-colors"
+            >
+              <i className="icons i-mess text-20" aria-hidden="true" />
+              Пожаловаться директору!
+            </a>
+            <a
+              href="/affiliate"
+              className="flex items-center justify-center gap-12 h-56 border border-white/20 text-16 leading-23 font-semibold text-white hover:border-accent hover:text-accent transition-colors"
+            >
+              <i className="icons i-bonus text-20" aria-hidden="true" />
+              Заработайте на нас!
+            </a>
+          </div>
+        </Container>
+      </div>
+
       {/* Main footer content */}
       <div className="pt-40 pb-60">
         <Container>
@@ -32,7 +54,7 @@ export default function Footer() {
                   ))}
                 </ul>
 
-                {col.title === 'Служба поддержки' && (
+                {col.title === 'Отдел поддержки' && (
                   <>
                     <p className="text-12 leading-17 font-medium uppercase text-white/40 mt-30 mb-20">
                       Мы в социальных сетях

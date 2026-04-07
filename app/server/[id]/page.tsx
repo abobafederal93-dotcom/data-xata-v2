@@ -104,7 +104,7 @@ export default function ServerDetailPage() {
               <SectionHeading ghost="Обязанности" title="Обязанности делятся следующим образом:" />
               <div className="grid grid-cols-1 tablet:grid-cols-2 gap-30 mt-30">
                 <div className="bg-gradient-to-b from-cyan to-[#0085ff] p-30 flex flex-col gap-15">
-                  <h4 className="text-20 leading-29 font-medium text-white">Зона / Хостинг</h4>
+                  <h4 className="text-20 leading-29 font-medium text-white">Зона</h4>
                   {zoneRows.map((row) => (
                     <div key={row} className="text-14 leading-20 text-white">
                       {row}
@@ -127,10 +127,13 @@ export default function ServerDetailPage() {
               <div className="grid grid-cols-2 tablet:grid-cols-3 desktop:grid-cols-6 gap-30 mt-30">
                 {osList.map((os) => (
                   <div
-                    key={os}
-                    className="text-20 leading-29 font-medium text-white text-center"
+                    key={os.name}
+                    className="flex flex-col items-center gap-12"
                   >
-                    {os}
+                    <img src={os.src} alt={os.name} className="h-73 w-auto" />
+                    <span className="text-20 leading-29 font-medium text-white text-center">
+                      {os.name}
+                    </span>
                   </div>
                 ))}
               </div>
@@ -141,10 +144,13 @@ export default function ServerDetailPage() {
               <div className="grid grid-cols-2 tablet:grid-cols-3 gap-30 mt-30">
                 {panelsList.map((p) => (
                   <div
-                    key={p}
-                    className="text-20 leading-29 font-medium text-white text-center"
+                    key={p.name}
+                    className="flex flex-col items-center gap-12"
                   >
-                    {p}
+                    <img src={p.src} alt={p.name} className="h-40 w-auto" />
+                    <span className="text-20 leading-29 font-medium text-white text-center">
+                      {p.name}
+                    </span>
                   </div>
                 ))}
               </div>

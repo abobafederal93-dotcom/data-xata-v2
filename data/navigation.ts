@@ -120,16 +120,15 @@ export const socials: SocialLink[] = [
 
 export const footerColumns: FooterColumn[] = [
   {
-    title: "Аренда сервера",
+    title: "Аренда серверов",
     links: [
       { label: "Аренда сервера в США", href: "/search?location=us" },
       { label: "Аренда сервера в Германии", href: "/search?location=de" },
       { label: "Аренда сервера во Франции", href: "/search?location=fr" },
       { label: "Аренда сервера в Голландии", href: "/search?location=nl" },
       { label: "Аренда Windows сервера", href: "/search?os=windows" },
-      { label: "Аренда Linux Сервера", href: "/search?os=linux" },
+      { label: "Аренда Linux сервера", href: "/search?os=linux" },
       { label: "Аренда игрового сервера", href: "/search?type=game" },
-      { label: "Аренда хранилища", href: "/search?type=storage" },
       { label: "Аренда офисного сервера", href: "/search?type=office" },
       { label: "Резервное копирование", href: "/backup" },
       { label: "Администрирование серверов", href: "/admin" },
@@ -160,14 +159,14 @@ export const footerColumns: FooterColumn[] = [
     title: "Контакты",
     links: [
       { label: "Sepapaja 6 Tallinn", href: "/contacts" },
-      { label: "+380 (44) 23 88 946", href: "tel:+380442388946" },
+      { label: "+372 (800) 7873", href: "tel:+3728007873" },
       { label: "support@data-xata.com", href: "mailto:support@data-xata.com" },
     ],
   },
   {
-    title: "Служба поддержки",
+    title: "Отдел поддержки",
     links: [
-      { label: "+372 (800) 7873", href: "tel:+3728007873" },
+      { label: "+380 (44) 23 88 766", href: "tel:+380442388766" },
       { label: "support@data-xata.com", href: "mailto:support@data-xata.com" },
     ],
   },
@@ -176,13 +175,15 @@ export const footerColumns: FooterColumn[] = [
 export const footerNavLinks: FooterLink[] = [
   { label: "Terms and conditions", href: "/terms" },
   { label: "Privacy policy", href: "/privacy" },
-  { label: "Cookies", href: "/cookies" },
-  { label: "Sitemap", href: "/sitemap" },
+  { label: "Refund policy", href: "/refund" },
+  { label: "Delivery time frame", href: "/delivery" },
+  { label: "Abuse", href: "/abuse" },
+  { label: "Acceptable Use Policy", href: "/aup" },
 ];
 
 export const paymentMethods = [
-  { name: "Visa", icon: "/img/pay/visa.svg" },
-  { name: "Mastercard", icon: "/img/pay/mastercard.svg" },
-  { name: "PayPal", icon: "/img/pay/paypal.svg" },
-  { name: "WebMoney", icon: "/img/pay/webmoney.svg" },
+  { name: "Visa", icon: "/img/icons/i-visa.svg" },
+  { name: "Mastercard", icon: "/img/icons/i-mastercard.svg" },
+  { name: "PayPal", icon: "/img/icons/i-paypal.svg" },
+  { name: "WebMoney", icon: "/img/icons/i-webmoney.svg" },
 ] as const;
