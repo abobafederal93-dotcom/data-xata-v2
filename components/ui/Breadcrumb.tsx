@@ -1,4 +1,7 @@
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
+import Icon from './Icon';
+import { cn } from '../../lib/cn';
 
 interface BreadcrumbItem {
   label: string;
@@ -7,23 +10,29 @@ interface BreadcrumbItem {
 
 interface BreadcrumbProps {
   items: BreadcrumbItem[];
+  className?: string;
 }
 
-export default function Breadcrumb({ items }: BreadcrumbProps) {
+export default function Breadcrumb({ items, className }: BreadcrumbProps) {
   return (
-    <nav className="breadcrumb">
-      <Link href="/" className="breadcrumb__home" aria-label="Главная">
-        <span className="icons i-home" />
+    <nav aria-label="Breadcrumb" className={cn('flex items-center gap-8', className)}>
+      <Link href="/" aria-label="Главная">
+        <Icon name="home" className="text-24 text-secondary hover:text-white transition-colors" />
       </Link>
       {items.map((item, i) => (
-        <span key={i} className="breadcrumb__item">
-          <span className="breadcrumb__sep">/</span>
+        <React.Fragment key={i}>
+          <span className="w-[0.1rem] h-18 bg-secondary flex-shrink-0" aria-hidden="true" />
           {item.href ? (
-            <Link href={item.href} className="breadcrumb__link">{item.label}</Link>
+            <Link
+              href={item.href}
+              className="text-14 leading-20 text-secondary hover:text-white transition-colors"
+            >
+              {item.label}
+            </Link>
           ) : (
-            <span className="breadcrumb__current">{item.label}</span>
+            <span className="text-14 leading-20 text-secondary">{item.label}</span>
           )}
-        </span>
+        </React.Fragment>
       ))}
     </nav>
   );

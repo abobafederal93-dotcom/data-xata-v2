@@ -62,8 +62,9 @@ export default function NotFound() {
 
       {/* ── Promo banner ── */}
       <PromoBanner
-        ghostText="Хочу скидку!"
-        text={"Оформи заказ в течение 10 минут\nи получи бонус $50 на счет!"}
+        ghost="Хочу скидку!"
+        title="Хочу скидку!"
+        subtitle={"Оформи заказ в течение 10 минут и получи бонус $50 на счет!"}
         buttonLabel="Выбрать сервер"
         buttonHref="/server"
       />
