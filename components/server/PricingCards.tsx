@@ -1,26 +1,36 @@
-interface PricingCard {
+import { cn } from '../../lib/cn';
+
+interface PricingPeriod {
   label: string;
-  value: string;
+  discount?: string;
+  price: string;
+  isActive?: boolean;
 }
 
 interface PricingCardsProps {
-  cards: PricingCard[];
+  periods: PricingPeriod[];
 }
 
-export default function PricingCards({ cards }: PricingCardsProps) {
+export default function PricingCards({ periods }: PricingCardsProps) {
   return (
     <div className="mb-40">
       <h3 className="text-20 leading-29 font-medium text-white mb-20">Цены и сроки</h3>
-      <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-4 gap-15">
-        {cards.map((c, i) => (
+      <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-4 gap-20">
+        {periods.map((p, i) => (
           <div
             key={i}
-            className="border border-primary rounded-sm h-86 px-15 flex flex-col justify-center"
+            className={cn(
+              'border p-20 flex flex-col gap-8 cursor-pointer transition-colors',
+              p.isActive
+                ? 'border-[#ff8311] bg-[#215aee]/30'
+                : 'border-white/20 hover:border-[#215aee]'
+            )}
           >
-            <span className="text-12 leading-17 font-medium text-secondary uppercase tracking-[0.024em] mb-6">
-              {c.label}
-            </span>
-            <span className="text-14 leading-20 font-normal text-white">{c.value}</span>
+            <span className="text-16 leading-23 font-medium text-white">{p.label}</span>
+            {p.discount && (
+              <span className="text-12 leading-17 text-[#27e35c]">{p.discount}</span>
+            )}
+            <span className="text-20 leading-29 font-semibold text-white">{p.price}</span>
           </div>
         ))}
       </div>

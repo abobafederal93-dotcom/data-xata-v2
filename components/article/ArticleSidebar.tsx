@@ -14,22 +14,21 @@ interface ArticleSidebarProps {
 
 export default function ArticleSidebar({ items }: ArticleSidebarProps) {
   return (
-    <aside className="hidden desktop:block">
-      <nav className="bg-primary pt-32 pb-32 pl-32 pr-32 w-255 desktop:sticky desktop:top-20 rounded-sm">
-        <ul className="flex flex-col gap-14">
+    <aside className="hidden desktop:block order-2 w-[25.5rem] shrink-0 desktop:sticky desktop:top-88">
+      <nav className="bg-[#215aee] p-20">
+        <h3 className="text-16 leading-23 font-medium text-white mb-15">Содержание</h3>
+        <ul className="flex flex-col gap-8">
           {items.map((item) => (
-            <li
-              key={item.id}
-              className={cn(item.level === 2 && 'pl-12')}
-            >
+            <li key={item.id} className={cn(item.level === 2 && 'pl-15')}>
               <Link
                 href={`#${item.id}`}
                 className={cn(
                   'block transition-colors',
-                  item.level === 2 ? 'text-13 leading-20' : 'text-14 leading-20',
-                  item.active
-                    ? 'text-white font-medium'
-                    : 'text-secondary hover:text-white'
+                  item.level === 2
+                    ? 'text-13 leading-19 text-secondary hover:text-white'
+                    : item.active
+                      ? 'text-14 leading-20 text-white'
+                      : 'text-14 leading-20 text-secondary hover:text-white'
                 )}
               >
                 {item.label}

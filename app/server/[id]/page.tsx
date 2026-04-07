@@ -11,28 +11,38 @@ import { servers } from '../../../data/servers';
 export default function ServerDetailPage() {
   const server = servers[0]!;
 
-  const pricingCards = [
-    { label: 'абонплата', value: `€${server.price.toFixed(2)}` },
-    { label: 'интервал оплаты', value: 'помесячно' },
-    { label: 'плата за установку', value: `€${(server.setupFee ?? 0).toFixed(2)}` },
-    { label: 'срок установки', value: server.deliveryTime ?? 'Доступ через 3 часа' },
+  const pricingPeriods = [
+    { label: '1 месяц', price: '€46.75', isActive: true },
+    { label: '3 месяца', discount: '-2.5%', price: '€136.75' },
+    { label: '6 месяцев', discount: '-5%', price: '€266.50' },
+    { label: '12 месяцев', discount: '-10%', price: '€504.90' },
   ];
 
   const cpuSpecs = [
-    { label: 'название cpu ', value: '2x Intel Hexa-Core Xeon E5-2620V2' },
-    { label: 'частота', value: server.cpuFreq ?? '2.1 Ghz' },
+    { label: 'количество cpu', value: '2' },
+    { label: 'название cpu', value: 'Intel Hexa-Core Xeon E5-2620V2', highlight: true },
+    { label: 'частота', value: '2.1 Ghz' },
     { label: 'количество ядер', value: '2х 6 cores' },
     { label: 'cpu benchmark', value: '-' },
+    { label: 'фишки', value: '-' },
+  ];
+
+  const memSpecs = [
+    { label: 'память', value: '32GB DDR3 ECC', highlight: true },
+    { label: 'жесткие диски', value: '1х 480GB SSD', highlight: true },
   ];
 
   const networkSpecs = [
-    { label: 'порт', value: '1x 1000Mbps Full-Duplex' },
+    { label: 'порт', value: '1x 1000Mbps Full-Duplex', highlight: true },
     { label: 'ip v4', value: '6 шт' },
-    { label: 'ip v6', value: '/64 бесплтано' },
-    { label: 'трафик', value: '30 TB' },
+    { label: 'ip v6', value: '/64 бесплатно' },
+    { label: 'трафик', value: '30 TB', highlight: true },
+    { label: 'защита от Ddos', value: 'Базовая' },
+    { label: 'firewall', value: 'Бесплатно' },
   ];
 
-  const ferment = 'Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент.';
+  const ferment =
+    'Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделенных серверов в Америке и Европе.';
 
   const includesItems = [
     { icon: 'server', title: 'Реальное железо', description: ferment },
@@ -43,27 +53,17 @@ export default function ServerDetailPage() {
     { icon: 'traffic', title: 'Бесплатный трафик', description: ferment },
   ];
 
-  const diskOptions = [
-    '2x2TB SATA (- €14.71)',
-    '2x8TB SATA (+ €1.50)',
-    '4x8TB SATA (+ €23.67)',
-  ];
-
-  const networkOptions = [
-    { label: '1x 1000Mbps Full-Duplex', active: true },
-    { label: '2x 1000Mbps Full-Duplex (+ €100.00)', active: false },
-  ];
-
-  const responsibilities = [
-    'Корпус сервера',
-    'Подключение к интернету',
-    'Аппаратные средства',
+  const zoneRows = ['Корпус сервера', 'Подключение к интернету', 'Аппаратные средства'];
+  const clientRows = [
     'Операционная система',
     'Программная платформа',
     'Управление сервером',
     'Установка приложений',
     'Управление приложениями',
   ];
+
+  const osList = ['Windows', 'CloudLinux', 'Ubuntu', 'CentOs', 'Debian', 'VMware'];
+  const panelsList = ['R1Soft', 'DirectAdmin', 'cPanel'];
 
   const faq = [
     {
@@ -79,99 +79,72 @@ export default function ServerDetailPage() {
   return (
     <main>
       <Container>
-        <div className="desktop:grid desktop:grid-cols-[1fr_35rem] desktop:gap-30 pt-40">
-          <div>
+        <div className="flex flex-col desktop:flex-row gap-30 pt-40">
+          <div className="flex-1 flex flex-col gap-60">
             <ServerHero server={server} />
-            <PricingCards cards={pricingCards} />
+            <PricingCards periods={pricingPeriods} />
             <SpecBlock title="Процессор" specs={cpuSpecs} />
-
-            <div className="mb-40">
-              <h3 className="text-20 leading-29 font-medium text-white mb-20">Память и жесткие диски</h3>
-              <div className="border border-primary rounded-sm h-86 px-15 flex items-center mb-15">
-                <span className="text-14 leading-20 text-white">32GB DDR3 ECC</span>
-              </div>
-              <div className="flex flex-col gap-10">
-                {diskOptions.map((opt, i) => (
-                  <label
-                    key={i}
-                    className={
-                      i === 0
-                        ? 'h-36 px-15 bg-accent text-white rounded-sm flex items-center text-14 cursor-pointer'
-                        : 'h-36 px-15 border border-primary text-white rounded-sm flex items-center text-14 cursor-pointer hover:bg-primary/20'
-                    }
-                  >
-                    {opt}
-                  </label>
-                ))}
-              </div>
-            </div>
-
+            <SpecBlock title="Память и жесткие диски" specs={memSpecs} />
             <SpecBlock title="Подключение" specs={networkSpecs} />
-
-            <div className="mb-40">
-              <h3 className="text-20 leading-29 font-medium text-white mb-20">Сеть</h3>
-              <div className="flex flex-col gap-10">
-                {networkOptions.map((opt, i) => (
-                  <label
-                    key={i}
-                    className={
-                      opt.active
-                        ? 'h-36 px-15 bg-accent text-white rounded-sm flex items-center text-14 cursor-pointer'
-                        : 'h-36 px-15 border border-primary text-white rounded-sm flex items-center text-14 cursor-pointer hover:bg-primary/20'
-                    }
-                  >
-                    {opt.label}
-                  </label>
-                ))}
-              </div>
-            </div>
 
             <IncludesSection items={includesItems} />
 
-            <div className="mb-40">
+            <div>
               <SectionHeading ghost="Обязанности" title="Обязанности делятся следующим образом:" />
-              <div className="grid grid-cols-1 tablet:grid-cols-2 gap-15">
-                <div className="rounded-sm bg-gradient-to-b from-cyan to-[#0085ff] p-30">
-                  <h4 className="text-20 leading-29 font-medium text-white mb-15">Зона</h4>
-                  {responsibilities.slice(0, 3).map((row) => (
-                    <div key={row} className="text-14 leading-20 text-white">{row}</div>
+              <div className="grid grid-cols-1 tablet:grid-cols-2 gap-30 mt-30">
+                <div className="bg-gradient-to-b from-cyan to-[#0085ff] p-30 flex flex-col gap-15">
+                  <h4 className="text-20 leading-29 font-medium text-white">Зона / Хостинг</h4>
+                  {zoneRows.map((row) => (
+                    <div key={row} className="text-14 leading-20 text-white">
+                      {row}
+                    </div>
                   ))}
                 </div>
-                <div className="rounded-sm bg-gradient-to-b from-accent to-accent-dark p-30">
-                  <h4 className="text-20 leading-29 font-medium text-white mb-15">Клиент</h4>
-                  {responsibilities.slice(3).map((row) => (
-                    <div key={row} className="text-14 leading-20 text-white">{row}</div>
+                <div className="bg-gradient-to-b from-accent to-accent-dark p-30 flex flex-col gap-15">
+                  <h4 className="text-20 leading-29 font-medium text-white">Клиент</h4>
+                  {clientRows.map((row) => (
+                    <div key={row} className="text-14 leading-20 text-white">
+                      {row}
+                    </div>
                   ))}
                 </div>
               </div>
             </div>
 
-            <div className="mb-40">
+            <div>
               <SectionHeading ghost="ОС" title="Операционные системы" />
-              <div className="grid grid-cols-2 tablet:grid-cols-3 gap-30">
-                {['Windows', 'CloudLinux', 'Ubuntu', 'CentOs', 'Debian', 'VMware'].map((os) => (
-                  <div key={os} className="flex items-center gap-15 text-20 leading-29 font-medium text-white">
+              <div className="grid grid-cols-2 tablet:grid-cols-3 desktop:grid-cols-6 gap-30 mt-30">
+                {osList.map((os) => (
+                  <div
+                    key={os}
+                    className="text-20 leading-29 font-medium text-white text-center"
+                  >
                     {os}
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-40">
+            <div>
               <SectionHeading ghost="Управления" title="Панели управления" />
-              <div className="grid grid-cols-2 tablet:grid-cols-3 gap-30">
-                {['R1Soft', 'DirectAdmin', 'cPanel'].map((p) => (
-                  <div key={p} className="text-20 leading-29 font-medium text-white">{p}</div>
+              <div className="grid grid-cols-2 tablet:grid-cols-3 gap-30 mt-30">
+                {panelsList.map((p) => (
+                  <div
+                    key={p}
+                    className="text-20 leading-29 font-medium text-white text-center"
+                  >
+                    {p}
+                  </div>
                 ))}
               </div>
             </div>
 
-            <div className="mb-40">
+            <div>
               <SectionHeading ghost="Помощь" title="FAQ" />
-              <div className="grid grid-cols-1 tablet:grid-cols-2 gap-30">
+              <div className="grid grid-cols-1 tablet:grid-cols-2 gap-30 mt-30">
                 {faq.map((item, i) => (
-                  <div key={i}>
-                    <h4 className="text-20 leading-29 font-medium text-white mb-15">{item.q}</h4>
+                  <div key={i} className="flex flex-col gap-15">
+                    <h4 className="text-20 leading-29 font-medium text-white">{item.q}</h4>
                     <p className="text-14 leading-17 font-normal text-secondary">{item.a}</p>
                   </div>
                 ))}
@@ -179,7 +152,7 @@ export default function ServerDetailPage() {
             </div>
           </div>
 
-          <div className="mt-40 desktop:mt-0">
+          <div className="w-full desktop:w-[35rem] shrink-0">
             <OrderSidebar server={server} />
           </div>
         </div>
