@@ -34,7 +34,7 @@ export default function AboutClients({ cards }: AboutClientsProps) {
             >
               <Icon name={stripIconPrefix(c.icon)} className="text-30 text-accent" />
               <h3 className="text-19 font-semibold text-white">{c.title}</h3>
-              <p className="text-14 leading-20 text-secondary">{c.description}</p>
+              <p className="text-14 leading-17 text-secondary">{c.description}</p>
             </div>
           ))}
         </div>

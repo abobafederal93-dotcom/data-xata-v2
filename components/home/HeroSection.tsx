@@ -8,17 +8,19 @@ export default function HeroSection() {
       <Container>
         <div className="grid desktop:grid-cols-[1fr_auto] gap-0">
           <div className="pt-72 pb-40">
-            <span className="block text-65 leading-94 font-bold text-white opacity-[0.08] -mb-68 whitespace-nowrap pointer-events-none select-none">
+            <span className="block text-40 leading-58 desktop:text-65 desktop:leading-94 font-bold text-white opacity-[0.08] -mb-22 desktop:-mb-68 whitespace-nowrap pointer-events-none select-none">
               Готовое решение
             </span>
-            <h1 className="text-60 leading-[8.7rem] font-medium text-white">Аренда сервера</h1>
-            <p className="text-60 leading-[8.7rem] font-medium text-secondary">
+            <h1 className="text-35 leading-[5.1rem] desktop:text-60 desktop:leading-[8.7rem] font-medium text-white">
+              Аренда сервера
+            </h1>
+            <p className="text-20 leading-29 desktop:text-40 desktop:leading-58 font-medium text-secondary">
               для <span className="text-white">DevOps</span>
               <span aria-hidden="true">|</span>
             </p>
-            <p className="text-20 leading-27 font-normal text-secondary mt-20 max-w-[51.3rem]">
+            <p className="text-[1.5rem] leading-20 desktop:text-20 desktop:leading-27 font-normal text-secondary mt-20 max-w-[51.3rem]">
               Мы предлагаем более 1278 конфигураций выделенных серверов в 11 дата-центрах. Быстро,
-              дешево, качественно — вы сможете подобрать любую комбинацию!
+              дешево, качественно - вы сможете подобрать любую комбинацию!
             </p>
             <div className="flex flex-col desktop:flex-row items-start gap-20 mt-50">
               <Button href="#filter" variant="accent" size="lg" className="w-[35rem]">

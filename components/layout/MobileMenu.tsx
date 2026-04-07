@@ -33,7 +33,7 @@ export default function MobileMenu() {
 
       {isOpen && (
         <div className="fixed inset-0 z-[100] bg-bg flex flex-col">
-          <div className="flex items-center justify-between h-66 px-20 border-b border-white/10">
+          <div className="flex items-center justify-between h-68 px-20 border-b border-white/10">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src="/img/logo.svg" width={118} height={26} alt="Data-Xata" />
             <button

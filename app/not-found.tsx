@@ -9,7 +9,7 @@ export default function NotFound() {
     <main>
       <section className="pt-40">
         <Container>
-          <Breadcrumb items={[{ label: '404' }]} />
+          <Breadcrumb items={[{ label: 'Список статей', href: '/blog' }, { label: '404' }]} />
         </Container>
       </section>
 
@@ -22,15 +22,14 @@ export default function NotFound() {
                 404
               </span>
               <h1 className="text-60 leading-[8.7rem] font-medium text-white">
-                404 — Страница не найдена
+                Нет такой страницы
               </h1>
               <p className="text-20 leading-27 font-normal text-secondary mt-20 max-w-[51.3rem]">
-                Извините, страница не найдена. Возможно, она была удалена или
-                вы ввели неверный адрес.
+                Мы предлагаем более 1278 конфигураций выделенных серверов в 11 дата-центрах.
               </p>
               <div className="mt-40">
                 <Button href="/" variant="accent" size="lg">
-                  На главную
+                  Вернуться
                 </Button>
               </div>
             </div>
@@ -60,20 +59,20 @@ export default function NotFound() {
           />
           <div className="flex flex-col desktop:flex-row gap-20 mt-20">
             <Button
-              href="/compare"
+              href="/complaint"
               variant="outline"
-              className="flex-1 justify-start gap-16"
+              className="flex-1 justify-center gap-16"
             >
               <Icon name="compare" className="text-24" />
-              Сравнить с конкурентами
+              Пожаловаться директору!
             </Button>
             <Button
               href="/affiliate"
               variant="outline"
-              className="flex-1 justify-start gap-16"
+              className="flex-1 justify-center gap-16"
             >
               <Icon name="present" className="text-24" />
-              Партнерская программа
+              Заработайте на нас!
             </Button>
           </div>
         </Container>

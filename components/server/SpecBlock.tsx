@@ -11,7 +11,7 @@ interface SpecBlockProps {
 export default function SpecBlock({ title, specs }: SpecBlockProps) {
   return (
     <div className="mb-40">
-      <h3 className="text-25 leading-36 font-medium text-white mb-20">{title}</h3>
+      <h3 className="text-20 leading-29 font-medium text-white mb-20">{title}</h3>
       <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-4 gap-15">
         {specs.map((s, i) => (
           <div

@@ -12,7 +12,7 @@ interface FilterSectionProps {
 }
 
 const defaultFilters: FilterField[] = [
-  { label: 'RAM', value: '4-768 GB' },
+  { label: 'Ram', value: '4-768 GB' },
   { label: 'Диски', value: 'Все' },
   { label: 'Цена', value: '7.89-920 €' },
 ];
@@ -27,12 +27,14 @@ export default function FilterSection({ filters = defaultFilters }: FilterSectio
             {filters.map((f) => (
               <div
                 key={f.label}
-                className="border border-primary h-48 px-14 flex flex-col justify-center"
+                className="bg-white h-48 px-14 flex items-center justify-between"
               >
-                <span className="text-12 leading-17 font-medium text-secondary/60 uppercase tracking-wider">
+                <span className="text-14 leading-20 font-medium text-primary-dark">
                   {f.label}
                 </span>
-                <span className="text-14 leading-20 font-medium text-white">{f.value}</span>
+                <span className="text-14 leading-20 font-medium text-accent text-right">
+                  {f.value}
+                </span>
               </div>
             ))}
           </div>

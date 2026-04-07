@@ -59,7 +59,7 @@ export default function OrderPage() {
           <OrderSummary items={summary} total="Итого: €99.00" />
 
           <div className="bg-gradient-to-r from-accent to-accent-dark rounded-md p-40 mb-40">
-            <span className="block text-55 leading-65 font-bold text-white opacity-[0.15] -mb-49 whitespace-nowrap pointer-events-none select-none">
+            <span className="block text-55 leading-79 font-bold text-white opacity-[0.08] -mb-49 whitespace-nowrap pointer-events-none select-none">
               Получить доступ
             </span>
             <h2 className="text-25 leading-36 desktop:text-40 desktop:leading-58 font-medium text-white mb-20">
@@ -93,7 +93,7 @@ export default function OrderPage() {
           </div>
 
           <div className="mb-30">
-            <span className="block text-55 leading-65 font-bold text-white opacity-[0.08] -mb-49 whitespace-nowrap pointer-events-none select-none">
+            <span className="block text-55 leading-79 font-bold text-white opacity-[0.08] -mb-49 whitespace-nowrap pointer-events-none select-none">
               Мои реквизиты
             </span>
             <h1 className="text-40 leading-58 font-medium text-white">
@@ -108,12 +108,17 @@ export default function OrderPage() {
           </Button>
 
           <div className="mb-40">
-            <h3 className="text-25 leading-36 font-medium text-white mb-20">Оплата</h3>
+            <div className="mb-30">
+              <span className="block text-55 leading-79 font-bold text-white opacity-[0.08] -mb-49 whitespace-nowrap pointer-events-none select-none">
+                Методы
+              </span>
+              <h2 className="text-40 leading-58 font-medium text-white">Оплата</h2>
+            </div>
             <div className="grid grid-cols-1 tablet:grid-cols-2 gap-20">
               <div className="border border-primary rounded-sm p-20">
-                <span className="block text-12 leading-17 font-medium text-secondary uppercase tracking-[0.024em] mb-10">
+                <h3 className="text-20 leading-29 font-medium text-white mb-20">
                   Срок оплаты
-                </span>
+                </h3>
                 <div className="flex flex-col gap-10">
                   {['1 месяц', '3 месяца', '6 месяцев', '12 месяцев'].map((p) => (
                     <label
@@ -126,9 +131,9 @@ export default function OrderPage() {
                 </div>
               </div>
               <div className="border border-primary rounded-sm p-20">
-                <span className="block text-12 leading-17 font-medium text-secondary uppercase tracking-[0.024em] mb-10">
+                <h3 className="text-20 leading-29 font-medium text-white mb-20">
                   Способ оплаты
-                </span>
+                </h3>
                 <div className="flex flex-col gap-10">
                   {['Visa / MasterCard', 'PayPal', 'Bitcoin', 'Bank transfer'].map((p) => (
                     <label

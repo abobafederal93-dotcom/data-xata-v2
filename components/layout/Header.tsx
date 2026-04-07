@@ -40,7 +40,7 @@ const langOptions = [
 
 export default function Header() {
   return (
-    <header className="h-66 bg-bg border-b border-white/10 sticky top-0 z-50">
+    <header className="h-68 bg-bg border-b border-white/10 sticky top-0 z-50">
       <Container className="h-full">
         <div className="flex h-full items-center justify-between">
           {/* Logo */}
@@ -52,7 +52,7 @@ export default function Header() {
           {/* Desktop nav */}
           <nav className="hidden desktop:flex items-center gap-30 ml-40">
             {/* Аренда сервера with mega dropdown */}
-            <div className="group relative h-66 flex items-center">
+            <div className="group relative h-68 flex items-center">
               <Link
                 href="/search"
                 className="flex items-center gap-6 text-14 text-white hover:text-accent transition-colors"
@@ -124,7 +124,7 @@ export default function Header() {
           {/* Right block: lang + login (desktop) */}
           <div className="hidden desktop:flex items-center gap-20">
             {/* Language */}
-            <div className="group relative h-66 flex items-center">
+            <div className="group relative h-68 flex items-center">
               <button type="button" className="flex items-center gap-6 text-14 text-white hover:text-accent">
                 <Flag code="ru" alt="RU" />
                 RU

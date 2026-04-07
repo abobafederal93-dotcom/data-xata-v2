@@ -103,7 +103,7 @@ function ServerRow({ server, isActive }: { server: Server; isActive: boolean }) 
 }
 
 function ExpandedBlock({ server }: { server: Server }) {
-  const loc = isLocationObject(server.location) ? server.location.label : 'Frankfurt';
+  const loc = isLocationObject(server.location) ? server.location.label : 'Frankfut';
   return (
     <div className="px-20 pb-30 pt-0 desktop:pl-[3.2rem]">
       <div className="flex flex-col desktop:flex-row desktop:items-center gap-20 desktop:gap-30 mb-20">
@@ -154,7 +154,9 @@ export default function ServerTable({ servers, activeId }: ServerTableProps) {
           <Button href="/search" variant="outline" size="lg">
             Показать больше конфигураций
           </Button>
-          <span className="text-14 text-secondary">еще 1378шт от €7.89</span>
+          <span className="text-[1.8rem] leading-[2.6rem] text-secondary text-center">
+            еще 1378шт от €7.89
+          </span>
         </div>
       </Container>
     </section>

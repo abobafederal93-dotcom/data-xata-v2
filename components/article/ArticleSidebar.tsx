@@ -15,12 +15,12 @@ interface ArticleSidebarProps {
 export default function ArticleSidebar({ items }: ArticleSidebarProps) {
   return (
     <aside className="hidden desktop:block">
-      <nav className="bg-primary p-24 w-255 desktop:sticky desktop:top-20 rounded-sm">
-        <ul className="flex flex-col gap-34">
+      <nav className="bg-primary pt-32 pb-32 pl-32 pr-32 w-255 desktop:sticky desktop:top-20 rounded-sm">
+        <ul className="flex flex-col gap-14">
           {items.map((item) => (
             <li
               key={item.id}
-              className={cn(item.level === 2 && 'pl-44 -mt-15')}
+              className={cn(item.level === 2 && 'pl-12')}
             >
               <Link
                 href={`#${item.id}`}

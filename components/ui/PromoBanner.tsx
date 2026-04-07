@@ -21,20 +21,24 @@ export default function PromoBanner({
   return (
     <div
       className={cn(
-        'bg-gradient-to-r from-accent to-accent-dark rounded-md px-48 py-40 flex items-center justify-between gap-40',
+        'bg-gradient-to-r from-accent to-accent-dark px-20 py-24 desktop:px-48 desktop:py-40 flex flex-col desktop:flex-row desktop:items-center desktop:justify-between gap-20 desktop:gap-40',
         className
       )}
     >
       <div className="flex-1">
         {ghost && (
-          <span className="block text-55 leading-65 font-bold text-white opacity-[0.15] -mb-49 whitespace-nowrap pointer-events-none select-none">
+          <span className="block text-30 leading-43 desktop:text-55 desktop:leading-80 font-bold text-white opacity-[0.15] -mb-36 desktop:-mb-49 whitespace-nowrap pointer-events-none select-none">
             {ghost}
           </span>
         )}
-        <h2 className="text-40 leading-58 font-medium text-white">{title}</h2>
+        <h2 className="text-25 leading-29 desktop:text-40 desktop:leading-58 font-medium text-white">
+          {title}
+        </h2>
       </div>
-      <div className="flex flex-col items-end gap-8 flex-shrink-0">
-        <p className="text-19 leading-27 font-semibold text-white text-right max-w-[30rem]">{subtitle}</p>
+      <div className="flex flex-col items-start desktop:items-end gap-12 desktop:gap-8 flex-shrink-0">
+        <p className="text-19 leading-27 font-semibold text-white desktop:text-right desktop:max-w-[30rem]">
+          {subtitle}
+        </p>
         <Button
           href={buttonHref}
           variant="outline"

@@ -1,84 +1,74 @@
 import type { Server } from '../../types/server';
 import Button from '../ui/Button';
-import Icon from '../ui/Icon';
 
 interface OrderSidebarProps {
   server: Server;
 }
 
 export default function OrderSidebar({ server }: OrderSidebarProps) {
-  const components = [
-    `1x ${server.cpu}`,
-    typeof server.ram === 'string' ? server.ram : `${server.ram} GB`,
-    Array.isArray(server.storage)
-      ? server.storage
-          .map((s) => `${s.count}x ${s.size} ${s.type.toUpperCase()}`)
-          .join(', ')
-      : '',
-    Array.isArray(server.os) && server.os.length > 0
-      ? typeof server.os[0] === 'string'
-        ? (server.os[0] as string)
-        : (server.os[0] as { name: string }).name
-      : '',
-    server.bandwidth ?? '',
-    server.ipv4 ?? '',
-  ].filter(Boolean);
+  const lineItems: { label: string; value: string; price: string }[] = [
+    {
+      label: 'плата за установку',
+      value: '1x Intel Quad-Core Xeon E3-1230v2',
+      price: '€69.00',
+    },
+    { label: 'ОС', value: '+ 1x 120 GB SSD', price: '€24.00' },
+    { label: 'ОС', value: 'CentOS', price: 'вкл.' },
+    { label: 'сеть', value: '100 Mbit', price: 'вкл.' },
+    { label: 'сеть', value: 'IPv4:1', price: 'вкл.' },
+    { label: 'контракт', value: 'Поддержка - 24х7х12', price: 'вкл.' },
+    { label: 'контракт', value: 'Период оплаты', price: 'помесячно' },
+  ];
+
+  const oldPrice = server.priceOld ?? 69.0;
+  const newPrice = server.price;
 
   return (
-    <aside className="w-full desktop:w-350 bg-primary rounded-md p-30 desktop:sticky desktop:top-20">
-      <h3 className="text-25 leading-36 font-medium text-white mb-20">Ваш заказ</h3>
-      <ul className="flex flex-col gap-12 mb-25">
-        {components.map((c, i) => (
-          <li key={i} className="flex items-start gap-10 text-14 leading-20 text-white">
-            <Icon name="check" className="text-16 text-cyan flex-shrink-0 mt-2" />
-            <span>{c}</span>
-          </li>
-        ))}
-      </ul>
+    <aside className="w-full desktop:w-350 bg-primary rounded-sm p-30 desktop:sticky desktop:top-20">
+      <h3 className="text-20 leading-29 font-medium text-white mb-20">Ваш заказ</h3>
 
-      <div className="border-t border-white/20 pt-20 mb-20">
-        <span className="block text-12 leading-17 font-medium text-secondary uppercase tracking-[0.024em] mb-10">
-          Период оплаты
+      <div className="mb-25">
+        <span className="block text-12 leading-17 font-medium text-secondary uppercase tracking-[0.024em] mb-8">
+          К оплате
         </span>
-        <div className="flex flex-col gap-8">
-          {(server.pricePeriods ?? [{ period: '1 месяц', price: server.price }]).map((p, i) => (
-            <label
-              key={i}
-              className="flex items-center justify-between h-36 px-15 border border-white/30 rounded-sm text-14 text-white cursor-pointer"
-            >
-              <span>{p.period}</span>
-              <span>€{p.price.toFixed(2)}</span>
-            </label>
-          ))}
+        <div className="flex items-baseline gap-10">
+          <span className="text-16 leading-23 font-medium text-white line-through opacity-60">
+            €{oldPrice.toFixed(2)}
+          </span>
+          <span className="text-16 leading-23 font-medium text-white">€{newPrice.toFixed(2)}</span>
         </div>
       </div>
 
       <div className="mb-25">
-        <div className="text-40 leading-50 font-semibold text-white">€{server.price.toFixed(2)}</div>
-        {server.setupFee != null && (
-          <div className="text-14 leading-20 text-secondary">
-            €{server.setupFee.toFixed(2)} плата за установку
-          </div>
-        )}
+        <span className="block text-12 leading-17 font-medium text-secondary uppercase tracking-[0.024em] mb-8">
+          + плата за установку
+        </span>
+        <span className="block text-16 leading-23 font-medium text-white">€{(server.setupFee ?? 46.75).toFixed(2)}</span>
       </div>
 
-      <Button href="/order" variant="accent" className="w-286 h-48 mb-15" fullWidth>
+      <Button href="/order" variant="accent" className="h-48 mb-15" fullWidth>
         Оформить заказ
       </Button>
 
-      <div className="flex gap-10">
-        <button
-          type="button"
-          className="flex-1 h-36 border border-white/30 rounded-sm text-14 text-white flex items-center justify-center gap-8 hover:bg-white/10"
-        >
-          <Icon name="compare" /> Поделиться
-        </button>
-        <button
-          type="button"
-          className="flex-1 h-36 border border-white/30 rounded-sm text-14 text-white flex items-center justify-center gap-8 hover:bg-white/10"
-        >
-          <Icon name="repository" /> Скопировать
-        </button>
+      <button
+        type="button"
+        className="w-full h-48 border border-white rounded-sm text-16 leading-23 font-semibold text-white mb-25 hover:bg-white/10"
+      >
+        Поделиться
+      </button>
+
+      <div className="border-t border-white/20 pt-20">
+        {lineItems.map((item, i) => (
+          <div key={i} className="mb-15">
+            <span className="block text-12 leading-17 font-medium text-secondary uppercase tracking-[0.024em] mb-6">
+              {item.label}
+            </span>
+            <div className="flex items-start justify-between gap-10">
+              <span className="text-14 leading-20 font-normal text-white">{item.value}</span>
+              <span className="text-14 leading-20 font-medium text-white text-right flex-shrink-0">{item.price}</span>
+            </div>
+          </div>
+        ))}
       </div>
     </aside>
   );

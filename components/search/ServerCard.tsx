@@ -1,6 +1,6 @@
 import Flag from '../ui/Flag';
 import Badge from '../ui/Badge';
-import Button from '../ui/Button';
+import Icon from '../ui/Icon';
 import type { Server, ServerStorage, FlagCode } from '../../types';
 import { cn } from '../../lib/cn';
 
@@ -61,96 +61,138 @@ export default function ServerCard({ server, variant = 'expanded', className }: 
   const tagLabels = getTagLabels(server);
   const ram = typeof server.ram === 'number' ? `${server.ram}GB` : server.ram;
   const currency = server.currency === 'EUR' ? '€' : '$';
-
-  const headerBadges: { label: string; variant: 'secondary' | 'green' | 'red' }[] = [];
-  if (server.type) headerBadges.push({ label: server.type, variant: 'secondary' });
-  if ((server.ipv4 ?? '').toLowerCase().includes('nat'))
-    headerBadges.push({ label: 'NAT IPv4', variant: 'secondary' });
+  const isNat = (server.ipv4 ?? '').toLowerCase().includes('nat');
 
   return (
     <article
       className={cn(
-        'w-full border border-primary rounded-sm p-18 flex flex-col gap-16 bg-bg',
+        'w-full border border-primary rounded-sm bg-bg overflow-hidden',
         className
       )}
     >
-      {/* Top section */}
-      <div className="flex items-start justify-between gap-24">
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-12 flex-wrap">
-            {flag && <Flag code={flag} width={24} height={16} />}
-            <h3 className="text-25 leading-29 font-medium text-white">{server.name}</h3>
-            {headerBadges.map((b) => (
-              <Badge key={b.label} variant={b.variant}>
-                {b.label}
+      <div className="p-18 flex flex-col gap-16">
+        {/* Top row: name + columns + price */}
+        <div className="flex items-start gap-16 flex-wrap">
+          <div className="flex items-center gap-12 flex-1 min-w-0">
+            {flag && <Flag code={flag} width={24} height={14} />}
+            <span className="text-14 leading-20 font-medium text-white">{server.name}</span>
+            {isNat && <Badge variant="secondary">NAT IPV4</Badge>}
+          </div>
+          <div className="flex items-center gap-24 flex-shrink-0">
+            {server.type && (
+              <span className="text-14 leading-20 text-white">{server.type}</span>
+            )}
+            <span className="text-14 leading-20 text-white">{ram}</span>
+            <div className="flex flex-col gap-4">
+              {storageLines.map((s, i) => (
+                <span key={i} className="text-14 leading-20 text-white">
+                  {s.label}: {s.value}
+                </span>
+              ))}
+            </div>
+            <div className="flex flex-col items-end gap-4">
+              <div className="flex items-baseline gap-8">
+                {server.priceOld && (
+                  <span className="text-14 leading-20 text-secondary line-through">
+                    {currency}
+                    {server.priceOld.toFixed(2)}
+                  </span>
+                )}
+                <span className="text-14 leading-20 font-semibold text-white">
+                  {currency}
+                  {server.price.toFixed(2)}
+                </span>
+              </div>
+              {server.freeInstall && (
+                <span className="text-12 leading-17 font-medium text-green">Беспалтная установка</span>
+              )}
+              {server.deliveryTime && (
+                <span className="text-12 leading-17 font-medium text-red">{server.deliveryTime}</span>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* Location row */}
+        {locationLabel && (
+          <div className="flex items-center gap-8">
+            <Icon name="map" className="text-18" />
+            <span className="text-14 leading-20 text-white">
+              {[locationLabel, server.bandwidth, server.locationStorage].filter(Boolean).join(' • ')}
+            </span>
+          </div>
+        )}
+
+        {variant === 'expanded' && server.cpu && (
+          <div className="flex items-center gap-8">
+            <Icon name="tool" className="text-18" />
+            <span className="text-14 leading-20 text-white">{server.cpu}</span>
+          </div>
+        )}
+
+        {variant === 'expanded' && osNames.length > 0 && (
+          <div className="flex items-center gap-8">
+            <Icon name="windows" className="text-18" />
+            <span className="text-14 leading-20 text-white">{osNames.join(' • ')}</span>
+          </div>
+        )}
+
+        {variant === 'expanded' && tagLabels.length > 0 && (
+          <div className="flex items-center gap-8">
+            <Icon name="star" className="text-18" />
+            <span className="text-14 leading-20 text-accent">{tagLabels.join(' • ')}</span>
+          </div>
+        )}
+
+        {/* Badges */}
+        {variant === 'expanded' && server.badges && server.badges.length > 0 && (
+          <div className="flex flex-wrap gap-8">
+            {server.badges.map((b) => (
+              <Badge key={b} variant="green">
+                {b}
               </Badge>
             ))}
           </div>
-          <p className="mt-8 text-12 leading-17 text-secondary">
-            {[locationLabel, server.bandwidth, server.locationStorage].filter(Boolean).join(' • ')}
-          </p>
-          {variant === 'expanded' && osNames.length > 0 && (
-            <p className="mt-4 text-12 leading-17 text-secondary">{osNames.join(' • ')}</p>
-          )}
-          {variant === 'expanded' && tagLabels.length > 0 && (
-            <p className="mt-8 text-14 leading-20 text-accent">{tagLabels.join(' • ')}</p>
-          )}
-        </div>
+        )}
 
-        <div className="flex flex-col items-end gap-8 flex-shrink-0">
-          <span className="text-14 leading-20 font-semibold text-white">{ram}</span>
-          {storageLines.map((s, i) => (
-            <span key={i} className="text-12 leading-17 text-secondary">
-              {s.label}: {s.value}
-            </span>
-          ))}
-          <div className="flex items-baseline gap-8 mt-4">
-            {server.priceOld && (
-              <span className="text-14 leading-20 text-secondary line-through">
-                {currency}
-                {server.priceOld.toFixed(2)}
-              </span>
-            )}
-            <span className="text-14 leading-20 font-semibold text-white">
-              {currency}
-              {server.price.toFixed(2)}
-            </span>
+        {/* Host row */}
+        {variant === 'expanded' && (
+          <div className="flex items-center gap-6">
+            <span className="text-12 leading-17 text-secondary">Хост: Hosteons</span>
+            <div className="flex items-center gap-2">
+              {Array.from({ length: 5 }).map((_, i) => (
+                <Icon key={i} name="star" className="text-18 text-white" />
+              ))}
+            </div>
+            <span className="text-12 leading-17 text-secondary">(1 отзыв)</span>
           </div>
-          <div className="flex flex-col items-end gap-4">
-            {server.freeInstall && <Badge variant="green">Беспалтная установка</Badge>}
-            {server.deliveryTime && <Badge variant="red">{server.deliveryTime}</Badge>}
-          </div>
-        </div>
+        )}
       </div>
 
-      {/* Badges */}
-      {variant === 'expanded' && server.badges && server.badges.length > 0 && (
-        <div className="flex flex-wrap gap-8">
-          {server.badges.map((b) => (
-            <Badge key={b} variant="green">
-              {b}
-            </Badge>
-          ))}
-        </div>
-      )}
-
-      {/* Buttons */}
+      {/* Buttons section */}
       {variant === 'expanded' && (
-        <div className="flex flex-wrap gap-12 mt-4">
-          <Button variant="outline" size="md" className="flex-1 min-w-200">
-            Сравнить с конкурентами
-          </Button>
-          <Button variant="outline" size="md" className="flex-1 min-w-200">
-            Добавить в избранное
-          </Button>
-          <Button
-            variant="accent"
-            size="md"
-            href={server.slug ? `/server/${server.slug}` : '#'}
-            className="flex-1 min-w-200"
+        <div className="bg-primary px-18 h-48 flex items-center justify-center gap-40 flex-wrap">
+          <button
+            type="button"
+            className="inline-flex items-center gap-8 text-14 leading-20 font-medium text-white"
           >
-            Смотреть подробности
-          </Button>
+            <Icon name="compare" className="text-24" />
+            <span>Сравнить с конкурентами</span>
+          </button>
+          <button
+            type="button"
+            className="inline-flex items-center gap-8 text-14 leading-20 font-medium text-accent"
+          >
+            <Icon name="star" className="text-24" />
+            <span>Добавить в избранное</span>
+          </button>
+          <a
+            href={server.slug ? `/server/${server.slug}` : '#'}
+            className="inline-flex items-center gap-8 text-14 leading-20 font-medium text-white"
+          >
+            <Icon name="caret" className="text-24 -rotate-90" />
+            <span>Смотреть подробности</span>
+          </a>
         </div>
       )}
     </article>

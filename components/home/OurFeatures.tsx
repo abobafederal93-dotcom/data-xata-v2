@@ -30,11 +30,11 @@ export default function OurFeatures({ features }: OurFeaturesProps) {
               className="border border-primary/30 p-30 min-h-[31rem] flex flex-col gap-16"
             >
               <span className="text-40 leading-50 font-medium text-accent">
-                #{String(idx + 1).padStart(2, '0')}
+                #{idx + 1}
               </span>
               <Icon name={stripIconPrefix(f.icon)} className="text-30 text-white" />
               <h3 className="text-19 font-semibold text-white">{f.title}</h3>
-              <p className="text-14 leading-20 text-secondary">{f.description}</p>
+              <p className="text-14 leading-17 text-secondary">{f.description}</p>
             </div>
           ))}
         </div>

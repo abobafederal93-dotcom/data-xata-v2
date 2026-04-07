@@ -18,7 +18,10 @@ export default function OrderProcess({ steps }: OrderProcessProps) {
     <section className="py-60">
       <Container>
         <SectionHeading ghost="Как оформить заказ?" title="Начитались? Айда выбирать!" />
-        <p className="text-14 leading-20 text-secondary max-w-[60rem] mb-30">
+        <h3 className="text-20 leading-29 desktop:text-30 desktop:leading-43 font-medium text-white mb-20">
+          Как оформить заказ?
+        </h3>
+        <p className="text-14 leading-17 text-secondary max-w-[60rem] mb-30">
           Выбирайте сервер прямо сейчас или задавайте вопросы в чате — мы всегда на связи и поможем
           с подбором оптимальной конфигурации.
         </p>
@@ -35,11 +38,10 @@ export default function OrderProcess({ steps }: OrderProcessProps) {
           {steps.map((step, index) => (
             <div key={step.id} className="flex-shrink-0 w-[26rem] desktop:w-auto flex gap-16">
               <div className="flex-1">
-                <div className="text-40 leading-50 font-medium text-accent mb-12">
-                  {String(step.id).padStart(2, '0')}
-                </div>
-                <h3 className="text-19 font-semibold text-white mb-12">{step.title}</h3>
-                <p className="text-14 leading-20 text-secondary">{step.description}</p>
+                <h3 className="text-20 leading-29 desktop:text-25 desktop:leading-36 font-medium text-white mb-12">
+                  {step.title}
+                </h3>
+                <p className="text-14 leading-17 text-secondary">{step.description}</p>
               </div>
               <div className="pt-16 text-accent">
                 {index === steps.length - 1 ? (

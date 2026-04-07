@@ -1,5 +1,6 @@
 import Container from '../../../components/ui/Container';
 import PromoBanner from '../../../components/ui/PromoBanner';
+import SectionHeading from '../../../components/ui/SectionHeading';
 import ServerHero from '../../../components/server/ServerHero';
 import PricingCards from '../../../components/server/PricingCards';
 import SpecBlock from '../../../components/server/SpecBlock';
@@ -18,26 +19,28 @@ export default function ServerDetailPage() {
   ];
 
   const cpuSpecs = [
-    { label: 'название cpu', value: server.cpu },
-    { label: 'частота', value: server.cpuFreq ?? '2.1 GHz' },
-    { label: 'количество ядер', value: server.cpuCores ? `2×${server.cpuCores / 2} cores` : '2×6 cores' },
+    { label: 'название cpu ', value: '2x Intel Hexa-Core Xeon E5-2620V2' },
+    { label: 'частота', value: server.cpuFreq ?? '2.1 Ghz' },
+    { label: 'количество ядер', value: '2х 6 cores' },
     { label: 'cpu benchmark', value: '-' },
   ];
 
   const networkSpecs = [
-    { label: 'порт', value: server.bandwidth ?? '1x 1000Mbps' },
-    { label: 'ip v4', value: server.ipv4 ?? '6 шт' },
-    { label: 'ip v6', value: server.ipv6 ?? '/64 бесплатно' },
-    { label: 'трафик', value: server.traffic ?? '30 TB' },
+    { label: 'порт', value: '1x 1000Mbps Full-Duplex' },
+    { label: 'ip v4', value: '6 шт' },
+    { label: 'ip v6', value: '/64 бесплтано' },
+    { label: 'трафик', value: '30 TB' },
   ];
 
+  const ferment = 'Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент.';
+
   const includesItems = [
-    { icon: 'server', title: 'Реальное железо', description: 'Выделенные физические серверы корпоративного уровня.' },
-    { icon: 'admin', title: 'Удаленное управление', description: 'Полный IPMI/KVM доступ к вашему серверу 24/7.' },
-    { icon: 'cloud', title: 'DDoS защита', description: 'Базовая защита от атак включена бесплатно.' },
-    { icon: 'present', title: 'Мгновенная доставка', description: 'Доступ к серверу через 3-5 минут после оплаты.' },
-    { icon: 'phone', title: 'Поддержка 24/7', description: 'Техническая поддержка на русском и английском.' },
-    { icon: 'traffic', title: 'Бесплатный трафик', description: 'Безлимитный входящий трафик и большой исходящий.' },
+    { icon: 'server', title: 'Реальное железо', description: ferment },
+    { icon: 'admin', title: 'Удаленное управление', description: ferment },
+    { icon: 'cloud', title: 'DDoS защита', description: ferment },
+    { icon: 'present', title: 'Многовенная доставка', description: ferment },
+    { icon: 'phone', title: 'Поддержка 24/7', description: ferment },
+    { icon: 'traffic', title: 'Бесплатный трафик', description: ferment },
   ];
 
   const diskOptions = [
@@ -63,21 +66,27 @@ export default function ServerDetailPage() {
   ];
 
   const faq = [
-    'Каковы требования ?',
-    'Как я могу оформить возврат ?',
+    {
+      q: 'Каковы требования ?',
+      a: 'Это неуправляемое предложение. Так что вам нужно знать, как использовать сервер.',
+    },
+    {
+      q: 'Как я могу оформить возврат ?',
+      a: 'Вы можете запросить возврат средств, если услуга не предоставлена. Возврат средств после активации не производится.',
+    },
   ];
 
   return (
     <main>
       <Container>
-        <div className="desktop:grid desktop:grid-cols-[1fr_38rem] desktop:gap-30 pt-40">
+        <div className="desktop:grid desktop:grid-cols-[1fr_35rem] desktop:gap-30 pt-40">
           <div>
             <ServerHero server={server} />
             <PricingCards cards={pricingCards} />
             <SpecBlock title="Процессор" specs={cpuSpecs} />
 
             <div className="mb-40">
-              <h3 className="text-25 leading-36 font-medium text-white mb-20">Память и жесткие диски</h3>
+              <h3 className="text-20 leading-29 font-medium text-white mb-20">Память и жесткие диски</h3>
               <div className="border border-primary rounded-sm h-86 px-15 flex items-center mb-15">
                 <span className="text-14 leading-20 text-white">32GB DDR3 ECC</span>
               </div>
@@ -100,7 +109,7 @@ export default function ServerDetailPage() {
             <SpecBlock title="Подключение" specs={networkSpecs} />
 
             <div className="mb-40">
-              <h3 className="text-25 leading-36 font-medium text-white mb-20">Сеть</h3>
+              <h3 className="text-20 leading-29 font-medium text-white mb-20">Сеть</h3>
               <div className="flex flex-col gap-10">
                 {networkOptions.map((opt, i) => (
                   <label
@@ -120,64 +129,50 @@ export default function ServerDetailPage() {
             <IncludesSection items={includesItems} />
 
             <div className="mb-40">
-              <h3 className="text-25 leading-36 font-medium text-white mb-20">Зона ответственности</h3>
-              <div className="grid grid-cols-2 gap-2 border border-primary rounded-sm overflow-hidden">
-                <div className="bg-gradient-to-r from-primary to-cyan h-48 flex items-center px-15 text-14 font-medium text-white">
-                  Зона
+              <SectionHeading ghost="Обязанности" title="Обязанности делятся следующим образом:" />
+              <div className="grid grid-cols-1 tablet:grid-cols-2 gap-15">
+                <div className="rounded-sm bg-gradient-to-b from-cyan to-[#0085ff] p-30">
+                  <h4 className="text-20 leading-29 font-medium text-white mb-15">Зона</h4>
+                  {responsibilities.slice(0, 3).map((row) => (
+                    <div key={row} className="text-14 leading-20 text-white">{row}</div>
+                  ))}
                 </div>
-                <div className="bg-gradient-to-r from-primary to-cyan h-48 flex items-center px-15 text-14 font-medium text-white">
-                  Клиент
+                <div className="rounded-sm bg-gradient-to-b from-accent to-accent-dark p-30">
+                  <h4 className="text-20 leading-29 font-medium text-white mb-15">Клиент</h4>
+                  {responsibilities.slice(3).map((row) => (
+                    <div key={row} className="text-14 leading-20 text-white">{row}</div>
+                  ))}
                 </div>
-                {responsibilities.map((row, i) => (
-                  <div
-                    key={i}
-                    className="col-span-2 grid grid-cols-2 gap-2 border-t border-primary"
-                  >
-                    <div className="px-15 py-12 text-14 text-white">{row}</div>
-                    <div className="px-15 py-12 text-14 text-secondary">{i < 4 ? 'Provider' : 'Client'}</div>
+              </div>
+            </div>
+
+            <div className="mb-40">
+              <SectionHeading ghost="ОС" title="Операционные системы" />
+              <div className="grid grid-cols-2 tablet:grid-cols-3 gap-30">
+                {['Windows', 'CloudLinux', 'Ubuntu', 'CentOs', 'Debian', 'VMware'].map((os) => (
+                  <div key={os} className="flex items-center gap-15 text-20 leading-29 font-medium text-white">
+                    {os}
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-40">
-              <h3 className="text-25 leading-36 font-medium text-white mb-20">Операционные системы</h3>
-              <div className="flex flex-wrap gap-15">
-                {['Windows', 'CentOs', 'Debian', 'VMware', 'CloudLinux', 'Ubuntu'].map((os) => (
-                  <span
-                    key={os}
-                    className="h-48 px-20 border border-primary rounded-sm text-14 text-white flex items-center"
-                  >
-                    {os}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            <div className="mb-40">
-              <h3 className="text-25 leading-36 font-medium text-white mb-20">Панели управления</h3>
-              <div className="flex flex-wrap gap-15">
+              <SectionHeading ghost="Управления" title="Панели управления" />
+              <div className="grid grid-cols-2 tablet:grid-cols-3 gap-30">
                 {['R1Soft', 'DirectAdmin', 'cPanel'].map((p) => (
-                  <span
-                    key={p}
-                    className="h-48 px-20 border border-primary rounded-sm text-14 text-white flex items-center"
-                  >
-                    {p}
-                  </span>
+                  <div key={p} className="text-20 leading-29 font-medium text-white">{p}</div>
                 ))}
               </div>
             </div>
 
             <div className="mb-40">
-              <h3 className="text-25 leading-36 font-medium text-white mb-20">FAQ</h3>
-              <div className="flex flex-col gap-10">
-                {faq.map((q, i) => (
-                  <div
-                    key={i}
-                    className="border border-primary rounded-sm h-48 px-20 flex items-center justify-between text-14 text-white"
-                  >
-                    <span>{q}</span>
-                    <span className="text-secondary">+</span>
+              <SectionHeading ghost="Помощь" title="FAQ" />
+              <div className="grid grid-cols-1 tablet:grid-cols-2 gap-30">
+                {faq.map((item, i) => (
+                  <div key={i}>
+                    <h4 className="text-20 leading-29 font-medium text-white mb-15">{item.q}</h4>
+                    <p className="text-14 leading-17 font-normal text-secondary">{item.a}</p>
                   </div>
                 ))}
               </div>
@@ -192,10 +187,10 @@ export default function ServerDetailPage() {
 
       <Container className="py-60">
         <PromoBanner
-          ghost="Скидка"
-          title="Получите скидку 15% на первый заказ"
-          subtitle="Промокод действует на все выделенные серверы"
-          buttonLabel="Заказать"
+          ghost="Хочу скидку!"
+          title="Хочу скидку!"
+          subtitle="Оформи заказ в течение 10 минут и получи бонус $50 на счет!"
+          buttonLabel="Выбрать сервер"
           buttonHref="/order"
         />
       </Container>

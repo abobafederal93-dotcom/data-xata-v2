@@ -23,7 +23,7 @@ export default function FilterSidebar({ groups, className }: FilterSidebarProps)
             <button
               type="button"
               className={cn(
-                'w-full h-56 flex items-center gap-16 px-16 text-14 leading-20 font-medium transition-colors',
+                'w-full h-56 flex items-center gap-12 px-16 text-14 leading-20 font-medium transition-colors',
                 group.active
                   ? 'bg-white text-primary-dark'
                   : 'text-white hover:bg-white/10'
@@ -31,6 +31,7 @@ export default function FilterSidebar({ groups, className }: FilterSidebarProps)
             >
               <Icon name={group.icon} className="text-24" />
               <span>{group.title}</span>
+              <Icon name="caret" className="text-24 -rotate-90 ml-auto" />
             </button>
           </li>
         ))}

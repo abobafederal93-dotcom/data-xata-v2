@@ -20,8 +20,8 @@ export default function OrderForm({ sections }: OrderFormProps) {
     <div className="flex flex-col gap-40 mb-40">
       {sections.map((section, si) => (
         <div key={si}>
-          <h3 className="text-25 leading-36 font-medium text-white mb-20">{section.title}</h3>
-          <div className="flex flex-wrap gap-20">
+          <h3 className="text-20 leading-29 font-medium text-white mb-20">{section.title}</h3>
+          <div className="flex flex-wrap gap-x-30 gap-y-20">
             {section.fields.map((f) => {
               if (f.triple) {
                 return (
@@ -29,7 +29,7 @@ export default function OrderForm({ sections }: OrderFormProps) {
                     <label htmlFor={f.id} className="block text-12 leading-17 font-normal text-white mb-8">
                       {f.label}
                     </label>
-                    <div className="flex gap-15">
+                    <div className="flex gap-14">
                       {[0, 1, 2].map((i) => (
                         <input
                           key={i}

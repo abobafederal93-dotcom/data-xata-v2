@@ -42,7 +42,7 @@ export default function ArticleContent({ content }: ArticleContentProps) {
             return (
               <p
                 key={i}
-                className="text-14 leading-[1.8rem] font-normal text-secondary"
+                className="text-14 leading-18 font-normal text-secondary"
               >
                 {block.text}
               </p>
@@ -51,7 +51,7 @@ export default function ArticleContent({ content }: ArticleContentProps) {
             return (
               <div
                 key={i}
-                className="bg-primary px-30 py-24 rounded-sm text-14 leading-[1.8rem] text-white"
+                className="bg-primary pl-76 pr-30 py-24 rounded-sm text-14 leading-17 text-white min-h-84"
               >
                 {block.text}
               </div>
