@@ -1,83 +1,37 @@
-import Link from "next/link";
+import Container from '../ui/Container';
+import SectionHeading from '../ui/SectionHeading';
 
-export default function AboutUs() {
+interface AboutUsProps {
+  leftTitle?: string;
+  leftText?: string;
+  rightTitle?: string;
+  rightText?: string;
+}
+
+const placeholder =
+  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+
+export default function AboutUs({
+  leftTitle = 'О компании',
+  leftText = placeholder,
+  rightTitle = 'О серверах',
+  rightText = placeholder,
+}: AboutUsProps) {
   return (
-    <section className="about-section">
-      <div className="container">
-
-        {/* Section heading */}
-        <div className="section-heading">
-          <span className="section-ghost">Предыстория</span>
-          <h2 className="section-title">О нас и выделенных серверах</h2>
-        </div>
-
-        {/* Два блока — левый и правый со смещением */}
-        <div className="about-cols">
-
-          {/* Левый блок */}
-          <div className="about-col about-col--left">
-            <div className="about-block">
-              <p>
-                Дата-Хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений
-                физических выделенных серверов за границей (в Америке и Европе), которые могут быть доступны
-                в данный момент времени для сдачи в аренду. Перечень подключений постоянно обновляется.
-              </p>
-              <p>
-                Основная деятельность нашей компании — это аренда выделенных (удаленных) и виртуальных
-                серверов за рубежом. Мы можем работать с Вами как оформляя договор и полный пакет документов,
-                так и сохраняя вашу анонимность.
-              </p>
-              <p>
-                Чтобы оформить заказ и получить услугу, клиент должен лишь оплатить аренду и предоставить
-                емейл, на который будут отправлены данные для доступа к удаленному (выделенному) серверу.
-              </p>
-              <p>
-                Серверное компьютерное оборудование может использоваться для: размещения физического
-                выделенного сервера предприятия на территории стран Европы, Азии или США; организации web
-                хостинга бизнеса; размещения сайта (лендинг, корпоративный сайт, личный блог, интернет-магазин).
-              </p>
-              <p>
-                Единственное, для чего нельзя снять в аренду наши выделенные серверы — преступная деятельность
-                в рамках юрисдикции той страны, в которой фактически находится оборудование.
-              </p>
-            </div>
+    <section className="py-60">
+      <Container>
+        <SectionHeading ghost="Предыстория" title="О нас и выделенных серверах" />
+        <div className="grid grid-cols-1 desktop:grid-cols-2 gap-30">
+          <div className="min-h-[48.5rem] border border-primary/30 p-40">
+            <h3 className="text-19 font-semibold text-white mb-20">{leftTitle}</h3>
+            <p className="text-14 leading-[1.8rem] text-secondary">{leftText}</p>
           </div>
-
-          {/* Правый блок — сдвинут вниз на ~24rem */}
-          <div className="about-col about-col--right">
-            <div className="about-block">
-              <p>
-                Сколько стоит длительная аренда выделенного online сервера и услуга интернет хостинга для сайта?
-                Дата-Хата является реселлером более тысячи единиц серверного оборудования по всему миру,
-                благодаря чему предоставляет услуги аренды удаленных компьютеров с большими скидками.
-              </p>
-              <p>
-                Стоимость аренды выделенного web сервера в Дата-Хата считается одной из самых минимальных.
-                Также каждый клиент может взять в аренду физический выделенный сервер бесплатно на срок до
-                14 дней, чтобы протестировать его возможности и мощность.
-              </p>
-              <p>
-                Оформление заказа происходит в дистанционном режиме, поэтому купить нужные мощности можно,
-                находясь в любом городе. Для этого нужно выбрать подходящий выделенный веб сервер из списка
-                на сайте, кликнуть на кнопку «заказать», ввести в открывшемся окне свои данные и произвести
-                оплату наиболее удобным способом.
-              </p>
-              <p>
-                Если не получается определиться с точной конфигурацией устройства, можно обратиться к
-                специалисту технической поддержки компании. Менеджер подберет наиболее подходящий вариант
-                подключения на основании технологических характеристик проекта.
-              </p>
-            </div>
+          <div className="min-h-[48.5rem] border border-primary/30 p-40 desktop:mt-[24.3rem]">
+            <h3 className="text-19 font-semibold text-white mb-20">{rightTitle}</h3>
+            <p className="text-14 leading-[1.8rem] text-secondary">{rightText}</p>
           </div>
-
         </div>
-
-        {/* "Подробнее" — только mobile */}
-        <div className="about-more">
-          <Link href="/about" className="about-more__link">Подробнее</Link>
-        </div>
-
-      </div>
+      </Container>
     </section>
   );
 }

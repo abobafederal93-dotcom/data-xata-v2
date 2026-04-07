@@ -1,65 +1,29 @@
-import HeroSection from "@/components/home/HeroSection";
-import HomeFilter from "@/components/home/HomeFilter";
-import HomeSearchResults from "@/components/home/HomeSearchResults";
-import AboutUs from "@/components/home/AboutUs";
-import OrderProcess from "@/components/home/OrderProcess";
-import AboutClients from "@/components/home/AboutClients";
-import HomeRating from "@/components/home/HomeRating";
-import OurFeatures from "@/components/home/OurFeatures";
-import PromoBanner from "@/components/ui/PromoBanner";
-import ActionButtons from "@/components/ui/ActionButtons";
-import { featuredServers } from "@/data/servers";
+import { servers } from '../data/servers';
+import { features } from '../data/features';
+import { orderSteps } from '../data/process';
+import { clientCards } from '../data/clients';
+import HeroSection from '../components/home/HeroSection';
+import FilterSection from '../components/home/FilterSection';
+import ServerTable from '../components/home/ServerTable';
+import AboutUs from '../components/home/AboutUs';
+import AboutClients from '../components/home/AboutClients';
+import OrderProcess from '../components/home/OrderProcess';
+import OurFeatures from '../components/home/OurFeatures';
+import HomeRating from '../components/home/HomeRating';
+import LetsStart from '../components/home/LetsStart';
 
 export default function HomePage() {
   return (
     <>
-      {/* 1.2 Hero */}
       <HeroSection />
-
-      {/* 1.3 Фильтр + таблица серверов */}
-      <HomeFilter />
-      <HomeSearchResults servers={featuredServers} />
-
-      {/* 1.4 О компании */}
+      <FilterSection />
+      <ServerTable servers={servers} activeId={servers[0]?.id} />
       <AboutUs />
-
-      {/* 1.5 Шаги заказа */}
-      <OrderProcess />
-
-      {/* 1.6 Клиенты */}
-      <AboutClients />
-
-      {/* 1.9 Отзывы */}
+      <AboutClients cards={clientCards} />
+      <OrderProcess steps={orderSteps} />
+      <OurFeatures features={features} />
       <HomeRating />
-
-      {/* 1.8 Преимущества */}
-      <OurFeatures />
-
-      {/* 1.7 PromoBanner */}
-      <PromoBanner
-        ghost="Хочу скидку!"
-        title="Хочу скидку!"
-        subtitle={"Оформи заказ в течение 10 минут и получи бонус $50 на счет!"}
-        buttonLabel="Выбрать сервер"
-        buttonHref="/server"
-      />
-
-      {/* 1.10 ActionButtons */}
-      <ActionButtons
-        buttons={[
-          {
-            label: "Пожаловаться директору!",
-            href: "mailto:support@data-xata.com",
-            iconBefore: "i-email",
-            external: true,
-          },
-          {
-            label: "Заработайте на нас!",
-            href: "/affiliate",
-            iconAfter: "i-arrow",
-          },
-        ]}
-      />
+      <LetsStart />
     </>
   );
 }

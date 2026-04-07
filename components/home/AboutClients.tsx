@@ -1,55 +1,44 @@
-const clients = [
-  {
-    icon: "i-tool",
-    title: "Хостинг",
-    desc: "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент.",
-    active: false,
-  },
-  {
-    icon: "i-speed",
-    title: "Разработка",
-    desc: "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент.",
-    active: false,
-  },
-  {
-    icon: "i-cloud",
-    title: "VDI, VPN и Прокси",
-    desc: "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент.",
-    active: false,
-  },
-  {
-    icon: "i-office",
-    title: "Бизнес",
-    desc: "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент.",
-    active: true,
-  },
-];
+import Container from '../ui/Container';
+import SectionHeading from '../ui/SectionHeading';
+import Icon from '../ui/Icon';
+import type { IconName } from '../../types';
 
-export default function AboutClients() {
+interface ClientCard {
+  id: string;
+  title: string;
+  icon: string;
+  description: string;
+}
+
+interface AboutClientsProps {
+  cards: readonly ClientCard[];
+}
+
+function stripIconPrefix(icon: string): IconName {
+  return (icon.startsWith('i-') ? icon.slice(2) : icon) as IconName;
+}
+
+export default function AboutClients({ cards }: AboutClientsProps) {
   return (
-    <section className="clients-section">
-      <div className="container">
-
-        {/* Heading */}
-        <div className="section-heading">
-          <span className="section-ghost">О клиентах</span>
-          <h2 className="section-title">Наши клиенты используют выделенные серверы для:</h2>
-        </div>
-
-        {/* 4 карточки */}
-        <div className="clients-grid">
-          {clients.map((c) => (
-            <div key={c.title} className={`clients-card${c.active ? " clients-card--active" : ""}`}>
-              <div className="clients-card__icon">
-                <span className={`icons ${c.icon}`} aria-hidden="true" />
-              </div>
-              <p className="clients-card__title">{c.title}</p>
-              <p className="clients-card__desc">{c.desc}</p>
+    <section className="py-60">
+      <Container>
+        <SectionHeading
+          ghost="О клиентах"
+          title="Наши клиенты используют выделенные серверы для:"
+        />
+        <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-4 gap-30">
+          {cards.map((c) => (
+            <div
+              key={c.id}
+              className="border border-primary p-24 min-h-[25rem] flex flex-col gap-16"
+            >
+              <Icon name={stripIconPrefix(c.icon)} className="text-30 text-accent" />
+              <h3 className="text-19 font-semibold text-white">{c.title}</h3>
+              <p className="text-14 leading-20 text-secondary">{c.description}</p>
             </div>
           ))}
         </div>
-
-      </div>
+      </Container>
     </section>
   );
 }

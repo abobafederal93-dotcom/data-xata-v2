@@ -1,77 +1,57 @@
-import Link from "next/link";
+import Container from '../ui/Container';
+import SectionHeading from '../ui/SectionHeading';
+import Button from '../ui/Button';
+import Icon from '../ui/Icon';
 
-const steps = [
-  {
-    title: ["Приходи", "и выбирай"],
-    desc: "Единственное, для чего нельзя снять в аренду наши выделенные серверы, так это для преступной деятельности в рамках юрисдикции той страны, в которой фактически находится оборудование.",
-  },
-  {
-    title: ["Добавляй", "в корзину"],
-    desc: "Должен лишь оплатить аренду и предоставить емейл, на который будут отправлены данные для доступа к удаленному (выделенному) серверу.",
-  },
-  {
-    title: ["Оплачивай", "счёт"],
-    desc: "Которые могут быть доступны в данный момент времени для сдачи в аренду. Перечень подключений постоянно обновляется.",
-  },
-  {
-    title: ["Пользуйся", "сервисом"],
-    desc: "Аренду наши выделенные серверы, так это для преступной деятельности в рамках юрисдикции той страны, в которой фактически находится оборудование.",
-    last: true,
-  },
-];
+interface OrderStep {
+  id: number;
+  title: string;
+  description: string;
+}
 
-export default function OrderProcess() {
+interface OrderProcessProps {
+  steps: readonly OrderStep[];
+}
+
+export default function OrderProcess({ steps }: OrderProcessProps) {
   return (
-    <section className="order-section">
-      <div className="container">
-
-        {/* Подсекция 1: Как оформить заказ */}
-        <div className="section-heading">
-          <span className="section-ghost">Как оформить заказ?</span>
-          <h2 className="section-title">Начитались? Айда выбирать!</h2>
+    <section className="py-60">
+      <Container>
+        <SectionHeading ghost="Как оформить заказ?" title="Начитались? Айда выбирать!" />
+        <p className="text-14 leading-20 text-secondary max-w-[60rem] mb-30">
+          Выбирайте сервер прямо сейчас или задавайте вопросы в чате — мы всегда на связи и поможем
+          с подбором оптимальной конфигурации.
+        </p>
+        <div className="flex flex-col desktop:flex-row gap-20 mb-60">
+          <Button href="/search" variant="accent" size="lg">
+            Искать сейчас
+          </Button>
+          <Button href="https://cp.data-xata.com/" variant="outline" size="lg">
+            Спросить в чате
+          </Button>
         </div>
-
-        <div className="order-intro">
-          <p className="order-intro__text">
-            Чтобы подобрать сервер нужной вам конфигурации — воспользуйтесь нашим поиском.
-            Мы подготовили обучающее видео для вас. Если вы не знаете какой сервер вам
-            подойдет — спросите нас в чате.
-          </p>
-          <div className="order-intro__btns">
-            <Link href="/search" className="btn btn-warning">
-              Искать сейчас
-            </Link>
-            <a href="https://cp.data-xata.com/" className="btn btn-default" rel="noindex, nofollow">
-              Спросить в чате
-            </a>
-          </div>
-        </div>
-
-        {/* Подсекция 2: Процесс заказа — 4 шага */}
-        <div className="section-heading order-steps-heading">
-          <span className="section-ghost">Процесс заказа</span>
-          <h2 className="section-title">Процесс заказа</h2>
-        </div>
-
-        <div className="order-steps">
-          {steps.map((step, i) => (
-            <div key={i} className="order-step">
-              <div className="order-step__title">
-                <span>{step.title[0]}</span>
-                <span>{step.title[1]}</span>
+        <SectionHeading ghost="Процесс заказа" title="Процесс заказа" />
+        <div className="flex desktop:grid desktop:grid-cols-4 gap-20 overflow-x-auto desktop:overflow-visible pb-20 desktop:pb-0">
+          {steps.map((step, index) => (
+            <div key={step.id} className="flex-shrink-0 w-[26rem] desktop:w-auto flex gap-16">
+              <div className="flex-1">
+                <div className="text-40 leading-50 font-medium text-accent mb-12">
+                  {String(step.id).padStart(2, '0')}
+                </div>
+                <h3 className="text-19 font-semibold text-white mb-12">{step.title}</h3>
+                <p className="text-14 leading-20 text-secondary">{step.description}</p>
               </div>
-              <div className="order-step__arrow" aria-hidden="true">
-                {step.last
-                  ? <span className="icons i-check order-step__check" />
-                  : <span className="icons i-caret-right" />
-                }
+              <div className="pt-16 text-accent">
+                {index === steps.length - 1 ? (
+                  <Icon name="check" className="text-20" />
+                ) : (
+                  <Icon name="caret-right" className="text-20" />
+                )}
               </div>
-              <p className="order-step__desc">{step.desc}</p>
             </div>
           ))}
         </div>
-
-      </div>
+      </Container>
     </section>
   );
 }
