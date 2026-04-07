@@ -1,0 +1,10 @@
+{
+  "main": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/c3e55497-9fb9-499b-ae8d-a473e101743f",
+  "search": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/117e90da-ff79-4b79-a2b2-bd92f8858267",
+  "order": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1bb4b2f6-ef5a-42db-8122-1d5a856a8d14",
+  "details": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/957fcce2-fe4c-4646-9930-a188cdfce165",
+  "error": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/1934a0aa-32fc-49b8-8c3d-efd5321a74ac",
+  "article": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/36f3bc3d-2a08-43a4-9dd6-500f2a4e9ed6",
+  "mobile-main": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/47914312-5c75-4d4d-bf73-84a72fe80bf8",
+  "mobile-details": "https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/451473ac-8b8e-4b61-a828-ece3d84cd6fa"
+}

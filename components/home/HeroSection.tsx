@@ -33,7 +33,7 @@ export default function HeroSection() {
           <div className="hidden desktop:block flex-shrink-0 w-[75.6rem] h-[66.5rem] pointer-events-none">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/img/bg-preview.svg"
+              src="/img/hero-server.png"
               alt=""
               width={756}
               height={665}

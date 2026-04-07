@@ -12,19 +12,24 @@ export default function NotFound() {
         </Container>
       </section>
 
-      <section className="min-h-[50rem] flex items-center">
+      <section>
         <Container>
-          <div className="grid desktop:grid-cols-[1fr_auto] items-center gap-60 py-80">
-            <div>
-              <span className="block text-65 leading-94 font-bold opacity-[0.08] text-white -mb-40 pointer-events-none select-none">
+          <div className="grid desktop:grid-cols-[1fr_auto] items-center gap-40 desktop:gap-60 py-60 desktop:py-80">
+            <div className="relative">
+              <span
+                className="absolute -top-30 left-0 text-65 leading-94 font-bold text-white opacity-[0.08] pointer-events-none select-none"
+                aria-hidden="true"
+              >
                 404
               </span>
-              <h1 className="text-60 leading-87 font-medium text-white">Нет такой страницы</h1>
-              <p className="text-20 leading-27 text-secondary mt-20 max-w-[51.3rem]">
+              <h1 className="relative text-40 leading-58 desktop:text-60 desktop:leading-87 font-medium text-white">
+                Нет такой страницы
+              </h1>
+              <p className="text-16 leading-23 desktop:text-20 desktop:leading-27 text-secondary mt-20 max-w-[51.3rem]">
                 Мы предлагаем более 1278 конфигураций выделенных серверов в 11 дата-центрах.
               </p>
               <div className="mt-40">
-                <Button href="/" variant="accent" className="w-[16.8rem] h-48">
+                <Button href="/" variant="accent" className="w-[16.8rem]">
                   Вернуться
                 </Button>
               </div>
@@ -32,11 +37,11 @@ export default function NotFound() {
             <div className="hidden desktop:flex justify-end">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/bg-preview.svg"
+                src="/img/figma-error-desktop.png"
                 alt="404"
-                width={308}
-                height={361}
-                className="w-[30.8rem] h-auto opacity-50"
+                width={520}
+                height={400}
+                className="w-[52rem] h-auto"
               />
             </div>
           </div>

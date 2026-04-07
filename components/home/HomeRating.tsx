@@ -20,14 +20,14 @@ export default function HomeRating() {
             <div className="flex items-center gap-30">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/rating-section-logo-1.png"
+                src="/img/rating-host1.png"
                 alt="Rating provider 1"
                 width={136}
                 height={20}
               />
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/img/rating-section-logo-2.png"
+                src="/img/rating-top300.png"
                 alt="Rating provider 2"
                 width={100}
                 height={20}

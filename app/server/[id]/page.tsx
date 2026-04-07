@@ -62,8 +62,19 @@ export default function ServerDetailPage() {
     'Управление приложениями',
   ];
 
-  const osList = ['Windows', 'CloudLinux', 'Ubuntu', 'CentOs', 'Debian', 'VMware'];
-  const panelsList = ['R1Soft', 'DirectAdmin', 'cPanel'];
+  const osList: { name: string; src: string }[] = [
+    { name: 'Windows', src: '/img/icons/Windows.svg' },
+    { name: 'CloudLinux', src: '/img/icons/CloudLinux.svg' },
+    { name: 'Ubuntu', src: '/img/icons/Ubuntu.svg' },
+    { name: 'CentOs', src: '/img/icons/CentOs.svg' },
+    { name: 'Debian', src: '/img/icons/Debian.svg' },
+    { name: 'VMware', src: '/img/icons/VMware.svg' },
+  ];
+  const panelsList: { name: string; src: string }[] = [
+    { name: 'R1Soft', src: '/img/icons/R1Soft.svg' },
+    { name: 'DirectAdmin', src: '/img/icons/DirectAdmin.svg' },
+    { name: 'cPanel', src: '/img/icons/cPanel.svg' },
+  ];
 
   const faq = [
     {
