@@ -1,0 +1,657 @@
+=== DETAILS (1401:389) 1440x7495 ===
+
+### logo 1 [1401:393] ###
+{"id":"1401:393","name":"logo 1","type":"FRAME","x":0,"y":0,"w":118,"h":26}
+  {"id":"1401:394","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":118,"h":26}
+    {"id":"1401:395","name":"Слой 1","type":"GROUP","x":0,"y":0,"w":118,"h":26}
+      {"id":"1401:396","name":"Vector","type":"VECTOR","x":0,"y":7,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:397","name":"Vector","type":"VECTOR","x":0,"y":14,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:398","name":"Vector","type":"VECTOR","x":0,"y":0,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:399","name":"Vector","type":"VECTOR","x":0,"y":7,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:400","name":"Vector","type":"VECTOR","x":0,"y":14,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:401","name":"Vector","type":"VECTOR","x":0,"y":0,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:402","name":"Vector","type":"VECTOR","x":43,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:403","name":"Vector","type":"VECTOR","x":54,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:404","name":"Vector","type":"VECTOR","x":63,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:405","name":"Vector","type":"VECTOR","x":73,"y":10,"w":5,"h":1,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:406","name":"Vector","type":"VECTOR","x":78,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:407","name":"Vector","type":"VECTOR","x":89,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:408","name":"Vector","type":"VECTOR","x":99,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:409","name":"Vector","type":"VECTOR","x":108,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:410","name":"Vector","type":"VECTOR","x":33,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:411","name":"Vector","type":"VECTOR","x":46,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:412","name":"Vector","type":"VECTOR","x":51,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:413","name":"Vector","type":"VECTOR","x":55,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:414","name":"Vector","type":"VECTOR","x":59,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:415","name":"Vector","type":"VECTOR","x":63,"y":17,"w":1,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:416","name":"Vector","type":"VECTOR","x":64,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:417","name":"Vector","type":"VECTOR","x":69,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:418","name":"Vector","type":"VECTOR","x":75,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:419","name":"Vector","type":"VECTOR","x":79,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:420","name":"Vector","type":"VECTOR","x":83,"y":17,"w":5,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:421","name":"Vector","type":"VECTOR","x":89,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:422","name":"Vector","type":"VECTOR","x":92,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:423","name":"Vector","type":"VECTOR","x":97,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:424","name":"Vector","type":"VECTOR","x":101,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+
+### Frame [1401:433] ###
+{"id":"1401:433","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:434","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"1401:435","name":"Vector","type":"VECTOR","x":4,"y":6,"w":10,"h":6,"bg":"rgba(255,255,255,1)"}
+
+### Group [1401:437] ###
+{"id":"1401:437","name":"Group","type":"GROUP","x":0,"y":0,"w":133,"h":40,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:438","name":"polygon9","type":"VECTOR","x":47,"y":1,"w":18,"h":39,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:439","name":"path11","type":"VECTOR","x":65,"y":0,"w":32,"h":40,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:440","name":"path13","type":"VECTOR","x":95,"y":1,"w":39,"h":39,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:441","name":"path15","type":"VECTOR","x":11,"y":1,"w":38,"h":39,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:442","name":"path17","type":"VECTOR","x":0,"y":1,"w":26,"h":21,"bg":"rgba(255,255,255,1)"}
+
+### Mastercard-logo 2 [1401:443] ###
+{"id":"1401:443","name":"Mastercard-logo 2","type":"FRAME","x":0,"y":0,"w":54,"h":43,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:444","name":"Group","type":"GROUP","x":0,"y":0,"w":54,"h":43}
+    {"id":"1401:445","name":"Group","type":"GROUP","x":0,"y":0,"w":54,"h":43}
+      {"id":"1401:446","name":"Group","type":"GROUP","x":3,"y":36,"w":51,"h":7}
+      {"id":"1401:448","name":"Group","type":"GROUP","x":52,"y":27,"w":1,"h":1}
+      {"id":"1401:450","name":"Vector","type":"VECTOR","x":20,"y":4,"w":15,"h":27,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:451","name":"Group","type":"GROUP","x":0,"y":0,"w":27,"h":34}
+      {"id":"1401:453","name":"Group","type":"GROUP","x":27,"y":0,"w":27,"h":34}
+
+### Group 46 [1401:455] ###
+{"id":"1401:455","name":"Group 46","type":"GROUP","x":0,"y":0,"w":150,"h":40}
+  {"id":"1401:456","name":"Vector","type":"VECTOR","x":0,"y":0,"w":28,"h":33,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:457","name":"Vector","type":"VECTOR","x":27,"y":10,"w":27,"h":23,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:458","name":"Vector","type":"VECTOR","x":56,"y":11,"w":27,"h":29,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:459","name":"Vector","type":"VECTOR","x":83,"y":0,"w":29,"h":33,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:460","name":"Vector","type":"VECTOR","x":110,"y":10,"w":28,"h":23,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:461","name":"Vector","type":"VECTOR","x":137,"y":0,"w":12,"h":33,"bg":"rgba(255,255,255,1)"}
+
+### Group [1401:462] ###
+{"id":"1401:462","name":"Group","type":"GROUP","x":0,"y":0,"w":169,"h":39}
+  {"id":"1401:463","name":"Combined Shape","type":"VECTOR","x":0,"y":0,"w":40,"h":39,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:464","name":"Group","type":"GROUP","x":49,"y":9,"w":120,"h":24}
+    {"id":"1401:465","name":"Fill 25","type":"VECTOR","x":0,"y":1,"w":21,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:466","name":"Fill 28","type":"VECTOR","x":22,"y":6,"w":11,"h":13,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:467","name":"Fill 30","type":"VECTOR","x":36,"y":0,"w":11,"h":20,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:468","name":"Fill 32","type":"VECTOR","x":49,"y":1,"w":17,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:469","name":"Fill 34","type":"VECTOR","x":69,"y":6,"w":12,"h":13,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:470","name":"Fill 36","type":"VECTOR","x":82,"y":6,"w":11,"h":13,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:471","name":"Fill 38","type":"VECTOR","x":96,"y":6,"w":11,"h":13,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:472","name":"Fill 40","type":"VECTOR","x":108,"y":6,"w":12,"h":18,"bg":"rgba(255,255,255,1)"}
+
+### Group 38 [1401:476] ###
+{"id":"1401:476","name":"Group 38","type":"GROUP","x":0,"y":0,"w":286,"h":48}
+  {"id":"1401:477","name":"Rectangle 22","type":"RECTANGLE","x":0,"y":0,"w":286,"h":48,"bg":"rgba(255,131,17,1)"}
+  {"id":"1401:478","name":"Оформить заказ","type":"TEXT","x":82,"y":12,"w":122,"h":24,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":16,"weight":600,"lh":23,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"Оформить заказ"}}
+
+### Group 40 [1401:479] ###
+{"id":"1401:479","name":"Group 40","type":"GROUP","x":0,"y":0,"w":286,"h":48}
+  {"id":"1401:480","name":"Rectangle 22","type":"RECTANGLE","x":0,"y":0,"w":286,"h":48,"bg":"rgba(255,131,17,1)"}
+  {"id":"1401:481","name":"Оформить заказ","type":"TEXT","x":82,"y":12,"w":122,"h":24,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":16,"weight":600,"lh":23,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"Оформить заказ"}}
+
+### Group 39 [1401:500] ###
+{"id":"1401:500","name":"Group 39","type":"GROUP","x":0,"y":0,"w":125,"h":24}
+  {"id":"1401:501","name":"Поделиться","type":"TEXT","x":0,"y":0,"w":93,"h":24,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":16,"weight":600,"lh":23,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"Поделиться"}}
+  {"id":"1401:502","name":"Frame","type":"FRAME","x":101,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:503","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+    {"id":"1401:504","name":"Vector","type":"VECTOR","x":3,"y":3,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+
+### Frame 68 [1401:521] ###
+{"id":"1401:521","name":"Frame 68","type":"FRAME","x":0,"y":0,"w":98,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:522","name":"абонплата","type":"TEXT","x":0,"y":1,"w":74,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"абонплата"}}
+  {"id":"1401:523","name":"Frame","type":"FRAME","x":80,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:524","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:525","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 69 [1401:526] ###
+{"id":"1401:526","name":"Frame 69","type":"FRAME","x":0,"y":0,"w":144,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:527","name":"интервал оплаты","type":"TEXT","x":0,"y":1,"w":120,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"интервал оплаты"}}
+  {"id":"1401:528","name":"Frame","type":"FRAME","x":126,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:529","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:530","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 70 [1401:531] ###
+{"id":"1401:531","name":"Frame 70","type":"FRAME","x":0,"y":0,"w":157,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:532","name":"плата за установку","type":"TEXT","x":0,"y":1,"w":133,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"плата за установку"}}
+  {"id":"1401:533","name":"Frame","type":"FRAME","x":139,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:534","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:535","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 71 [1401:536] ###
+{"id":"1401:536","name":"Frame 71","type":"FRAME","x":0,"y":0,"w":134,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:537","name":"срок установки","type":"TEXT","x":0,"y":1,"w":110,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"срок установки"}}
+  {"id":"1401:538","name":"Frame","type":"FRAME","x":116,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:539","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:540","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 109 [1401:545] ###
+{"id":"1401:545","name":"Frame 109","type":"FRAME","x":0,"y":0,"w":134,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:546","name":"количество cpu","type":"TEXT","x":0,"y":1,"w":110,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"количество cpu"}}
+  {"id":"1401:547","name":"Frame","type":"FRAME","x":116,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:548","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:549","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 114 [1401:556] ###
+{"id":"1401:556","name":"Frame 114","type":"FRAME","x":0,"y":0,"w":55,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:557","name":"ip v4","type":"TEXT","x":0,"y":1,"w":31,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"ip v4"}}
+  {"id":"1401:558","name":"Frame","type":"FRAME","x":37,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:559","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:560","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 115 [1401:561] ###
+{"id":"1401:561","name":"Frame 115","type":"FRAME","x":0,"y":0,"w":55,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:562","name":"ip v6","type":"TEXT","x":0,"y":1,"w":31,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"ip v6"}}
+  {"id":"1401:563","name":"Frame","type":"FRAME","x":37,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:564","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:565","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 116 [1401:566] ###
+{"id":"1401:566","name":"Frame 116","type":"FRAME","x":0,"y":0,"w":73,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:567","name":"трафик","type":"TEXT","x":0,"y":1,"w":49,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"трафик"}}
+  {"id":"1401:568","name":"Frame","type":"FRAME","x":55,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:569","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:570","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Group 43 [1401:582] ###
+{"id":"1401:582","name":"Group 43","type":"GROUP","x":0,"y":0,"w":88,"h":108}
+  {"id":"1401:583","name":"Vector","type":"VECTOR","x":0,"y":32,"w":88,"h":31,"bg":"rgba(42,202,247,1)"}
+  {"id":"1401:584","name":"Vector","type":"VECTOR","x":23,"y":23,"w":8,"h":7,"bg":"rgba(42,202,247,1)"}
+  {"id":"1401:585","name":"Vector","type":"VECTOR","x":0,"y":28,"w":88,"h":81,"bg":"linear-gradient(270deg, rgba(202,206,252,1) 0.0%, rgba(186,190,251,1) 11.0%, rgba(167,172,250,1) 26.0%, rgba(160,165,250,1) 38.0%, rgba(175,180,251,1) 44.0%, rgba(215,217,253,1) 58.0%, rgba(255,255,255,1) 69.0%)"}
+  {"id":"1401:586","name":"Vector","type":"VECTOR","x":0,"y":41,"w":88,"h":31,"bg":"rgba(0,17,78,1)"}
+  {"id":"1401:587","name":"Vector","type":"VECTOR","x":0,"y":64,"w":88,"h":31,"bg":"rgba(0,17,78,1)"}
+  {"id":"1401:588","name":"Vector","type":"VECTOR","x":0,"y":0,"w":88,"h":55,"bg":"linear-gradient(180deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+  {"id":"1401:589","name":"Vector","type":"VECTOR","x":3,"y":3,"w":81,"h":48,"bg":"rgba(42,202,247,1)"}
+  {"id":"1401:590","name":"Vector","type":"VECTOR","x":23,"y":72,"w":8,"h":7,"bg":"rgba(42,202,247,1)"}
+  {"id":"1401:591","name":"Vector","type":"VECTOR","x":8,"y":64,"w":15,"h":11,"bg":"rgba(49,4,126,1)"}
+  {"id":"1401:592","name":"Vector","type":"VECTOR","x":23,"y":15,"w":42,"h":24,"bg":"rgba(42,202,247,1)"}
+
+### Group 42 [1401:593] ###
+{"id":"1401:593","name":"Group 42","type":"GROUP","x":0,"y":0,"w":88,"h":114}
+  {"id":"1401:594","name":"Vector","type":"VECTOR","x":0,"y":36,"w":88,"h":78,"bg":"linear-gradient(270deg, rgba(202,206,252,1) 0.0%, rgba(186,190,251,1) 11.0%, rgba(167,172,250,1) 26.0%, rgba(160,165,250,1) 38.0%, rgba(175,180,251,1) 44.0%, rgba(215,217,253,1) 58.0%, rgba(255,255,255,1) 69.0%)"}
+  {"id":"1401:595","name":"Vector","type":"VECTOR","x":0,"y":73,"w":88,"h":31,"bg":"rgba(42,202,247,1)"}
+  {"id":"1401:596","name":"Vector","type":"VECTOR","x":0,"y":9,"w":88,"h":55,"bg":"linear-gradient(180deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+  {"id":"1401:597","name":"Vector","type":"VECTOR","x":3,"y":12,"w":81,"h":48,"bg":"rgba(42,202,247,1)"}
+  {"id":"1401:598","name":"Vector","type":"VECTOR","x":23,"y":24,"w":42,"h":24,"bg":"rgba(42,202,247,1)"}
+  {"id":"1401:599","name":"Vector","type":"VECTOR","x":37,"y":27,"w":14,"h":12,"bg":"linear-gradient(34deg, rgba(202,206,252,1) 0.0%, rgba(229,231,254,1) 38.0%, rgba(248,249,255,1) 75.0%, rgba(255,255,255,1) 100.0%)"}
+  {"id":"1401:600","name":"Vector","type":"VECTOR","x":40,"y":27,"w":4,"h":6,"bg":"rgba(202,206,252,1)"}
+  {"id":"1401:601","name":"Vector","type":"VECTOR","x":25,"y":0,"w":32,"h":39,"bg":"linear-gradient(90deg, rgba(202,206,252,1) 0.0%, rgba(229,231,254,1) 38.0%, rgba(248,249,255,1) 75.0%, rgba(255,255,255,1) 100.0%)"}
+  {"id":"1401:602","name":"Vector","type":"VECTOR","x":31,"y":3,"w":23,"h":24,"bg":"rgba(0,18,92,1)"}
+  {"id":"1401:603","name":"Vector","type":"VECTOR","x":28,"y":17,"w":13,"h":18,"bg":"rgba(19,40,123,1)"}
+
+### Frame [1401:612] ###
+{"id":"1401:612","name":"Frame","type":"FRAME","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:613","name":"Vector","type":"VECTOR","x":0,"y":0,"w":36,"h":36}
+  {"id":"1401:614","name":"Vector","type":"VECTOR","x":5,"y":5,"w":27,"h":27,"bg":"rgba(255,131,17,1)"}
+
+### Frame [1401:615] ###
+{"id":"1401:615","name":"Frame","type":"FRAME","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:616","name":"Vector","type":"VECTOR","x":0,"y":0,"w":36,"h":36}
+  {"id":"1401:617","name":"Vector","type":"VECTOR","x":5,"y":3,"w":27,"h":30,"bg":"rgba(255,131,17,1)"}
+
+### Frame [1401:618] ###
+{"id":"1401:618","name":"Frame","type":"FRAME","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:619","name":"Vector","type":"VECTOR","x":0,"y":0,"w":36,"h":36}
+  {"id":"1401:620","name":"Vector","type":"VECTOR","x":5,"y":2,"w":27,"h":33,"bg":"rgba(255,131,17,1)"}
+
+### Frame [1401:621] ###
+{"id":"1401:621","name":"Frame","type":"FRAME","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:622","name":"Vector","type":"VECTOR","x":0,"y":0,"w":36,"h":36}
+  {"id":"1401:623","name":"Vector","type":"VECTOR","x":1,"y":3,"w":33,"h":30,"bg":"rgba(255,131,17,1)"}
+
+### Frame [1401:624] ###
+{"id":"1401:624","name":"Frame","type":"FRAME","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:625","name":"Vector","type":"VECTOR","x":0,"y":0,"w":36,"h":36}
+  {"id":"1401:626","name":"Vector","type":"VECTOR","x":2,"y":2,"w":33,"h":33,"bg":"rgba(255,131,17,1)"}
+
+### Frame [1401:627] ###
+{"id":"1401:627","name":"Frame","type":"FRAME","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:628","name":"Vector","type":"VECTOR","x":0,"y":0,"w":36,"h":36}
+  {"id":"1401:629","name":"Vector","type":"VECTOR","x":6,"y":5,"w":24,"h":29,"bg":"rgba(255,131,17,1)"}
+
+### cloudlinux [1401:648] ###
+{"id":"1401:648","name":"cloudlinux","type":"FRAME","x":0,"y":0,"w":74,"h":73,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:649","name":"Vector","type":"VECTOR","x":0,"y":0,"w":74,"h":73,"bg":"rgba(255,255,255,1)"}
+
+### Debian-OpenLogo [1401:650] ###
+{"id":"1401:650","name":"Debian-OpenLogo","type":"FRAME","x":0,"y":0,"w":59,"h":73,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:651","name":"Vector","type":"VECTOR","x":33,"y":37,"w":3,"h":1,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:652","name":"Vector","type":"VECTOR","x":39,"y":32,"w":2,"h":3,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:653","name":"Vector","type":"VECTOR","x":42,"y":28,"w":1,"h":2,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:654","name":"Vector","type":"VECTOR","x":30,"y":1,"w":2,"h":0,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:655","name":"Vector","type":"VECTOR","x":30,"y":1,"w":0,"h":0,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:656","name":"Vector","type":"VECTOR","x":1,"y":0,"w":55,"h":69,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:657","name":"Vector","type":"VECTOR","x":21,"y":38,"w":2,"h":4,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:658","name":"Vector","type":"VECTOR","x":22,"y":37,"w":1,"h":3,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:659","name":"Vector","type":"VECTOR","x":53,"y":31,"w":2,"h":7,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:660","name":"Vector","type":"VECTOR","x":29,"y":0,"w":3,"h":0,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:661","name":"Vector","type":"VECTOR","x":2,"y":15,"w":1,"h":2,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:662","name":"Vector","type":"VECTOR","x":1,"y":20,"w":1,"h":2,"bg":"rgba(255,255,255,1)"}
+
+### Vmware [1401:663] ###
+{"id":"1401:663","name":"Vmware","type":"FRAME","x":0,"y":0,"w":126,"h":53,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:664","name":"g12","type":"GROUP","x":0,"y":0,"w":125,"h":52}
+    {"id":"1401:665","name":"g164","type":"GROUP","x":0,"y":0,"w":125,"h":52}
+      {"id":"1401:666","name":"Group","type":"GROUP","x":0,"y":0,"w":125,"h":52}
+        {"id":"1401:667","name":"Group","type":"GROUP","x":0,"y":0,"w":125,"h":52}
+          {"id":"1401:668","name":"g166","type":"GROUP","x":0,"y":0,"w":125,"h":52}
+
+### Windows_logo_-_2012 [1401:671] ###
+{"id":"1401:671","name":"Windows_logo_-_2012","type":"FRAME","x":0,"y":0,"w":73,"h":73,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:672","name":"Vector","type":"VECTOR","x":0,"y":0,"w":72,"h":73,"bg":"rgba(255,255,255,1)"}
+
+### 20091127015157!Ubuntu_logo [1401:673] ###
+{"id":"1401:673","name":"20091127015157!Ubuntu_logo","type":"FRAME","x":0,"y":0,"w":73,"h":73,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:674","name":"circle4","type":"VECTOR","x":1,"y":29,"w":14,"h":14,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:675","name":"circle6","type":"VECTOR","x":51,"y":59,"w":14,"h":14,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:676","name":"path19","type":"VECTOR","x":29,"y":7,"w":42,"h":27,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:677","name":"path21","type":"VECTOR","x":29,"y":39,"w":42,"h":27,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:678","name":"path10","type":"VECTOR","x":13,"y":12,"w":18,"h":49,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:679","name":"circle12","type":"VECTOR","x":51,"y":0,"w":14,"h":14,"bg":"rgba(255,255,255,1)"}
+
+### Frame [1401:680] ###
+{"id":"1401:680","name":"Frame","type":"FRAME","x":0,"y":0,"w":77,"h":73,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:681","name":"Vector","type":"VECTOR","x":1,"y":0,"w":73,"h":73,"bg":"rgba(255,255,255,1)"}
+
+### Mask Group [1401:685] ###
+{"id":"1401:685","name":"Mask Group","type":"GROUP","x":0,"y":0,"w":135,"h":40}
+  {"id":"1401:686","name":"image 15","type":"RECTANGLE","x":0,"y":0,"w":135,"h":40,"bg":"image-fill:a0dc2d702f019208a60ce41841343ec398463dfe"}
+  {"id":"1401:687","name":"Rectangle 549","type":"RECTANGLE","x":0,"y":0,"w":135,"h":40,"bg":"rgba(255,255,255,1)"}
+
+### DirectAdminLogo [1401:688] ###
+{"id":"1401:688","name":"DirectAdminLogo","type":"FRAME","x":0,"y":0,"w":182,"h":40,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:689","name":"Vector","type":"VECTOR","x":0,"y":8,"w":17,"h":23,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:690","name":"Vector","type":"VECTOR","x":8,"y":0,"w":25,"h":39,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:691","name":"Vector","type":"VECTOR","x":42,"y":29,"w":140,"h":10,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:692","name":"Vector","type":"VECTOR","x":42,"y":12,"w":66,"h":16,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:693","name":"Vector","type":"VECTOR","x":110,"y":11,"w":71,"h":17,"bg":"rgba(255,255,255,1)"}
+
+### CPanel_logo [1401:694] ###
+{"id":"1401:694","name":"CPanel_logo","type":"FRAME","x":0,"y":0,"w":183,"h":40,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:695","name":"g2995","type":"GROUP","x":1,"y":1,"w":181,"h":38}
+    {"id":"1401:696","name":"g2997","type":"GROUP","x":0,"y":0,"w":181,"h":38}
+      {"id":"1401:697","name":"g3003","type":"GROUP","x":0,"y":9,"w":25,"h":29}
+      {"id":"1401:699","name":"g3007","type":"GROUP","x":20,"y":0,"w":37,"h":38}
+      {"id":"1401:701","name":"g3011","type":"GROUP","x":55,"y":9,"w":34,"h":29}
+      {"id":"1401:703","name":"g3015","type":"GROUP","x":87,"y":9,"w":34,"h":29}
+      {"id":"1401:705","name":"g3019","type":"GROUP","x":122,"y":9,"w":34,"h":29}
+      {"id":"1401:707","name":"g3023","type":"GROUP","x":154,"y":0,"w":19,"h":38}
+      {"id":"1401:709","name":"g3027","type":"GROUP","x":175,"y":0,"w":7,"h":7}
+  {"id":"1401:711","name":"path3202","type":"VECTOR","x":21,"y":1,"w":37,"h":38,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:712","name":"path3204","type":"VECTOR","x":57,"y":11,"w":34,"h":28,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:713","name":"path3206","type":"VECTOR","x":88,"y":11,"w":34,"h":28,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:714","name":"path3208","type":"VECTOR","x":124,"y":11,"w":34,"h":28,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:715","name":"path3210","type":"VECTOR","x":155,"y":1,"w":19,"h":38,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:716","name":"path3212","type":"VECTOR","x":16,"y":11,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:717","name":"path3214","type":"VECTOR","x":178,"y":2,"w":3,"h":4,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:718","name":"path3216","type":"VECTOR","x":176,"y":2,"w":7,"h":6,"bg":"rgba(255,255,255,1)"}
+
+### Frame 104 [1401:731] ###
+{"id":"1401:731","name":"Frame 104","type":"FRAME","x":0,"y":0,"w":256,"h":24,"layout":"flex-row","gap":8,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:732","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:733","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+    {"id":"1401:734","name":"Vector","type":"VECTOR","x":3,"y":2,"w":18,"h":19,"bg":"rgba(131,154,218,1)"}
+  {"id":"1401:735","name":"Rectangle 555","type":"RECTANGLE","x":32,"y":12,"w":18,"h":1,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(131,154,218,1)"}
+  {"id":"1401:736","name":"Сервер","type":"TEXT","x":58,"y":2,"w":47,"h":20,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Сервер"}}
+  {"id":"1401:737","name":"Rectangle 556","type":"RECTANGLE","x":113,"y":12,"w":18,"h":1,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(131,154,218,1)"}
+  {"id":"1401:738","name":"Описание сервера","type":"TEXT","x":139,"y":2,"w":117,"h":20,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Описание сервера"}}
+
+### Frame 105 [1401:746] ###
+{"id":"1401:746","name":"Frame 105","type":"FRAME","x":0,"y":0,"w":119,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:747","name":"название cpu","type":"TEXT","x":0,"y":1,"w":95,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"название cpu "}}
+  {"id":"1401:748","name":"Frame","type":"FRAME","x":101,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:749","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:750","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 106 [1401:751] ###
+{"id":"1401:751","name":"Frame 106","type":"FRAME","x":0,"y":0,"w":77,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:752","name":"частота","type":"TEXT","x":0,"y":1,"w":53,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"частота"}}
+  {"id":"1401:753","name":"Frame","type":"FRAME","x":59,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:754","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:755","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 107 [1401:756] ###
+{"id":"1401:756","name":"Frame 107","type":"FRAME","x":0,"y":0,"w":142,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:757","name":"количество ядер","type":"TEXT","x":0,"y":1,"w":118,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"количество ядер"}}
+  {"id":"1401:758","name":"Frame","type":"FRAME","x":124,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:759","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:760","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 108 [1401:761] ###
+{"id":"1401:761","name":"Frame 108","type":"FRAME","x":0,"y":0,"w":128,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:762","name":"cpu benchmark","type":"TEXT","x":0,"y":1,"w":104,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"cpu benchmark"}}
+  {"id":"1401:763","name":"Frame","type":"FRAME","x":110,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:764","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:765","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [1401:772] ###
+{"id":"1401:772","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:773","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"1401:774","name":"Vector","type":"VECTOR","x":8,"y":9,"w":8,"h":6,"bg":"rgba(255,131,17,1)"}
+
+### Frame 117 [1401:781] ###
+{"id":"1401:781","name":"Frame 117","type":"FRAME","x":0,"y":0,"w":135,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:782","name":"защита от Ddos","type":"TEXT","x":0,"y":1,"w":111,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"защита от Ddos"}}
+  {"id":"1401:783","name":"Frame","type":"FRAME","x":117,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:784","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:785","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 118 [1401:786] ###
+{"id":"1401:786","name":"Frame 118","type":"FRAME","x":0,"y":0,"w":155,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:787","name":"внутр. коммутация","type":"TEXT","x":0,"y":1,"w":131,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"внутр. коммутация"}}
+  {"id":"1401:788","name":"Frame","type":"FRAME","x":137,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:789","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:790","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 119 [1401:791] ###
+{"id":"1401:791","name":"Frame 119","type":"FRAME","x":0,"y":0,"w":80,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:792","name":"firewall","type":"TEXT","x":0,"y":1,"w":56,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"firewall"}}
+  {"id":"1401:793","name":"Frame","type":"FRAME","x":62,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:794","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:795","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 120 [1401:796] ###
+{"id":"1401:796","name":"Frame 120","type":"FRAME","x":0,"y":0,"w":105,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:797","name":"reverse dns","type":"TEXT","x":0,"y":1,"w":81,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"reverse dns"}}
+  {"id":"1401:798","name":"Frame","type":"FRAME","x":87,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:799","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:800","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 110 [1401:805] ###
+{"id":"1401:805","name":"Frame 110","type":"FRAME","x":0,"y":0,"w":73,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:806","name":"Память","type":"TEXT","x":0,"y":1,"w":49,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Память"}}
+  {"id":"1401:807","name":"Frame","type":"FRAME","x":55,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:808","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:809","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 112 [1401:810] ###
+{"id":"1401:810","name":"Frame 112","type":"FRAME","x":0,"y":0,"w":132,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:811","name":"Жесткие диски","type":"TEXT","x":0,"y":1,"w":108,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Жесткие диски"}}
+  {"id":"1401:812","name":"Frame","type":"FRAME","x":114,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:813","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:814","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Cursor – Hand [1401:818] ###
+{"id":"1401:818","name":"Cursor – Hand","type":"FRAME","x":0,"y":0,"w":36,"h":36}
+  {"id":"1401:819","name":"Shape","type":"VECTOR","x":4,"y":4,"w":25,"h":29,"bg":"rgba(255,255,255,1)","border":"0.75px solid rgba(0,0,0,1)"}
+  {"id":"1401:820","name":"Lines","type":"BOOLEAN_OPERATION","x":15,"y":20,"w":8,"h":6,"bg":"rgba(0,0,0,1)"}
+    {"id":"1401:821","name":"Line","type":"VECTOR","x":8,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"1401:822","name":"Line","type":"VECTOR","x":4,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"1401:823","name":"Line","type":"VECTOR","x":1,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+
+### Frame 121 [1401:824] ###
+{"id":"1401:824","name":"Frame 121","type":"FRAME","x":0,"y":0,"w":74,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:825","name":"фишки","type":"TEXT","x":0,"y":1,"w":50,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"фишки"}}
+  {"id":"1401:826","name":"Frame","type":"FRAME","x":56,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:827","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:828","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [1401:829] ###
+{"id":"1401:829","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:830","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"1401:831","name":"Vector","type":"VECTOR","x":8,"y":9,"w":8,"h":6,"bg":"rgba(255,131,17,1)"}
+
+### Frame 122 [1401:835] ###
+{"id":"1401:835","name":"Frame 122","type":"FRAME","x":0,"y":0,"w":115,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:836","name":"ограничения","type":"TEXT","x":0,"y":1,"w":91,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"ограничения"}}
+  {"id":"1401:837","name":"Frame","type":"FRAME","x":97,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:838","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:839","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame 113 [1401:843] ###
+{"id":"1401:843","name":"Frame 113","type":"FRAME","x":0,"y":0,"w":56,"h":18,"layout":"flex-row","gap":6,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"1401:844","name":"порт","type":"TEXT","x":0,"y":1,"w":32,"h":17,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"порт"}}
+  {"id":"1401:845","name":"Frame","type":"FRAME","x":38,"y":0,"w":18,"h":18,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"1401:846","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"1401:847","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [1401:849] ###
+{"id":"1401:849","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:850","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"1401:851","name":"Vector","type":"VECTOR","x":8,"y":9,"w":8,"h":6,"bg":"rgba(255,131,17,1)"}
+
+### Frame [1401:853] ###
+{"id":"1401:853","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:854","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"1401:855","name":"Vector","type":"VECTOR","x":8,"y":9,"w":8,"h":6,"bg":"rgba(255,131,17,1)"}
+
+### Frame [1401:856] ###
+{"id":"1401:856","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:857","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"1401:858","name":"Vector","type":"VECTOR","x":8,"y":9,"w":8,"h":6,"bg":"rgba(255,131,17,1)"}
+
+### Group 50 [1401:861] ###
+{"id":"1401:861","name":"Group 50","type":"GROUP","x":0,"y":0,"w":343,"h":107}
+  {"id":"1401:862","name":"Rectangle 97","type":"RECTANGLE","x":45,"y":0,"w":251,"h":36,"bg":"rgba(255,131,17,1)"}
+  {"id":"1401:863","name":"Rectangle 98","type":"RECTANGLE","x":45,"y":36,"w":251,"h":36,"bg":"rgba(33,90,238,1)"}
+  {"id":"1401:864","name":"Rectangle 100","type":"RECTANGLE","x":45,"y":71,"w":251,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:865","name":"30 TB","type":"TEXT","x":74,"y":8,"w":194,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"30 TB"}}
+  {"id":"1401:866","name":"100 TB (+ €40.00)","type":"TEXT","x":9,"y":44,"w":325,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"100 TB (+ €40.00)"}}
+  {"id":"1401:867","name":"250 TB (+ €115.00)","type":"TEXT","x":0,"y":79,"w":343,"h":20,"bg":"rgba(0,65,190,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(0,65,190,1)","value":"250 TB (+ €115.00)"}}
+
+### Cursor – Hand [1401:872] ###
+{"id":"1401:872","name":"Cursor – Hand","type":"FRAME","x":0,"y":0,"w":36,"h":36}
+  {"id":"1401:873","name":"Shape","type":"VECTOR","x":4,"y":4,"w":25,"h":29,"bg":"rgba(255,255,255,1)","border":"0.75px solid rgba(0,0,0,1)"}
+  {"id":"1401:874","name":"Lines","type":"BOOLEAN_OPERATION","x":15,"y":20,"w":8,"h":6,"bg":"rgba(0,0,0,1)"}
+    {"id":"1401:875","name":"Line","type":"VECTOR","x":8,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"1401:876","name":"Line","type":"VECTOR","x":4,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"1401:877","name":"Line","type":"VECTOR","x":1,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+
+### Group 49 [1401:878] ###
+{"id":"1401:878","name":"Group 49","type":"GROUP","x":0,"y":0,"w":381,"h":144}
+  {"id":"1401:879","name":"Rectangle 97","type":"RECTANGLE","x":50,"y":0,"w":279,"h":36,"bg":"rgba(255,131,17,1)"}
+  {"id":"1401:880","name":"Rectangle 98","type":"RECTANGLE","x":50,"y":36,"w":279,"h":36,"bg":"rgba(33,90,238,1)"}
+  {"id":"1401:881","name":"Rectangle 99","type":"RECTANGLE","x":50,"y":72,"w":279,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:882","name":"Rectangle 100","type":"RECTANGLE","x":50,"y":108,"w":279,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:883","name":"1x 1000Mbps Full-Duplex","type":"TEXT","x":82,"y":8,"w":215,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"1x 1000Mbps Full-Duplex"}}
+  {"id":"1401:884","name":"2x 1000Mbps Full-Duplex (+ €100.00)","type":"TEXT","x":10,"y":44,"w":361,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"2x 1000Mbps Full-Duplex (+ €100.00)"}}
+  {"id":"1401:885","name":"4x 1000Mbps Full-Duplex (+ €400.00)","type":"TEXT","x":2,"y":80,"w":377,"h":20,"bg":"rgba(0,65,190,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(0,65,190,1)","value":"4x 1000Mbps Full-Duplex (+ €400.00)"}}
+  {"id":"1401:886","name":"1x 10.000Mbps Full-Duplex (+ €1020.00)","type":"TEXT","x":0,"y":116,"w":381,"h":20,"bg":"rgba(189,189,189,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(189,189,189,1)","value":"1x 10.000Mbps Full-Duplex (+ €1020.00)"}}
+
+### Cursor – Hand [1401:887] ###
+{"id":"1401:887","name":"Cursor – Hand","type":"FRAME","x":0,"y":0,"w":36,"h":36}
+  {"id":"1401:888","name":"Shape","type":"VECTOR","x":4,"y":4,"w":25,"h":29,"bg":"rgba(255,255,255,1)","border":"0.75px solid rgba(0,0,0,1)"}
+  {"id":"1401:889","name":"Lines","type":"BOOLEAN_OPERATION","x":15,"y":20,"w":8,"h":6,"bg":"rgba(0,0,0,1)"}
+    {"id":"1401:890","name":"Line","type":"VECTOR","x":8,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"1401:891","name":"Line","type":"VECTOR","x":4,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"1401:892","name":"Line","type":"VECTOR","x":1,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+
+### Frame [1401:894] ###
+{"id":"1401:894","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:895","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"1401:896","name":"Vector","type":"VECTOR","x":2,"y":2,"w":14,"h":14,"bg":"rgba(255,255,255,1)"}
+
+### Frame [1401:897] ###
+{"id":"1401:897","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:898","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"1401:899","name":"Vector","type":"VECTOR","x":2,"y":2,"w":14,"h":14,"bg":"rgba(255,255,255,1)"}
+
+### Frame [1401:900] ###
+{"id":"1401:900","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:901","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"1401:902","name":"Vector","type":"VECTOR","x":2,"y":2,"w":14,"h":16,"bg":"rgba(255,255,255,1)"}
+
+### Frame [1401:903] ###
+{"id":"1401:903","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:904","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"1401:905","name":"Vector","type":"VECTOR","x":2,"y":1,"w":15,"h":15,"bg":"rgba(255,255,255,1)"}
+
+### Frame [1401:906] ###
+{"id":"1401:906","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:907","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"1401:908","name":"Vector","type":"VECTOR","x":2,"y":1,"w":15,"h":15,"bg":"rgba(255,255,255,1)"}
+
+### Frame [1401:918] ###
+{"id":"1401:918","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:919","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"1401:920","name":"Vector","type":"VECTOR","x":1,"y":2,"w":23,"h":19,"bg":"rgba(255,255,255,1)"}
+
+### Frame [1401:922] ###
+{"id":"1401:922","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:923","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"1401:924","name":"Vector","type":"VECTOR","x":3,"y":2,"w":18,"h":20,"bg":"rgba(255,255,255,1)"}
+
+### Group 9 [1401:932] ###
+{"id":"1401:932","name":"Group 9","type":"GROUP","x":0,"y":0,"w":895,"h":20,"radius":[0,0,0,0],"opacity":0.4000000059604645}
+  {"id":"1401:933","name":"Terms and conditions","type":"TEXT","x":0,"y":0,"w":126,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Terms and conditions"}}
+  {"id":"1401:934","name":"Privacy policy","type":"TEXT","x":190,"y":0,"w":82,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Privacy policy"}}
+  {"id":"1401:935","name":"Refund policy","type":"TEXT","x":336,"y":0,"w":82,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Refund policy"}}
+  {"id":"1401:936","name":"Delivery time frame","type":"TEXT","x":482,"y":0,"w":116,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Delivery time frame"}}
+  {"id":"1401:937","name":"Abuse","type":"TEXT","x":662,"y":0,"w":38,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Abuse"}}
+  {"id":"1401:938","name":"Acceptable Use Policy","type":"TEXT","x":764,"y":0,"w":131,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Acceptable Use Policy"}}
+
+### Vkontakte (VK) [1401:1130] ###
+{"id":"1401:1130","name":"Vkontakte (VK)","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1131","name":"Vkontakte (VK)","type":"GROUP","x":0,"y":0,"w":24,"h":24}
+    {"id":"1401:1132","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:1133","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(81,129,184,1)","radius":24}
+      {"id":"1401:1134","name":"Vector","type":"VECTOR","x":4,"y":8,"w":16,"h":10,"bg":"rgba(255,255,255,1)"}
+
+### Twitter [1401:1125] ###
+{"id":"1401:1125","name":"Twitter","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1126","name":"Twitter","type":"GROUP","x":0,"y":0,"w":24,"h":24}
+    {"id":"1401:1127","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:1128","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(29,161,242,1)","radius":24}
+      {"id":"1401:1129","name":"Path","type":"VECTOR","x":5,"y":7,"w":14,"h":12,"bg":"rgba(255,255,255,1)"}
+
+### Slack [1401:1116] ###
+{"id":"1401:1116","name":"Slack","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1117","name":"Slack","type":"GROUP","x":0,"y":0,"w":24,"h":24}
+    {"id":"1401:1118","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:1119","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(97,31,105,1)","radius":24}
+      {"id":"1401:1120","name":"Group","type":"GROUP","x":4,"y":4,"w":16,"h":16}
+
+### Facebook [1401:1111] ###
+{"id":"1401:1111","name":"Facebook","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1112","name":"Facebook","type":"GROUP","x":0,"y":0,"w":24,"h":24}
+    {"id":"1401:1113","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:1114","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(66,103,178,1)","radius":24}
+      {"id":"1401:1115","name":"Vector","type":"VECTOR","x":7,"y":4,"w":8,"h":16,"bg":"rgba(255,255,255,1)"}
+
+### logo 2 [1401:971] ###
+{"id":"1401:971","name":"logo 2","type":"FRAME","x":0,"y":0,"w":118,"h":26}
+  {"id":"1401:972","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":118,"h":26}
+    {"id":"1401:973","name":"Слой 1","type":"GROUP","x":0,"y":0,"w":118,"h":26}
+      {"id":"1401:974","name":"Vector","type":"VECTOR","x":0,"y":7,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:975","name":"Vector","type":"VECTOR","x":0,"y":14,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:976","name":"Vector","type":"VECTOR","x":0,"y":0,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:977","name":"Vector","type":"VECTOR","x":0,"y":7,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:978","name":"Vector","type":"VECTOR","x":0,"y":14,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:979","name":"Vector","type":"VECTOR","x":0,"y":0,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:980","name":"Vector","type":"VECTOR","x":43,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:981","name":"Vector","type":"VECTOR","x":54,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:982","name":"Vector","type":"VECTOR","x":63,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:983","name":"Vector","type":"VECTOR","x":73,"y":10,"w":5,"h":1,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:984","name":"Vector","type":"VECTOR","x":78,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:985","name":"Vector","type":"VECTOR","x":89,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:986","name":"Vector","type":"VECTOR","x":99,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:987","name":"Vector","type":"VECTOR","x":108,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:988","name":"Vector","type":"VECTOR","x":33,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:989","name":"Vector","type":"VECTOR","x":46,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:990","name":"Vector","type":"VECTOR","x":51,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:991","name":"Vector","type":"VECTOR","x":55,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:992","name":"Vector","type":"VECTOR","x":59,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:993","name":"Vector","type":"VECTOR","x":63,"y":17,"w":1,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:994","name":"Vector","type":"VECTOR","x":64,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:995","name":"Vector","type":"VECTOR","x":69,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:996","name":"Vector","type":"VECTOR","x":75,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:997","name":"Vector","type":"VECTOR","x":79,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:998","name":"Vector","type":"VECTOR","x":83,"y":17,"w":5,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:999","name":"Vector","type":"VECTOR","x":89,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:1000","name":"Vector","type":"VECTOR","x":92,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:1001","name":"Vector","type":"VECTOR","x":97,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:1002","name":"Vector","type":"VECTOR","x":101,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+
+### Group [1401:1003] ###
+{"id":"1401:1003","name":"Group","type":"GROUP","x":0,"y":0,"w":67,"h":20,"bg":"rgba(255,255,255,1)","opacity":0.4000000059604645}
+  {"id":"1401:1004","name":"polygon9","type":"VECTOR","x":23,"y":0,"w":9,"h":19,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1005","name":"path11","type":"VECTOR","x":32,"y":0,"w":16,"h":20,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1006","name":"path13","type":"VECTOR","x":47,"y":0,"w":19,"h":19,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1007","name":"path15","type":"VECTOR","x":6,"y":0,"w":19,"h":19,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1008","name":"path17","type":"VECTOR","x":0,"y":0,"w":13,"h":11,"bg":"rgba(255,255,255,1)"}
+
+### Mastercard-logo 1 [1401:1009] ###
+{"id":"1401:1009","name":"Mastercard-logo 1","type":"FRAME","x":0,"y":0,"w":31,"h":24,"bg":"rgba(255,255,255,1)","opacity":0.4000000059604645}
+  {"id":"1401:1010","name":"Group","type":"GROUP","x":0,"y":0,"w":31,"h":24}
+    {"id":"1401:1011","name":"Group","type":"GROUP","x":0,"y":0,"w":31,"h":24}
+      {"id":"1401:1012","name":"Group","type":"GROUP","x":2,"y":20,"w":29,"h":4}
+      {"id":"1401:1014","name":"Group","type":"GROUP","x":30,"y":15,"w":1,"h":0}
+      {"id":"1401:1016","name":"Vector","type":"VECTOR","x":11,"y":2,"w":8,"h":15,"bg":"rgba(255,255,255,1)"}
+      {"id":"1401:1017","name":"Group","type":"GROUP","x":0,"y":0,"w":15,"h":19}
+      {"id":"1401:1019","name":"Group","type":"GROUP","x":15,"y":0,"w":16,"h":19}
+
+### Group 8 [1401:1021] ###
+{"id":"1401:1021","name":"Group 8","type":"GROUP","x":0,"y":0,"w":75,"h":20,"opacity":0.4000000059604645}
+  {"id":"1401:1022","name":"Vector","type":"VECTOR","x":0,"y":0,"w":14,"h":16,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1023","name":"Vector","type":"VECTOR","x":13,"y":5,"w":13,"h":11,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1024","name":"Vector","type":"VECTOR","x":28,"y":6,"w":13,"h":14,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1025","name":"Vector","type":"VECTOR","x":42,"y":0,"w":14,"h":16,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1026","name":"Vector","type":"VECTOR","x":55,"y":5,"w":14,"h":11,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1027","name":"Vector","type":"VECTOR","x":69,"y":0,"w":6,"h":16,"bg":"rgba(255,255,255,1)"}
+
+### Group [1401:1028] ###
+{"id":"1401:1028","name":"Group","type":"GROUP","x":0,"y":0,"w":104,"h":24,"opacity":0.4000000059604645}
+  {"id":"1401:1029","name":"Combined Shape","type":"VECTOR","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1030","name":"Group","type":"GROUP","x":30,"y":5,"w":74,"h":15}
+    {"id":"1401:1031","name":"Fill 25","type":"VECTOR","x":0,"y":1,"w":13,"h":11,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:1032","name":"Fill 28","type":"VECTOR","x":13,"y":4,"w":7,"h":8,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:1033","name":"Fill 30","type":"VECTOR","x":22,"y":0,"w":7,"h":12,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:1034","name":"Fill 32","type":"VECTOR","x":30,"y":1,"w":11,"h":11,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:1035","name":"Fill 34","type":"VECTOR","x":42,"y":4,"w":7,"h":8,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:1036","name":"Fill 36","type":"VECTOR","x":51,"y":4,"w":7,"h":8,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:1037","name":"Fill 38","type":"VECTOR","x":59,"y":4,"w":7,"h":8,"bg":"rgba(255,255,255,1)"}
+    {"id":"1401:1038","name":"Fill 40","type":"VECTOR","x":67,"y":4,"w":7,"h":11,"bg":"rgba(255,255,255,1)"}
+
+### Details - Your Order - Share click [1401:1041] ###
+{"id":"1401:1041","name":"Details - Your Order - Share click","type":"GROUP","x":0,"y":0,"w":350,"h":1027}
+  {"id":"1401:1042","name":"Rectangle 97","type":"RECTANGLE","x":0,"y":0,"w":350,"h":1027,"bg":"rgba(33,90,238,1)"}
+  {"id":"1401:1043","name":"Group 38","type":"GROUP","x":32,"y":226,"w":286,"h":48}
+    {"id":"1401:1044","name":"Rectangle 22","type":"RECTANGLE","x":0,"y":0,"w":286,"h":48,"bg":"rgba(255,131,17,1)"}
+    {"id":"1401:1045","name":"Оформить заказ","type":"TEXT","x":82,"y":12,"w":122,"h":24,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":16,"weight":600,"lh":23,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"Оформить заказ"}}
+  {"id":"1401:1046","name":"Group 41","type":"GROUP","x":32,"y":336,"w":286,"h":48}
+    {"id":"1401:1047","name":"Rectangle 22","type":"RECTANGLE","x":0,"y":0,"w":286,"h":48,"bg":"rgba(255,131,17,1)"}
+    {"id":"1401:1048","name":"Скопировать","type":"TEXT","x":82,"y":12,"w":122,"h":24,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":16,"weight":600,"lh":23,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"Скопировать"}}
+  {"id":"1401:1049","name":"Group 40","type":"GROUP","x":32,"y":850,"w":286,"h":48}
+    {"id":"1401:1050","name":"Rectangle 22","type":"RECTANGLE","x":0,"y":0,"w":286,"h":48,"bg":"rgba(255,131,17,1)"}
+    {"id":"1401:1051","name":"Оформить заказ","type":"TEXT","x":82,"y":12,"w":122,"h":24,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":16,"weight":600,"lh":23,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"Оформить заказ"}}
+  {"id":"1401:1052","name":"К оплате","type":"TEXT","x":32,"y":70,"w":148,"h":18,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"К оплате"}}
+  {"id":"1401:1053","name":"плата за установку","type":"TEXT","x":32,"y":147,"w":148,"h":18,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"плата за установку"}}
+  {"id":"1401:1054","name":"плата за установку","type":"TEXT","x":32,"y":430,"w":148,"h":18,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"плата за установку"}}
+  {"id":"1401:1055","name":"ОС","type":"TEXT","x":32,"y":558,"w":148,"h":18,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"ОС"}}
+  {"id":"1401:1056","name":"сеть","type":"TEXT","x":32,"y":632,"w":158,"h":18,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"сеть"}}
+  {"id":"1401:1057","name":"контракт","type":"TEXT","x":32,"y":740,"w":158,"h":18,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0.24,"align":"LEFT","color":"rgba(131,154,218,1)","value":"контракт"}}
+  {"id":"1401:1058","name":"Ваш заказ","type":"TEXT","x":32,"y":27,"w":95,"h":29,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":20,"weight":500,"lh":29,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Ваш заказ"}}
+  {"id":"1401:1059","name":"€0.00","type":"TEXT","x":32,"y":177,"w":45,"h":23,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":16,"weight":500,"lh":23,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"€0.00"}}
+  {"id":"1401:1060","name":"Vector 6","type":"VECTOR","x":32,"y":398,"w":286,"h":0,"border":"1px solid rgba(255,255,255,1)","opacity":0.15000000596046448}
+  {"id":"1401:1061","name":"1x Intel Quad-Core Xeon E3-1230v2","type":"TEXT","x":32,"y":460,"w":111,"h":40,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"1x Intel Quad-Core↵Xeon E3-1230v2"}}
+  {"id":"1401:1062","name":"CentOS","type":"TEXT","x":32,"y":588,"w":47,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"CentOS"}}
+  {"id":"1401:1063","name":"100 Mbit","type":"TEXT","x":32,"y":662,"w":54,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"100 Mbit"}}
+  {"id":"1401:1064","name":"Поддержка - 24х7х12","type":"TEXT","x":32,"y":770,"w":133,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Поддержка - 24х7х12"}}
+  {"id":"1401:1065","name":"Период оплаты","type":"TEXT","x":32,"y":804,"w":96,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Период оплаты"}}
+  {"id":"1401:1066","name":"IPv4:1","type":"TEXT","x":32,"y":696,"w":36,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"IPv4:1"}}
+  {"id":"1401:1067","name":"€69.00","type":"TEXT","x":271,"y":460,"w":47,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"RIGHT","color":"rgba(255,255,255,1)","value":"€69.00"}}
+  {"id":"1401:1068","name":"€24.00","type":"TEXT","x":270,"y":514,"w":48,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"RIGHT","color":"rgba(255,255,255,1)","value":"€24.00"}}
+  {"id":"1401:1069","name":"вкл.","type":"TEXT","x":291,"y":588,"w":27,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"RIGHT","color":"rgba(255,255,255,1)","value":"вкл."}}
+  {"id":"1401:1070","name":"вкл.","type":"TEXT","x":291,"y":662,"w":27,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"RIGHT","color":"rgba(255,255,255,1)","value":"вкл."}}
+  {"id":"1401:1071","name":"вкл.","type":"TEXT","x":291,"y":770,"w":27,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"RIGHT","color":"rgba(255,255,255,1)","value":"вкл."}}
+  {"id":"1401:1072","name":"помесячно","type":"TEXT","x":249,"y":804,"w":69,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"RIGHT","color":"rgba(255,255,255,1)","value":"помесячно"}}
+  {"id":"1401:1073","name":"вкл.","type":"TEXT","x":291,"y":696,"w":27,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"RIGHT","color":"rgba(255,255,255,1)","value":"вкл."}}
+  {"id":"1401:1074","name":"+ 1x 120 GB SSD","type":"TEXT","x":32,"y":514,"w":104,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"+ 1x 120 GB SSD"}}
+  {"id":"1401:1075","name":"€29.00 €69.00","type":"TEXT","x":32,"y":100,"w":104,"h":23,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"RIGHT","color":"rgba(255,255,255,1)","value":"€29.00 €69.00"}}
+  {"id":"1401:1076","name":"Rectangle 24","type":"RECTANGLE","x":32,"y":288,"w":286,"h":48,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1077","name":"code&rlz=1C1GCEA_enUZ744&oq=promo","type":"TEXT","x":46,"y":302,"w":267,"h":20,"bg":"rgba(0,65,190,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(0,65,190,1)","value":"code&rlz=1C1GCEA_enUZ744&oq=promo"}}
+
+### Group 48 [1401:1078] ###
+{"id":"1401:1078","name":"Group 48","type":"GROUP","x":0,"y":0,"w":649,"h":356}
+  {"id":"1401:1079","name":"Rectangle 97","type":"RECTANGLE","x":439,"y":320,"w":210,"h":36,"bg":"rgba(255,131,17,1)"}
+  {"id":"1401:1080","name":"Rectangle 98","type":"RECTANGLE","x":38,"y":70,"w":210,"h":36,"bg":"rgba(33,90,238,1)"}
+  {"id":"1401:1081","name":"Rectangle 99","type":"RECTANGLE","x":38,"y":0,"w":210,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1082","name":"Rectangle 100","type":"RECTANGLE","x":38,"y":106,"w":210,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1083","name":"Rectangle 101","type":"RECTANGLE","x":37,"y":142,"w":210,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1084","name":"6x8TB SATA (+ €45.85)","type":"TEXT","x":0,"y":150,"w":287,"h":20,"bg":"rgba(0,65,190,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(0,65,190,1)","value":"6x8TB SATA (+ €45.85)"}}
+  {"id":"1401:1085","name":"Rectangle 102","type":"RECTANGLE","x":37,"y":178,"w":210,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"1401:1086","name":"8x8TB SATA (+ €68.03)","type":"TEXT","x":0,"y":186,"w":287,"h":20,"bg":"rgba(0,65,190,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(0,65,190,1)","value":"8x8TB SATA (+ €68.03)"}}
+  {"id":"1401:1087","name":"2x480GB SSD","type":"TEXT","x":463,"y":328,"w":162,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"2x480GB SSD"}}
+  {"id":"1401:1088","name":"2x8TB SATA (+ €1.50)","type":"TEXT","x":8,"y":78,"w":272,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"2x8TB SATA (+ €1.50)"}}
+  {"id":"1401:1089","name":"2x2TB SATA (- €14.71)","type":"TEXT","x":2,"y":8,"w":284,"h":20,"bg":"rgba(0,65,190,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(0,65,190,1)","value":"2x2TB SATA (- €14.71)"}}
+  {"id":"1401:1090","name":"4x8TB SATA (+ €23.67)","type":"TEXT","x":0,"y":114,"w":287,"h":20,"bg":"rgba(0,65,190,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"CENTER","color":"rgba(0,65,190,1)","value":"4x8TB SATA (+ €23.67)"}}
+

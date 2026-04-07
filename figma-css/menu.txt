@@ -1,0 +1,305 @@
+=== MENU (80:19147) 1440x875 ===
+
+### Group 12 [80:19148] ###
+{"id":"80:19148","name":"Group 12","type":"GROUP","x":0,"y":0,"w":1182,"h":828}
+  {"id":"80:19149","name":"Rectangle 17","type":"RECTANGLE","x":969,"y":44,"w":141,"h":36,"border":"1px solid rgba(255,255,255,1)"}
+  {"id":"80:19150","name":"logo 1","type":"FRAME","x":0,"y":49,"w":118,"h":26}
+    {"id":"80:19151","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":118,"h":26}
+      {"id":"80:19152","name":"Слой 1","type":"GROUP","x":0,"y":0,"w":118,"h":26}
+  {"id":"80:19182","name":"Личный кабинет","type":"TEXT","x":987,"y":52,"w":105,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Личный кабинет"}}
+  {"id":"80:19183","name":"Group 5","type":"GROUP","x":704,"y":804,"w":93,"h":24}
+    {"id":"80:19184","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:19185","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+      {"id":"80:19186","name":"Vector","type":"VECTOR","x":3,"y":3,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19187","name":"gurnik-dtx","type":"TEXT","x":32,"y":2,"w":61,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"gurnik-dtx"}}
+  {"id":"80:19188","name":"Group 2","type":"GROUP","x":398,"y":0,"w":784,"h":743}
+    {"id":"80:19189","name":"Group 1","type":"GROUP","x":0,"y":0,"w":784,"h":743,"shadow":"0px 0px 20px 0px rgba(42,202,247,0.5)"}
+      {"id":"80:19190","name":"Vector","type":"VECTOR","x":90,"y":0,"w":369,"h":481,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19191","name":"Vector","type":"VECTOR","x":691,"y":531,"w":55,"h":35,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19192","name":"Vector","type":"VECTOR","x":707,"y":541,"w":23,"h":15,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19193","name":"Vector","type":"VECTOR","x":125,"y":554,"w":81,"h":51,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19194","name":"Vector","type":"VECTOR","x":149,"y":569,"w":33,"h":21,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19195","name":"Vector","type":"VECTOR","x":250,"y":664,"w":33,"h":21,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19196","name":"Vector","type":"VECTOR","x":258,"y":444,"w":44,"h":28,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19197","name":"Vector","type":"VECTOR","x":0,"y":484,"w":693,"h":259,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19198","name":"Vector","type":"VECTOR","x":298,"y":309,"w":27,"h":16,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19199","name":"Vector","type":"VECTOR","x":316,"y":299,"w":44,"h":26,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19200","name":"Vector","type":"VECTOR","x":334,"y":289,"w":65,"h":38,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19201","name":"Vector","type":"VECTOR","x":208,"y":313,"w":42,"h":25,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19202","name":"Vector","type":"VECTOR","x":618,"y":656,"w":27,"h":16,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19203","name":"Vector","type":"VECTOR","x":636,"y":645,"w":44,"h":26,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19204","name":"Vector","type":"VECTOR","x":653,"y":635,"w":65,"h":38,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19205","name":"Vector","type":"VECTOR","x":339,"y":214,"w":65,"h":38,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19206","name":"Vector","type":"VECTOR","x":601,"y":249,"w":183,"h":309,"bg":"rgba(42,202,247,1)"}
+      {"id":"80:19207","name":"Vector","type":"VECTOR","x":381,"y":218,"w":39,"h":23,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19208","name":"Vector","type":"VECTOR","x":25,"y":656,"w":134,"h":59,"bg":"linear-gradient(270deg, rgba(202,206,252,1) 0.0%, rgba(186,190,251,1) 11.0%, rgba(167,172,250,1) 26.0%, rgba(160,165,250,1) 38.0%, rgba(175,180,251,1) 44.0%, rgba(215,217,253,1) 58.0%, rgba(255,255,255,1) 69.0%)"}
+    {"id":"80:19209","name":"Vector","type":"VECTOR","x":25,"y":614,"w":134,"h":83,"bg":"linear-gradient(180deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+    {"id":"80:19210","name":"Vector","type":"VECTOR","x":30,"y":620,"w":123,"h":73,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19211","name":"Vector","type":"VECTOR","x":60,"y":638,"w":63,"h":37,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19212","name":"Vector","type":"VECTOR","x":81,"y":643,"w":21,"h":18,"bg":"linear-gradient(34deg, rgba(202,206,252,1) 0.0%, rgba(229,231,254,1) 38.0%, rgba(248,249,255,1) 75.0%, rgba(255,255,255,1) 100.0%)"}
+    {"id":"80:19213","name":"Vector","type":"VECTOR","x":91,"y":643,"w":6,"h":10,"bg":"rgba(202,206,252,1)"}
+    {"id":"80:19214","name":"Vector","type":"VECTOR","x":72,"y":601,"w":48,"h":60,"bg":"linear-gradient(90deg, rgba(202,206,252,1) 0.0%, rgba(229,231,254,1) 38.0%, rgba(248,249,255,1) 75.0%, rgba(255,255,255,1) 100.0%)"}
+    {"id":"80:19215","name":"Vector","type":"VECTOR","x":75,"y":606,"w":36,"h":36,"bg":"rgba(0,18,92,1)"}
+    {"id":"80:19216","name":"Vector","type":"VECTOR","x":95,"y":627,"w":20,"h":27,"bg":"rgba(19,40,123,1)"}
+    {"id":"80:19217","name":"Vector","type":"VECTOR","x":425,"y":371,"w":134,"h":202,"bg":"linear-gradient(270deg, rgba(202,206,252,1) 0.0%, rgba(186,190,251,1) 11.0%, rgba(167,172,250,1) 26.0%, rgba(160,165,250,1) 38.0%, rgba(175,180,251,1) 44.0%, rgba(215,217,253,1) 58.0%, rgba(255,255,255,1) 69.0%)"}
+    {"id":"80:19218","name":"Vector","type":"VECTOR","x":425,"y":392,"w":134,"h":48,"bg":"rgba(0,17,78,1)"}
+    {"id":"80:19219","name":"Vector","type":"VECTOR","x":425,"y":502,"w":134,"h":48,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19220","name":"Vector","type":"VECTOR","x":425,"y":329,"w":134,"h":83,"bg":"linear-gradient(90deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+    {"id":"80:19221","name":"Vector","type":"VECTOR","x":430,"y":335,"w":123,"h":73,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19222","name":"Vector","type":"VECTOR","x":461,"y":490,"w":12,"h":10,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19223","name":"Vector","type":"VECTOR","x":438,"y":477,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19224","name":"Vector","type":"VECTOR","x":438,"y":505,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19225","name":"Vector","type":"VECTOR","x":461,"y":518,"w":12,"h":10,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19226","name":"Vector","type":"VECTOR","x":461,"y":434,"w":12,"h":10,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19227","name":"Vector","type":"VECTOR","x":438,"y":421,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19228","name":"Vector","type":"VECTOR","x":461,"y":462,"w":12,"h":10,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19229","name":"Vector","type":"VECTOR","x":438,"y":450,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19230","name":"Vector","type":"VECTOR","x":534,"y":434,"w":134,"h":202,"bg":"linear-gradient(270deg, rgba(202,206,252,1) 0.0%, rgba(186,190,251,1) 11.0%, rgba(167,172,250,1) 26.0%, rgba(160,165,250,1) 38.0%, rgba(175,180,251,1) 44.0%, rgba(215,217,253,1) 58.0%, rgba(255,255,255,1) 69.0%)"}
+    {"id":"80:19231","name":"Vector","type":"VECTOR","x":534,"y":455,"w":134,"h":48,"bg":"rgba(0,17,78,1)"}
+    {"id":"80:19232","name":"Vector","type":"VECTOR","x":534,"y":565,"w":134,"h":48,"bg":"rgba(0,17,78,1)"}
+    {"id":"80:19233","name":"Vector","type":"VECTOR","x":534,"y":392,"w":134,"h":83,"bg":"linear-gradient(180deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+    {"id":"80:19234","name":"Vector","type":"VECTOR","x":539,"y":398,"w":123,"h":73,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19235","name":"Vector","type":"VECTOR","x":570,"y":553,"w":12,"h":10,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19236","name":"Vector","type":"VECTOR","x":547,"y":540,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19237","name":"Vector","type":"VECTOR","x":547,"y":568,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19238","name":"Vector","type":"VECTOR","x":570,"y":581,"w":12,"h":10,"bg":"rgba(255,44,192,1)"}
+    {"id":"80:19239","name":"Vector","type":"VECTOR","x":570,"y":497,"w":12,"h":10,"bg":"rgba(255,44,192,1)"}
+    {"id":"80:19240","name":"Vector","type":"VECTOR","x":547,"y":484,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19241","name":"Vector","type":"VECTOR","x":570,"y":525,"w":12,"h":10,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19242","name":"Vector","type":"VECTOR","x":547,"y":513,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19243","name":"Vector","type":"VECTOR","x":316,"y":433,"w":134,"h":202,"bg":"linear-gradient(270deg, rgba(202,206,252,1) 0.0%, rgba(186,190,251,1) 11.0%, rgba(167,172,250,1) 26.0%, rgba(160,165,250,1) 38.0%, rgba(175,180,251,1) 44.0%, rgba(215,217,253,1) 58.0%, rgba(255,255,255,1) 69.0%)"}
+    {"id":"80:19244","name":"Vector","type":"VECTOR","x":316,"y":453,"w":134,"h":48,"bg":"rgba(0,17,78,1)"}
+    {"id":"80:19245","name":"Vector","type":"VECTOR","x":316,"y":564,"w":134,"h":48,"bg":"rgba(0,17,78,1)"}
+    {"id":"80:19246","name":"Vector","type":"VECTOR","x":316,"y":391,"w":134,"h":83,"bg":"linear-gradient(90deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+    {"id":"80:19247","name":"Vector","type":"VECTOR","x":321,"y":396,"w":123,"h":73,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19248","name":"Vector","type":"VECTOR","x":352,"y":552,"w":12,"h":10,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19249","name":"Vector","type":"VECTOR","x":329,"y":539,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19250","name":"Vector","type":"VECTOR","x":329,"y":567,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19251","name":"Vector","type":"VECTOR","x":352,"y":579,"w":12,"h":10,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19252","name":"Vector","type":"VECTOR","x":352,"y":496,"w":12,"h":10,"bg":"rgba(255,44,192,1)"}
+    {"id":"80:19253","name":"Vector","type":"VECTOR","x":329,"y":483,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19254","name":"Vector","type":"VECTOR","x":352,"y":524,"w":12,"h":10,"bg":"rgba(255,44,192,1)"}
+    {"id":"80:19255","name":"Vector","type":"VECTOR","x":329,"y":512,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19256","name":"Vector","type":"VECTOR","x":425,"y":496,"w":134,"h":202,"bg":"linear-gradient(270deg, rgba(202,206,252,1) 0.0%, rgba(186,190,251,1) 11.0%, rgba(167,172,250,1) 26.0%, rgba(160,165,250,1) 38.0%, rgba(175,180,251,1) 44.0%, rgba(215,217,253,1) 58.0%, rgba(255,255,255,1) 69.0%)"}
+    {"id":"80:19257","name":"Vector","type":"VECTOR","x":425,"y":516,"w":134,"h":48,"bg":"rgba(0,17,78,1)"}
+    {"id":"80:19258","name":"Vector","type":"VECTOR","x":425,"y":627,"w":134,"h":48,"bg":"rgba(0,17,78,1)"}
+    {"id":"80:19259","name":"Vector","type":"VECTOR","x":425,"y":454,"w":134,"h":83,"bg":"linear-gradient(180deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+    {"id":"80:19260","name":"Vector","type":"VECTOR","x":430,"y":459,"w":123,"h":73,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19261","name":"Vector","type":"VECTOR","x":461,"y":615,"w":12,"h":10,"bg":"rgba(255,44,192,1)"}
+    {"id":"80:19262","name":"Vector","type":"VECTOR","x":438,"y":602,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19263","name":"Vector","type":"VECTOR","x":438,"y":630,"w":23,"h":16,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19264","name":"Vector","type":"VECTOR","x":461,"y":642,"w":12,"h":10,"bg":"rgba(255,44,192,1)"}
+    {"id":"80:19265","name":"Vector","type":"VECTOR","x":461,"y":559,"w":12,"h":10,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19266","name":"Vector","type":"VECTOR","x":438,"y":546,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19267","name":"Vector","type":"VECTOR","x":461,"y":587,"w":12,"h":10,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19268","name":"Vector","type":"VECTOR","x":438,"y":575,"w":23,"h":17,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:19269","name":"Vector","type":"VECTOR","x":570,"y":416,"w":63,"h":37,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19270","name":"Vector","type":"VECTOR","x":352,"y":414,"w":63,"h":37,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19271","name":"Vector","type":"VECTOR","x":460,"y":352,"w":63,"h":37,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19272","name":"Vector","type":"VECTOR","x":461,"y":477,"w":63,"h":37,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19273","name":"Vector","type":"VECTOR","x":512,"y":454,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19274","name":"Vector","type":"VECTOR","x":503,"y":470,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19275","name":"Vector","type":"VECTOR","x":472,"y":476,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19276","name":"Vector","type":"VECTOR","x":484,"y":444,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19277","name":"Vector","type":"VECTOR","x":580,"y":386,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19278","name":"Vector","type":"VECTOR","x":604,"y":405,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19279","name":"Vector","type":"VECTOR","x":616,"y":413,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19280","name":"Vector","type":"VECTOR","x":615,"y":377,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19281","name":"Vector","type":"VECTOR","x":471,"y":327,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19282","name":"Vector","type":"VECTOR","x":484,"y":316,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19283","name":"Vector","type":"VECTOR","x":497,"y":344,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19284","name":"Vector","type":"VECTOR","x":509,"y":329,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19285","name":"Vector","type":"VECTOR","x":363,"y":389,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19286","name":"Vector","type":"VECTOR","x":387,"y":404,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19287","name":"Vector","type":"VECTOR","x":394,"y":411,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19288","name":"Vector","type":"VECTOR","x":398,"y":379,"w":5,"h":5,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19289","name":"Group","type":"GROUP","x":460,"y":298,"w":63,"h":92}
+      {"id":"80:19290","name":"Vector","type":"VECTOR","x":0,"y":0,"w":63,"h":92,"bg":"linear-gradient(0deg, rgba(42,202,247,1) 0.0%, rgba(42,202,247,1) 80.0%, rgba(42,202,247,1) 100.0%)","shadow":"0px 0px 30px 0px rgba(42,202,247,0.15)"}
+    {"id":"80:19291","name":"Group","type":"GROUP","x":570,"y":361,"w":63,"h":92}
+      {"id":"80:19292","name":"Vector","type":"VECTOR","x":0,"y":0,"w":63,"h":92,"bg":"linear-gradient(0deg, rgba(42,202,247,1) 0.0%, rgba(42,202,247,1) 80.0%, rgba(42,202,247,1) 100.0%)","shadow":"0px 0px 30px 0px rgba(42,202,247,0.15)"}
+    {"id":"80:19293","name":"Group","type":"GROUP","x":352,"y":360,"w":63,"h":92}
+      {"id":"80:19294","name":"Vector","type":"VECTOR","x":0,"y":0,"w":63,"h":92,"bg":"linear-gradient(0deg, rgba(42,202,247,1) 0.0%, rgba(42,202,247,1) 80.0%, rgba(42,202,247,1) 100.0%)","shadow":"0px 0px 30px 0px rgba(42,202,247,0.15)"}
+    {"id":"80:19295","name":"Group","type":"GROUP","x":460,"y":423,"w":63,"h":92}
+      {"id":"80:19296","name":"Vector","type":"VECTOR","x":0,"y":0,"w":63,"h":92,"bg":"linear-gradient(0deg, rgba(42,202,247,1) 0.0%, rgba(42,202,247,1) 80.0%, rgba(42,202,247,1) 100.0%)","shadow":"0px 0px 30px 0px rgba(42,202,247,0.15)"}
+    {"id":"80:19297","name":"Vector","type":"VECTOR","x":625,"y":278,"w":134,"h":59,"bg":"linear-gradient(270deg, rgba(202,206,252,1) 0.0%, rgba(186,190,251,1) 11.0%, rgba(167,172,250,1) 26.0%, rgba(160,165,250,1) 38.0%, rgba(175,180,251,1) 44.0%, rgba(215,217,253,1) 58.0%, rgba(255,255,255,1) 69.0%)"}
+    {"id":"80:19298","name":"Vector","type":"VECTOR","x":625,"y":236,"w":134,"h":83,"bg":"linear-gradient(180deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+    {"id":"80:19299","name":"Vector","type":"VECTOR","x":630,"y":241,"w":123,"h":73,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19300","name":"Vector","type":"VECTOR","x":661,"y":259,"w":63,"h":37,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:19301","name":"Vector","type":"VECTOR","x":682,"y":265,"w":21,"h":18,"bg":"linear-gradient(39deg, rgba(202,206,252,1) 0.0%, rgba(229,231,254,1) 38.0%, rgba(248,249,255,1) 75.0%, rgba(255,255,255,1) 100.0%)"}
+    {"id":"80:19302","name":"Vector","type":"VECTOR","x":692,"y":265,"w":6,"h":10,"bg":"rgba(202,206,252,1)"}
+    {"id":"80:19303","name":"Vector","type":"VECTOR","x":673,"y":223,"w":48,"h":60,"bg":"linear-gradient(90deg, rgba(202,206,252,1) 0.0%, rgba(229,231,254,1) 38.0%, rgba(248,249,255,1) 75.0%, rgba(255,255,255,1) 100.0%)"}
+    {"id":"80:19304","name":"Vector","type":"VECTOR","x":677,"y":228,"w":36,"h":36,"bg":"rgba(0,18,92,1)"}
+    {"id":"80:19305","name":"Vector","type":"VECTOR","x":696,"y":249,"w":20,"h":27,"bg":"rgba(19,40,123,1)"}
+  {"id":"80:19306","name":"Скрольте чтобы узнать детали","type":"TEXT","x":0,"y":806,"w":194,"h":20,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Скрольте чтобы узнать детали"}}
+  {"id":"80:19307","name":"Аренда сервера","type":"TEXT","x":0,"y":207,"w":457,"h":87,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":60,"weight":500,"lh":87,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда сервера"}}
+  {"id":"80:19308","name":"для DevOps|","type":"TEXT","x":0,"y":289,"w":236,"h":58,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":40,"weight":500,"lh":58,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"для DevOps|"}}
+  {"id":"80:19309","name":"Готовое решение","type":"TEXT","x":0,"y":177,"w":538,"h":94,"bg":"rgba(255,255,255,1)","opacity":0.07999999821186066,"text":{"family":"Jost","size":65,"weight":700,"lh":94,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Готовое решение"}}
+  {"id":"80:19310","name":"Rectangle 4","type":"RECTANGLE","x":10,"y":511,"w":330,"h":43,"bg":"rgba(0,47,142,1)"}
+  {"id":"80:19311","name":"Rectangle 2","type":"RECTANGLE","x":0,"y":500,"w":350,"h":48,"bg":"rgba(255,131,17,1)"}
+  {"id":"80:19312","name":"Сервера с мгновенной активацией","type":"TEXT","x":43,"y":512,"w":264,"h":24,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":16,"weight":600,"lh":23,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"Сервера с мгновенной активацией"}}
+  {"id":"80:19313","name":"Я знаю что делаю - покажите мне ВСЕ!","type":"TEXT","x":22,"y":568,"w":304,"h":24,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":16,"weight":600,"lh":23,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"Я знаю что делаю - покажите мне ВСЕ!"}}
+  {"id":"80:19314","name":"Мы предлагаем более 1278 конфигураций выделенных серверов в 11 дата-центрах. Быстро, дешево, качественно - вы сможете подобрать любую комбинацию!","type":"TEXT","x":0,"y":371,"w":513,"h":81,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":20,"weight":400,"lh":27,"ls":0,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Мы предлагаем более 1278 конфигураций выделенных серверов в 11 дата-центрах. Быстро, дешево, качественно - вы сможете по"}}
+  {"id":"80:19315","name":"Group 6","type":"GROUP","x":821,"y":804,"w":90,"h":24}
+    {"id":"80:19316","name":"data_xata","type":"TEXT","x":32,"y":2,"w":58,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"data_xata"}}
+    {"id":"80:19317","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:19318","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+      {"id":"80:19319","name":"Vector","type":"VECTOR","x":2,"y":2,"w":20,"h":20,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19320","name":"Frame","type":"FRAME","x":935,"y":804,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19321","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+    {"id":"80:19322","name":"Vector","type":"VECTOR","x":3,"y":3,"w":18,"h":18,"bg":"rgba(255,131,17,1)"}
+  {"id":"80:19323","name":"+7 (499) 348 1331","type":"TEXT","x":967,"y":806,"w":119,"h":20,"bg":"rgba(255,131,17,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,131,17,1)","value":"+7 (499) 348 1331"}}
+  {"id":"80:19324","name":"Frame","type":"FRAME","x":882,"y":54,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19325","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"80:19326","name":"Vector","type":"VECTOR","x":4,"y":6,"w":10,"h":6,"bg":"rgba(255,131,17,1)"}
+  {"id":"80:19327","name":"Помощь","type":"TEXT","x":373,"y":52,"w":54,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Помощь"}}
+  {"id":"80:19328","name":"Оплата и доставка","type":"TEXT","x":459,"y":52,"w":118,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Оплата и доставка"}}
+  {"id":"80:19329","name":"Блог","type":"TEXT","x":609,"y":52,"w":30,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Блог"}}
+  {"id":"80:19330","name":"Партнерская программа","type":"TEXT","x":671,"y":52,"w":155,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Партнерская программа"}}
+  {"id":"80:19331","name":"RU","type":"TEXT","x":858,"y":52,"w":18,"h":20,"bg":"rgba(255,131,17,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,131,17,1)","value":"RU"}}
+
+### Frame [80:19332] ###
+{"id":"80:19332","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19333","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:19334","name":"Vector","type":"VECTOR","x":4,"y":6,"w":10,"h":6,"bg":"rgba(255,131,17,1)"}
+
+### Group 13 [80:19336] ###
+{"id":"80:19336","name":"Group 13","type":"GROUP","x":0,"y":0,"w":684,"h":505}
+  {"id":"80:19337","name":"Rectangle 19","type":"RECTANGLE","x":0,"y":0,"w":684,"h":505,"bg":"rgba(0,65,190,0.85)"}
+  {"id":"80:19338","name":"Frame","type":"FRAME","x":35,"y":391,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19339","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"80:19340","name":"Vector","type":"VECTOR","x":1,"y":1,"w":17,"h":15,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19341","name":"Frame","type":"FRAME","x":35,"y":360,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19342","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"80:19343","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":14,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19344","name":"Frame","type":"FRAME","x":35,"y":329,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19345","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"80:19346","name":"Vector","type":"VECTOR","x":1,"y":3,"w":17,"h":12,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19347","name":"Аренда сервера","type":"TEXT","x":32,"y":32,"w":107,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда сервера"}}
+  {"id":"80:19348","name":"Аренда виртуального сервера VPS/VDS","type":"TEXT","x":286,"y":32,"w":262,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда виртуального сервера VPS/VDS"}}
+  {"id":"80:19349","name":"Страны","type":"TEXT","x":32,"y":64,"w":48,"h":17,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Страны"}}
+  {"id":"80:19350","name":"Страны","type":"TEXT","x":286,"y":64,"w":48,"h":17,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Страны"}}
+  {"id":"80:19351","name":"Технологии","type":"TEXT","x":32,"y":231,"w":82,"h":17,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Технологии"}}
+  {"id":"80:19352","name":"Технологии","type":"TEXT","x":286,"y":231,"w":82,"h":17,"bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":12,"weight":500,"lh":17,"ls":0,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Технологии"}}
+  {"id":"80:19353","name":"Аренда Windows сервера","type":"TEXT","x":64,"y":262,"w":163,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда Windows сервера"}}
+  {"id":"80:19354","name":"Аренда виртуального сервера VPS/VDS на Windows","type":"TEXT","x":318,"y":262,"w":330,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда виртуального сервера VPS/VDS на Windows"}}
+  {"id":"80:19355","name":"Аренда Linux Сервера","type":"TEXT","x":64,"y":294,"w":141,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда Linux Сервера"}}
+  {"id":"80:19356","name":"Аренда виртуального сервера VPS/VDS на Linux","type":"TEXT","x":318,"y":294,"w":305,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда виртуального сервера VPS/VDS на Linux"}}
+  {"id":"80:19357","name":"Аренда игрового сервера","type":"TEXT","x":64,"y":326,"w":161,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда игрового сервера"}}
+  {"id":"80:19358","name":"Аренда хранилища","type":"TEXT","x":64,"y":358,"w":123,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда хранилища"}}
+  {"id":"80:19359","name":"Аренда офисного сервера","type":"TEXT","x":64,"y":390,"w":165,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда офисного сервера"}}
+  {"id":"80:19360","name":"Резервное копирование","type":"TEXT","x":64,"y":422,"w":150,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Резервное копирование"}}
+  {"id":"80:19361","name":"Администрирование серверов","type":"TEXT","x":64,"y":454,"w":190,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Администрирование серверов"}}
+  {"id":"80:19362","name":"Аренда сервера в США","type":"TEXT","x":64,"y":95,"w":151,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда сервера в США"}}
+  {"id":"80:19363","name":"Аренда виртуального сервера VPS/VDS в США","type":"TEXT","x":318,"y":95,"w":299,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда виртуального сервера VPS/VDS в США"}}
+  {"id":"80:19364","name":"Аренда сервера в Германии","type":"TEXT","x":64,"y":127,"w":176,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда сервера в Германии"}}
+  {"id":"80:19365","name":"Аренда виртуального сервера VPS/VDS в Германии","type":"TEXT","x":318,"y":127,"w":325,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда виртуального сервера VPS/VDS в Германии"}}
+  {"id":"80:19366","name":"Аренда сервера во Франции","type":"TEXT","x":64,"y":159,"w":182,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда сервера во Франции"}}
+  {"id":"80:19367","name":"Аренда виртуального сервера VPS/VDS во Франции","type":"TEXT","x":318,"y":159,"w":331,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда виртуального сервера VPS/VDS во Франции"}}
+  {"id":"80:19368","name":"Аренда сервера в Голландии","type":"TEXT","x":64,"y":191,"w":185,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Аренда сервера в Голландии"}}
+  {"id":"80:19369","name":"Аренда виртуального сервера VPS/VDS в Голландии","type":"TEXT","x":318,"y":191,"w":334,"h":20,"bg":"rgba(255,131,17,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,131,17,1)","value":"Аренда виртуального сервера VPS/VDS в Голландии"}}
+  {"id":"80:19370","name":"aAsset 2 1","type":"FRAME","x":32,"y":98,"w":24,"h":14,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19371","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+      {"id":"80:19372","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+        {"id":"80:19373","name":"Group","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+  {"id":"80:19438","name":"aAsset 2 2","type":"FRAME","x":286,"y":98,"w":24,"h":14,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19439","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+      {"id":"80:19440","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+        {"id":"80:19441","name":"Group","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+  {"id":"80:19506","name":"a2Asset 3 1","type":"FRAME","x":32,"y":162,"w":24,"h":14,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19507","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+      {"id":"80:19508","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+        {"id":"80:19509","name":"Group","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+  {"id":"80:19513","name":"a2Asset 3 2","type":"FRAME","x":286,"y":162,"w":24,"h":14,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19514","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+      {"id":"80:19515","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+        {"id":"80:19516","name":"Group","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+  {"id":"80:19520","name":"a3Asset 4 1","type":"FRAME","x":32,"y":194,"w":24,"h":14,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19521","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+      {"id":"80:19522","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+        {"id":"80:19523","name":"Group","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+  {"id":"80:19527","name":"a3Asset 4 2","type":"FRAME","x":286,"y":194,"w":24,"h":14,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19528","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+      {"id":"80:19529","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+        {"id":"80:19530","name":"Group","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+  {"id":"80:19534","name":"Asset 1 1","type":"FRAME","x":32,"y":130,"w":24,"h":14,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19535","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+      {"id":"80:19536","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+        {"id":"80:19537","name":"Group","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+  {"id":"80:19541","name":"Asset 1 2","type":"FRAME","x":286,"y":130,"w":24,"h":14,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19542","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+      {"id":"80:19543","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+        {"id":"80:19544","name":"Group","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+  {"id":"80:19548","name":"Frame","type":"FRAME","x":35,"y":263,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19549","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"80:19550","name":"Vector","type":"VECTOR","x":2,"y":2,"w":14,"h":14,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19551","name":"Frame","type":"FRAME","x":289,"y":263,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19552","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"80:19553","name":"Vector","type":"VECTOR","x":2,"y":2,"w":14,"h":14,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19554","name":"Frame","type":"FRAME","x":35,"y":296,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19555","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"80:19556","name":"Vector","type":"VECTOR","x":1,"y":2,"w":14,"h":15,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19557","name":"Frame","type":"FRAME","x":289,"y":296,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19558","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"80:19559","name":"Vector","type":"VECTOR","x":1,"y":2,"w":14,"h":15,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19560","name":"Frame","type":"FRAME","x":35,"y":455,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19561","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"80:19562","name":"Vector","type":"VECTOR","x":3,"y":1,"w":14,"h":16,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19563","name":"Frame","type":"FRAME","x":34,"y":423,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:19564","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+    {"id":"80:19565","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19566","name":"Rectangle 20","type":"RECTANGLE","x":286,"y":340,"w":270,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19567","name":"Аренда сервера с тестовым периодом","type":"TEXT","x":298,"y":348,"w":246,"h":20,"bg":"rgba(0,51,175,1)","text":{"family":"Jost","size":14,"weight":500,"lh":20,"ls":0,"align":"LEFT","color":"rgba(0,51,175,1)","value":"Аренда сервера с тестовым периодом"}}
+  {"id":"80:19568","name":"Cursor – Hand","type":"FRAME","x":429,"y":201,"w":36,"h":36}
+    {"id":"80:19569","name":"Shape","type":"VECTOR","x":4,"y":4,"w":25,"h":29,"bg":"rgba(255,255,255,1)","border":"0.75px solid rgba(0,0,0,1)"}
+    {"id":"80:19570","name":"Lines","type":"BOOLEAN_OPERATION","x":15,"y":20,"w":8,"h":6,"bg":"rgba(0,0,0,1)"}
+      {"id":"80:19571","name":"Line","type":"VECTOR","x":8,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+      {"id":"80:19572","name":"Line","type":"VECTOR","x":4,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+      {"id":"80:19573","name":"Line","type":"VECTOR","x":1,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+
+### Cursor – Hand [80:19576] ###
+{"id":"80:19576","name":"Cursor – Hand","type":"FRAME","x":0,"y":0,"w":36,"h":36}
+  {"id":"80:19577","name":"Shape","type":"VECTOR","x":4,"y":4,"w":25,"h":29,"bg":"rgba(255,255,255,1)","border":"0.75px solid rgba(0,0,0,1)"}
+  {"id":"80:19578","name":"Lines","type":"BOOLEAN_OPERATION","x":15,"y":20,"w":8,"h":6,"bg":"rgba(0,0,0,1)"}
+    {"id":"80:19579","name":"Line","type":"VECTOR","x":8,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"80:19580","name":"Line","type":"VECTOR","x":4,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"80:19581","name":"Line","type":"VECTOR","x":1,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+
+### Cursor – Hand [80:19582] ###
+{"id":"80:19582","name":"Cursor – Hand","type":"FRAME","x":0,"y":0,"w":36,"h":36}
+  {"id":"80:19583","name":"Shape","type":"VECTOR","x":4,"y":4,"w":25,"h":29,"bg":"rgba(255,255,255,1)","border":"0.75px solid rgba(0,0,0,1)"}
+  {"id":"80:19584","name":"Lines","type":"BOOLEAN_OPERATION","x":15,"y":20,"w":8,"h":6,"bg":"rgba(0,0,0,1)"}
+    {"id":"80:19585","name":"Line","type":"VECTOR","x":8,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"80:19586","name":"Line","type":"VECTOR","x":4,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"80:19587","name":"Line","type":"VECTOR","x":1,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+
+### Cursor – Hand [80:19588] ###
+{"id":"80:19588","name":"Cursor – Hand","type":"FRAME","x":0,"y":0,"w":36,"h":36}
+  {"id":"80:19589","name":"Shape","type":"VECTOR","x":4,"y":4,"w":25,"h":29,"bg":"rgba(255,255,255,1)","border":"0.75px solid rgba(0,0,0,1)"}
+  {"id":"80:19590","name":"Lines","type":"BOOLEAN_OPERATION","x":15,"y":20,"w":8,"h":6,"bg":"rgba(0,0,0,1)"}
+    {"id":"80:19591","name":"Line","type":"VECTOR","x":8,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"80:19592","name":"Line","type":"VECTOR","x":4,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"80:19593","name":"Line","type":"VECTOR","x":1,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+
+### aAsset 2 1 [80:19598] ###
+{"id":"80:19598","name":"aAsset 2 1","type":"FRAME","x":0,"y":0,"w":24,"h":14,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19599","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+    {"id":"80:19600","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+      {"id":"80:19601","name":"Group","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+
+### 1Asset 1 2 [80:19672] ###
+{"id":"80:19672","name":"1Asset 1 2","type":"FRAME","x":0,"y":0,"w":24,"h":14,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19673","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+    {"id":"80:19674","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+      {"id":"80:19675","name":"Group","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+
+### 1Asset 2 2 [80:19679] ###
+{"id":"80:19679","name":"1Asset 2 2","type":"FRAME","x":0,"y":0,"w":24,"h":14,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19680","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+    {"id":"80:19681","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+      {"id":"80:19682","name":"Group","type":"GROUP","x":0,"y":0,"w":24,"h":14}
+
+### Frame [80:19685] ###
+{"id":"80:19685","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:19686","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:19687","name":"Vector","type":"VECTOR","x":8,"y":9,"w":8,"h":6,"bg":"rgba(255,131,17,1)"}
+

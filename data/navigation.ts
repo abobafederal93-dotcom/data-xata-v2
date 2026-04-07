@@ -96,25 +96,22 @@ export const officeAddress = "Sepapaja 6 Tallinn";
 
 export const socials: SocialLink[] = [
   {
+    name: "Twitter",
+    href: "https://twitter.com/dataxata",
+    icon: "tw",
+    svgSrc: "/img/figma/icon-twitter-24.svg",
+  },
+  {
+    name: "Slack",
+    href: "https://data-xata.slack.com",
+    icon: "slack",
+    svgSrc: "/img/figma/icon-slack-24.svg",
+  },
+  {
     name: "Facebook",
     href: "https://www.facebook.com/data.xata",
     icon: "fb",
-  },
-  {
-    name: "Twitter",
-    href: "https://twitter.com/dataxata",
-    icon: "info",
-    svgSrc: "/img/icons/i-tw.svg",
-  },
-  {
-    name: "VK",
-    href: "https://vk.com/dataxata",
-    icon: "vk",
-  },
-  {
-    name: "Telegram",
-    href: "tg://resolve?domain=dtxvti",
-    icon: "tg",
+    svgSrc: "/img/figma/icon-facebook-24.svg",
   },
 ];
 
@@ -164,9 +161,9 @@ export const footerColumns: FooterColumn[] = [
     ],
   },
   {
-    title: "Отдел поддержки",
+    title: "Служба поддержки",
     links: [
-      { label: "+380 (44) 23 88 766", href: "tel:+380442388766" },
+      { label: "+380 (44) 23 88 946", href: "tel:+380442388946" },
       { label: "support@data-xata.com", href: "mailto:support@data-xata.com" },
     ],
   },
@@ -183,7 +180,7 @@ export const footerNavLinks: FooterLink[] = [
 
 export const paymentMethods = [
   { name: "Visa", icon: "/img/icons/i-visa.svg" },
-  { name: "Mastercard", icon: "/img/icons/i-mastercard.svg" },
+  { name: "Mastercard", icon: "/img/figma/logo-mastercard-footer.svg" },
   { name: "PayPal", icon: "/img/icons/i-paypal.svg" },
   { name: "WebMoney", icon: "/img/icons/i-webmoney.svg" },
 ] as const;

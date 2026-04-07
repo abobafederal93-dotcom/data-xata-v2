@@ -7,9 +7,9 @@ export default function HomeRating() {
       <Container>
         <div className="grid desktop:grid-cols-[1fr_auto] items-center gap-30">
           <div>
-            <SectionHeading ghost="Репутация" title="Нас оценивают на ведущих рейтингах" />
+            <SectionHeading ghost="Клиенты считают, что" title="Наш сервис просто супер!" />
             <div className="mt-30 flex items-baseline gap-12 mb-30">
-              <span className="text-45 leading-65 desktop:text-65 desktop:leading-94 font-semibold text-accent">
+              <span className="text-45 leading-65 desktop:text-65 desktop:leading-94 font-semibold text-accent w-[10.2rem] h-[9.4rem] inline-block">
                 4.7
               </span>
               <span className="text-25 leading-36 font-medium text-white">из</span>

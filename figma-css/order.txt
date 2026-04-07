@@ -1,0 +1,531 @@
+=== ORDER (80:7901) 1440x4365 ===
+
+### logo 1 [80:7905] ###
+{"id":"80:7905","name":"logo 1","type":"FRAME","x":0,"y":0,"w":118,"h":26}
+  {"id":"80:7906","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":118,"h":26}
+    {"id":"80:7907","name":"Слой 1","type":"GROUP","x":0,"y":0,"w":118,"h":26}
+      {"id":"80:7908","name":"Vector","type":"VECTOR","x":0,"y":7,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7909","name":"Vector","type":"VECTOR","x":0,"y":14,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7910","name":"Vector","type":"VECTOR","x":0,"y":0,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7911","name":"Vector","type":"VECTOR","x":0,"y":7,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7912","name":"Vector","type":"VECTOR","x":0,"y":14,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7913","name":"Vector","type":"VECTOR","x":0,"y":0,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7914","name":"Vector","type":"VECTOR","x":43,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7915","name":"Vector","type":"VECTOR","x":54,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7916","name":"Vector","type":"VECTOR","x":63,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7917","name":"Vector","type":"VECTOR","x":73,"y":10,"w":5,"h":1,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7918","name":"Vector","type":"VECTOR","x":78,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7919","name":"Vector","type":"VECTOR","x":89,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7920","name":"Vector","type":"VECTOR","x":99,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7921","name":"Vector","type":"VECTOR","x":108,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7922","name":"Vector","type":"VECTOR","x":33,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7923","name":"Vector","type":"VECTOR","x":46,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7924","name":"Vector","type":"VECTOR","x":51,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7925","name":"Vector","type":"VECTOR","x":55,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7926","name":"Vector","type":"VECTOR","x":59,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7927","name":"Vector","type":"VECTOR","x":63,"y":17,"w":1,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7928","name":"Vector","type":"VECTOR","x":64,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7929","name":"Vector","type":"VECTOR","x":69,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7930","name":"Vector","type":"VECTOR","x":75,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7931","name":"Vector","type":"VECTOR","x":79,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7932","name":"Vector","type":"VECTOR","x":83,"y":17,"w":5,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7933","name":"Vector","type":"VECTOR","x":89,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7934","name":"Vector","type":"VECTOR","x":92,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7935","name":"Vector","type":"VECTOR","x":97,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7936","name":"Vector","type":"VECTOR","x":101,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:7940] ###
+{"id":"80:7940","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:7941","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:7942","name":"Vector","type":"VECTOR","x":4,"y":6,"w":10,"h":6,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:7949] ###
+{"id":"80:7949","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:7950","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:7951","name":"Vector","type":"VECTOR","x":4,"y":6,"w":10,"h":6,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:7963] ###
+{"id":"80:7963","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:7964","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:7965","name":"Vector","type":"VECTOR","x":3,"y":10,"w":18,"h":4,"bg":"rgba(255,255,255,1)"}
+
+### Twitter [80:7980] ###
+{"id":"80:7980","name":"Twitter","type":"INSTANCE","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"I80:7980;80:2817","name":"Twitter","type":"GROUP","x":0,"y":0,"w":36,"h":36}
+    {"id":"I80:7980;80:2818","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+      {"id":"I80:7980;80:2819","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":36,"h":36,"bg":"rgba(29,161,242,1)","radius":24}
+      {"id":"I80:7980;80:2820","name":"Path","type":"VECTOR","x":8,"y":10,"w":21,"h":17,"bg":"rgba(255,255,255,1)"}
+
+### Facebook [80:7981] ###
+{"id":"80:7981","name":"Facebook","type":"INSTANCE","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"I80:7981;80:2831","name":"Facebook","type":"GROUP","x":0,"y":0,"w":36,"h":36}
+    {"id":"I80:7981;80:2832","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+      {"id":"I80:7981;80:2833","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":36,"h":36,"bg":"rgba(66,103,178,1)","radius":24}
+      {"id":"I80:7981;80:2834","name":"Vector","type":"VECTOR","x":11,"y":6,"w":12,"h":24,"bg":"rgba(255,255,255,1)"}
+
+### Github_white [80:7982] ###
+{"id":"80:7982","name":"Github_white","type":"COMPONENT","x":0,"y":0,"w":36,"h":36}
+  {"id":"80:7983","name":"Vector","type":"VECTOR","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+
+### Yandex (Яндекс) [80:7984] ###
+{"id":"80:7984","name":"Yandex (Яндекс)","type":"FRAME","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:7985","name":"Yandex (Яндекс)","type":"GROUP","x":0,"y":0,"w":36,"h":36}
+    {"id":"80:7986","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7987","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,0,0,1)","radius":24}
+      {"id":"80:7988","name":"Vector","type":"VECTOR","x":11,"y":6,"w":13,"h":24,"bg":"rgba(255,255,255,1)"}
+
+### Mail.ru [80:7989] ###
+{"id":"80:7989","name":"Mail.ru","type":"FRAME","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:7990","name":"Mail.ru","type":"GROUP","x":0,"y":0,"w":36,"h":36}
+    {"id":"80:7991","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:7992","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":36,"h":36,"bg":"rgba(0,95,249,1)","radius":24}
+      {"id":"80:7993","name":"Vector","type":"VECTOR","x":6,"y":6,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+
+### Gmail_white [80:7994] ###
+{"id":"80:7994","name":"Gmail_white","type":"COMPONENT","x":0,"y":0,"w":36,"h":36}
+  {"id":"80:7995","name":"Shape","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:7996","name":"Path","type":"VECTOR","x":0,"y":0,"w":36,"h":36,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:7997","name":"Path","type":"VECTOR","x":9,"y":11,"w":18,"h":14,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8056] ###
+{"id":"80:8056","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8057","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8058","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8059] ###
+{"id":"80:8059","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8060","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8061","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8062] ###
+{"id":"80:8062","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8063","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8064","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8065] ###
+{"id":"80:8065","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8066","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8067","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8068] ###
+{"id":"80:8068","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8069","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8070","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8071] ###
+{"id":"80:8071","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8072","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8073","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8074] ###
+{"id":"80:8074","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8075","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8076","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8077] ###
+{"id":"80:8077","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8078","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8079","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8080] ###
+{"id":"80:8080","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8081","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8082","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8083] ###
+{"id":"80:8083","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8084","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8085","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8086] ###
+{"id":"80:8086","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8087","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8088","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8089] ###
+{"id":"80:8089","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8090","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8091","name":"Vector","type":"VECTOR","x":2,"y":2,"w":15,"h":15,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8115] ###
+{"id":"80:8115","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8116","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8117","name":"Vector","type":"VECTOR","x":2,"y":2,"w":20,"h":20,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8118] ###
+{"id":"80:8118","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8119","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8120","name":"Vector","type":"VECTOR","x":2,"y":2,"w":20,"h":20,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8121] ###
+{"id":"80:8121","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8122","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8123","name":"Vector","type":"VECTOR","x":2,"y":2,"w":20,"h":20,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8124] ###
+{"id":"80:8124","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8125","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8126","name":"Vector","type":"VECTOR","x":2,"y":2,"w":20,"h":20,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8127] ###
+{"id":"80:8127","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8128","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8129","name":"Vector","type":"VECTOR","x":2,"y":2,"w":20,"h":20,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8130] ###
+{"id":"80:8130","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8131","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8132","name":"Vector","type":"VECTOR","x":2,"y":2,"w":20,"h":20,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8133] ###
+{"id":"80:8133","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8134","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8135","name":"Vector","type":"VECTOR","x":2,"y":2,"w":20,"h":20,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8136] ###
+{"id":"80:8136","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8137","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8138","name":"Vector","type":"VECTOR","x":2,"y":2,"w":20,"h":20,"bg":"rgba(255,255,255,1)"}
+
+### Group [80:8139] ###
+{"id":"80:8139","name":"Group","type":"GROUP","x":0,"y":0,"w":73,"h":22,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8140","name":"polygon9","type":"VECTOR","x":26,"y":0,"w":10,"h":21,"bg":"rgba(131,154,218,1)"}
+  {"id":"80:8141","name":"path11","type":"VECTOR","x":35,"y":0,"w":18,"h":22,"bg":"rgba(131,154,218,1)"}
+  {"id":"80:8142","name":"path13","type":"VECTOR","x":52,"y":0,"w":21,"h":21,"bg":"rgba(131,154,218,1)"}
+  {"id":"80:8143","name":"path15","type":"VECTOR","x":6,"y":0,"w":21,"h":21,"bg":"rgba(131,154,218,1)"}
+  {"id":"80:8144","name":"path17","type":"VECTOR","x":0,"y":0,"w":14,"h":12,"bg":"rgba(131,154,218,1)"}
+
+### Mastercard-logo 1 [80:8145] ###
+{"id":"80:8145","name":"Mastercard-logo 1","type":"FRAME","x":0,"y":0,"w":28,"h":22,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8146","name":"Group","type":"GROUP","x":0,"y":0,"w":28,"h":22}
+    {"id":"80:8147","name":"Group","type":"GROUP","x":0,"y":0,"w":28,"h":22}
+      {"id":"80:8148","name":"Group","type":"GROUP","x":1,"y":19,"w":27,"h":3}
+      {"id":"80:8150","name":"Group","type":"GROUP","x":27,"y":14,"w":1,"h":0}
+      {"id":"80:8152","name":"Vector","type":"VECTOR","x":10,"y":2,"w":8,"h":14,"bg":"rgba(131,154,218,1)"}
+      {"id":"80:8153","name":"Group","type":"GROUP","x":0,"y":0,"w":14,"h":17}
+      {"id":"80:8155","name":"Group","type":"GROUP","x":14,"y":0,"w":14,"h":17}
+
+### 20190329082007!Логотип_Яндекс.Денег 1 [80:8157] ###
+{"id":"80:8157","name":"20190329082007!Логотип_Яндекс.Денег 1","type":"FRAME","x":0,"y":0,"w":98,"h":22,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8158","name":"surface350","type":"GROUP","x":3,"y":3,"w":91,"h":17}
+    {"id":"80:8159","name":"path2","type":"VECTOR","x":0,"y":0,"w":7,"h":15,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8160","name":"path4","type":"VECTOR","x":9,"y":4,"w":35,"h":13,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8161","name":"path6","type":"VECTOR","x":48,"y":0,"w":8,"h":17,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8162","name":"path8","type":"VECTOR","x":57,"y":4,"w":6,"h":11,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8163","name":"path10","type":"VECTOR","x":65,"y":4,"w":6,"h":10,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8164","name":"path12","type":"VECTOR","x":73,"y":4,"w":5,"h":10,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8165","name":"path14","type":"VECTOR","x":79,"y":4,"w":4,"h":10,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8166","name":"path16","type":"VECTOR","x":85,"y":4,"w":6,"h":10,"bg":"rgba(131,154,218,1)"}
+
+### Group [80:8167] ###
+{"id":"80:8167","name":"Group","type":"GROUP","x":0,"y":0,"w":95,"h":22}
+  {"id":"80:8168","name":"Combined Shape","type":"VECTOR","x":0,"y":0,"w":22,"h":22,"bg":"rgba(131,154,218,1)"}
+  {"id":"80:8169","name":"Group","type":"GROUP","x":28,"y":5,"w":68,"h":14}
+    {"id":"80:8170","name":"Fill 25","type":"VECTOR","x":0,"y":1,"w":12,"h":10,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8171","name":"Fill 28","type":"VECTOR","x":12,"y":3,"w":6,"h":8,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8172","name":"Fill 30","type":"VECTOR","x":20,"y":0,"w":6,"h":11,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8173","name":"Fill 32","type":"VECTOR","x":28,"y":1,"w":10,"h":10,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8174","name":"Fill 34","type":"VECTOR","x":39,"y":3,"w":7,"h":8,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8175","name":"Fill 36","type":"VECTOR","x":46,"y":3,"w":6,"h":7,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8176","name":"Fill 38","type":"VECTOR","x":54,"y":3,"w":6,"h":8,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8177","name":"Fill 40","type":"VECTOR","x":61,"y":3,"w":7,"h":10,"bg":"rgba(131,154,218,1)"}
+
+### Group [80:8178] ###
+{"id":"80:8178","name":"Group","type":"GROUP","x":0,"y":0,"w":95,"h":22}
+  {"id":"80:8179","name":"Combined Shape","type":"VECTOR","x":0,"y":0,"w":22,"h":22,"bg":"rgba(131,154,218,1)"}
+  {"id":"80:8180","name":"Group","type":"GROUP","x":28,"y":5,"w":68,"h":14}
+    {"id":"80:8181","name":"Fill 25","type":"VECTOR","x":0,"y":1,"w":12,"h":10,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8182","name":"Fill 28","type":"VECTOR","x":12,"y":3,"w":6,"h":8,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8183","name":"Fill 30","type":"VECTOR","x":20,"y":0,"w":6,"h":11,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8184","name":"Fill 32","type":"VECTOR","x":28,"y":1,"w":10,"h":10,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8185","name":"Fill 34","type":"VECTOR","x":39,"y":3,"w":7,"h":8,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8186","name":"Fill 36","type":"VECTOR","x":46,"y":3,"w":6,"h":7,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8187","name":"Fill 38","type":"VECTOR","x":54,"y":3,"w":6,"h":8,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8188","name":"Fill 40","type":"VECTOR","x":61,"y":3,"w":7,"h":10,"bg":"rgba(131,154,218,1)"}
+
+### Frame [80:8189] ###
+{"id":"80:8189","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8190","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8191","name":"Vector","type":"VECTOR","x":8,"y":6,"w":8,"h":13,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8192] ###
+{"id":"80:8192","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8193","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8194","name":"Vector","type":"VECTOR","x":8,"y":6,"w":8,"h":13,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8195] ###
+{"id":"80:8195","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8196","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8197","name":"Vector","type":"VECTOR","x":8,"y":6,"w":8,"h":13,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8198] ###
+{"id":"80:8198","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8199","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8200","name":"Vector","type":"VECTOR","x":8,"y":6,"w":8,"h":13,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8201] ###
+{"id":"80:8201","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8202","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8203","name":"Vector","type":"VECTOR","x":8,"y":6,"w":8,"h":13,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8204] ###
+{"id":"80:8204","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8205","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8206","name":"Vector","type":"VECTOR","x":8,"y":6,"w":8,"h":13,"bg":"rgba(255,255,255,1)"}
+
+### qiwi-wallet-logo 1 [80:8207] ###
+{"id":"80:8207","name":"qiwi-wallet-logo 1","type":"FRAME","x":0,"y":0,"w":44,"h":22,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8208","name":"Group","type":"GROUP","x":0,"y":2,"w":44,"h":20}
+    {"id":"80:8209","name":"Vector","type":"VECTOR","x":21,"y":11,"w":22,"h":4,"bg":"rgba(131,154,218,1)"}
+    {"id":"80:8210","name":"Vector","type":"VECTOR","x":0,"y":0,"w":43,"h":20,"bg":"rgba(131,154,218,1)"}
+
+### Group 27 [80:8211] ###
+{"id":"80:8211","name":"Group 27","type":"GROUP","x":0,"y":0,"w":548,"h":48}
+  {"id":"80:8212","name":"Rectangle 28","type":"RECTANGLE","x":0,"y":0,"w":548,"h":48,"bg":"rgba(255,131,17,1)"}
+  {"id":"80:8213","name":"Оплатить и получить доступ","type":"TEXT","x":151,"y":12,"w":247,"h":24,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":16,"weight":600,"lh":23,"ls":0,"align":"CENTER","color":"rgba(255,255,255,1)","value":"Оплатить и получить доступ"}}
+
+### Frame [80:8220] ###
+{"id":"80:8220","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8221","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8222","name":"Vector","type":"VECTOR","x":3,"y":3,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8223] ###
+{"id":"80:8223","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8224","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8225","name":"Vector","type":"VECTOR","x":3,"y":3,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8228] ###
+{"id":"80:8228","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8229","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8230","name":"Vector","type":"VECTOR","x":2,"y":2,"w":14,"h":14,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8231] ###
+{"id":"80:8231","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8232","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8233","name":"Vector","type":"VECTOR","x":2,"y":2,"w":14,"h":14,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8234] ###
+{"id":"80:8234","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8235","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8236","name":"Vector","type":"VECTOR","x":2,"y":2,"w":14,"h":16,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8237] ###
+{"id":"80:8237","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8238","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8239","name":"Vector","type":"VECTOR","x":2,"y":1,"w":15,"h":15,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8240] ###
+{"id":"80:8240","name":"Frame","type":"FRAME","x":0,"y":0,"w":18,"h":18,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8241","name":"Vector","type":"VECTOR","x":0,"y":0,"w":18,"h":18}
+  {"id":"80:8242","name":"Vector","type":"VECTOR","x":2,"y":1,"w":15,"h":15,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8252] ###
+{"id":"80:8252","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8253","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8254","name":"Vector","type":"VECTOR","x":1,"y":2,"w":23,"h":19,"bg":"rgba(255,255,255,1)"}
+
+### Frame [80:8256] ###
+{"id":"80:8256","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8257","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+  {"id":"80:8258","name":"Vector","type":"VECTOR","x":3,"y":2,"w":18,"h":20,"bg":"rgba(255,255,255,1)"}
+
+### Group 9 [80:8266] ###
+{"id":"80:8266","name":"Group 9","type":"GROUP","x":0,"y":0,"w":895,"h":20,"radius":[0,0,0,0],"opacity":0.4000000059604645}
+  {"id":"80:8267","name":"Terms and conditions","type":"TEXT","x":0,"y":0,"w":126,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Terms and conditions"}}
+  {"id":"80:8268","name":"Privacy policy","type":"TEXT","x":190,"y":0,"w":82,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Privacy policy"}}
+  {"id":"80:8269","name":"Refund policy","type":"TEXT","x":336,"y":0,"w":82,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Refund policy"}}
+  {"id":"80:8270","name":"Delivery time frame","type":"TEXT","x":482,"y":0,"w":116,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Delivery time frame"}}
+  {"id":"80:8271","name":"Abuse","type":"TEXT","x":662,"y":0,"w":38,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Abuse"}}
+  {"id":"80:8272","name":"Acceptable Use Policy","type":"TEXT","x":764,"y":0,"w":131,"h":20,"bg":"rgba(255,255,255,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(255,255,255,1)","value":"Acceptable Use Policy"}}
+
+### Vkontakte (VK) [80:8300] ###
+{"id":"80:8300","name":"Vkontakte (VK)","type":"INSTANCE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"I80:8300;80:2812","name":"Vkontakte (VK)","type":"GROUP","x":0,"y":0,"w":24,"h":24}
+    {"id":"I80:8300;80:2813","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+      {"id":"I80:8300;80:2814","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(81,129,184,1)","radius":24}
+      {"id":"I80:8300;80:2815","name":"Vector","type":"VECTOR","x":4,"y":8,"w":16,"h":10,"bg":"rgba(255,255,255,1)"}
+
+### Twitter [80:8301] ###
+{"id":"80:8301","name":"Twitter","type":"INSTANCE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"I80:8301;80:2817","name":"Twitter","type":"GROUP","x":0,"y":0,"w":24,"h":24}
+    {"id":"I80:8301;80:2818","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+      {"id":"I80:8301;80:2819","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(29,161,242,1)","radius":24}
+      {"id":"I80:8301;80:2820","name":"Path","type":"VECTOR","x":5,"y":7,"w":14,"h":12,"bg":"rgba(255,255,255,1)"}
+
+### Slack [80:8302] ###
+{"id":"80:8302","name":"Slack","type":"INSTANCE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"I80:8302;80:2822","name":"Slack","type":"GROUP","x":0,"y":0,"w":24,"h":24}
+    {"id":"I80:8302;80:2823","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+      {"id":"I80:8302;80:2824","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(97,31,105,1)","radius":24}
+      {"id":"I80:8302;80:2825","name":"Group","type":"GROUP","x":4,"y":4,"w":16,"h":16}
+
+### Facebook [80:8303] ###
+{"id":"80:8303","name":"Facebook","type":"INSTANCE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"I80:8303;80:2831","name":"Facebook","type":"GROUP","x":0,"y":0,"w":24,"h":24}
+    {"id":"I80:8303;80:2832","name":"Subtract","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+      {"id":"I80:8303;80:2833","name":"Rectangle","type":"RECTANGLE","x":0,"y":0,"w":24,"h":24,"bg":"rgba(66,103,178,1)","radius":24}
+      {"id":"I80:8303;80:2834","name":"Vector","type":"VECTOR","x":7,"y":4,"w":8,"h":16,"bg":"rgba(255,255,255,1)"}
+
+### logo 2 [80:8305] ###
+{"id":"80:8305","name":"logo 2","type":"FRAME","x":0,"y":0,"w":118,"h":26}
+  {"id":"80:8306","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":118,"h":26}
+    {"id":"80:8307","name":"Слой 1","type":"GROUP","x":0,"y":0,"w":118,"h":26}
+      {"id":"80:8308","name":"Vector","type":"VECTOR","x":0,"y":7,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8309","name":"Vector","type":"VECTOR","x":0,"y":14,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8310","name":"Vector","type":"VECTOR","x":0,"y":0,"w":29,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8311","name":"Vector","type":"VECTOR","x":0,"y":7,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8312","name":"Vector","type":"VECTOR","x":0,"y":14,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8313","name":"Vector","type":"VECTOR","x":0,"y":0,"w":15,"h":12,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8314","name":"Vector","type":"VECTOR","x":43,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8315","name":"Vector","type":"VECTOR","x":54,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8316","name":"Vector","type":"VECTOR","x":63,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8317","name":"Vector","type":"VECTOR","x":73,"y":10,"w":5,"h":1,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8318","name":"Vector","type":"VECTOR","x":78,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8319","name":"Vector","type":"VECTOR","x":89,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8320","name":"Vector","type":"VECTOR","x":99,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8321","name":"Vector","type":"VECTOR","x":108,"y":5,"w":10,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8322","name":"Vector","type":"VECTOR","x":33,"y":5,"w":9,"h":9,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8323","name":"Vector","type":"VECTOR","x":46,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8324","name":"Vector","type":"VECTOR","x":51,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8325","name":"Vector","type":"VECTOR","x":55,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8326","name":"Vector","type":"VECTOR","x":59,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8327","name":"Vector","type":"VECTOR","x":63,"y":17,"w":1,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8328","name":"Vector","type":"VECTOR","x":64,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8329","name":"Vector","type":"VECTOR","x":69,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8330","name":"Vector","type":"VECTOR","x":75,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8331","name":"Vector","type":"VECTOR","x":79,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8332","name":"Vector","type":"VECTOR","x":83,"y":17,"w":5,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8333","name":"Vector","type":"VECTOR","x":89,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8334","name":"Vector","type":"VECTOR","x":92,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8335","name":"Vector","type":"VECTOR","x":97,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8336","name":"Vector","type":"VECTOR","x":101,"y":17,"w":4,"h":4,"bg":"rgba(255,255,255,1)"}
+
+### Group [80:8337] ###
+{"id":"80:8337","name":"Group","type":"GROUP","x":0,"y":0,"w":67,"h":20,"bg":"rgba(255,255,255,1)","opacity":0.4000000059604645}
+  {"id":"80:8338","name":"polygon9","type":"VECTOR","x":23,"y":0,"w":9,"h":19,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8339","name":"path11","type":"VECTOR","x":32,"y":0,"w":16,"h":20,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8340","name":"path13","type":"VECTOR","x":47,"y":0,"w":19,"h":19,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8341","name":"path15","type":"VECTOR","x":6,"y":0,"w":19,"h":19,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8342","name":"path17","type":"VECTOR","x":0,"y":0,"w":13,"h":11,"bg":"rgba(255,255,255,1)"}
+
+### Mastercard-logo 2 [80:8343] ###
+{"id":"80:8343","name":"Mastercard-logo 2","type":"FRAME","x":0,"y":0,"w":31,"h":24,"bg":"rgba(255,255,255,1)","opacity":0.4000000059604645}
+  {"id":"80:8344","name":"Group","type":"GROUP","x":0,"y":0,"w":31,"h":24}
+    {"id":"80:8345","name":"Group","type":"GROUP","x":0,"y":0,"w":31,"h":24}
+      {"id":"80:8346","name":"Group","type":"GROUP","x":2,"y":20,"w":29,"h":4}
+      {"id":"80:8348","name":"Group","type":"GROUP","x":30,"y":15,"w":1,"h":0}
+      {"id":"80:8350","name":"Vector","type":"VECTOR","x":11,"y":2,"w":8,"h":15,"bg":"rgba(255,255,255,1)"}
+      {"id":"80:8351","name":"Group","type":"GROUP","x":0,"y":0,"w":15,"h":19}
+      {"id":"80:8353","name":"Group","type":"GROUP","x":15,"y":0,"w":16,"h":19}
+
+### Group 8 [80:8355] ###
+{"id":"80:8355","name":"Group 8","type":"GROUP","x":0,"y":0,"w":75,"h":20,"opacity":0.4000000059604645}
+  {"id":"80:8356","name":"Vector","type":"VECTOR","x":0,"y":0,"w":14,"h":16,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8357","name":"Vector","type":"VECTOR","x":13,"y":5,"w":13,"h":11,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8358","name":"Vector","type":"VECTOR","x":28,"y":6,"w":13,"h":14,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8359","name":"Vector","type":"VECTOR","x":42,"y":0,"w":14,"h":16,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8360","name":"Vector","type":"VECTOR","x":55,"y":5,"w":14,"h":11,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8361","name":"Vector","type":"VECTOR","x":69,"y":0,"w":6,"h":16,"bg":"rgba(255,255,255,1)"}
+
+### Group [80:8362] ###
+{"id":"80:8362","name":"Group","type":"GROUP","x":0,"y":0,"w":104,"h":24,"opacity":0.4000000059604645}
+  {"id":"80:8363","name":"Combined Shape","type":"VECTOR","x":0,"y":0,"w":24,"h":24,"bg":"rgba(255,255,255,1)"}
+  {"id":"80:8364","name":"Group","type":"GROUP","x":30,"y":5,"w":74,"h":15}
+    {"id":"80:8365","name":"Fill 25","type":"VECTOR","x":0,"y":1,"w":13,"h":11,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:8366","name":"Fill 28","type":"VECTOR","x":13,"y":4,"w":7,"h":8,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:8367","name":"Fill 30","type":"VECTOR","x":22,"y":0,"w":7,"h":12,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:8368","name":"Fill 32","type":"VECTOR","x":30,"y":1,"w":11,"h":11,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:8369","name":"Fill 34","type":"VECTOR","x":42,"y":4,"w":7,"h":8,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:8370","name":"Fill 36","type":"VECTOR","x":51,"y":4,"w":7,"h":8,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:8371","name":"Fill 38","type":"VECTOR","x":59,"y":4,"w":7,"h":8,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:8372","name":"Fill 40","type":"VECTOR","x":67,"y":4,"w":7,"h":11,"bg":"rgba(255,255,255,1)"}
+
+### Group 79 [80:8377] ###
+{"id":"80:8377","name":"Group 79","type":"GROUP","x":0,"y":0,"w":131,"h":119}
+  {"id":"80:8378","name":"Group 73","type":"GROUP","x":0,"y":21,"w":131,"h":98}
+    {"id":"80:8379","name":"Vector","type":"VECTOR","x":0,"y":41,"w":131,"h":58,"bg":"linear-gradient(270deg, rgba(202,206,252,1) 0.0%, rgba(186,190,251,1) 11.0%, rgba(167,172,250,1) 26.0%, rgba(160,165,250,1) 38.0%, rgba(175,180,251,1) 44.0%, rgba(215,217,253,1) 58.0%, rgba(255,255,255,1) 69.0%)"}
+    {"id":"80:8380","name":"Vector","type":"VECTOR","x":0,"y":0,"w":131,"h":82,"bg":"linear-gradient(180deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+    {"id":"80:8381","name":"Vector","type":"VECTOR","x":5,"y":5,"w":121,"h":72,"bg":"rgba(42,202,247,1)"}
+  {"id":"80:8382","name":"1Asset 2 3","type":"FRAME","x":39,"y":0,"w":55,"h":80,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:8383","name":"Layer 2","type":"GROUP","x":3,"y":0,"w":46,"h":66}
+      {"id":"80:8384","name":"Layer 1","type":"GROUP","x":0,"y":0,"w":46,"h":66}
+
+### Group 78 [80:8387] ###
+{"id":"80:8387","name":"Group 78","type":"GROUP","x":0,"y":0,"w":131,"h":116}
+  {"id":"80:8388","name":"Group 74","type":"GROUP","x":0,"y":18,"w":131,"h":98}
+    {"id":"80:8389","name":"Vector","type":"VECTOR","x":0,"y":41,"w":131,"h":58,"bg":"linear-gradient(270deg, rgba(202,206,252,1) 0.0%, rgba(186,190,251,1) 11.0%, rgba(167,172,250,1) 26.0%, rgba(160,165,250,1) 38.0%, rgba(175,180,251,1) 44.0%, rgba(215,217,253,1) 58.0%, rgba(255,255,255,1) 69.0%)"}
+    {"id":"80:8390","name":"Vector","type":"VECTOR","x":0,"y":0,"w":131,"h":82,"bg":"linear-gradient(180deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+    {"id":"80:8391","name":"Vector","type":"VECTOR","x":5,"y":5,"w":121,"h":72,"bg":"rgba(42,202,247,1)"}
+  {"id":"80:8392","name":"1Asset 1 7","type":"FRAME","x":19,"y":0,"w":79,"h":70,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:8393","name":"Layer 2","type":"GROUP","x":0,"y":0,"w":79,"h":70}
+      {"id":"80:8394","name":"1","type":"GROUP","x":0,"y":0,"w":79,"h":70}
+
+### Cursor – Hand [80:8419] ###
+{"id":"80:8419","name":"Cursor – Hand","type":"FRAME","x":0,"y":0,"w":36,"h":36}
+  {"id":"80:8420","name":"Shape","type":"VECTOR","x":4,"y":4,"w":25,"h":29,"bg":"rgba(255,255,255,1)","border":"0.75px solid rgba(0,0,0,1)"}
+  {"id":"80:8421","name":"Lines","type":"BOOLEAN_OPERATION","x":15,"y":20,"w":8,"h":6,"bg":"rgba(0,0,0,1)"}
+    {"id":"80:8422","name":"Line","type":"VECTOR","x":8,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"80:8423","name":"Line","type":"VECTOR","x":4,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+    {"id":"80:8424","name":"Line","type":"VECTOR","x":1,"y":1,"w":0,"h":5,"border":"1px solid rgba(0,0,0,1)"}
+
+### Frame 104 [80:8425] ###
+{"id":"80:8425","name":"Frame 104","type":"FRAME","x":0,"y":0,"w":416,"h":24,"layout":"flex-row","gap":8,"pad":[0,0,0,0],"align":"CENTER","sizingH":"HUG","sizingV":"HUG"}
+  {"id":"80:8426","name":"Frame","type":"FRAME","x":0,"y":0,"w":24,"h":24,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(255,255,255,1)"}
+    {"id":"80:8427","name":"Vector","type":"VECTOR","x":0,"y":0,"w":24,"h":24}
+    {"id":"80:8428","name":"Vector","type":"VECTOR","x":3,"y":2,"w":18,"h":19,"bg":"rgba(131,154,218,1)"}
+  {"id":"80:8429","name":"Rectangle 555","type":"RECTANGLE","x":32,"y":12,"w":18,"h":1,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(131,154,218,1)"}
+  {"id":"80:8430","name":"Сервер","type":"TEXT","x":58,"y":2,"w":47,"h":20,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Сервер"}}
+  {"id":"80:8431","name":"Rectangle 556","type":"RECTANGLE","x":113,"y":12,"w":18,"h":1,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(131,154,218,1)"}
+  {"id":"80:8432","name":"Описание сервера","type":"TEXT","x":139,"y":2,"w":117,"h":20,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Описание сервера"}}
+  {"id":"80:8433","name":"Rectangle 557","type":"RECTANGLE","x":264,"y":12,"w":18,"h":1,"sizingH":"FIXED","sizingV":"FIXED","bg":"rgba(131,154,218,1)"}
+  {"id":"80:8434","name":"Оформление заказа","type":"TEXT","x":290,"y":2,"w":126,"h":20,"sizingH":"HUG","sizingV":"HUG","bg":"rgba(131,154,218,1)","text":{"family":"Jost","size":14,"weight":400,"lh":20,"ls":0,"align":"LEFT","color":"rgba(131,154,218,1)","value":"Оформление заказа"}}
+
+### Group 77 [80:8435] ###
+{"id":"80:8435","name":"Group 77","type":"GROUP","x":0,"y":0,"w":131,"h":128}
+  {"id":"80:8436","name":"Group 75","type":"GROUP","x":0,"y":30,"w":131,"h":98}
+    {"id":"80:8437","name":"Vector","type":"VECTOR","x":0,"y":41,"w":131,"h":58,"bg":"linear-gradient(270deg, rgba(202,206,252,1) 0.0%, rgba(186,190,251,1) 11.0%, rgba(167,172,250,1) 26.0%, rgba(160,165,250,1) 38.0%, rgba(175,180,251,1) 44.0%, rgba(215,217,253,1) 58.0%, rgba(255,255,255,1) 69.0%)"}
+    {"id":"80:8438","name":"Vector","type":"VECTOR","x":0,"y":0,"w":131,"h":82,"bg":"linear-gradient(180deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+    {"id":"80:8439","name":"Vector","type":"VECTOR","x":5,"y":5,"w":121,"h":72,"bg":"rgba(42,202,247,1)"}
+  {"id":"80:8440","name":"Group 76","type":"GROUP","x":27,"y":0,"w":74,"h":82}
+    {"id":"80:8441","name":"Vector","type":"VECTOR","x":41,"y":55,"w":18,"h":14,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8442","name":"Vector","type":"VECTOR","x":40,"y":63,"w":5,"h":6,"bg":"rgba(33,24,39,1)"}
+    {"id":"80:8443","name":"Vector","type":"VECTOR","x":32,"y":61,"w":15,"h":15,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:8444","name":"Vector","type":"VECTOR","x":31,"y":65,"w":8,"h":11,"bg":"rgba(223,223,223,1)"}
+    {"id":"80:8445","name":"Vector","type":"VECTOR","x":19,"y":68,"w":18,"h":14,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8446","name":"Vector","type":"VECTOR","x":18,"y":76,"w":5,"h":6,"bg":"rgba(14,160,201,1)"}
+    {"id":"80:8447","name":"Vector","type":"VECTOR","x":35,"y":48,"w":7,"h":18,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8448","name":"Vector","type":"VECTOR","x":0,"y":24,"w":33,"h":35,"bg":"rgba(223,223,223,1)"}
+    {"id":"80:8449","name":"Union","type":"BOOLEAN_OPERATION","x":0,"y":0,"w":74,"h":43,"bg":"linear-gradient(180deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+      {"id":"80:8450","name":"Vector","type":"VECTOR","x":0,"y":0,"w":74,"h":43,"bg":"rgba(148,132,128,1)"}
+      {"id":"80:8451","name":"Vector","type":"VECTOR","x":0,"y":0,"w":72,"h":41,"bg":"linear-gradient(180deg, rgba(14,0,79,1) 0.0%, rgba(94,69,217,1) 100.0%)"}
+    {"id":"80:8452","name":"Vector","type":"VECTOR","x":33,"y":19,"w":41,"h":40,"bg":"rgba(255,255,255,1)"}
+    {"id":"80:8453","name":"Vector","type":"VECTOR","x":37,"y":44,"w":2,"h":3,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:8454","name":"Vector","type":"VECTOR","x":37,"y":49,"w":2,"h":3,"bg":"rgba(49,4,126,1)"}
+    {"id":"80:8455","name":"Vector","type":"VECTOR","x":42,"y":43,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8456","name":"Vector","type":"VECTOR","x":44,"y":41,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8457","name":"Vector","type":"VECTOR","x":47,"y":40,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8458","name":"Vector","type":"VECTOR","x":49,"y":38,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8459","name":"Vector","type":"VECTOR","x":51,"y":37,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8460","name":"Vector","type":"VECTOR","x":54,"y":36,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8461","name":"Vector","type":"VECTOR","x":56,"y":34,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8462","name":"Vector","type":"VECTOR","x":58,"y":33,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8463","name":"Vector","type":"VECTOR","x":61,"y":32,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8464","name":"Vector","type":"VECTOR","x":42,"y":46,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8465","name":"Vector","type":"VECTOR","x":44,"y":44,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8466","name":"Vector","type":"VECTOR","x":47,"y":43,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8467","name":"Vector","type":"VECTOR","x":49,"y":42,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8468","name":"Vector","type":"VECTOR","x":51,"y":40,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8469","name":"Vector","type":"VECTOR","x":54,"y":39,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8470","name":"Vector","type":"VECTOR","x":56,"y":38,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8471","name":"Vector","type":"VECTOR","x":58,"y":36,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8472","name":"Vector","type":"VECTOR","x":61,"y":35,"w":1,"h":2,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8473","name":"Vector","type":"VECTOR","x":64,"y":26,"w":7,"h":9,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8474","name":"Vector","type":"VECTOR","x":30,"y":14,"w":10,"h":6,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8475","name":"Vector","type":"VECTOR","x":33,"y":12,"w":10,"h":6,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8476","name":"Vector","type":"VECTOR","x":37,"y":10,"w":10,"h":6,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8477","name":"Vector","type":"VECTOR","x":40,"y":8,"w":10,"h":6,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8478","name":"Vector","type":"VECTOR","x":15,"y":23,"w":10,"h":6,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8479","name":"Vector","type":"VECTOR","x":19,"y":21,"w":10,"h":6,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8480","name":"Vector","type":"VECTOR","x":22,"y":19,"w":10,"h":6,"bg":"rgba(42,202,247,1)"}
+    {"id":"80:8481","name":"Vector","type":"VECTOR","x":26,"y":17,"w":10,"h":6,"bg":"rgba(42,202,247,1)"}
+

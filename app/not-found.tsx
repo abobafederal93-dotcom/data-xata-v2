@@ -14,15 +14,15 @@ export default function NotFound() {
 
       <section>
         <Container>
-          <div className="grid desktop:grid-cols-[1fr_auto] items-center gap-40 desktop:gap-60 py-60 desktop:py-80">
-            <div className="relative">
-              <span
-                className="absolute -top-30 left-0 text-65 leading-94 font-bold text-white opacity-[0.08] pointer-events-none select-none"
+          <div className="flex flex-col desktop:flex-row items-center gap-40 desktop:gap-60 py-60 desktop:py-80">
+            <div className="flex-1">
+              <div
+                className="text-65 leading-94 font-bold text-white opacity-[0.08] -mb-40 pointer-events-none select-none"
                 aria-hidden="true"
               >
                 404
-              </span>
-              <h1 className="relative text-40 leading-58 desktop:text-60 desktop:leading-87 font-medium text-white">
+              </div>
+              <h1 className="text-40 leading-58 desktop:text-60 desktop:leading-87 font-medium text-white">
                 Нет такой страницы
               </h1>
               <p className="text-16 leading-23 desktop:text-20 desktop:leading-27 text-secondary mt-20 max-w-[51.3rem]">
@@ -34,16 +34,12 @@ export default function NotFound() {
                 </Button>
               </div>
             </div>
-            <div className="hidden desktop:flex justify-end">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/figma-error-desktop.png"
-                alt="404"
-                width={520}
-                height={400}
-                className="w-[52rem] h-auto"
-              />
-            </div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/figma/404-illustration.svg"
+              alt="404"
+              className="w-[30.8rem] h-[36.1rem]"
+            />
           </div>
         </Container>
       </section>

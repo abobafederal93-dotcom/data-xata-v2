@@ -26,7 +26,7 @@ export default function FilterSection({ filters = defaultFilters }: FilterSectio
           {filters.map((f) => (
             <div
               key={f.label}
-              className="bg-white h-48 rounded-sm px-14 flex items-center justify-between flex-1"
+              className="bg-white h-48 px-14 flex items-center justify-between desktop:w-[33.4rem] flex-1"
             >
               <span className="text-14 leading-20 font-medium text-[#0041be]">{f.label}</span>
               <span className="text-14 leading-20 font-medium text-accent text-right">

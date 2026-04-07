@@ -64,16 +64,16 @@ export default function ServerDetailPage() {
 
   const osList: { name: string; src: string }[] = [
     { name: 'Windows', src: '/img/icons/Windows.svg' },
-    { name: 'CloudLinux', src: '/img/icons/CloudLinux.svg' },
-    { name: 'Ubuntu', src: '/img/icons/Ubuntu.svg' },
+    { name: 'Ubuntu', src: '/img/figma/os-ubuntu.svg' },
     { name: 'CentOs', src: '/img/icons/CentOs.svg' },
-    { name: 'Debian', src: '/img/icons/Debian.svg' },
-    { name: 'VMware', src: '/img/icons/VMware.svg' },
+    { name: 'Debian', src: '/img/figma/os-debian.svg' },
+    { name: 'CloudLinux', src: '/img/figma/os-cloudlinux.svg' },
+    { name: 'VMware', src: '/img/figma/os-vmware.svg' },
   ];
   const panelsList: { name: string; src: string }[] = [
+    { name: 'DirectAdmin', src: '/img/figma/panel-directadmin.svg' },
+    { name: 'cPanel', src: '/img/figma/panel-cpanel.svg' },
     { name: 'R1Soft', src: '/img/icons/R1Soft.svg' },
-    { name: 'DirectAdmin', src: '/img/icons/DirectAdmin.svg' },
-    { name: 'cPanel', src: '/img/icons/cPanel.svg' },
   ];
 
   const faq = [
@@ -130,7 +130,7 @@ export default function ServerDetailPage() {
                     key={os.name}
                     className="flex flex-col items-center gap-12"
                   >
-                    <img src={os.src} alt={os.name} className="h-73 w-auto" />
+                    <img src={os.src} alt={os.name} className="h-[7.3rem] w-auto mb-10" />
                     <span className="text-20 leading-29 font-medium text-white text-center">
                       {os.name}
                     </span>

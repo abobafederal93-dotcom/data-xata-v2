@@ -34,13 +34,13 @@ const vpsItems: VpsItem[] = [
 
 export default function Header() {
   return (
-    <header className="h-68 bg-bg border-b border-white/10 sticky top-0 z-50">
+    <header className="h-[6.8rem] bg-bg border-b border-white/10 sticky top-0 z-50">
       <Container className="h-full">
         <div className="flex h-full items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center shrink-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/img/logo.svg" width={118} height={26} alt="Data-Xata" />
+            <img src="/img/figma/logo.svg" width={118} height={26} alt="Дата-Хата" />
           </Link>
 
           {/* Desktop nav */}
@@ -159,7 +159,7 @@ export default function Header() {
             <a
               href="https://cp.data-xata.com/"
               rel="nofollow noindex"
-              className="inline-flex items-center justify-center h-36 w-[14.1rem] border border-white text-13 text-white hover:bg-white hover:text-bg transition-colors rounded-sm"
+              className="inline-flex items-center justify-center h-36 w-[14.1rem] border border-white text-14 leading-20 font-medium text-white hover:bg-white hover:text-bg transition-colors"
             >
               Личный кабинет
             </a>

@@ -54,7 +54,7 @@ export default function Footer() {
                   ))}
                 </ul>
 
-                {col.title === 'Отдел поддержки' && (
+                {col.title === 'Служба поддержки' && (
                   <>
                     <p className="text-12 leading-17 font-medium uppercase text-white/40 mt-30 mb-20">
                       Мы в социальных сетях
@@ -93,7 +93,7 @@ export default function Footer() {
           <div className="flex flex-wrap items-center gap-20 justify-between">
             <Link href="/" className="shrink-0">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/img/logo.svg" width={118} height={26} alt="Data-Xata" />
+              <img src="/img/figma/logo.svg" width={118} height={26} alt="Дата-Хата" />
             </Link>
 
             <div className="flex flex-wrap items-center gap-15">

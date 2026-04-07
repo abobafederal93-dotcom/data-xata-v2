@@ -1,6 +1,6 @@
 import Container from '../ui/Container';
 import SectionHeading from '../ui/SectionHeading';
-import Icon from '../ui/Icon';
+import Button from '../ui/Button';
 
 interface OrderStep {
   id: number;
@@ -9,24 +9,49 @@ interface OrderStep {
 }
 
 interface OrderProcessProps {
-  steps: readonly OrderStep[];
+  steps?: readonly OrderStep[];
 }
 
-export default function OrderProcess({ steps }: OrderProcessProps) {
+// Figma steps: y=3604/3635, fs=25 lh=36
+const figmaSteps: { line1: string; line2: string }[] = [
+  { line1: 'Приходи', line2: 'и выбирай' },
+  { line1: 'Добавляй', line2: 'в корзину' },
+  { line1: 'Оплачивай', line2: 'счёт' },
+  { line1: 'Пользуйся', line2: 'сервисом' },
+];
+
+export default function OrderProcess(_props: OrderProcessProps) {
   return (
     <section className="py-60">
       <Container>
-        <SectionHeading ghost="Как оформить заказ?" title="Пошаговая инструкция" />
-        <div className="mt-30 flex flex-col desktop:flex-row gap-30">
-          {steps.map((step) => (
-            <div key={step.id} className="flex-1 flex flex-col gap-16">
-              <div className="w-32 h-32 rounded-full bg-accent flex items-center justify-center">
-                <Icon name="check" className="text-16 text-white" />
+        {/* Top: Ghost + Title + Buttons */}
+        <SectionHeading ghost="Как оформить заказ?" title="Начитались? Айда выбирать!" />
+        <div className="mt-30 flex flex-col tablet:flex-row flex-wrap gap-20">
+          <Button href="/search" variant="secondary" className="h-43 desktop:w-[13.5rem]">
+            Искать сейчас
+          </Button>
+          <Button href="#chat" variant="accent" className="h-48 desktop:w-[15.5rem]">
+            Спросить в чате
+          </Button>
+          <Button href="#callback" variant="white" className="h-48 desktop:w-[15.5rem]">
+            Перезвоните мне
+          </Button>
+          <Button href="/contacts" variant="secondary" className="h-43 desktop:w-[13.5rem]">
+            Контакты
+          </Button>
+        </div>
+
+        {/* Bottom: Process steps */}
+        <div className="mt-80">
+          <SectionHeading ghost="Процесс заказа" title="Пошаговая инструкция" />
+          <div className="mt-30 grid grid-cols-2 desktop:grid-cols-4 gap-30">
+            {figmaSteps.map((step, idx) => (
+              <div key={idx} className="flex flex-col gap-4">
+                <div className="text-25 leading-36 font-medium text-white">{step.line1}</div>
+                <div className="text-25 leading-36 font-medium text-white">{step.line2}</div>
               </div>
-              <h3 className="text-25 leading-36 font-medium text-white">{step.title}</h3>
-              <p className="text-14 leading-17 text-[#839ada]">{step.description}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </Container>
     </section>

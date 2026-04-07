@@ -85,8 +85,6 @@
   body {
     font-family: var(--font-sans);
     background-color: #010437;
-    background-image: linear-gradient(180deg, #010437 0%, #051069 60%, #010437 100%);
-    background-attachment: fixed;
     color: #ffffff;
     font-size: 1.6rem;
     line-height: 2.3rem;
