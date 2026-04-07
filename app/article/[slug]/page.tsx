@@ -1,6 +1,5 @@
 import Container from '../../../components/ui/Container';
 import Breadcrumb from '../../../components/ui/Breadcrumb';
-import SectionHeading from '../../../components/ui/SectionHeading';
 import PromoBanner from '../../../components/ui/PromoBanner';
 import ArticleLayout from '../../../components/article/ArticleLayout';
 import ArticleSidebar, { type TocItem } from '../../../components/article/ArticleSidebar';
@@ -19,43 +18,72 @@ const tocItems: TocItem[] = [
 ];
 
 const content: ArticleBlock[] = [
+  { type: 'h1', text: 'Нет подключения к Интернету после обновления' },
   {
-    type: 'p',
+    type: 'paragraph',
     text: 'После очередного обновления операционной системы пользователи могут столкнуться с проблемой отсутствия подключения к Интернету. Эта проблема может быть вызвана различными причинами — от некорректных драйверов до неправильных настроек сети.',
   },
-  { type: 'h2', text: 'База данных' },
+  { type: 'h2', text: 'Пространства и мониторинг' },
   {
-    type: 'p',
+    type: 'paragraph',
+    text: 'У меня в тарифном плане 2 базы данных, и их размер меньше 8 ГБ (4300 МБ + 3000 МБ). Тем не менее, мониторинг показывает превышение квот, и часть запросов отбрасывается.',
+  },
+  {
+    type: 'blockquote',
+    text: 'Важно: всегда делайте резервную копию базы данных перед внесением изменений в конфигурацию сервера.',
+  },
+  { type: 'h3', text: 'База данных' },
+  {
+    type: 'paragraph',
     text: 'Перед тем как приступить к решению проблемы, важно убедиться, что база данных настроена корректно и доступна для подключения. Проверьте параметры подключения и убедитесь, что сервер базы данных запущен.',
   },
   {
-    type: 'highlight',
-    text: 'Важно: всегда делайте резервную копию базы данных перед внесением изменений в конфигурацию.',
+    type: 'inline_code_demo',
+    text: 'Если запрос возвращает ошибку, проверьте функцию',
   },
-  { type: 'h3', text: 'cPanel' },
   {
-    type: 'p',
-    text: 'cPanel предоставляет удобный интерфейс для управления хостингом и базами данных. Откройте панель управления и перейдите в раздел «Базы данных MySQL» для проверки настроек.',
+    type: 'code_block',
+    text: '// Limit Upload File Size\nc.Request.Body = http.MaxBytesReader(c.Writer, c.Request.Body, MAX_UPLOAD_SIZE)\nif err := c.Request.ParseMultipartForm(MAX_UPLOAD_SIZE); err != nil {\n    c.AbortWithStatusJSON(400, gin.H{"error": "file too large"})\n    return\n}',
   },
-  { type: 'screenshot', text: 'Скриншот: панель cPanel' },
-  { type: 'h3', text: 'WHM' },
+  { type: 'h4', text: 'Каковы требования' },
   {
-    type: 'p',
-    text: 'WebHost Manager (WHM) — это административная панель для управления сервером. Здесь можно настроить параметры сети и проверить статус сетевых служб.',
+    type: 'paragraph',
+    text: 'Откройте раздел Network Setup и убедитесь, что все сетевые интерфейсы настроены корректно. Проверьте IP-адреса, маску подсети и шлюз по умолчанию.',
   },
-  { type: 'h4', text: 'Проверка сетевых интерфейсов' },
   {
-    type: 'p',
-    text: 'Откройте раздел «Network Setup» и убедитесь, что все сетевые интерфейсы настроены корректно. Проверьте IP-адреса, маску подсети и шлюз по умолчанию.',
+    type: 'list',
+    ordered: true,
+    items: [
+      'Внешняя и внутренняя система видео наблюдения',
+      'Контроль доступа по биометрии',
+      'Резервное электропитание (UPS + дизель-генератор)',
+      'Климат-контроль и пожаротушение',
+    ],
   },
-  { type: 'h3', text: 'OpenVPN' },
   {
-    type: 'p',
-    text: 'Если вы используете OpenVPN, проблема с подключением может быть связана с настройками VPN-клиента. Проверьте конфигурационные файлы и сертификаты.',
+    type: 'list',
+    items: [
+      'Защита от DDoS-атак',
+      'Резервное копирование каждые 24 часа',
+      'Бесплатный SSL-сертификат',
+      'Круглосуточная техническая поддержка',
+    ],
+  },
+  { type: 'h3', text: 'Сертификация дата-центров' },
+  {
+    type: 'table',
+    headers: ['Дата-центр', 'SOC 1 Type II', 'SOC 2 Type II', 'ISO/IEC 27001:2013', 'PCI-DSS'],
+    rows: [
+      ['NYC1', 'Да', 'Да', 'Да', 'Да'],
+      ['LON1', 'Да', 'Да', 'Да', 'Нет'],
+      ['AMS3', 'Да', 'Да', 'Да', 'Да'],
+      ['FRA2', 'Да', 'Да', 'Да', 'Да'],
+      ['SGP1', 'Да', 'Нет', 'Да', 'Да'],
+    ],
   },
   { type: 'h2', text: 'Обновление' },
   {
-    type: 'p',
+    type: 'paragraph',
     text: 'Иногда обновление системы может привести к конфликтам с существующими настройками сети. В этом случае рекомендуется откатить обновление или установить последние патчи.',
   },
 ];
@@ -71,14 +99,9 @@ export default function ArticlePage() {
               { label: 'Нет подключения к Интернету после обновления' },
             ]}
           />
-          <SectionHeading
-            ghost="Блог"
-            title="Нет подключения к Интернету после обновления"
-            className="mt-20"
-          />
           <ArticleLayout>
-            <ArticleSidebar items={tocItems} />
             <ArticleContent content={content} />
+            <ArticleSidebar items={tocItems} />
           </ArticleLayout>
         </Container>
       </section>
