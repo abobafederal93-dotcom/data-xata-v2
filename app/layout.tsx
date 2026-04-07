@@ -13,11 +13,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ru">
       <body>
-        <div id="wrap">
-          <ActionBar text="Закажи хостинг до конца карантина и получи домен в подарок! Супер предложения! Не пропусти!" />
-          <Header />
-          <main>{children}</main>
-        </div>
+        <ActionBar text="Закажи хостинг до конца карантина и получи домен в подарок! Супер предложения! Не пропусти!" />
+        <Header />
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
