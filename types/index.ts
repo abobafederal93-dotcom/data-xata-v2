@@ -3,9 +3,11 @@ export interface Server {
   name: string;
   cpu: string;
   ram: number; // GB
-  storage: string;
+  storage: { ssd?: string; hdd?: string } | string;
   location: string;
   locationFlag: string;
+  bandwidth?: string;
+  locationStorage?: string;
   price: number; // EUR/month
   priceOld?: number;
   discount?: number;

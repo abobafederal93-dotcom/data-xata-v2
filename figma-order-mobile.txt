@@ -1,0 +1,428 @@
+=== FRAME: Mobile order id=80:22097 360x7367 ===
+  [FRAME] "logo 1" xy=(15,15) 118x26
+    [GROUP] "Layer 2" xy=(15,15) 118x26
+      [GROUP] "Слой 1" xy=(15,15) 118x26
+  [FRAME] "Frame" xy=(321,16) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(281,16) 24x24 | fill=#ffffff
+  [TEXT] "Сравнение серверов" xy=(15,155) 328x49 #ffffff font=34px/w500/lh=49
+    >> "Сравнение серверов"
+  [TEXT] "Сервер" xy=(15,133) 145x58 #ffffff font=40px/w700/lh=58 opacity=0.08
+    >> "Сервер"
+  [FRAME] "Frame 104" xy=(15,73) 263x24 | layout=HORIZONTAL | gap=8 | alignCross=CENTER
+    [FRAME] "Frame" xy=(15,73) 24x24 | fill=#ffffff
+    [RECTANGLE] "Rectangle 555" xy=(47,85) 18x1 | fill=#839ada
+    [TEXT] "Услуги" xy=(73,75) 40x20 #839ada font=14px/w400/lh=20
+      >> "Услуги"
+    [RECTANGLE] "Rectangle 556" xy=(121,85) 18x1 | fill=#839ada
+    [TEXT] "Сравнение серверов" xy=(147,75) 131x20 #839ada font=14px/w400/lh=20
+      >> "Сравнение серверов"
+  [TEXT] "2x Xeon E5-2430 v2 • 32GB DDR3 2x240GB SSD" xy=(33,307) 207x40 #ffffff font=14px/w400/lh=20
+    >> "2x Xeon E5-2430 v2 • 32GB DDR3
+2x240GB SSD"
+  [TEXT] "Аренда сервера" xy=(33,278) 107x17 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "Аренда сервера"
+  [RECTANGLE] "Rectangle 114" xy=(15,260) 330x105 | border:#215aee
+  [TEXT] "1 Gbps, 100TB, NL - Netherlands" xy=(33,411) 198x20 #ffffff font=14px/w400/lh=20
+    >> "1 Gbps, 100TB, NL - Netherlands"
+  [TEXT] "Подключение" xy=(33,382) 100x17 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "Подключение"
+  [RECTANGLE] "Rectangle 115" xy=(15,364) 330x85 | border:#215aee
+  [TEXT] "€99" xy=(33,495) 25x20 #ffffff font=14px/w400/lh=20
+    >> "€99"
+  [TEXT] "Абонплата" xy=(33,466) 74x17 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "Абонплата"
+  [RECTANGLE] "Rectangle 116" xy=(15,448) 330x85 | border:#215aee
+  [GROUP] "Group 83" xy=(15,559) 330x48
+    [RECTANGLE] "Rectangle 151" xy=(15,559) 330x48 | border:#ffffff
+    [FRAME] "Frame" xy=(91,571) 24x24 | fill=#ffffff
+    [TEXT] "Смотреть подробности" xy=(123,573) 146x20 #ffffff font=14px/w500/lh=20
+      >> "Смотреть подробности"
+  [TEXT] "Выслать доступ на этот E-mail" xy=(15,683) 332x28 #ffffff font=25px/w500/lh=28
+    >> "Выслать доступ на этот E-mail"
+  [TEXT] "Хочу указать все свои реквизиты сейчас" xy=(15,1162) 248x56 #ffffff font=25px/w500/lh=28
+    >> "Хочу указать все свои
+реквизиты сейчас"
+  [TEXT] "Оплата" xy=(15,3054) 82x28 #ffffff font=25px/w500/lh=28
+    >> "Оплата"
+  [TEXT] "Оплата" xy=(15,4014) 82x28 #ffffff font=25px/w500/lh=28
+    >> "Оплата"
+  [TEXT] "Получить доступ" xy=(15,663) 243x43 #ffffff font=30px/w700/lh=43 opacity=0.08
+    >> "Получить доступ"
+  [TEXT] "Мои реквизиты" xy=(15,1142) 225x43 #ffffff font=30px/w700/lh=43 opacity=0.08
+    >> "Мои реквизиты"
+  [TEXT] "Методы" xy=(15,3034) 114x43 #ffffff font=30px/w700/lh=43 opacity=0.08
+    >> "Методы"
+  [TEXT] "Методы" xy=(15,3994) 114x43 #ffffff font=30px/w700/lh=43 opacity=0.08
+    >> "Методы"
+  [RECTANGLE] "Rectangle 46" xy=(15,747) 330x211 | fill=linear-gradient(#ff8311@0%,#ff5c00@100%)
+  [TEXT] "Оформи заказ в течение 10 минут и получи бонус $50 на счет!" xy=(43,775) 274x81 #ffffff font=19px/w600/lh=27
+    >> "Оформи заказ в течение 10 минут и получи бонус $50 на счет!"
+  [RECTANGLE] "Rectangle 24" xy=(43,882) 274x48 | fill=#ffffff
+  [TEXT] "Введите e-mail" xy=(57,896) 88x20 #839ada font=14px/w400/lh=20
+    >> "Введите e-mail"
+  [GROUP] "Group 84" xy=(17,1054) 326x36
+    [INSTANCE] "Twitter" xy=(75,1054) 36x36 | fill=#ffffff
+      [GROUP] "Twitter" xy=(75,1054) 36x36
+    [INSTANCE] "Facebook" xy=(17,1054) 36x36 | fill=#ffffff
+      [GROUP] "Facebook" xy=(17,1054) 36x36
+    [INSTANCE] "Github_white" xy=(191,1054) 36x36
+    [FRAME] "Yandex (Яндекс)" xy=(249,1054) 36x36 | fill=#ffffff
+      [GROUP] "Yandex (Яндекс)" xy=(249,1054) 36x36
+    [FRAME] "Mail.ru" xy=(307,1054) 36x36 | fill=#ffffff
+      [GROUP] "Mail.ru" xy=(307,1054) 36x36
+    [INSTANCE] "Gmail_white" xy=(133,1054) 36x36
+  [TEXT] "или зарегистрироваться через социальные сети" xy=(69,984) 223x46 #ffffff font=16px/w500/lh=23/align=CENTER
+    >> "или зарегистрироваться через
+социальные сети"
+  [TEXT] "Контактные данные" xy=(15,1254) 181x29 #ffffff font=20px/w500/lh=29
+    >> "Контактные данные"
+  [TEXT] "Контактные данные" xy=(15,1845) 181x29 #ffffff font=20px/w500/lh=29
+    >> "Контактные данные"
+  [TEXT] "Контактные данные" xy=(15,2262) 181x29 #ffffff font=20px/w500/lh=29
+    >> "Контактные данные"
+  [RECTANGLE] "Rectangle 152" xy=(17,1326) 328x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 160" xy=(17,1917) 328x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 164" xy=(17,2334) 328x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 153" xy=(17,1413) 328x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 161" xy=(17,2004) 328x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 165" xy=(17,2421) 328x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 154" xy=(17,1500) 328x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 162" xy=(17,2091) 328x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 166" xy=(17,2508) 328x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 155" xy=(17,1587) 328x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 163" xy=(17,2178) 328x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 156" xy=(17,1674) 328x48 | fill=#ffffff
+  [TEXT] "Введите" xy=(31,1340) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,1931) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,2348) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,1427) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,2018) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,2435) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,1514) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,2105) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,2522) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,1601) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,2192) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,1688) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Ваше имя" xy=(17,1301) 52x17 #ffffff font=12px/w400/lh=17
+    >> "Ваше имя"
+  [TEXT] "Страна" xy=(17,1892) 37x17 #ffffff font=12px/w400/lh=17
+    >> "Страна"
+  [TEXT] "Страна*" xy=(17,2309) 44x17 #ffffff font=12px/w400/lh=17
+    >> "Страна*"
+  [TEXT] "Страна*" xy=(17,1388) 44x17 #ffffff font=12px/w400/lh=17
+    >> "Страна*"
+  [TEXT] "Название*" xy=(17,1979) 58x17 #ffffff font=12px/w400/lh=17
+    >> "Название*"
+  [TEXT] "Город*" xy=(17,2396) 39x17 #ffffff font=12px/w400/lh=17
+    >> "Город*"
+  [TEXT] "Номер телефона*" xy=(17,1475) 95x17 #ffffff font=12px/w400/lh=17
+    >> "Номер телефона*"
+  [TEXT] "Номер регистрации*" xy=(17,2066) 112x17 #ffffff font=12px/w400/lh=17
+    >> "Номер регистрации*"
+  [TEXT] "Улица" xy=(17,2483) 32x17 #ffffff font=12px/w400/lh=17
+    >> "Улица"
+  [TEXT] "Город*" xy=(17,1562) 39x17 #ffffff font=12px/w400/lh=17
+    >> "Город*"
+  [TEXT] "Налоговый номер*" xy=(17,2153) 103x17 #ffffff font=12px/w400/lh=17
+    >> "Налоговый номер*"
+  [TEXT] "Улица" xy=(17,1649) 32x17 #ffffff font=12px/w400/lh=17
+    >> "Улица"
+  [FRAME] "Frame" xy=(327,1301) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(327,1892) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(327,2309) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(327,1388) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(327,1979) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(327,2396) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(327,1475) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(327,2066) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(327,2483) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(327,1562) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(327,2153) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(327,1649) 18x18 | fill=#ffffff
+  [RECTANGLE] "Rectangle 157" xy=(17,1761) 100x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 167" xy=(17,2595) 100x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 158" xy=(131,1761) 100x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 168" xy=(131,2595) 100x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 159" xy=(245,1761) 100x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 169" xy=(245,2595) 100x48 | fill=#ffffff
+  [TEXT] "Введите" xy=(31,1775) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(31,2609) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(145,1775) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(145,2609) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(259,1775) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Введите" xy=(259,2609) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Квартира" xy=(17,1736) 48x17 #ffffff font=12px/w400/lh=17
+    >> "Квартира"
+  [TEXT] "Квартира" xy=(17,2570) 48x17 #ffffff font=12px/w400/lh=17
+    >> "Квартира"
+  [TEXT] "Дом" xy=(131,1736) 24x17 #ffffff font=12px/w400/lh=17
+    >> "Дом"
+  [TEXT] "Дом" xy=(131,2570) 24x17 #ffffff font=12px/w400/lh=17
+    >> "Дом"
+  [TEXT] "Индекс" xy=(245,1736) 41x17 #ffffff font=12px/w400/lh=17
+    >> "Индекс"
+  [TEXT] "Индекс" xy=(245,2570) 41x17 #ffffff font=12px/w400/lh=17
+    >> "Индекс"
+  [RECTANGLE] "Rectangle 170" xy=(17,2704) 328x200 | fill=#ffffff
+  [TEXT] "Введите" xy=(31,2718) 49x20 #839ada font=14px/w400/lh=20
+    >> "Введите"
+  [TEXT] "Примечание" xy=(17,2679) 67x17 #ffffff font=12px/w400/lh=17
+    >> "Примечание"
+  [GROUP] "Group 85" xy=(15,2930) 330x48
+    [RECTANGLE] "Rectangle 171" xy=(15,2930) 330x48 | border:#ffffff
+    [TEXT] "Укажу данные позже" xy=(111,2944) 138x20 #ffffff font=14px/w500/lh=20/align=CENTER
+      >> "Укажу данные позже"
+  [TEXT] "Мы знаем, что расставаться с деньгами - всегда стресс" xy=(17,3118) 328x58 #ffffff font=20px/w500/lh=29
+    >> "Мы знаем, что расставаться с деньгами - всегда стресс"
+  [TEXT] "Чтобы подсластить пилюлю - выберите бесплатную плюшку к вашему заказу:" xy=(17,3188) 328x34 #839ada font=14px/w400/lh=17
+    >> "Чтобы подсластить пилюлю - выберите бесплатную плюшку к вашему заказу:"
+  [GROUP] "Group 79" xy=(115,3281) 131x119
+    [GROUP] "Group 73" xy=(115,3302) 131x98
+    [FRAME] "1Asset 2 3" xy=(154,3281) 55x80 | fill=#ffffff
+      [GROUP] "Layer 2" xy=(157,3281) 46x66
+        [GROUP] "Layer 1" xy=(157,3281) 46x66
+  [TEXT] "Защита от DDoS" xy=(108,3419) 144x27 #ffffff font=19px/w600/lh=27
+    >> "Защита от DDoS"
+  [RECTANGLE] "Rectangle 14" xy=(17,3248) 328x230 | border:#215aee
+  [GROUP] "Group 78" xy=(115,3514) 131x116
+    [GROUP] "Group 74" xy=(115,3532) 131x98
+    [FRAME] "1Asset 1 7" xy=(134,3514) 79x70 | fill=#ffffff
+      [GROUP] "Layer 2" xy=(134,3514) 79x70
+        [GROUP] "1" xy=(134,3514) 79x70
+  [TEXT] "100Гб для бекапа" xy=(99,3649) 163x27 #ffffff font=19px/w600/lh=27
+    >> "100Гб для бекапа"
+  [RECTANGLE] "Rectangle 177" xy=(17,3478) 328x230 | border:#215aee
+  [RECTANGLE] "Rectangle 178" xy=(17,3708) 328x230 | border:#215aee
+  [GROUP] "Group 77" xy=(115,3732) 131x128
+    [GROUP] "Group 75" xy=(115,3762) 131x98
+    [GROUP] "Group 76" xy=(142,3732) 74x82
+  [TEXT] "Failover IP" xy=(135,3879) 91x27 #ffffff font=19px/w600/lh=27
+    >> "Failover IP"
+  [TEXT] "Срок оплаты" xy=(15,4078) 117x29 #ffffff font=20px/w500/lh=29
+    >> "Срок оплаты"
+  [TEXT] "1 мес." xy=(47,4127) 39x20 #ffffff font=14px/w500/lh=20
+    >> "1 мес."
+  [TEXT] "3 мес." xy=(47,4165) 40x20 #ffffff font=14px/w500/lh=20
+    >> "3 мес."
+  [TEXT] "6 мес." xy=(47,4203) 41x20 #ffffff font=14px/w500/lh=20
+    >> "6 мес."
+  [TEXT] "12 мес." xy=(47,4241) 47x20 #ffffff font=14px/w500/lh=20
+    >> "12 мес."
+  [TEXT] "€29.00" xy=(102,4127) 47x20 #ffffff font=14px/w500/lh=20
+    >> "€29.00"
+  [TEXT] "-2,5%" xy=(102,4165) 36x20 #27e35c font=14px/w500/lh=20
+    >> "-2,5%"
+  [TEXT] "-2,5%" xy=(102,4203) 36x20 #27e35c font=14px/w500/lh=20
+    >> "-2,5%"
+  [TEXT] "-2,5%" xy=(102,4241) 36x20 #27e35c font=14px/w500/lh=20
+    >> "-2,5%"
+  [TEXT] "€29.00 / мес." xy=(162,4165) 90x20 #27e35c font=14px/w500/lh=20
+    >> "€29.00 / мес."
+  [TEXT] "€47.00 / мес." xy=(162,4203) 89x20 #27e35c font=14px/w500/lh=20
+    >> "€47.00 / мес."
+  [TEXT] "€56.00 / мес." xy=(162,4241) 91x20 #27e35c font=14px/w500/lh=20
+    >> "€56.00 / мес."
+  [TEXT] "€329.00" xy=(276,4163) 65x23 #27e35c font=16px/w600/lh=23
+    >> "€329.00"
+  [TEXT] "€496.00" xy=(275,4201) 67x23 #27e35c font=16px/w600/lh=23
+    >> "€496.00"
+  [TEXT] "€564.00" xy=(277,4239) 67x23 #27e35c font=16px/w600/lh=23
+    >> "€564.00"
+  [FRAME] "Frame" xy=(15,4126) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,4164) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,4202) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,4240) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(138,4163) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(138,4201) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(138,4239) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(252,4163) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(251,4201) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(253,4239) 24x24 | fill=#ffffff
+  [TEXT] "Способ оплаты" xy=(15,4300) 139x29 #ffffff font=20px/w500/lh=29
+    >> "Способ оплаты"
+  [TEXT] "Кредитная карта (VISA, MasterCard, American Express)" xy=(47,4349) 235x40 #ffffff font=14px/w500/lh=20
+    >> "Кредитная карта (VISA, MasterCard, 
+American Express)"
+  [TEXT] "Webmoney WMZ" xy=(47,4465) 108x20 #ffffff font=14px/w500/lh=20
+    >> "Webmoney WMZ"
+  [TEXT] "Webmoney WME" xy=(47,4503) 108x20 #ffffff font=14px/w500/lh=20
+    >> "Webmoney WME"
+  [TEXT] "Интеркасса (Яндекс.Деньги, Qiwi, терминалы и пр.)" xy=(47,4407) 223x40 #ffffff font=14px/w500/lh=20
+    >> "Интеркасса (Яндекс.Деньги, Qiwi,
+терминалы и пр.)"
+  [FRAME] "Frame" xy=(15,4347) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,4405) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,4463) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,4501) 24x24 | fill=#ffffff
+  [TEXT] "Вводные цены действуют на первый семестр. Гарантия возврата денег распространяется на хостинг и конфиденциальность домена. Все планы и продукты автоматически продлеваются, если вы не отмените их. Продление будет на тот же срок и по обычным ставкам, указанным в вашей панели управления. Способ оплаты, который вы предоставите сегодня или который у нас есть, будет использоваться для продления, если вы его не измените или не отмените. Вы можете отменить в любое время, войдя в свою учетную запись онлайн или позвонив в службу поддержки клиентов по телефону +1 855 984 4546." xy=(15,4581) 330x221 #ffffff font=14px/w400/lh=17
+    >> "Вводные цены действуют на первый семестр. Гарантия возврата денег распространяет"
+  [TEXT] "Я хочу получать информационный бюллетень со статьями, хитростями, обучающими материалами и рекламными акциями, которые меня интересуют (вы можете отказаться от подписки в любое время)" xy=(47,4818) 298x85 #ffffff font=14px/w400/lh=17
+    >> "Я хочу получать информационный бюллетень со статьями, хитростями, обучающими мат"
+  [TEXT] "Я прочитал, понима�� и согласен с Условиями продаж в отношении обработки моих персональных данных в соответствии с условиями пункта 8 Положений и условий, которые включают требования, изложенные в пункте 3 статьи 28 GDPR." xy=(47,4919) 298x102 #ffffff font=14px/w400/lh=17
+    >> "Я прочитал, понимаю и согласен с Условиями продаж в отношении обработки моих пер"
+  [TEXT] "Мы рекомендуем и советуем вам щелкать отдельные ссылки и сохранять или распечатывать каждое из положений и условий продаж, перечисленных выше, а затем читать их, прежде чем принимать их заявку." xy=(15,5037) 330x85 #ffffff font=14px/w400/lh=17
+    >> "Мы рекомендуем и советуем вам щелкать отдельные ссылки и сохранять или распечаты"
+  [FRAME] "Frame" xy=(15,4823) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,4924) 24x24 | fill=#ffffff
+  [GROUP] "Group 27" xy=(15,5172) 330x48
+    [RECTANGLE] "Rectangle 28" xy=(15,5172) 330x48 | fill=#ff8311
+    [TEXT] "Оплатить и получить доступ" xy=(57,5184) 247x24 #ffffff font=16px/w600/lh=23/align=CENTER
+      >> "Оплатить и получить доступ"
+  [RECTANGLE] "Rectangle 49" xy=(15,5234) 330x70 | border:#ffffff
+  [TEXT] "Получить ссылку на оплату для отправки третьему лицу" xy=(60,5246) 240x46 #ffffff font=16px/w600/lh=23/align=CENTER
+    >> "Получить ссылку на оплату для
+отправки третьему лицу"
+  [RECTANGLE] "Rectangle 45" xy=(0,5684) 360x1683 | fill=#010437
+  [RECTANGLE] "Rectangle 179" xy=(0,5360) 360x324 | fill=linear-gradient(#ff8311@0%,#ff5c00@100%)
+  [GROUP] "Group 23" xy=(15,5572) 330x54
+    [RECTANGLE] "Rectangle 50" xy=(25,5583) 310x43 | fill=#d66702 | blur=20
+    [RECTANGLE] "Rectangle 47" xy=(15,5572) 330x48 | fill=#ffffff
+    [TEXT] "Выбрать сервер" xy=(118,5584) 125x24 #0041be font=16px/w600/lh=23/align=CENTER
+      >> "Выбрать сервер"
+  [TEXT] "Оформи заказ в течение 10 минут и получи бонус $50 на счет!" xy=(15,5484) 303x54 #ffffff font=19px/w600/lh=27
+    >> "Оформи заказ в течение 10 минут
+и получи бонус $50 на счет!"
+  [TEXT] "Хочу скидку!" xy=(15,5434) 149x28 #ffffff font=25px/w500/lh=28
+    >> "Хочу скидку!"
+  [TEXT] "Хочу скидку!" xy=(15,5414) 194x43 #ffffff font=30px/w700/lh=43 opacity=0.08
+    >> "Хочу скидку!"
+  [RECTANGLE] "Rectangle 48" xy=(15,5699) 330x48 | border:#ffffff
+  [TEXT] "Пожаловаться директору!" xy=(98,5711) 197x24 #ffffff font=16px/w600/lh=23/align=CENTER
+    >> "Пожаловаться директору!"
+  [FRAME] "Frame" xy=(66,5711) 24x24 | fill=#ffffff
+  [RECTANGLE] "Rectangle 180" xy=(15,5761) 330x48 | border:#ffffff
+  [GROUP] "Group 24" xy=(87,5773) 187x24
+    [TEXT] "Заработайте на нас!" xy=(119,5773) 155x24 #ffffff font=16px/w600/lh=23/align=CENTER
+      >> "Заработайте на нас!"
+    [FRAME] "Frame" xy=(87,5773) 24x24 | fill=#ffffff
+  [TEXT] "Аренда Windows сервера" xy=(15,5996) 163x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда Windows сервера"
+  [TEXT] "Аренда Linux Сервера" xy=(15,6028) 141x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда Linux Сервера"
+  [TEXT] "Аренда игрового сервера" xy=(15,6060) 161x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда игрового сервера"
+  [TEXT] "Аренда хранилища" xy=(15,6092) 123x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда хранилища"
+  [TEXT] "Аренда офисного сервера" xy=(15,6124) 165x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда офисного сервера"
+  [TEXT] "Резервное копирование" xy=(15,6156) 150x20 #ffffff font=14px/w400/lh=20
+    >> "Резервное копирование"
+  [TEXT] "Администрирование серверов" xy=(15,6188) 190x20 #ffffff font=14px/w400/lh=20
+    >> "Администрирование серверов"
+  [TEXT] "Аренда сервера в США" xy=(15,5868) 151x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в США"
+  [TEXT] "Аренда сервера в Германии" xy=(15,5900) 176x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в Германии"
+  [TEXT] "Аренда сервера во Франции" xy=(15,5932) 182x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера во Франции"
+  [TEXT] "Аренда сервера в Голландии" xy=(15,5964) 185x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в Голландии"
+  [TEXT] "Аренда сервера" xy=(15,5837) 104x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Аренда сервера"
+  [TEXT] "Аренда виртуального сервера" xy=(15,6236) 200x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Аренда виртуального сервера"
+  [TEXT] "Аренда VPS/VDS на Windows" xy=(15,6395) 190x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS на Windows"
+  [TEXT] "Аренда VPS/VDS на Linux" xy=(15,6427) 165x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS на Linux"
+  [TEXT] "Аренда VPS/VDS в США" xy=(15,6267) 159x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в США"
+  [TEXT] "Аренда VPS/VDS в Германии" xy=(15,6299) 185x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в Германии"
+  [TEXT] "Аренда VPS/VDS во Франции" xy=(15,6331) 191x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS во Франции"
+  [TEXT] "Аренда VPS/VDS в Голландии" xy=(15,6363) 193x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в Голландии"
+  [TEXT] "Остальное" xy=(15,6475) 72x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Остальное"
+  [TEXT] "Аренда сервера с тестовым периодом" xy=(15,6506) 238x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера с тестовым периодом"
+  [TEXT] "Помощь" xy=(15,6538) 53x20 #ffffff font=14px/w400/lh=20
+    >> "Помощь"
+  [TEXT] "Оплата и доставка" xy=(15,6570) 114x20 #ffffff font=14px/w400/lh=20
+    >> "Оплата и доставка"
+  [TEXT] "Блог" xy=(15,6602) 28x20 #ffffff font=14px/w400/lh=20
+    >> "Блог"
+  [TEXT] "Партнерская программа" xy=(15,6634) 149x20 #ffffff font=14px/w400/lh=20
+    >> "Партнерская программа"
+  [FRAME] "Frame" xy=(15,6746) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,6849) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,6714) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,6778) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,6881) 18x18 | fill=#ffffff
+  [TEXT] "Контакты" xy=(15,6682) 63x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Контакты"
+  [TEXT] "служба поддержки" xy=(15,6817) 135x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "служба поддержки"
+  [TEXT] "мы в социальных сетях" xy=(15,6920) 161x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "мы в социальных сетях"
+  [TEXT] "Sepapaja 6 Tallinn" xy=(41,6713) 108x20 #ffffff font=14px/w400/lh=20
+    >> "Sepapaja 6 Tallinn"
+  [TEXT] "+380 (44) 23 88 946" xy=(41,6848) 130x20 #ffffff font=14px/w400/lh=20
+    >> "+380 (44) 23 88 946"
+  [TEXT] "+372 (800) 7873" xy=(41,6745) 103x20 #ffffff font=14px/w400/lh=20
+    >> "+372 (800) 7873"
+  [TEXT] "support@data-xata.com" xy=(41,6777) 136x20 #ffffff font=14px/w400/lh=20
+    >> "support@data-xata.com"
+  [TEXT] "support@data-xata.com" xy=(41,6880) 136x20 #ffffff font=14px/w400/lh=20
+    >> "support@data-xata.com"
+  [INSTANCE] "Vkontakte (VK)" xy=(103,6951) 24x24 | fill=#ffffff
+    [GROUP] "Vkontakte (VK)" xy=(103,6951) 24x24
+  [INSTANCE] "Twitter" xy=(59,6951) 24x24 | fill=#ffffff
+    [GROUP] "Twitter" xy=(59,6951) 24x24
+  [INSTANCE] "Slack" xy=(147,6951) 24x24 | fill=#ffffff
+    [GROUP] "Slack" xy=(147,6951) 24x24
+  [INSTANCE] "Facebook" xy=(15,6951) 24x24 | fill=#ffffff
+    [GROUP] "Facebook" xy=(15,6951) 24x24
+  [FRAME] "logo 2" xy=(121,7027) 118x26
+    [GROUP] "Layer 2" xy=(121,7027) 118x26
+      [GROUP] "Слой 1" xy=(121,7027) 118x26
+  [TEXT] "Посмотреть все способы оплаты" xy=(81,7079) 199x20 #ffffff font=14px/w400/lh=20 opacity=0.40
+    >> "Посмотреть все способы оплаты"
+  [GROUP] "Group 25" xy=(62,7123) 237x24
+    [GROUP] "Group" xy=(62,7125) 67x20 | fill=#ffffff | opacity=0.40
+    [FRAME] "Mastercard-logo 1" xy=(161,7123) 31x24 | fill=#ffffff | opacity=0.40
+      [GROUP] "Group" xy=(161,7123) 31x24
+        [GROUP] "Group" xy=(161,7123) 31x24
+          [GROUP] "Group" xy=(163,7143) 29x4
+          [GROUP] "Group" xy=(191,7138) 1x0
+          [GROUP] "Group" xy=(161,7123) 15x19
+          [GROUP] "Group" xy=(177,7123) 16x19
+    [GROUP] "Group 8" xy=(224,7125) 75x20
+  [GROUP] "Group 26" xy=(78,7171) 204x24
+    [TEXT] "Безналичный расчёт" xy=(215,7171) 67x24 #ffffff font=11px/w500/lh=12 opacity=0.40
+      >> "Безналичный
+расчёт"
+    [GROUP] "Group" xy=(78,7171) 104x24 | opacity=0.40
+      [GROUP] "Group" xy=(108,7176) 74x15
+  [TEXT] "Terms and conditions" xy=(36,7227) 126x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Terms and conditions"
+  [TEXT] "Privacy policy" xy=(219,7227) 82x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Privacy policy"
+  [TEXT] "Refund policy" xy=(58,7270) 82x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Refund policy"
+  [TEXT] "Delivery time frame" xy=(202,7265) 116x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Delivery time frame"
+  [TEXT] "Abuse" xy=(80,7308) 38x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Abuse"
+  [TEXT] "Acceptable Use Policy" xy=(194,7303) 131x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Acceptable Use Policy"

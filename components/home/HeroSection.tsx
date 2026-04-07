@@ -1,41 +1,65 @@
 import Link from "next/link";
 
-interface HeroSectionProps {
-  title?: string;
-}
-
-export default function HeroSection({ title }: HeroSectionProps) {
+export default function HeroSection() {
   return (
-    <div className="first-screen preview preview-home">
-      <div className="preview-text">
-        <div className="container">
-          <div className="preview-text-inside">
-            <div className="preview-title">
-              <div className="title-text">Готовое решение</div>
-              <h1 className="page-title">{title ?? "Аренда сервера"}</h1>
-              <div className="title">для <span className="text-orange">DevOps</span></div>
-            </div>
-            <p>Мы предлагаем более 1278 конфигураций выделенных серверов в 11 дата-центрах. Быстро, дешево, качественно — вы сможете подобрать любую комбинацию!</p>
-          </div>
-          <div className="preview-btn">
-            <p><a href="#instant" className="btn btn-warning btn-lg btn-block-xs">Сервера с мгновенной активацией</a></p>
-            <p className="text-white text-center text-semibold"><Link href="/search">Я знаю, что делаю — покажите мне ВСЕ!</Link></p>
+    <section className="hero">
+      {/* 3D-иллюстрация серверов (фон справа) */}
+      <div className="hero__bg-img" aria-hidden="true">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/img/bg-preview.svg" alt="" width={784} height={743} />
+      </div>
+
+      <div className="container hero__inner">
+        <div className="hero__text">
+          {/* Ghost */}
+          <span className="hero__ghost">Готовое решение</span>
+          {/* Title */}
+          <h1 className="hero__title">Аренда сервера</h1>
+          <p className="hero__subtitle">
+            для <span className="hero__subtitle-accent" style={{color:"#fff"}}>DevOps</span>
+            <span className="hero__cursor" aria-hidden="true">|</span>
+          </p>
+          {/* Description */}
+          <p className="hero__desc">
+            Мы предлагаем более 1278 конфигураций выделенных серверов в 11 дата-центрах.
+            Быстро, дешево, качественно — вы сможете подобрать любую комбинацию!
+          </p>
+          {/* Buttons */}
+          <div className="hero__btns">
+            <a href="#filter" className="btn btn-warning btn-lg">
+              Сервера с мгновенной активацией
+            </a>
+            <Link href="/search" className="hero__all-link">
+              Я знаю что делаю - покажите мне ВСЕ!
+            </Link>
           </div>
         </div>
       </div>
-      <div className="first-screen-footer hidden-xs">
-        <div className="container flex-block">
-          <div>Скрольте чтобы узнать детали</div>
-          <ul className="footer-contatcs">
-            <li><a href="tg://resolve?domain=dtxvti"><span className="icons i-tg" />dtxvti</a></li>
+
+      {/* Footer строка */}
+      <div className="hero__footer hidden-xs">
+        <div className="container hero__footer-inner">
+          <span className="hero__scroll-hint">Скрольте чтобы узнать детали</span>
+          <ul className="hero__contacts">
             <li>
-              <span className="homeheader__phone">
-                <span className="icons i-phone" />+372 880 7873 <span className="icons i-caret-sm" />
-              </span>
+              <a href="skype:gurnik-dtx?chat">
+                <span className="icons i-skype" />
+                <span>gurnik-dtx</span>
+              </a>
+            </li>
+            <li>
+              <a href="tg://resolve?domain=data_xata">
+                <span className="icons i-tg" />
+                <span>data_xata</span>
+              </a>
+            </li>
+            <li>
+              <span className="icons i-phone" />
+              <span>+7 (499) 348 1331</span>
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

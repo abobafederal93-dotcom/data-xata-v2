@@ -1,0 +1,359 @@
+=== FRAME: Mobile text id=80:23177 360x6717 ===
+  [FRAME] "logo 1" xy=(15,15) 118x26
+    [GROUP] "Layer 2" xy=(15,15) 118x26
+      [GROUP] "Слой 1" xy=(15,15) 118x26
+  [FRAME] "Frame" xy=(321,16) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(281,16) 24x24 | fill=#ffffff
+  [TEXT] "Сравнение серверов" xy=(15,155) 328x49 #ffffff font=34px/w500/lh=49
+    >> "Сравнение серверов"
+  [TEXT] "Сервер" xy=(15,133) 145x58 #ffffff font=40px/w700/lh=58 opacity=0.08
+    >> "Сервер"
+  [FRAME] "Frame 104" xy=(15,73) 263x24 | layout=HORIZONTAL | gap=8 | alignCross=CENTER
+    [FRAME] "Frame" xy=(15,73) 24x24 | fill=#ffffff
+    [RECTANGLE] "Rectangle 555" xy=(47,85) 18x1 | fill=#839ada
+    [TEXT] "Услуги" xy=(73,75) 40x20 #839ada font=14px/w400/lh=20
+      >> "Услуги"
+    [RECTANGLE] "Rectangle 556" xy=(121,85) 18x1 | fill=#839ada
+    [TEXT] "Сравнение серверов" xy=(147,75) 131x20 #839ada font=14px/w400/lh=20
+      >> "Сравнение серверов"
+  [RECTANGLE] "Rectangle 181" xy=(0,5034) 360x1683 | fill=#010437
+  [RECTANGLE] "Rectangle 182" xy=(0,4710) 360x324 | fill=linear-gradient(#ff8311@0%,#ff5c00@100%)
+  [GROUP] "Group 28" xy=(15,4922) 330x54
+    [RECTANGLE] "Rectangle 50" xy=(25,4933) 310x43 | fill=#d66702 | blur=20
+    [RECTANGLE] "Rectangle 47" xy=(15,4922) 330x48 | fill=#ffffff
+    [TEXT] "Выбрать сервер" xy=(118,4934) 125x24 #0041be font=16px/w600/lh=23/align=CENTER
+      >> "Выбрать сервер"
+  [TEXT] "Оформи заказ в течение 10 минут и получи бонус $50 на счет!" xy=(15,4834) 303x54 #ffffff font=19px/w600/lh=27
+    >> "Оформи заказ в течение 10 минут
+и получи бонус $50 на счет!"
+  [TEXT] "Хочу скидку!" xy=(15,4784) 149x28 #ffffff font=25px/w500/lh=28
+    >> "Хочу скидку!"
+  [TEXT] "Хочу скидку!" xy=(15,4764) 194x43 #ffffff font=30px/w700/lh=43 opacity=0.08
+    >> "Хочу скидку!"
+  [RECTANGLE] "Rectangle 183" xy=(15,5049) 330x48 | border:#ffffff
+  [TEXT] "Пожаловаться директору!" xy=(98,5061) 197x24 #ffffff font=16px/w600/lh=23/align=CENTER
+    >> "Пожаловаться директору!"
+  [FRAME] "Frame" xy=(66,5061) 24x24 | fill=#ffffff
+  [RECTANGLE] "Rectangle 184" xy=(15,5111) 330x48 | border:#ffffff
+  [GROUP] "Group 29" xy=(87,5123) 187x24
+    [TEXT] "Заработайте на нас!" xy=(119,5123) 155x24 #ffffff font=16px/w600/lh=23/align=CENTER
+      >> "Заработайте на нас!"
+    [FRAME] "Frame" xy=(87,5123) 24x24 | fill=#ffffff
+  [TEXT] "Аренда Windows сервера" xy=(15,5346) 163x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда Windows сервера"
+  [TEXT] "Аренда Linux Сервера" xy=(15,5378) 141x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда Linux Сервера"
+  [TEXT] "Аренда игрового сервера" xy=(15,5410) 161x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда игрового сервера"
+  [TEXT] "Аренда хранилища" xy=(15,5442) 123x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда хранилища"
+  [TEXT] "Аренда офисного сервера" xy=(15,5474) 165x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда офисного сервера"
+  [TEXT] "Резервное копирование" xy=(15,5506) 150x20 #ffffff font=14px/w400/lh=20
+    >> "Резервное копирование"
+  [TEXT] "Администрирование серверов" xy=(15,5538) 190x20 #ffffff font=14px/w400/lh=20
+    >> "Администрирование серверов"
+  [TEXT] "Аренда сервера в США" xy=(15,5218) 151x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в США"
+  [TEXT] "Аренда сервера в Германии" xy=(15,5250) 176x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в Германии"
+  [TEXT] "Аренда сервера во Франции" xy=(15,5282) 182x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера во Франции"
+  [TEXT] "Аренда сервера в Голландии" xy=(15,5314) 185x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в Голландии"
+  [TEXT] "Аренда сервера" xy=(15,5187) 104x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Аренда сервера"
+  [TEXT] "Аренда виртуального сервера" xy=(15,5586) 200x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Аренда виртуального сервера"
+  [TEXT] "Аренда VPS/VDS на Windows" xy=(15,5745) 190x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS на Windows"
+  [TEXT] "Аренда VPS/VDS на Linux" xy=(15,5777) 165x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS на Linux"
+  [TEXT] "Аренда VPS/VDS в США" xy=(15,5617) 159x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в США"
+  [TEXT] "Аренда VPS/VDS в Германии" xy=(15,5649) 185x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в Германии"
+  [TEXT] "Аренда VPS/VDS во Франции" xy=(15,5681) 191x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS во Франции"
+  [TEXT] "Аренда VPS/VDS в Голландии" xy=(15,5713) 193x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в Голландии"
+  [TEXT] "Остальное" xy=(15,5825) 72x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Остальное"
+  [TEXT] "Аренда сервера с тестовым периодом" xy=(15,5856) 238x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера с тестовым периодом"
+  [TEXT] "Помощь" xy=(15,5888) 53x20 #ffffff font=14px/w400/lh=20
+    >> "Помощь"
+  [TEXT] "Оплата и доставка" xy=(15,5920) 114x20 #ffffff font=14px/w400/lh=20
+    >> "Оплата и доставка"
+  [TEXT] "Блог" xy=(15,5952) 28x20 #ffffff font=14px/w400/lh=20
+    >> "Блог"
+  [TEXT] "Партнерская программа" xy=(15,5984) 149x20 #ffffff font=14px/w400/lh=20
+    >> "Партнерская программа"
+  [FRAME] "Frame" xy=(15,6096) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,6199) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,6064) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,6128) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,6231) 18x18 | fill=#ffffff
+  [TEXT] "Контакты" xy=(15,6032) 63x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Контакты"
+  [TEXT] "служба поддержки" xy=(15,6167) 135x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "служба поддержки"
+  [TEXT] "мы в социальных сетях" xy=(15,6270) 161x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "мы в социальных сетях"
+  [TEXT] "Sepapaja 6 Tallinn" xy=(41,6063) 108x20 #ffffff font=14px/w400/lh=20
+    >> "Sepapaja 6 Tallinn"
+  [TEXT] "+380 (44) 23 88 946" xy=(41,6198) 130x20 #ffffff font=14px/w400/lh=20
+    >> "+380 (44) 23 88 946"
+  [TEXT] "+372 (800) 7873" xy=(41,6095) 103x20 #ffffff font=14px/w400/lh=20
+    >> "+372 (800) 7873"
+  [TEXT] "support@data-xata.com" xy=(41,6127) 136x20 #ffffff font=14px/w400/lh=20
+    >> "support@data-xata.com"
+  [TEXT] "support@data-xata.com" xy=(41,6230) 136x20 #ffffff font=14px/w400/lh=20
+    >> "support@data-xata.com"
+  [INSTANCE] "Vkontakte (VK)" xy=(103,6301) 24x24 | fill=#ffffff
+    [GROUP] "Vkontakte (VK)" xy=(103,6301) 24x24
+  [INSTANCE] "Twitter" xy=(59,6301) 24x24 | fill=#ffffff
+    [GROUP] "Twitter" xy=(59,6301) 24x24
+  [INSTANCE] "Slack" xy=(147,6301) 24x24 | fill=#ffffff
+    [GROUP] "Slack" xy=(147,6301) 24x24
+  [INSTANCE] "Facebook" xy=(15,6301) 24x24 | fill=#ffffff
+    [GROUP] "Facebook" xy=(15,6301) 24x24
+  [FRAME] "logo 3" xy=(121,6377) 118x26
+    [GROUP] "Layer 2" xy=(121,6377) 118x26
+      [GROUP] "Слой 1" xy=(121,6377) 118x26
+  [TEXT] "Посмотреть все способы оплаты" xy=(81,6429) 199x20 #ffffff font=14px/w400/lh=20 opacity=0.40
+    >> "Посмотреть все способы оплаты"
+  [GROUP] "Group 30" xy=(62,6473) 237x24
+    [GROUP] "Group" xy=(62,6475) 67x20 | fill=#ffffff | opacity=0.40
+    [FRAME] "Mastercard-logo 1" xy=(161,6473) 31x24 | fill=#ffffff | opacity=0.40
+      [GROUP] "Group" xy=(161,6473) 31x24
+        [GROUP] "Group" xy=(161,6473) 31x24
+          [GROUP] "Group" xy=(163,6493) 29x4
+          [GROUP] "Group" xy=(191,6488) 1x0
+          [GROUP] "Group" xy=(161,6473) 15x19
+          [GROUP] "Group" xy=(177,6473) 16x19
+    [GROUP] "Group 8" xy=(224,6475) 75x20
+  [GROUP] "Group 31" xy=(78,6521) 204x24
+    [TEXT] "Безналичный расчёт" xy=(215,6521) 67x24 #ffffff font=11px/w500/lh=12 opacity=0.40
+      >> "Безналичный
+расчёт"
+    [GROUP] "Group" xy=(78,6521) 104x24 | opacity=0.40
+      [GROUP] "Group" xy=(108,6526) 74x15
+  [TEXT] "Terms and conditions" xy=(36,6577) 126x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Terms and conditions"
+  [TEXT] "Privacy policy" xy=(219,6577) 82x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Privacy policy"
+  [TEXT] "Refund policy" xy=(58,6620) 82x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Refund policy"
+  [TEXT] "Delivery time frame" xy=(202,6615) 116x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Delivery time frame"
+  [TEXT] "Abuse" xy=(80,6658) 38x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Abuse"
+  [TEXT] "Acceptable Use Policy" xy=(194,6653) 131x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Acceptable Use Policy"
+  [RECTANGLE] "Rectangle 19" xy=(15,227) 438x84 | fill=#215aee | BACKGROUND_BLUR
+  [TEXT] "Пространства" xy=(47,259) 83x20 #839ada font=14px/w400/lh=20
+    >> "Пространства"
+  [TEXT] "Мониторинг" xy=(146,259) 75x20 #839ada font=14px/w400/lh=20
+    >> "Мониторинг"
+  [TEXT] "PGadmin" xy=(237,259) 56x20 #ffffff font=14px/w400/lh=20
+    >> "PGadmin"
+  [TEXT] "База данных" xy=(309,259) 79x20 #839ada font=14px/w400/lh=20
+    >> "База данных"
+  [TEXT] "Пространства и мониторинг (h2)" xy=(15,347) 293x29 #ffffff font=20px/w500/lh=29
+    >> "Пространства и мониторинг (h2)"
+  [TEXT] "У меня в тарифном плане 2 базы данных, и их размер меньше 8 ГБ (4300 МБ + 3000 МБ) Две недели назад я получаю уведомления «заканчивается на диске», хотя их размер был даже меньше 8 ГБ (от 2 ГБ до 10 ГБ). Эти размеры я вижу в pgadmin. По какой причине я видел эти уведомления и почему мои базы данных были доступны только для чтения, хотя у меня все еще осталось 2 ГБ?" xy=(15,429) 330x180 #839ada font=14px/w400/lh=18
+    >> "У меня в тарифном плане 2 базы данных, и их размер меньше 8 ГБ (4300 МБ + 3000 М"
+  [FRAME] "Frame 93" xy=(15,390) 205x21 | layout=HORIZONTAL | gap=8 | alignCross=CENTER
+    [FRAME] "Frame 26" xy=(15,390) 76x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+      [TEXT] "Мониторинг" xy=(21,392) 64x17 #ffffff font=12px/w400/lh=17
+        >> "Мониторинг"
+    [FRAME] "Frame 15" xy=(99,390) 30x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+      [TEXT] "API" xy=(105,392) 18x17 #ffffff font=12px/w400/lh=17
+        >> "API"
+    [FRAME] "Frame 16" xy=(137,390) 83x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+      [TEXT] "Пространства" xy=(143,392) 71x17 #ffffff font=12px/w400/lh=17
+        >> "Пространства"
+  [RECTANGLE] "Rectangle 12" xy=(15,635) 331x133 | fill=#215aee | border:#215aee
+  [TEXT] "Я пробую это две недели назад, и мне нравится этот хостер! Очень стабильная пропускная способность и гарантированная скорость! Я могу рекомендовать это." xy=(91,659) 231x85 #ffffff font=14px/w400/lh=17
+    >> "Я пробую это две недели назад, и мне нравится этот хостер! Очень стабильная проп"
+  [FRAME] "Frame" xy=(39,683) 36x36 | fill=#ffffff
+  [TEXT] "По умолчанию на экземплярах будет установлена чистая ОС без этих дополнительных пакетов, но у вас будет полный root / администратор для установки любого дополнительного программного обеспечения, которое вам потребуется. Если вы предпочитаете, чтобы ваши экземпляры поставлялись с уже установленным предварительно упакованным программным обеспечением, мы предлагаем набор приложений в один щелчок, которые добавляют некоторые популярные пакеты, включая cPanel / WHM, LEMP, OpenVPN и другие. См. Полный список приложений в один клик." xy=(15,844) 330x216 #839ada font=14px/w400/lh=18
+    >> "По умолчанию на экземплярах будет установлена чистая ОС без этих дополнительных "
+  [TEXT] "База данных (h3)" xy=(15,804) 144x26 #ffffff font=18px/w500/lh=26
+    >> "База данных (h3)"
+  [TEXT] "Файлы (объекты), передаваемые в Vultr Object Storage, по умолчанию являются «частными». Это означает, что вам нужен секретный ключ для доступа к ним. Однако некоторые инструменты позволяют переопределить это поведение - обязательно проверьте документацию, включенную в инструмент или SDK, который вы используете Файлы (объекты) могут быть перенесены в Vultr Object Storage непосредственно из экз��мпляров Vultr с помощью S3-совместимого инструмента или SDK. Наша документация по Vultr Object Storage включает примеры для популярного инструмента «s3cmd»." xy=(15,1133) 330x270 #839ada font=14px/w400/lh=18
+    >> "Файлы (объекты), передаваемые в Vultr Object Storage, по умолчанию являются «час"
+  [TEXT] "Каковы требования (h4)" xy=(15,1096) 176x23 #ffffff font=16px/w500/lh=23
+    >> "Каковы требования (h4)"
+  [FRAME] "Frame 16" xy=(15,1261) 204x16 | fill=#ffffff | layout=HORIZONTAL | pad=2/3/2/3 | alignCross=CENTER
+    [TEXT] "fileHeader.Open() // IT BREAKS HERE" xy=(18,1263) 198x12 #0041be font=12px/w400/lh=17
+      >> "fileHeader.Open() // IT BREAKS HERE"
+  [RECTANGLE] "Rectangle 174" xy=(18,1429) 327x490 | fill=#f0f3fa
+  [TEXT] "// Limit Upload File Size c.Request.Body = http.MaxBytesReader(c.Writer, c.Request.Body, MAX_UPLOAD_SIZE) fileHeader, err := c.FormFile("file") if err != nil { c.JSON(http.StatusBadRequest, &uploadResponse{ Status: "error", Msg: err.Error(), }) return } file, err := fileHeader.Open() // IT BREAKS HERE if err != nil { c.JSON(http.StatusBadRequest, &uploadResponse{ Status: "error", Msg: err.Error(), }) return } defer file.Close()" xy=(42,1453) 279x442 #0041be font=14px/w400/lh=17
+    >> "// Limit Upload File Size
+    c.Request.Body = http.MaxBytesReader(c.Writer, c."
+  [TEXT] "По умолчанию на экземплярах будет установлена чистая ОС без этих дополнительных пакетов, но у вас будет полный root / администратор для установки любого дополнительного программного обеспечения, которое вам потребуется." xy=(18,1933) 327x90 #839ada font=14px/w400/lh=18
+    >> "По умолчанию на экземплярах будет установлена чистая ОС без этих дополнительных "
+  [RECTANGLE] "Rectangle 96" xy=(18,2098) 96x56 | border:#215aee
+  [RECTANGLE] "Rectangle 105" xy=(113,2098) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 185" xy=(226,2098) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 194" xy=(339,2098) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 106" xy=(113,2153) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 186" xy=(226,2153) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 195" xy=(339,2153) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 107" xy=(113,2208) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 187" xy=(226,2208) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 196" xy=(339,2208) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 108" xy=(113,2263) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 188" xy=(226,2263) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 197" xy=(339,2263) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 109" xy=(113,2318) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 189" xy=(226,2318) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 198" xy=(339,2318) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 110" xy=(113,2373) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 190" xy=(226,2373) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 199" xy=(339,2373) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 111" xy=(113,2428) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 191" xy=(226,2428) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 200" xy=(339,2428) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 112" xy=(113,2483) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 192" xy=(226,2483) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 201" xy=(339,2483) 114x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 113" xy=(113,2538) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 193" xy=(226,2538) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 202" xy=(339,2538) 114x56 | border:#215aee
+  [RECTANGLE] "Rectangle 97" xy=(18,2153) 96x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 98" xy=(18,2208) 96x56 | border:#215aee
+  [RECTANGLE] "Rectangle 99" xy=(18,2263) 96x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 102" xy=(18,2428) 96x56 | border:#215aee
+  [RECTANGLE] "Rectangle 100" xy=(18,2318) 96x56 | border:#215aee
+  [RECTANGLE] "Rectangle 103" xy=(18,2483) 96x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 101" xy=(18,2373) 96x56 | fill=#215aee | border:#215aee
+  [RECTANGLE] "Rectangle 104" xy=(18,2538) 96x56 | border:#215aee
+  [TEXT] "NYC1" xy=(38,2117) 41x18 #ffffff font=12px/w500/lh=17/ls=0.24
+    >> "NYC1"
+  [TEXT] "NYC3" xy=(38,2172) 41x18 #ffffff font=12px/w500/lh=17/ls=0.24
+    >> "NYC3"
+  [TEXT] "LON1" xy=(38,2227) 41x18 #ffffff font=12px/w500/lh=17/ls=0.24
+    >> "LON1"
+  [TEXT] "LON2" xy=(38,2282) 41x18 #ffffff font=12px/w500/lh=17/ls=0.24
+    >> "LON2"
+  [TEXT] "SFO1" xy=(38,2447) 41x18 #ffffff font=12px/w500/lh=17/ls=0.24
+    >> "SFO1"
+  [TEXT] "AMS3" xy=(38,2337) 41x18 #ffffff font=12px/w500/lh=17/ls=0.24
+    >> "AMS3"
+  [TEXT] "SGP1" xy=(38,2502) 45x18 #ffffff font=12px/w500/lh=17/ls=0.24
+    >> "SGP1"
+  [TEXT] "AMS4" xy=(38,2392) 41x18 #ffffff font=12px/w500/lh=17/ls=0.24
+    >> "AMS4"
+  [TEXT] "FRA2" xy=(38,2557) 41x18 #ffffff font=12px/w500/lh=17/ls=0.24
+    >> "FRA2"
+  [TEXT] "Сервер" xy=(38,2073) 45x17 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "Сервер"
+  [TEXT] "SOC 1 Type ii" xy=(130,2073) 79x17 #839ada font=12px/w500/lh=17/ls=0.24/align=CENTER
+    >> "SOC 1 Type ii"
+  [TEXT] "SOC 2 Type ii" xy=(242,2073) 80x17 #839ada font=12px/w500/lh=17/ls=0.24/align=CENTER
+    >> "SOC 2 Type ii"
+  [TEXT] "ISO/iec 27001:2013" xy=(344,2073) 118x17 #839ada font=12px/w500/lh=17/ls=0.24/align=CENTER
+    >> "ISO/iec 27001:2013"
+  [FRAME] "Frame" xy=(158,2114) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(271,2114) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(271,2169) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(271,2224) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(384,2114) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(158,2334) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(271,2334) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(271,2279) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(384,2334) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(158,2389) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(271,2389) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(384,2389) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(158,2444) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(271,2444) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(271,2499) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(384,2444) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(158,2554) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(384,2554) 24x24 | fill=#ffffff
+  [TEXT] "Скриншот (h4)" xy=(15,2630) 135x29 #ffffff font=20px/w500/lh=29
+    >> "Скриншот (h4)"
+  [TEXT] "Файлы (объекты), передаваемые в Vultr Object Storage, по умолчанию являются «частными». Это означает, что вам нужен секретный ключ для доступа к ним. Однако некоторые инструменты позволяют переопределить это поведение - обязательно проверьте документацию, включенную в инструмент или SDK." xy=(15,2673) 330x126 #839ada font=14px/w400/lh=18
+    >> "Файлы (объекты), передаваемые в Vultr Object Storage, по умолчанию являются «час"
+  [RECTANGLE] "image 17" xy=(15,2825) 330x242 | fill=IMAGE
+  [TEXT] "нумерованый список" xy=(15,3103) 158x18 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "нумерованый список"
+  [TEXT] "1. Внешняя и внутренняя система видео наблюдения" xy=(15,3135) 330x40 #ffffff font=14px/w400/lh=20
+    >> "1. Внешняя и внутренняя система видео наблюдения"
+  [TEXT] "2. Внешняя и внутренняя система видео наблюдения" xy=(15,3187) 330x40 #ffffff font=14px/w400/lh=20
+    >> "2. Внешняя и внутренняя система видео наблюдения"
+  [TEXT] "3. Внешняя и внутренняя система видео наблюдения" xy=(15,3239) 330x40 #ffffff font=14px/w400/lh=20
+    >> "3. Внешняя и внутренняя система видео наблюдения"
+  [TEXT] "4. Внешняя и внутренняя система видео наблюдения" xy=(15,3291) 330x40 #ffffff font=14px/w400/lh=20
+    >> "4. Внешняя и внутренняя система видео наблюдения"
+  [TEXT] "ненумерованный список" xy=(15,3357) 182x18 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "ненумерованный список"
+  [TEXT] "• Внешняя и внутренняя система видео наблюдения" xy=(15,3389) 330x20 #ffffff font=14px/w400/lh=20
+    >> "• Внешняя и внутренняя система видео наблюдения"
+  [TEXT] "• Внешняя и внутренняя система видео наблюдения" xy=(15,3421) 330x20 #ffffff font=14px/w400/lh=20
+    >> "• Внешняя и внутренняя система видео наблюдения"
+  [TEXT] "• Внешняя и внутренняя система видео наблюдения" xy=(15,3453) 330x20 #ffffff font=14px/w400/lh=20
+    >> "• Внешняя и внутренняя система видео наблюдения"
+  [TEXT] "• Внешняя и внутренняя система видео наблюдения" xy=(15,3485) 330x20 #ffffff font=14px/w400/lh=20
+    >> "• Внешняя и внутренняя система видео наблюдения"
+  [RECTANGLE] "Rectangle 51" xy=(15,3541) 330x188 | fill=linear-gradient(#2acaf7@0%,#0085ff@100%)
+  [TEXT] "Впервые на сайте?" xy=(43,3591) 217x36 #ffffff font=25px/w500/lh=36
+    >> "Впервые на сайте?"
+  [TEXT] "Хочу скидку!" xy=(43,3569) 194x43 #ffffff font=30px/w700/lh=43 opacity=0.15
+    >> "Хочу скидку!"
+  [RECTANGLE] "Rectangle 53" xy=(43,3653) 274x48 | fill=#ffffff
+  [TEXT] "Хочу выиграть!" xy=(121,3665) 119x24 #0041be font=16px/w600/lh=23/align=CENTER
+    >> "Хочу выиграть!"
+  [TEXT] "Читайте также" xy=(15,3785) 159x28 #ffffff font=25px/w500/lh=28
+    >> "Читайте также"
+  [TEXT] "Наши рекомендации" xy=(15,3765) 310x43 #ffffff font=30px/w700/lh=43 opacity=0.08
+    >> "Наши рекомендации"
+  [FRAME] "Frame 97" xy=(15,3849) 330x266
+    [RECTANGLE] "Rectangle 550" xy=(15,3849) 330x266
+    [TEXT] "Пространства и мониторинг" xy=(39,3873) 252x29 #ffffff font=20px/w500/lh=29
+      >> "Пространства и мониторинг"
+    [TEXT] "Согласно вашей документации (любая операция) на IP-адрес в секунду для всех пространств в учетной записи. Я разрабатываю и тестирую, но время от времени получаю сообщение «Замедлите ваш запрос…». Я точно знаю, что не делаю 750 запросов в секунду - так почему я получаю эти сообщения?" xy=(39,3916) 282x136 #839ada font=14px/w400/lh=17
+      >> "Согласно вашей документации (любая операция) на IP-адрес в секунду для всех прос"
+    [FRAME] "Frame 93" xy=(39,4070) 205x21 | layout=HORIZONTAL | gap=8 | alignCross=CENTER
+      [FRAME] "Frame 26" xy=(39,4070) 76x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+        [TEXT] "Мониторинг" xy=(45,4072) 64x17 #ffffff font=12px/w400/lh=17
+          >> "Мониторинг"
+      [FRAME] "Frame 15" xy=(123,4070) 30x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+        [TEXT] "API" xy=(129,4072) 18x17 #ffffff font=12px/w400/lh=17
+          >> "API"
+      [FRAME] "Frame 16" xy=(161,4070) 83x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+        [TEXT] "Пространства" xy=(167,4072) 71x17 #ffffff font=12px/w400/lh=17
+          >> "Пространства"
+  [FRAME] "Frame 105" xy=(15,4115) 330x278
+    [RECTANGLE] "Rectangle 550" xy=(15,4115) 330x278
+    [TEXT] "Нет подключения к Интернету после обновления" xy=(39,4139) 282x58 #ffffff font=20px/w500/lh=29
+      >> "Нет подключения к Интернету после обновления"
+    [TEXT] "Доступ к странице консоли на сайте DO. Когда я пытаюсь что-нибудь пинговать - получаю ошибку «Сеть недоступна» (тоже 8.8.8.8). Я использовал любые решения из Интернета, но безуспешно. Я могу показать любую полезную информацию с консоли, но я не знаю, что именно нужно." xy=(39,4211) 282x119 #839ada font=14px/w400/lh=17
+      >> "Доступ к странице консоли на сайте DO. Когда я пытаюсь что-нибудь пинговать - по"
+    [FRAME] "Frame 93" xy=(39,4348) 121x21 | layout=HORIZONTAL | gap=8 | alignCross=CENTER
+      [FRAME] "Frame 15" xy=(39,4348) 30x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+        [TEXT] "API" xy=(45,4350) 18x17 #ffffff font=12px/w400/lh=17
+          >> "API"
+      [FRAME] "Frame 16" xy=(77,4348) 83x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+        [TEXT] "Пространства" xy=(83,4350) 71x17 #ffffff font=12px/w400/lh=17
+          >> "Пространства"
+  [FRAME] "Frame 106" xy=(15,4393) 330x261
+    [RECTANGLE] "Rectangle 550" xy=(15,4393) 330x261
+    [TEXT] "Плавающий IP-адрес для капли с SSL" xy=(39,4417) 282x58 #ffffff font=20px/w500/lh=29
+      >> "Плавающий IP-адрес для капли с SSL"
+    [TEXT] "Раньше это работало нормально, пока я не реализовал ssl моих каплях, поскольку я хочу, чтобы мои пользователи получали доступ к моему сайту (на базе nginx) только через https. Теперь при доступе к моему сайту с публичного IP моего плавающего IP." xy=(39,4489) 282x102 #839ada font=14px/w400/lh=17
+      >> "Раньше это работало нормально, пока я не реализовал ssl моих каплях, поскольку я"
+    [FRAME] "Frame 93" xy=(39,4609) 165x21 | layout=HORIZONTAL | gap=8 | alignCross=CENTER
+      [FRAME] "Frame 15" xy=(39,4609) 36x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+        [TEXT] "Сеть" xy=(45,4611) 24x17 #ffffff font=12px/w400/lh=17
+          >> "Сеть"
+      [FRAME] "Frame 17" xy=(83,4609) 30x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+        [TEXT] "API" xy=(89,4611) 18x17 #ffffff font=12px/w400/lh=17
+          >> "API"
+      [FRAME] "Frame 16" xy=(121,4609) 83x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+        [TEXT] "Пространства" xy=(127,4611) 71x17 #ffffff font=12px/w400/lh=17
+          >> "Пространства"

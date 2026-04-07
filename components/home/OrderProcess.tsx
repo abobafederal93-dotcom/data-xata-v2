@@ -1,44 +1,77 @@
+import Link from "next/link";
+
+const steps = [
+  {
+    title: ["Приходи", "и выбирай"],
+    desc: "Единственное, для чего нельзя снять в аренду наши выделенные серверы, так это для преступной деятельности в рамках юрисдикции той страны, в которой фактически находится оборудование.",
+  },
+  {
+    title: ["Добавляй", "в корзину"],
+    desc: "Должен лишь оплатить аренду и предоставить емейл, на который будут отправлены данные для доступа к удаленному (выделенному) серверу.",
+  },
+  {
+    title: ["Оплачивай", "счёт"],
+    desc: "Которые могут быть доступны в данный момент времени для сдачи в аренду. Перечень подключений постоянно обновляется.",
+  },
+  {
+    title: ["Пользуйся", "сервисом"],
+    desc: "Аренду наши выделенные серверы, так это для преступной деятельности в рамках юрисдикции той страны, в которой фактически находится оборудование.",
+    last: true,
+  },
+];
+
 export default function OrderProcess() {
   return (
-    <div>
-      <div className="title">
-        <div className="title-text">Как оформить заказ?</div>
-        Начитались? Айда выбирать!
-      </div>
-      <div className="wrap-scroll-row">
-        <div className="row scroll-row">
-          <div className="col-xs-3">
-            <div className="process-order-item">
-              <div className="h3">Приходи <br />и выбирай</div>
-              <div className="icons i-arrow" />
-              <p>Мы собрали все самое лучшее и сделали удобный поиск по выделенным серверам. Приходите, сравните, проконсультируйтесь с нами, если не уверены, какой выделенный сервер выбрать.</p>
-            </div>
-          </div>
-          <div className="col-xs-3">
-            <div className="process-order-item">
-              <div className="h3">Настрой <br />под себя</div>
-              <div className="icons i-arrow" />
-              <p>Количество памяти, конфигурацию жестких дисков, версию операционной системы, сетевое подключение, срок оплаты и многие другие опции сервера можно изменить, если значения по умолчанию вас не устраивают.</p>
-            </div>
-          </div>
-          <div className="col-xs-3">
-            <div className="process-order-item">
-              <div className="h3">Оставь e-mail <br />и оплати счёт</div>
-              <div className="icons i-arrow" />
-              <p>Мы не требуем заполнять огромные формы с контактными данными, — нам нужны лишь оплата и е-мейл, на который будут отправлены данные для доступа к арендованному серверу.</p>
-            </div>
-          </div>
-          <div className="col-xs-3">
-            <div className="process-order-item">
-              <div className="h3">Пользуйся <br />сервисом</div>
-              <div className="icons i-arrow">
-                <span className="circle-icon icons i-check" />
-              </div>
-              <p>В личном кабинете есть все для комфортной работы с выделенным сервером: перезагрузка, IP-KVM, переустановка операционной системы, тех. поддержка в онлайн-чате и, конечно же, оплата счетов десятком удобных способов.</p>
-            </div>
+    <section className="order-section">
+      <div className="container">
+
+        {/* Подсекция 1: Как оформить заказ */}
+        <div className="section-heading">
+          <span className="section-ghost">Как оформить заказ?</span>
+          <h2 className="section-title">Начитались? Айда выбирать!</h2>
+        </div>
+
+        <div className="order-intro">
+          <p className="order-intro__text">
+            Чтобы подобрать сервер нужной вам конфигурации — воспользуйтесь нашим поиском.
+            Мы подготовили обучающее видео для вас. Если вы не знаете какой сервер вам
+            подойдет — спросите нас в чате.
+          </p>
+          <div className="order-intro__btns">
+            <Link href="/search" className="btn btn-warning">
+              Искать сейчас
+            </Link>
+            <a href="https://cp.data-xata.com/" className="btn btn-default" rel="noindex, nofollow">
+              Спросить в чате
+            </a>
           </div>
         </div>
+
+        {/* Подсекция 2: Процесс заказа — 4 шага */}
+        <div className="section-heading order-steps-heading">
+          <span className="section-ghost">Процесс заказа</span>
+          <h2 className="section-title">Процесс заказа</h2>
+        </div>
+
+        <div className="order-steps">
+          {steps.map((step, i) => (
+            <div key={i} className="order-step">
+              <div className="order-step__title">
+                <span>{step.title[0]}</span>
+                <span>{step.title[1]}</span>
+              </div>
+              <div className="order-step__arrow" aria-hidden="true">
+                {step.last
+                  ? <span className="icons i-check order-step__check" />
+                  : <span className="icons i-caret-right" />
+                }
+              </div>
+              <p className="order-step__desc">{step.desc}</p>
+            </div>
+          ))}
+        </div>
+
       </div>
-    </div>
+    </section>
   );
 }

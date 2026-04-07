@@ -1,39 +1,42 @@
 export default function HomeRating() {
   return (
-    <div className="rating-section bg-orange">
-      <div className="container">
-        <div className="rating-section-image hidden-xs hidden-sm">
-          <img src="/img/rating-section-image.png" alt="" className="img-responsive" />
-        </div>
-        <div className="row">
-          <div className="col-md-7">
-            <div className="title">
-              <div className="title-text">Клиенты считают, что</div>
-              Наш сервис просто супер!
-            </div>
-            <span className="rating-section__subtitle">Нас оценивают на ведущих рейтингах</span>
-            <div className="flex-block vertical-center rating-section-row">
-              <div className="rating-num rating-num-white">4.7</div>
-              <div className="h3">из</div>
-              <div className="rating-num">5</div>
-            </div>
-            <div className="rating-section-logos flex-block flex-wrap">
-              <img src="/img/rating-section-logo-1.png" alt="" width={136} />
-              <img src="/img/rating-section-logo-2.png" alt="" width={100} />
-            </div>
+    <section className="rating-section">
+
+      {/* Фоновое изображение справа */}
+      <div className="rating-section__img" aria-hidden="true">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/img/rating-section-image.png" alt="" width={756} height={665} />
+      </div>
+
+      <div className="container rating-section__inner">
+        <div className="rating-section__content">
+
+          {/* Ghost + Title */}
+          <div className="section-heading">
+            <span className="section-ghost rating-ghost">Клиенты считают, что</span>
+            <h2 className="section-title">Наш сервис просто супер!</h2>
           </div>
+
+          {/* Subtitle */}
+          <p className="rating-section__subtitle">Нас оценивают на ведущих рейтингах</p>
+
+          {/* Оценка: 4.7 из 5 */}
+          <div className="rating-section__score">
+            <span className="rating-section__num rating-section__num--accent">4.7</span>
+            <span className="rating-section__of">из</span>
+            <span className="rating-section__num">5</span>
+          </div>
+
+          {/* Логотипы рейтингов */}
+          <div className="rating-section__logos">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/img/rating-section-logo-1.png" alt="Рейтинг хостингов" width={136} height={20} />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/img/rating-section-logo-2.png" alt="xTOP" width={100} height={20} />
+          </div>
+
         </div>
       </div>
-      <style>{`
-        .rating-section__subtitle {
-          display: block;
-          font-weight: 500;
-          margin: 2.6rem 0 1.4rem;
-          color: #fff;
-          font-size: 2rem;
-          line-height: 2.9rem;
-        }
-      `}</style>
-    </div>
+    </section>
   );
 }

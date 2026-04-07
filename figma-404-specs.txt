@@ -1,0 +1,136 @@
+
+=== DESKTOP (1440px frame) ===
+
+--- HEADER (y=0..68) ---
+Logo: xy=(165,25) 118x26
+Nav links:
+  Аренда сервера: xy=(375,28) 107x20 font=14/500 #fff
+  [caret icon]: xy=(488,30) 18x18
+  Помощь: xy=(538,28) 54x20 font=14/500 #fff
+  Оплата и доставка: xy=(624,28) 118x20 font=14/500 #fff  
+  Блог: xy=(774,28) 30x20 font=14/500 #fff
+  Партнерская программа: xy=(836,28) 155x20 font=14/500 #fff
+  RU: xy=(1023,28) 18x20 font=14/500 #fff
+  [caret icon]: xy=(1047,30) 18x18
+  Личный кабинет btn: xy=(1134,20) [rect 141x36 border white], text xy=(1152,28) 105x20 font=14/500 #fff
+
+--- BREADCRUMB (y=91) ---
+Frame 104: xy=(165,91) 203x24 gap=8 HORIZONTAL
+  Home icon: xy=(165,91) 24x24 color=#829ad9
+  divider rect: xy=(197,102) 18x1 #829ad9
+  Список статей: xy=(223,93) 86x20 font=14/400 #829ad9
+  divider rect: xy=(317,102) 18x1 #829ad9
+  404: xy=(343,93) 25x20 font=14/400 #829ad9
+
+--- HERO SECTION (y=0..886) ---
+Background: Rectangle 45 xy=(0,886) 1440x723 #010437
+  NOTE: rect starts at y=886 in 1609px frame - это значит hero = верх страницы, rect идет СНИЗУ
+  Реально hero зона = от header до y=886 (высота ~820px от header)
+
+Ghost 404: xy=(165,186) 134x94 font=65/700 #fff (opacity ~0.08 visually)
+Title: xy=(165,216) 535x87 font=60/500 #fff lh=87
+Description: xy=(165,327) 513x54 font=20/400 #829ad9 lh=27
+Button rect: xy=(165,429) 168x48 #ff8310
+Button text: xy=(208,441) 86x24 font=16/600 #fff
+
+Illustration Group69: xy=(467,139) 790x527
+  Group 1 (circuit bg): xy=(467,165) 790x501
+  Group 68 (laptops): xy=(492,139) 741x499
+Barrier 1Asset: xy=(777,258) 308x361
+
+--- PROMO BANNER (y=800..968) ---
+Outer rect: Rectangle 172 xy=(165,800) 1110x164 (no fill = transparent/outlined)
+Background orange: Rectangle 50 xy=(1050,869) 157x43 #d56601 [button bg]
+Ghost text: xy=(213,828) 355x79 font=55/700 #fff (large ghost behind)
+Ghost text 2: xy=(213,864) 238x58 font=40/500 #fff 
+Banner text: xy=(622,855) 303x54 font=19/600 #fff lh=27
+Button white rect: xy=(1040,858) 177x48 #fff
+Button text: xy=(1066,870) 125x24 font=16/600 #0041be
+
+--- ACTION BUTTONS (y=1000..1048) ---
+Left rect: Rectangle 48 xy=(165,1000) 548x48 (no fill)
+Right rect: Rectangle 173 xy=(727,1000) 548x48 (no fill)
+Left icon: xy=(325,1012) 24x24
+Left text: xy=(357,1012) 197x24 font=16/600 #fff Пожаловаться директору!
+Right text: xy=(940,1012) 155x24 font=16/600 #fff Заработайте на нас!
+Right icon: xy=(908,1012) 24x24
+
+--- FOOTER COLUMNS (y=1084..) ---
+Container left x=165, columns at:
+  Col1 (Аренда сервера): x=165
+  Col2 (Аренда виртуального сервера): x=450
+  Col3 (Остальное): x=735  
+  Col4 (Контакты): x=1024
+
+Col titles (y=1084): font=12/500 #fff
+Col1 links start y=1115, gap=32px between items, font=14/400 #fff
+  Аренда сервера в США: y=1115
+  Аренда сервера в Германии: y=1147
+  Аренда сервера во Франции: y=1179
+  Аренда сервера в Голландии: y=1211
+  Аренда Windows сервера: y=1243
+  Аренда Linux Сервера: y=1275
+  Аренда игрового сервера: y=1307
+  Аренда хранилища: y=1339
+  Аренда офисного сервера: y=1371
+  Резервное копирование: y=1403
+  Администрирование серверов: y=1435
+
+Col2 links (x=450):
+  Аренда VPS/VDS на Windows: y=1243
+  Аренда VPS/VDS на Linux: y=1275
+  Аренда VPS/VDS в США: y=1115
+  Аренда VPS/VDS в Германии: y=1147
+  Аренда VPS/VDS во Франции: y=1179
+  Аренда VPS/VDS в Голландии: y=1211
+
+Col3 links (x=735):
+  Аренда сервера с тестовым периодом: y=1115
+  Помощь: y=1147
+  Оплата и доставка: y=1179
+  Блог: y=1211
+  Партнерская программа: y=1243
+
+Col4 Contacts (x=1024):
+  Subhead служба поддержки: y=1219 font=12/500
+  Sepapaja 6 Tallinn: y=1115
+  +372 (800) 7873: y=1147
+  +380 (44) 23 88 946: y=1250
+  support@data-xata.com: y=1179
+  support@data-xata.com: y=1282
+
+Social icons subhead: мы в социальных сетях xy=(1024,1322) font=12/500
+Social icons y=1353, x: Facebook=1024, Twitter=1068, VK=1112, Slack=1156, each 24x24
+
+--- FOOTER BOTTOM (y=1487..1609) ---
+Divider: Vector 4 xy=(0,1487) 1440x0
+Logo: xy=(165,1512) 118x26
+Payment text: xy=(571,1510) 199x20 font=14/400 Посмотреть все способы оплаты
+VISA logo: xy=(802,1510) group 67x20
+Mastercard: xy=(901,1508) 31x24
+PayPal: xy=(964,1510) 75x20
+WebMoney: xy=(1071,1508) 104x24
+Безналичный расчёт: xy=(1208,1508) 67x24 font=11/500
+
+Bottom nav y=1554 (Group 9 xy=(272,1554) 895x20):
+  Terms and conditions: x=272
+  Privacy policy: x=462
+  Refund policy: x=608
+  Delivery time frame: x=754
+  Abuse: x=934
+  Acceptable Use Policy: x=1036
+
+=== KEY MEASUREMENTS ===
+Frame width: 1440px
+Container left margin: 165px → container width = 1440-165*2 = 1110px
+Header height: ~68px (nav at y=28, 20px text = ends at y=48 + padding)
+Breadcrumb y: 91px from top
+Hero text starts: y=186 (ghost)
+Hero section ends: ~y=790 (before banner)
+Banner zone: y=800..968
+Action buttons: y=1000..1048
+Footer start: y=1048
+Footer columns title: y=1084
+Footer columns links: y=1115..1435, gap=32px
+Footer bottom divider: y=1487
+Footer bottom content: y=1508..1554

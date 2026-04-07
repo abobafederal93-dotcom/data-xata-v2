@@ -1,0 +1,674 @@
+=== FRAME: Details id=1401:389 1440x7495 ===
+  [RECTANGLE] "Rectangle 17" xy=(1134,20) 141x36 | border:#ffffff
+  [TEXT] "Описание сервера" xy=(165,198) 345x58 #ffffff font=40px/w500/lh=58
+    >> "Описание сервера"
+  [TEXT] "Сервер" xy=(165,162) 199x79 #ffffff font=55px/w700/lh=79 opacity=0.08
+    >> "Сервер"
+  [FRAME] "logo 1" xy=(165,25) 118x26
+    [GROUP] "Layer 2" xy=(165,25) 118x26
+      [GROUP] "Слой 1" xy=(165,25) 118x26
+  [TEXT] "Личный кабинет" xy=(1152,28) 105x20 #ffffff font=14px/w500/lh=20
+    >> "Личный кабинет"
+  [TEXT] "память" xy=(615,402) 49x17 #ffffff font=12px/w500/lh=17/ls=0.24
+    >> "память"
+  [TEXT] "диски" xy=(840,402) 46x17 #ffffff font=12px/w500/lh=17/ls=0.24
+    >> "диски"
+  [TEXT] "Помощь" xy=(538,28) 54x20 #ffffff font=14px/w500/lh=20
+    >> "Помощь"
+  [TEXT] "Оплата и доставка" xy=(624,28) 118x20 #ffffff font=14px/w500/lh=20
+    >> "Оплата и доставка"
+  [TEXT] "Блог" xy=(774,28) 30x20 #ffffff font=14px/w500/lh=20
+    >> "Блог"
+  [TEXT] "Партнерская программа" xy=(836,28) 155x20 #ffffff font=14px/w500/lh=20
+    >> "Партнерская программа"
+  [TEXT] "Аренда сервера" xy=(375,28) 107x20 #ffffff font=14px/w500/lh=20
+    >> "Аренда сервера"
+  [FRAME] "Frame" xy=(488,30) 18x18 | fill=#ffffff
+  [GROUP] "Group" xy=(221,4409) 133x40 | fill=#ffffff
+  [FRAME] "Mastercard-logo 2" xy=(537,4405) 54x43 | fill=#ffffff
+    [GROUP] "Group" xy=(537,4405) 54x43
+      [GROUP] "Group" xy=(537,4405) 54x43
+        [GROUP] "Group" xy=(540,4441) 51x7
+        [GROUP] "Group" xy=(589,4432) 1x1
+        [GROUP] "Group" xy=(537,4405) 27x34
+        [GROUP] "Group" xy=(564,4405) 27x34
+  [GROUP] "Group 46" xy=(764,4409) 150x40
+  [GROUP] "Group" xy=(335,4504) 169x39
+    [GROUP] "Group" xy=(384,4513) 120x24
+  [TEXT] "Dell R720XD" xy=(165,304) 172x43 #ffffff font=30px/w500/lh=43
+    >> "Dell R720XD"
+  [TEXT] "Процессор XEON E5530 основан на 14 нм микроархитектуре Broadwell. Он был разработан для обеспечения высокой доступности, масштабируемости и наилучшего соотношения цена / производительность. Этот процессор обеспечивает быструю доставку услуг для облачных и традиционных приложений, а также универсальность в различных рабочих нагрузках." xy=(165,357) 730x68 #839ada font=14px/w400/lh=17
+    >> "Процессор XEON E5530 основан на 14 нм микроархитектуре Broadwell. Он был разрабо"
+  [RECTANGLE] "Rectangle 97" xy=(925,304) 350x905 | fill=#215aee
+  [GROUP] "Group 38" xy=(957,535) 286x48
+    [RECTANGLE] "Rectangle 22" xy=(957,535) 286x48 | fill=#ff8311
+    [TEXT] "Оформить заказ" xy=(1039,547) 122x24 #ffffff font=16px/w600/lh=23/align=CENTER
+      >> "Оформить заказ"
+  [GROUP] "Group 40" xy=(957,1129) 286x48
+    [RECTANGLE] "Rectangle 22" xy=(957,1129) 286x48 | fill=#ff8311
+    [TEXT] "Оформить заказ" xy=(1039,1141) 122x24 #ffffff font=16px/w600/lh=23/align=CENTER
+      >> "Оформить заказ"
+  [TEXT] "АБОНПЛАТА" xy=(957,379) 148x18 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "АБОНПЛАТА"
+  [TEXT] "+ плата за установку" xy=(957,456) 148x18 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "+ плата за установку"
+  [TEXT] "плата за установку" xy=(957,709) 148x18 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "плата за установку"
+  [TEXT] "ОС" xy=(957,837) 148x18 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "ОС"
+  [TEXT] "сеть" xy=(957,911) 158x18 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "сеть"
+  [TEXT] "контракт" xy=(957,1019) 158x18 #839ada font=12px/w500/lh=17/ls=0.24
+    >> "контракт"
+  [TEXT] "Ваш заказ" xy=(957,336) 95x29 #ffffff font=20px/w500/lh=29
+    >> "Ваш заказ"
+  [TEXT] "Каковы требования ?" xy=(165,1790) 195x29 #ffffff font=20px/w500/lh=29
+    >> "Каковы требования ?"
+  [TEXT] "Windows" xy=(247,3627) 83x29 #ffffff font=20px/w500/lh=29
+    >> "Windows"
+  [TEXT] "CentOs" xy=(255,3845) 66x29 #ffffff font=20px/w500/lh=29
+    >> "CentOs"
+  [TEXT] "Debian" xy=(533,3845) 63x29 #ffffff font=20px/w500/lh=29
+    >> "Debian"
+  [TEXT] "VMware" xy=(803,3845) 73x29 #ffffff font=20px/w500/lh=29
+    >> "VMware"
+  [TEXT] "CloudLinux" xy=(515,3627) 99x29 #ffffff font=20px/w500/lh=29
+    >> "CloudLinux"
+  [TEXT] "Ubuntu" xy=(807,3627) 64x29 #ffffff font=20px/w500/lh=29
+    >> "Ubuntu"
+  [TEXT] "Как я могу оформить возврат ?" xy=(545,1790) 280x29 #ffffff font=20px/w500/lh=29
+    >> "Как я могу оформить возврат ?"
+  [TEXT] "€46.75" xy=(957,486) 53x23 #ffffff font=16px/w500/lh=23
+    >> "€46.75"
+  [RECTANGLE] "Rectangle 186" xy=(957,597) 286x48 | border:#ffffff
+  [GROUP] "Group 39" xy=(1038,609) 125x24
+    [TEXT] "Поделиться" xy=(1038,609) 93x24 #ffffff font=16px/w600/lh=23/align=CENTER
+      >> "Поделиться"
+    [FRAME] "Frame" xy=(1139,609) 24x24 | fill=#ffffff
+  [TEXT] "1x Intel Quad-Core Xeon E3-1230v2" xy=(957,739) 111x40 #ffffff font=14px/w400/lh=20
+    >> "1x Intel Quad-Core
+Xeon E3-1230v2"
+  [TEXT] "CentOS" xy=(957,867) 47x20 #ffffff font=14px/w400/lh=20
+    >> "CentOS"
+  [TEXT] "100 Mbit" xy=(957,941) 54x20 #ffffff font=14px/w400/lh=20
+    >> "100 Mbit"
+  [TEXT] "Поддержка - 24х7х12" xy=(957,1049) 133x20 #ffffff font=14px/w400/lh=20
+    >> "Поддержка - 24х7х12"
+  [TEXT] "Период оплаты" xy=(957,1083) 96x20 #ffffff font=14px/w400/lh=20
+    >> "Период оплаты"
+  [TEXT] "IPv4:1" xy=(957,975) 36x20 #ffffff font=14px/w400/lh=20
+    >> "IPv4:1"
+  [TEXT] "€69.00" xy=(1196,739) 47x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+    >> "€69.00"
+  [TEXT] "€24.00" xy=(1195,793) 48x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+    >> "€24.00"
+  [TEXT] "вкл." xy=(1216,867) 27x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+    >> "вкл."
+  [TEXT] "вкл." xy=(1216,941) 27x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+    >> "вкл."
+  [TEXT] "вкл." xy=(1216,1049) 27x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+    >> "вкл."
+  [TEXT] "помесячно" xy=(1174,1083) 69x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+    >> "помесячно"
+  [TEXT] "вкл." xy=(1216,975) 27x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+    >> "вкл."
+  [TEXT] "+ 1x 120 GB SSD" xy=(957,793) 104x20 #ffffff font=14px/w400/lh=20
+    >> "+ 1x 120 GB SSD"
+  [TEXT] "€46.75" xy=(547,571) 44x20 #ffffff font=14px/w400/lh=20
+    >> "€46.75"
+  [TEXT] "Доступ через 3 часа" xy=(729,571) 127x20 #ffffff font=14px/w400/lh=20
+    >> "Доступ через 3 часа"
+  [FRAME] "Frame 68" xy=(183,541) 98x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "абонплата" xy=(183,542) 74x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "абонплата"
+    [FRAME] "Frame" xy=(263,541) 18x18 | fill=#ffffff
+  [FRAME] "Frame 69" xy=(365,541) 144x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "интервал оплаты" xy=(365,542) 120x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "интервал оплаты"
+    [FRAME] "Frame" xy=(491,541) 18x18 | fill=#ffffff
+  [FRAME] "Frame 70" xy=(547,541) 157x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "плата за установку" xy=(547,542) 133x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "плата за установку"
+    [FRAME] "Frame" xy=(686,541) 18x18 | fill=#ffffff
+  [FRAME] "Frame 71" xy=(729,541) 134x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "срок установки" xy=(729,542) 110x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "срок установки"
+    [FRAME] "Frame" xy=(845,541) 18x18 | fill=#ffffff
+  [RECTANGLE] "Rectangle 114" xy=(165,523) 183x86 | border:#215aee
+  [RECTANGLE] "Rectangle 200" xy=(530,2226) 365x256 | fill=linear-gradient(#ff8311@0%,#ff5c00@100%)
+  [RECTANGLE] "Rectangle 201" xy=(165,2226) 365x256 | fill=linear-gradient(#2acaf7@0%,#0085ff@100%)
+  [TEXT] "2" xy=(183,847) 8x20 #ffffff font=14px/w400/lh=20
+    >> "2"
+  [FRAME] "Frame 109" xy=(183,817) 134x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "количество cpu" xy=(183,818) 110x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "количество cpu"
+    [FRAME] "Frame" xy=(299,817) 18x18 | fill=#ffffff
+  [RECTANGLE] "Rectangle 217" xy=(165,799) 183x86 | border:#215aee
+  [RECTANGLE] "Rectangle 187" xy=(347,523) 183x86 | border:#215aee
+  [RECTANGLE] "Rectangle 188" xy=(529,523) 183x86 | border:#215aee
+  [RECTANGLE] "Rectangle 189" xy=(711,523) 184x86 | border:#215aee
+  [TEXT] "6 шт" xy=(362,1208) 28x20 #ffffff font=14px/w400/lh=20
+    >> "6 шт"
+  [TEXT] "/64 бесплтано" xy=(544,1208) 91x20 #ffffff font=14px/w400/lh=20
+    >> "/64 бесплтано"
+  [FRAME] "Frame 114" xy=(362,1178) 55x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "ip v4" xy=(362,1179) 31x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "ip v4"
+    [FRAME] "Frame" xy=(399,1178) 18x18 | fill=#ffffff
+  [FRAME] "Frame 115" xy=(544,1178) 55x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "ip v6" xy=(544,1179) 31x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "ip v6"
+    [FRAME] "Frame" xy=(581,1178) 18x18 | fill=#ffffff
+  [FRAME] "Frame 116" xy=(726,1178) 73x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "трафик" xy=(726,1179) 49x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "трафик"
+    [FRAME] "Frame" xy=(781,1178) 18x18 | fill=#ffffff
+  [RECTANGLE] "Rectangle 222" xy=(344,1160) 183x108 | border:#215aee
+  [RECTANGLE] "Rectangle 223" xy=(526,1160) 183x108 | border:#215aee
+  [RECTANGLE] "Rectangle 224" xy=(708,1160) 184x108 | border:#215aee
+  [TEXT] "Это неуправляемое предложение. Так что вам нужно знать, как использовать сервер." xy=(165,1831) 350x34 #839ada font=14px/w400/lh=17
+    >> "Это неуправляемое предложение. Так что вам нужно знать, как использовать сервер."
+  [TEXT] "Вы можете запросить возврат средств, если услуга не предоставлена. Возврат средств после активации не производится." xy=(545,1831) 350x51 #839ada font=14px/w400/lh=17
+    >> "Вы можете запросить возврат средств, если услуга не предоставлена. Возврат средс"
+  [TEXT] "Зона" xy=(305,2258) 46x29 #ffffff font=20px/w500/lh=29
+    >> "Зона"
+  [TEXT] "Клиент" xy=(670,2258) 64x29 #ffffff font=20px/w500/lh=29
+    >> "Клиент"
+  [GROUP] "Group 43" xy=(193,2254) 88x108
+  [GROUP] "Group 42" xy=(558,2254) 88x114
+  [TEXT] "Корпус сервера" xy=(305,2297) 98x20 #ffffff font=14px/w400/lh=20
+    >> "Корпус сервера"
+  [TEXT] "Подключение к интернету" xy=(305,2329) 162x20 #ffffff font=14px/w400/lh=20
+    >> "Подключение к интернету"
+  [TEXT] "Аппаратные средства" xy=(305,2361) 132x20 #ffffff font=14px/w400/lh=20
+    >> "Аппаратные средства"
+  [TEXT] "Операционная система" xy=(670,2297) 145x20 #ffffff font=14px/w400/lh=20
+    >> "Операционная система"
+  [TEXT] "Программная платформа" xy=(670,2329) 153x20 #ffffff font=14px/w400/lh=20
+    >> "Программная платформа"
+  [TEXT] "Управление сервером" xy=(670,2361) 137x20 #ffffff font=14px/w400/lh=20
+    >> "Управление сервером"
+  [TEXT] "Установка приложений" xy=(670,2393) 142x20 #ffffff font=14px/w400/lh=20
+    >> "Установка приложений"
+  [TEXT] "Управление приложениями" xy=(670,2425) 171x20 #ffffff font=14px/w400/lh=20
+    >> "Управление приложениями"
+  [FRAME] "Frame" xy=(170,2710) 36x36 | fill=#ffffff
+  [FRAME] "Frame" xy=(535,2710) 36x36 | fill=#ffffff
+  [FRAME] "Frame" xy=(170,2918) 36x36 | fill=#ffffff
+  [FRAME] "Frame" xy=(535,2918) 36x36 | fill=#ffffff
+  [FRAME] "Frame" xy=(170,3126) 36x36 | fill=#ffffff
+  [FRAME] "Frame" xy=(535,3126) 36x36 | fill=#ffffff
+  [TEXT] "Реальное железо" xy=(170,2758) 161x27 #ffffff font=19px/w600/lh=27
+    >> "Реальное железо"
+  [TEXT] "Многовенная доставка" xy=(535,2966) 204x27 #ffffff font=19px/w600/lh=27
+    >> "Многовенная доставка"
+  [TEXT] "Удаленное управление" xy=(535,2758) 211x27 #ffffff font=19px/w600/lh=27
+    >> "Удаленное управление"
+  [TEXT] "Поддержка 24/7" xy=(170,3174) 161x27 #ffffff font=19px/w600/lh=27
+    >> "Поддержка 24/7"
+  [TEXT] "DDoS защита" xy=(170,2966) 119x27 #ffffff font=19px/w600/lh=27
+    >> "DDoS защита"
+  [TEXT] "Бесплатный трафик" xy=(535,3174) 173x27 #ffffff font=19px/w600/lh=27
+    >> "Бесплатный трафик"
+  [RECTANGLE] "Rectangle 14" xy=(152,2692) 365x208 | border:#215aee
+  [RECTANGLE] "Rectangle 210" xy=(517,2900) 365x208 | border:#215aee
+  [RECTANGLE] "Rectangle 208" xy=(517,2692) 365x208 | border:#215aee
+  [RECTANGLE] "Rectangle 211" xy=(152,3108) 365x208 | border:#215aee
+  [RECTANGLE] "Rectangle 209" xy=(152,2900) 365x208 | border:#215aee
+  [RECTANGLE] "Rectangle 212" xy=(517,3108) 365x208 | border:#215aee
+  [TEXT] "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент." xy=(170,2797) 329x85 #839ada font=14px/w400/lh=17
+    >> "Дата-хата работает на рынке
+с 2006 года. На нашем сайте есть
+огромное количество"
+  [TEXT] "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент." xy=(535,3005) 329x85 #839ada font=14px/w400/lh=17
+    >> "Дата-хата работает на рынке
+с 2006 года. На нашем сайте есть
+огромное количество"
+  [TEXT] "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количе��тво предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент." xy=(535,2797) 329x85 #839ada font=14px/w400/lh=17
+    >> "Дата-хата работает на рынке
+с 2006 года. На нашем сайте есть
+огромное количество"
+  [TEXT] "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент." xy=(170,3213) 329x85 #839ada font=14px/w400/lh=17
+    >> "Дата-хата работает на рынке
+с 2006 года. На нашем сайте есть
+огромное количество"
+  [TEXT] "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент." xy=(170,3005) 329x85 #839ada font=14px/w400/lh=17
+    >> "Дата-хата работает на рынке
+с 2006 года. На нашем сайте есть
+огромное количество"
+  [TEXT] "Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделянных серверов в Америке и Европе, которые могут быть доступны в данный момент." xy=(535,3213) 329x85 #839ada font=14px/w400/lh=17
+    >> "Дата-хата работает на рынке
+с 2006 года. На нашем сайте есть
+огромное количество"
+  [FRAME] "cloudlinux" xy=(527,3530) 74x73 | fill=#ffffff
+  [FRAME] "Debian-OpenLogo" xy=(535,3748) 59x73 | fill=#ffffff
+  [FRAME] "Vmware" xy=(776,3758) 126x53 | fill=#ffffff
+    [GROUP] "g12" xy=(776,3758) 125x52
+      [GROUP] "g164" xy=(776,3758) 125x52
+        [GROUP] "Group" xy=(776,3758) 125x52
+          [GROUP] "Group" xy=(776,3758) 125x52
+            [GROUP] "g166" xy=(776,3758) 125x52
+              [GROUP] "g188" xy=(776,3758) 125x52
+  [FRAME] "Windows_logo_-_2012" xy=(252,3530) 73x73 | fill=#ffffff
+  [FRAME] "20091127015157!Ubuntu_logo" xy=(803,3530) 73x73 | fill=#ffffff
+  [FRAME] "Frame" xy=(250,3748) 77x73 | fill=#ffffff
+  [TEXT] "R1Soft" xy=(260,4162) 56x29 #ffffff font=20px/w500/lh=29
+    >> "R1Soft"
+  [TEXT] "DirectAdmin" xy=(508,4162) 111x29 #ffffff font=20px/w500/lh=29
+    >> "DirectAdmin"
+  [TEXT] "cPanel" xy=(811,4162) 58x29 #ffffff font=20px/w500/lh=29
+    >> "cPanel"
+  [GROUP] "Mask Group" xy=(221,4088) 135x40
+    [RECTANGLE] "image 15" xy=(221,4088) 135x40 | fill=IMAGE
+    [RECTANGLE] "Rectangle 549" xy=(221,4088) 135x40 | fill=#ffffff
+  [FRAME] "DirectAdminLogo" xy=(473,4088) 182x40 | fill=#ffffff
+  [FRAME] "CPanel_logo" xy=(749,4088) 183x40 | fill=#ffffff
+    [GROUP] "g2995" xy=(750,4089) 181x38
+      [GROUP] "g2997" xy=(750,4089) 181x38
+        [GROUP] "g3003" xy=(750,4098) 25x29
+        [GROUP] "g3007" xy=(770,4089) 37x38
+        [GROUP] "g3011" xy=(805,4098) 34x29
+        [GROUP] "g3015" xy=(837,4098) 34x29
+        [GROUP] "g3019" xy=(872,4098) 34x29
+        [GROUP] "g3023" xy=(904,4089) 19x38
+        [GROUP] "g3027" xy=(925,4089) 7x7
+  [TEXT] "FAQ" xy=(165,1699) 78x58 #ffffff font=40px/w500/lh=58
+    >> "FAQ"
+  [TEXT] "Что включено в стоимость" xy=(152,2586) 472x58 #ffffff font=40px/w500/lh=58
+    >> "Что включено в стоимость"
+  [TEXT] "Операционные системы" xy=(152,3424) 443x58 #ffffff font=40px/w500/lh=58
+    >> "Операционные системы"
+  [TEXT] "Панели управления" xy=(152,3982) 368x58 #ffffff font=40px/w500/lh=58
+    >> "Панели управления"
+  [TEXT] "Варианты оплаты" xy=(152,4299) 314x58 #ffffff font=40px/w500/lh=58
+    >> "Варианты оплаты"
+  [TEXT] "Обязанности делятся следующим образом:" xy=(165,2090) 627x88 #ffffff font=40px/w500/lh=44
+    >> "Обязанности делятся следующим
+образом:"
+  [TEXT] "Помощь" xy=(165,1663) 222x79 #ffffff font=55px/w700/lh=79 opacity=0.08
+    >> "Помощь"
+  [TEXT] "Стоимость" xy=(152,2550) 265x79 #ffffff font=55px/w700/lh=79 opacity=0.08
+    >> "Стоимость"
+  [TEXT] "ОС" xy=(152,3388) 84x79 #ffffff font=55px/w700/lh=79 opacity=0.08
+    >> "ОС"
+  [TEXT] "Управления" xy=(152,3946) 317x79 #ffffff font=55px/w700/lh=79 opacity=0.08
+    >> "Управления"
+  [TEXT] "Способы" xy=(152,4263) 238x79 #ffffff font=55px/w700/lh=79 opacity=0.08
+    >> "Способы"
+  [TEXT] "Обязанности" xy=(165,2054) 347x79 #ffffff font=55px/w700/lh=79 opacity=0.08
+    >> "Обязанности"
+  [FRAME] "Frame 104" xy=(165,91) 256x24 | layout=HORIZONTAL | gap=8 | alignCross=CENTER
+    [FRAME] "Frame" xy=(165,91) 24x24 | fill=#ffffff
+    [RECTANGLE] "Rectangle 555" xy=(197,103) 18x1 | fill=#839ada
+    [TEXT] "Сервер" xy=(223,93) 47x20 #839ada font=14px/w400/lh=20
+      >> "Сервер"
+    [RECTANGLE] "Rectangle 556" xy=(278,103) 18x1 | fill=#839ada
+    [TEXT] "Описание сервера" xy=(304,93) 117x20 #839ada font=14px/w400/lh=20
+      >> "Описание сервера"
+  [TEXT] "€82.65 (3 месяца -5%)" xy=(957,411) 165x23 #ffffff font=16px/w500/lh=23/align=RIGHT
+    >> "€82.65 (3 месяца -5%)"
+  [TEXT] "€29.00 €178.69" xy=(183,566) 91x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+    >> "€29.00 €178.69"
+  [TEXT] "Цены и сроки" xy=(165,480) 130x29 #ffffff font=20px/w500/lh=29
+    >> "Цены и сроки"
+  [TEXT] "2x Intel Hexa-Core Xeon E5-2620V2" xy=(183,744) 145x44 #ffffff font=14px/w400/lh=20
+    >> "2x Intel Hexa-Core Xeon E5-2620V2"
+  [TEXT] "2.1 Ghz" xy=(365,739) 48x20 #ffffff font=14px/w400/lh=20
+    >> "2.1 Ghz"
+  [TEXT] "2х 6 cores" xy=(547,739) 63x20 #ffffff font=14px/w400/lh=20
+    >> "2х 6 cores"
+  [TEXT] "-" xy=(729,739) 3x20 #ffffff font=14px/w400/lh=20
+    >> "-"
+  [FRAME] "Frame 105" xy=(183,709) 119x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "название cpu" xy=(183,710) 95x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "название cpu "
+    [FRAME] "Frame" xy=(284,709) 18x18 | fill=#ffffff
+  [FRAME] "Frame 106" xy=(365,709) 77x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "частота" xy=(365,710) 53x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "частота"
+    [FRAME] "Frame" xy=(424,709) 18x18 | fill=#ffffff
+  [FRAME] "Frame 107" xy=(547,709) 142x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "количество ядер" xy=(547,710) 118x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "количество ядер"
+    [FRAME] "Frame" xy=(671,709) 18x18 | fill=#ffffff
+  [FRAME] "Frame 108" xy=(729,709) 128x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "cpu benchmark" xy=(729,710) 104x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "cpu benchmark"
+    [FRAME] "Frame" xy=(839,709) 18x18 | fill=#ffffff
+  [RECTANGLE] "Rectangle 213" xy=(165,691) 183x108 | border:#215aee
+  [RECTANGLE] "Rectangle 225" xy=(161,1160) 183x108 | border:#215aee
+  [RECTANGLE] "Rectangle 214" xy=(347,691) 183x108 | border:#215aee
+  [RECTANGLE] "Rectangle 215" xy=(529,691) 183x108 | border:#215aee
+  [RECTANGLE] "Rectangle 216" xy=(711,691) 184x108 | border:#215aee
+  [TEXT] "Процессор" xy=(165,636) 103x29 #ffffff font=20px/w500/lh=29
+    >> "Процессор"
+  [FRAME] "Frame" xy=(447,571) 24x24 | fill=#ffffff
+  [TEXT] "3 месяца -5%" xy=(365,571) 82x20 #ff8311 font=14px/w400/lh=20
+    >> "3 месяца -5%"
+  [TEXT] "Базовая" xy=(180,1316) 49x20 #ffffff font=14px/w400/lh=20
+    >> "Базовая"
+  [TEXT] "Wake On LAN 99.5% networ availability Redudant network Free internal traffic Juniper routing technology" xy=(179,1412) 157x100 #ffffff font=14px/w400/lh=20
+    >> "Wake On LAN
+99.5% networ availability
+Redudant network
+Free internal traffic
+Jun"
+  [TEXT] "Бесплатно" xy=(544,1316) 63x20 #ffffff font=14px/w400/lh=20
+    >> "Бесплатно"
+  [TEXT] "Бесплатно" xy=(362,1316) 63x20 #ffffff font=14px/w400/lh=20
+    >> "Бесплатно"
+  [TEXT] "Редактируется в личном кабинете" xy=(726,1315) 147x45 #ffffff font=14px/w400/lh=20
+    >> "Редактируется в личном
+кабинете"
+  [FRAME] "Frame 117" xy=(180,1286) 135x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "защита от Ddos" xy=(180,1287) 111x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "защита от Ddos"
+    [FRAME] "Frame" xy=(297,1286) 18x18 | fill=#ffffff
+  [FRAME] "Frame 118" xy=(362,1286) 155x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "внутр. коммутация" xy=(362,1287) 131x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "внутр. коммутация"
+    [FRAME] "Frame" xy=(499,1286) 18x18 | fill=#ffffff
+  [FRAME] "Frame 119" xy=(544,1286) 80x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "firewall" xy=(544,1287) 56x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "firewall"
+    [FRAME] "Frame" xy=(606,1286) 18x18 | fill=#ffffff
+  [FRAME] "Frame 120" xy=(726,1286) 105x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "reverse dns" xy=(726,1287) 81x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "reverse dns"
+    [FRAME] "Frame" xy=(813,1286) 18x18 | fill=#ffffff
+  [RECTANGLE] "Rectangle 226" xy=(161,1268) 183x96 | border:#215aee
+  [RECTANGLE] "Rectangle 227" xy=(344,1268) 183x96 | border:#215aee
+  [RECTANGLE] "Rectangle 228" xy=(526,1268) 183x96 | border:#215aee
+  [RECTANGLE] "Rectangle 229" xy=(708,1268) 184x96 | border:#215aee
+  [FRAME] "Frame 110" xy=(184,972) 73x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "Память" xy=(184,973) 49x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "Память"
+    [FRAME] "Frame" xy=(239,972) 18x18 | fill=#ffffff
+  [FRAME] "Frame 112" xy=(548,972) 132x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "Жесткие диски" xy=(548,973) 108x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "Жесткие диски"
+    [FRAME] "Frame" xy=(662,972) 18x18 | fill=#ffffff
+  [RECTANGLE] "Rectangle 218" xy=(166,954) 364x115 | border:#215aee
+  [RECTANGLE] "Rectangle 220" xy=(530,954) 365x115 | border:#215aee
+  [TEXT] "Память и жесткие диски" xy=(166,911) 222x29 #ffffff font=20px/w500/lh=29
+    >> "Память и жесткие диски"
+  [FRAME] "Cursor – Hand" xy=(365,1309) 36x36
+  [FRAME] "Frame 121" xy=(179,1381) 74x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "фишки" xy=(179,1382) 50x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "фишки"
+    [FRAME] "Frame" xy=(235,1381) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(289,1002) 24x24 | fill=#ffffff
+  [TEXT] "32GB DDR3 ECC" xy=(184,1002) 105x20 #ff8311 font=14px/w400/lh=20
+    >> "32GB DDR3 ECC"
+  [RECTANGLE] "Rectangle 231" xy=(161,1363) 365x266 | border:#215aee
+  [TEXT] "Запрещены proxy и стримминг" xy=(544,1412) 190x20 #ffffff font=14px/w400/lh=20
+    >> "Запрещены proxy и стримминг"
+  [FRAME] "Frame 122" xy=(544,1381) 115x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "ограничения" xy=(544,1382) 91x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "ограничения"
+    [FRAME] "Frame" xy=(641,1381) 18x18 | fill=#ffffff
+  [RECTANGLE] "Rectangle 233" xy=(526,1363) 365x266 | border:#215aee
+  [FRAME] "Frame 113" xy=(183,1178) 56x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "порт" xy=(183,1179) 32x17 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "порт"
+    [FRAME] "Frame" xy=(221,1178) 18x18 | fill=#ffffff
+  [TEXT] "Подключение" xy=(165,1117) 131x29 #ffffff font=20px/w500/lh=29
+    >> "Подключение"
+  [FRAME] "Frame" xy=(288,1208) 24x24 | fill=#ffffff
+  [TEXT] "1x 1000Mbps Full-Duplex" xy=(183,1208) 86x40 #ff8311 font=14px/w400/lh=20
+    >> "1x 1000Mbps 
+Full-Duplex"
+  [FRAME] "Frame" xy=(679,1002) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(763,1208) 24x24 | fill=#ffffff
+  [TEXT] "30 TB" xy=(729,1208) 35x20 #ff8311 font=14px/w400/lh=20
+    >> "30 TB"
+  [GROUP] "Group 50" xy=(491,1236) 343x107
+    [RECTANGLE] "Rectangle 97" xy=(536,1236) 251x36 | fill=#ff8311
+    [RECTANGLE] "Rectangle 98" xy=(536,1272) 251x36 | fill=#215aee
+    [RECTANGLE] "Rectangle 100" xy=(536,1307) 251x36 | fill=#ffffff
+    [TEXT] "30 TB" xy=(565,1244) 194x20 #ffffff font=14px/w500/lh=20/align=CENTER
+      >> "30 TB"
+    [TEXT] "100 TB (+ €40.00)" xy=(500,1280) 325x20 #ffffff font=14px/w500/lh=20/align=CENTER
+      >> "100 TB (+ €40.00)"
+    [TEXT] "250 TB (+ €115.00)" xy=(491,1315) 343x20 #0041be font=14px/w500/lh=20/align=CENTER
+      >> "250 TB (+ €115.00)"
+  [RECTANGLE] "Rectangle 101" xy=(536,1342) 251x36 | fill=#ffffff
+  [TEXT] "1000Mbps Unmetered (+ €240.00)" xy=(491,1350) 343x20 #0041be font=14px/w500/lh=20/align=CENTER
+    >> "1000Mbps Unmetered (+ €240.00)"
+  [RECTANGLE] "Rectangle 100" xy=(536,1377) 251x36 | fill=#ffffff
+  [TEXT] "10.000 Mbps Unmetered (+ €1740.00)" xy=(491,1385) 343x20 #0041be font=14px/w500/lh=20/align=CENTER
+    >> "10.000 Mbps Unmetered (+ €1740.00)"
+  [FRAME] "Cursor – Hand" xy=(730,1288) 36x36
+  [GROUP] "Group 49" xy=(130,1248) 381x144
+    [RECTANGLE] "Rectangle 97" xy=(180,1248) 279x36 | fill=#ff8311
+    [RECTANGLE] "Rectangle 98" xy=(180,1284) 279x36 | fill=#215aee
+    [RECTANGLE] "Rectangle 99" xy=(180,1320) 279x36 | fill=#ffffff
+    [RECTANGLE] "Rectangle 100" xy=(180,1356) 279x36 | fill=#ffffff
+    [TEXT] "1x 1000Mbps Full-Duplex" xy=(212,1256) 215x20 #ffffff font=14px/w500/lh=20/align=CENTER
+      >> "1x 1000Mbps Full-Duplex"
+    [TEXT] "2x 1000Mbps Full-Duplex (+ €100.00)" xy=(140,1292) 361x20 #ffffff font=14px/w500/lh=20/align=CENTER
+      >> "2x 1000Mbps Full-Duplex (+ €100.00)"
+    [TEXT] "4x 1000Mbps Full-Duplex (+ €400.00)" xy=(132,1328) 377x20 #0041be font=14px/w500/lh=20/align=CENTER
+      >> "4x 1000Mbps Full-Duplex (+ €400.00)"
+    [TEXT] "1x 10.000Mbps Full-Duplex (+ €1020.00)" xy=(130,1364) 381x20 #bdbdbd font=14px/w500/lh=20/align=CENTER
+      >> "1x 10.000Mbps Full-Duplex (+ €1020.00)"
+  [FRAME] "Cursor – Hand" xy=(424,1300) 36x36
+  [RECTANGLE] "Rectangle 45" xy=(0,4786) 1440x723 | fill=#010437
+  [FRAME] "Frame" xy=(1024,5048) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(1024,5151) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(1024,5016) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(1024,5080) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(1024,5183) 18x18 | fill=#ffffff
+  [RECTANGLE] "Rectangle 46" xy=(165,4700) 1110x164 | fill=linear-gradient(#ff8311@0%,#ff5c00@100%)
+  [RECTANGLE] "Rectangle 50" xy=(1050,4769) 157x43 | fill=#d66702 | blur=20
+  [TEXT] "Хочу скидку!" xy=(213,4764) 238x58 #ffffff font=40px/w500/lh=58
+    >> "Хочу скидку!"
+  [TEXT] "Хочу скидку!" xy=(213,4728) 355x79 #ffffff font=55px/w700/lh=79 opacity=0.15
+    >> "Хочу скидку!"
+  [RECTANGLE] "Rectangle 47" xy=(1040,4758) 177x48 | fill=#ffffff
+  [RECTANGLE] "Rectangle 48" xy=(165,4900) 548x48 | border:#ffffff
+  [RECTANGLE] "Rectangle 49" xy=(727,4900) 548x48 | border:#ffffff
+  [TEXT] "Выбрать сервер" xy=(1066,4770) 125x24 #0041be font=16px/w600/lh=23/align=CENTER
+    >> "Выбрать сервер"
+  [TEXT] "Заработайте на нас!" xy=(940,4912) 155x24 #ffffff font=16px/w600/lh=23/align=CENTER
+    >> "Заработайте на нас!"
+  [FRAME] "Frame" xy=(908,4912) 24x24 | fill=#ffffff
+  [TEXT] "Пожаловаться директору!" xy=(357,4912) 197x24 #ffffff font=16px/w600/lh=23/align=CENTER
+    >> "Пожаловаться директору!"
+  [FRAME] "Frame" xy=(325,4912) 24x24 | fill=#ffffff
+  [TEXT] "Аренда Windows сервера" xy=(165,5143) 163x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда Windows сервера"
+  [TEXT] "Аренда Linux Сервера" xy=(165,5175) 141x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда Linux Сервера"
+  [TEXT] "Аренда игрового сервера" xy=(165,5207) 161x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда игрового сервера"
+  [TEXT] "Аренда хранилища" xy=(165,5239) 123x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда хранилища"
+  [TEXT] "Аренда офисного сервера" xy=(165,5271) 165x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда офисного сервера"
+  [TEXT] "Резервное копирование" xy=(165,5303) 150x20 #ffffff font=14px/w400/lh=20
+    >> "Резервное копирование"
+  [TEXT] "Администрирование серверов" xy=(165,5335) 190x20 #ffffff font=14px/w400/lh=20
+    >> "Администрирование серверов"
+  [GROUP] "Group 9" xy=(272,5454) 895x20 | radius=0/0/0/0 | opacity=0.40
+    [TEXT] "Terms and conditions" xy=(272,5454) 126x20 #ffffff font=14px/w400/lh=20
+      >> "Terms and conditions"
+    [TEXT] "Privacy policy" xy=(462,5454) 82x20 #ffffff font=14px/w400/lh=20
+      >> "Privacy policy"
+    [TEXT] "Refund policy" xy=(608,5454) 82x20 #ffffff font=14px/w400/lh=20
+      >> "Refund policy"
+    [TEXT] "Delivery time frame" xy=(754,5454) 116x20 #ffffff font=14px/w400/lh=20
+      >> "Delivery time frame"
+    [TEXT] "Abuse" xy=(934,5454) 38x20 #ffffff font=14px/w400/lh=20
+      >> "Abuse"
+    [TEXT] "Acceptable Use Policy" xy=(1036,5454) 131x20 #ffffff font=14px/w400/lh=20
+      >> "Acceptable Use Policy"
+  [TEXT] "Безналичный расчёт" xy=(1208,5408) 67x24 #ffffff font=11px/w500/lh=12 opacity=0.40
+    >> "Безналичный
+расчёт"
+  [TEXT] "Аренда сервера в США" xy=(165,5015) 151x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в США"
+  [TEXT] "Аренда сервера в Германии" xy=(165,5047) 176x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в Германии"
+  [TEXT] "Аренда сервера во Франции" xy=(165,5079) 182x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера во Франции"
+  [TEXT] "Аренда сервера в Голландии" xy=(165,5111) 185x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в Голландии"
+  [TEXT] "Аренда сервера" xy=(165,4984) 104x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Аренда сервера"
+  [TEXT] "Аренда виртуального сервера" xy=(450,4984) 200x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Аренда виртуального сервера"
+  [TEXT] "Остальное" xy=(735,4984) 72x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Остальное"
+  [TEXT] "Контакты" xy=(1024,4984) 63x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Контакты"
+  [TEXT] "служба поддержки" xy=(1024,5119) 135x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "служба поддержки"
+  [TEXT] "мы в социальных сетях" xy=(1024,5222) 161x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "мы в социальных сетях"
+  [TEXT] "Аренда VPS/VDS на Windows" xy=(450,5143) 190x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS на Windows"
+  [TEXT] "Аренда VPS/VDS на Linux" xy=(450,5175) 165x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS на Linux"
+  [TEXT] "Аренда сервера с тестовым периодом" xy=(735,5015) 238x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера с тестовым периодом"
+  [TEXT] "Помощь" xy=(735,5047) 53x20 #ffffff font=14px/w400/lh=20
+    >> "Помощь"
+  [TEXT] "Оплата и доставка" xy=(735,5079) 114x20 #ffffff font=14px/w400/lh=20
+    >> "Оплата и доставка"
+  [TEXT] "Блог" xy=(735,5111) 28x20 #ffffff font=14px/w400/lh=20
+    >> "Блог"
+  [TEXT] "Партнерская программа" xy=(735,5143) 149x20 #ffffff font=14px/w400/lh=20
+    >> "Партнерская программа"
+  [TEXT] "Аренда VPS/VDS в США" xy=(450,5015) 159x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в США"
+  [TEXT] "Sepapaja 6 Tallinn" xy=(1050,5015) 108x20 #ffffff font=14px/w400/lh=20
+    >> "Sepapaja 6 Tallinn"
+  [TEXT] "+380 (44) 23 88 946" xy=(1050,5150) 130x20 #ffffff font=14px/w400/lh=20
+    >> "+380 (44) 23 88 946"
+  [TEXT] "Аренда VPS/VDS в Германии" xy=(450,5047) 185x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в Германии"
+  [TEXT] "+372 (800) 7873" xy=(1050,5047) 103x20 #ffffff font=14px/w400/lh=20
+    >> "+372 (800) 7873"
+  [TEXT] "support@data-xata.com" xy=(1050,5079) 136x20 #ffffff font=14px/w400/lh=20
+    >> "support@data-xata.com"
+  [TEXT] "support@data-xata.com" xy=(1050,5182) 136x20 #ffffff font=14px/w400/lh=20
+    >> "support@data-xata.com"
+  [TEXT] "Аренда VPS/VDS во Франции" xy=(450,5079) 191x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS во Франции"
+  [TEXT] "Аренда VPS/VDS в Голландии" xy=(450,5111) 193x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в Голландии"
+  [FRAME] "Vkontakte (VK)" xy=(1112,5253) 24x24 | fill=#ffffff
+    [GROUP] "Vkontakte (VK)" xy=(1112,5253) 24x24
+  [FRAME] "Twitter" xy=(1068,5253) 24x24 | fill=#ffffff
+    [GROUP] "Twitter" xy=(1068,5253) 24x24
+  [FRAME] "Slack" xy=(1156,5253) 24x24 | fill=#ffffff
+    [GROUP] "Slack" xy=(1156,5253) 24x24
+  [FRAME] "Facebook" xy=(1024,5253) 24x24 | fill=#ffffff
+    [GROUP] "Facebook" xy=(1024,5253) 24x24
+  [FRAME] "logo 2" xy=(165,5412) 118x26
+    [GROUP] "Layer 2" xy=(165,5412) 118x26
+      [GROUP] "Слой 1" xy=(165,5412) 118x26
+  [GROUP] "Group" xy=(802,5410) 67x20 | fill=#ffffff | opacity=0.40
+  [FRAME] "Mastercard-logo 1" xy=(901,5408) 31x24 | fill=#ffffff | opacity=0.40
+    [GROUP] "Group" xy=(901,5408) 31x24
+      [GROUP] "Group" xy=(901,5408) 31x24
+        [GROUP] "Group" xy=(903,5428) 29x4
+        [GROUP] "Group" xy=(931,5423) 1x0
+        [GROUP] "Group" xy=(901,5408) 15x19
+        [GROUP] "Group" xy=(917,5408) 16x19
+  [GROUP] "Group 8" xy=(964,5410) 75x20 | opacity=0.40
+  [GROUP] "Group" xy=(1071,5408) 104x24 | opacity=0.40
+    [GROUP] "Group" xy=(1101,5413) 74x15
+  [TEXT] "Посмотреть все способы оплаты" xy=(571,5410) 199x20 #ffffff font=14px/w400/lh=20 opacity=0.40
+    >> "Посмотреть все способы оплаты"
+  [TEXT] "Оформи заказ в течение 10 минут и получи бонус $50 на счет!" xy=(622,4755) 303x54 #ffffff font=19px/w600/lh=27
+    >> "Оформи заказ в течение 10 минут
+и получи бонус $50 на счет!"
+  [GROUP] "Details - Your Order - Share click" xy=(1025,5772) 350x1027
+    [RECTANGLE] "Rectangle 97" xy=(1025,5772) 350x1027 | fill=#215aee
+    [GROUP] "Group 38" xy=(1057,5998) 286x48
+      [RECTANGLE] "Rectangle 22" xy=(1057,5998) 286x48 | fill=#ff8311
+      [TEXT] "Оформить заказ" xy=(1139,6010) 122x24 #ffffff font=16px/w600/lh=23/align=CENTER
+        >> "Оформить заказ"
+    [GROUP] "Group 41" xy=(1057,6108) 286x48
+      [RECTANGLE] "Rectangle 22" xy=(1057,6108) 286x48 | fill=#ff8311
+      [TEXT] "Скопировать" xy=(1139,6120) 122x24 #ffffff font=16px/w600/lh=23/align=CENTER
+        >> "Скопировать"
+    [GROUP] "Group 40" xy=(1057,6622) 286x48
+      [RECTANGLE] "Rectangle 22" xy=(1057,6622) 286x48 | fill=#ff8311
+      [TEXT] "Оформить заказ" xy=(1139,6634) 122x24 #ffffff font=16px/w600/lh=23/align=CENTER
+        >> "Оформить заказ"
+    [TEXT] "К оплате" xy=(1057,5842) 148x18 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "К оплате"
+    [TEXT] "плата за установку" xy=(1057,5919) 148x18 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "плата за установку"
+    [TEXT] "плата за установку" xy=(1057,6202) 148x18 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "плата за установку"
+    [TEXT] "ОС" xy=(1057,6330) 148x18 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "ОС"
+    [TEXT] "сеть" xy=(1057,6404) 158x18 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "сеть"
+    [TEXT] "контракт" xy=(1057,6512) 158x18 #839ada font=12px/w500/lh=17/ls=0.24
+      >> "контракт"
+    [TEXT] "Ваш заказ" xy=(1057,5799) 95x29 #ffffff font=20px/w500/lh=29
+      >> "Ваш заказ"
+    [TEXT] "€0.00" xy=(1057,5949) 45x23 #ffffff font=16px/w500/lh=23
+      >> "€0.00"
+    [TEXT] "1x Intel Quad-Core Xeon E3-1230v2" xy=(1057,6232) 111x40 #ffffff font=14px/w400/lh=20
+      >> "1x Intel Quad-Core
+Xeon E3-1230v2"
+    [TEXT] "CentOS" xy=(1057,6360) 47x20 #ffffff font=14px/w400/lh=20
+      >> "CentOS"
+    [TEXT] "100 Mbit" xy=(1057,6434) 54x20 #ffffff font=14px/w400/lh=20
+      >> "100 Mbit"
+    [TEXT] "Поддержка - 24х7х12" xy=(1057,6542) 133x20 #ffffff font=14px/w400/lh=20
+      >> "Поддержка - 24х7х12"
+    [TEXT] "Период оплаты" xy=(1057,6576) 96x20 #ffffff font=14px/w400/lh=20
+      >> "Период оплаты"
+    [TEXT] "IPv4:1" xy=(1057,6468) 36x20 #ffffff font=14px/w400/lh=20
+      >> "IPv4:1"
+    [TEXT] "€69.00" xy=(1296,6232) 47x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+      >> "€69.00"
+    [TEXT] "€24.00" xy=(1295,6286) 48x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+      >> "€24.00"
+    [TEXT] "вкл." xy=(1316,6360) 27x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+      >> "вкл."
+    [TEXT] "вкл." xy=(1316,6434) 27x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+      >> "вкл."
+    [TEXT] "вкл." xy=(1316,6542) 27x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+      >> "вкл."
+    [TEXT] "помесячно" xy=(1274,6576) 69x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+      >> "помесячно"
+    [TEXT] "вкл." xy=(1316,6468) 27x20 #ffffff font=14px/w500/lh=20/align=RIGHT
+      >> "вкл."
+    [TEXT] "+ 1x 120 GB SSD" xy=(1057,6286) 104x20 #ffffff font=14px/w400/lh=20
+      >> "+ 1x 120 GB SSD"
+    [TEXT] "€29.00 €69.00" xy=(1057,5872) 104x23 #ffffff font=14px/w500/lh=20/align=RIGHT
+      >> "€29.00 €69.00"
+    [RECTANGLE] "Rectangle 24" xy=(1057,6060) 286x48 | fill=#ffffff
+    [TEXT] "code&rlz=1C1GCEA_enUZ744&oq=promo" xy=(1071,6074) 267x20 #0041be font=14px/w500/lh=20
+      >> "code&rlz=1C1GCEA_enUZ744&oq=promo"
+  [GROUP] "Group 48" xy=(121,5728) 649x356
+    [RECTANGLE] "Rectangle 97" xy=(560,6048) 210x36 | fill=#ff8311
+    [RECTANGLE] "Rectangle 98" xy=(159,5798) 210x36 | fill=#215aee
+    [RECTANGLE] "Rectangle 99" xy=(159,5728) 210x36 | fill=#ffffff
+    [RECTANGLE] "Rectangle 100" xy=(159,5834) 210x36 | fill=#ffffff
+    [RECTANGLE] "Rectangle 101" xy=(158,5870) 210x36 | fill=#ffffff
+    [TEXT] "6x8TB SATA (+ €45.85)" xy=(121,5878) 287x20 #0041be font=14px/w500/lh=20/align=CENTER
+      >> "6x8TB SATA (+ €45.85)"
+    [RECTANGLE] "Rectangle 102" xy=(158,5906) 210x36 | fill=#ffffff
+    [TEXT] "8x8TB SATA (+ €68.03)" xy=(121,5914) 287x20 #0041be font=14px/w500/lh=20/align=CENTER
+      >> "8x8TB SATA (+ €68.03)"
+    [TEXT] "2x480GB SSD" xy=(584,6056) 162x20 #ffffff font=14px/w500/lh=20/align=CENTER
+      >> "2x480GB SSD"
+    [TEXT] "2x8TB SATA (+ €1.50)" xy=(129,5806) 272x20 #ffffff font=14px/w500/lh=20/align=CENTER
+      >> "2x8TB SATA (+ €1.50)"
+    [TEXT] "2x2TB SATA (- €14.71)" xy=(123,5736) 284x20 #0041be font=14px/w500/lh=20/align=CENTER
+      >> "2x2TB SATA (- €14.71)"
+    [TEXT] "4x8TB SATA (+ €23.67)" xy=(121,5842) 287x20 #0041be font=14px/w500/lh=20/align=CENTER
+      >> "4x8TB SATA (+ €23.67)"
+  [TEXT] "1х 480GB SSD 19x 12TB SATA HDD 4x 1.92TB SSD" xy=(545,1002) 121x59 #ff8311 font=14px/w400/lh=20
+    >> "1х 480GB SSD
+19x 12TB SATA HDD
+4x 1.92TB SSD"

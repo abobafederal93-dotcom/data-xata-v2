@@ -34,3 +34,19 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Figma raw data (не нужен в репо)
+figma-all-pages-raw.json
+figma-404-raw.json
+figma-pages.json
+
+# Parser scripts (служебные)
+fetch-figma.js
+parse-figma.js
+parse-figma-v2.js
+parse-figma-v3.js
+
+# Reference screenshots (только локально)
+public/img/ref-*.png
+public/img/figma-error-*.png
+public/img/figma-group*.png

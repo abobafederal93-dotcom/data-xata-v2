@@ -1,0 +1,369 @@
+=== FRAME: Mobile search id=80:20396 360x4427 ===
+  [FRAME] "logo 1" xy=(15,15) 118x26
+    [GROUP] "Layer 2" xy=(15,15) 118x26
+      [GROUP] "Слой 1" xy=(15,15) 118x26
+  [FRAME] "Frame" xy=(321,16) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(281,16) 24x24 | fill=#ffffff
+  [TEXT] "Результаты поиска" xy=(15,155) 295x51 #ffffff font=35px/w500/lh=51
+    >> "Результаты поиска"
+  [TEXT] "Поиск сервера" xy=(15,133) 291x58 #ffffff font=40px/w700/lh=58 opacity=0.08
+    >> "Поиск сервера"
+  [RECTANGLE] "Rectangle 74" xy=(15,242) 330x56 | fill=#215aee
+  [TEXT] "Фильтр" xy=(67,260) 48x20 #ffffff font=14px/w500/lh=20
+    >> "Фильтр"
+  [FRAME] "Frame" xy=(31,258) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(305,258) 24x24 | fill=#ffffff
+  [RECTANGLE] "Rectangle 88" xy=(15,341) 330x36 | border:#ffffff
+  [RECTANGLE] "Rectangle 89" xy=(15,391) 330x36 | border:#ffffff
+  [RECTANGLE] "Rectangle 90" xy=(15,441) 330x36 | border:#ffffff
+  [TEXT] "Сортировать по:" xy=(27,349) 104x20 #ffffff font=14px/w500/lh=20
+    >> "Сортировать по:"
+  [TEXT] "Формат вывода:" xy=(27,399) 104x20 #ffffff font=14px/w500/lh=20
+    >> "Формат вывода:"
+  [TEXT] "Валюта:" xy=(27,449) 51x20 #ffffff font=14px/w500/lh=20
+    >> "Валюта:"
+  [TEXT] "цене" xy=(273,349) 32x20 #ff8311 font=14px/w500/lh=20/align=RIGHT
+    >> "цене"
+  [TEXT] "расширено" xy=(231,399) 74x20 #ff8311 font=14px/w500/lh=20/align=RIGHT
+    >> "расширено"
+  [TEXT] "Евро" xy=(274,449) 31x20 #ff8311 font=14px/w500/lh=20/align=RIGHT
+    >> "Евро"
+  [FRAME] "Frame" xy=(311,347) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(311,397) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(311,447) 24x24 | fill=#ffffff
+  [TEXT] "Очистить фильтр" xy=(128,559) 105x20 #ff8311 font=14px/w500/lh=20/align=CENTER
+    >> "Очистить фильтр"
+  [RECTANGLE] "Rectangle 91" xy=(15,503) 330x36 | fill=#ff8311
+  [TEXT] "Сообщить мне" xy=(133,511) 94x20 #ffffff font=14px/w500/lh=20/align=CENTER
+    >> "Сообщить мне"
+  [RECTANGLE] "Rectangle 96" xy=(15,617) 330x892 | border:#215aee
+  [RECTANGLE] "Rectangle 98" xy=(15,1509) 330x892 | border:#215aee
+  [FRAME] "Frame" xy=(64,1007) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(64,1899) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(73,1067) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(73,1959) 24x24 | fill=#ffffff
+  [TEXT] "INTEL XEON" xy=(71,635) 77x20 #ffffff font=14px/w400/lh=20
+    >> "INTEL XEON"
+  [TEXT] "INTEL XEON" xy=(71,1527) 77x20 #ffffff font=14px/w400/lh=20
+    >> "INTEL XEON"
+  [TEXT] "€29.00 €69.00" xy=(33,1257) 91x20 #ffffff font=14px/w600/lh=20
+    >> "€29.00 €69.00"
+  [TEXT] "€29.00 €69.00" xy=(33,2149) 91x20 #ffffff font=14px/w600/lh=20
+    >> "€29.00 €69.00"
+  [TEXT] "VPS" xy=(33,1009) 25x20 #ffffff font=14px/w400/lh=20
+    >> "VPS"
+  [TEXT] "VPS" xy=(33,1901) 25x20 #ffffff font=14px/w400/lh=20
+    >> "VPS"
+  [TEXT] "72GB" xy=(33,1069) 34x20 #ffffff font=14px/w400/lh=20
+    >> "72GB"
+  [TEXT] "72GB" xy=(33,1961) 34x20 #ffffff font=14px/w400/lh=20
+    >> "72GB"
+  [FRAME] "a3Asset 4 2" xy=(33,638) 24x14 | fill=#ffffff
+    [GROUP] "Layer 2" xy=(33,638) 24x14
+      [GROUP] "Layer 1" xy=(33,638) 24x14
+        [GROUP] "Group" xy=(33,638) 24x14
+  [FRAME] "a3Asset 4 3" xy=(33,1530) 24x14 | fill=#ffffff
+    [GROUP] "Layer 2" xy=(33,1530) 24x14
+      [GROUP] "Layer 1" xy=(33,1530) 24x14
+        [GROUP] "Group" xy=(33,1530) 24x14
+  [FRAME] "Frame 12" xy=(156,635) 62x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "NAT IPV4" xy=(162,637) 50x17 #ffffff font=12px/w400/lh=17
+      >> "NAT IPV4"
+  [FRAME] "Frame 27" xy=(156,1527) 62x21 | fill=#839ada | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "NAT IPV4" xy=(162,1529) 50x17 #ffffff font=12px/w400/lh=17
+      >> "NAT IPV4"
+  [FRAME] "Frame 26" xy=(33,863) 96x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "Купон доступен" xy=(39,865) 84x17 #ffffff font=12px/w400/lh=17
+      >> "Купон доступен"
+  [FRAME] "Frame 28" xy=(33,1755) 96x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "Купон доступен" xy=(39,1757) 84x17 #ffffff font=12px/w400/lh=17
+      >> "Купон доступен"
+  [FRAME] "Frame 22" xy=(33,950) 53x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "4 Cores" xy=(39,952) 41x17 #ffffff font=12px/w400/lh=17
+      >> "4 Cores"
+  [FRAME] "Frame 29" xy=(33,1842) 53x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "4 Cores" xy=(39,1844) 41x17 #ffffff font=12px/w400/lh=17
+      >> "4 Cores"
+  [FRAME] "Frame 15" xy=(137,863) 83x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "DDoS защита" xy=(143,865) 71x17 #ffffff font=12px/w400/lh=17
+      >> "DDoS защита"
+  [FRAME] "Frame 30" xy=(137,1755) 83x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "DDoS защита" xy=(143,1757) 71x17 #ffffff font=12px/w400/lh=17
+      >> "DDoS защита"
+  [FRAME] "Frame 16" xy=(228,863) 66x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "IPv6 ready" xy=(234,865) 54x17 #ffffff font=12px/w400/lh=17
+      >> "IPv6 ready"
+  [FRAME] "Frame 31" xy=(228,1755) 66x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "IPv6 ready" xy=(234,1757) 54x17 #ffffff font=12px/w400/lh=17
+      >> "IPv6 ready"
+  [FRAME] "Frame 17" xy=(33,892) 84x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "до 12 дисков" xy=(39,894) 72x17 #ffffff font=12px/w400/lh=17
+      >> "до 12 дисков"
+  [FRAME] "Frame 32" xy=(33,1784) 84x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "до 12 дисков" xy=(39,1786) 72x17 #ffffff font=12px/w400/lh=17
+      >> "до 12 дисков"
+  [FRAME] "Frame 18" xy=(33,921) 241x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "TIER III, ISO 27001, PCI DSS, SOC 1, HIPAA" xy=(39,923) 229x17 #ffffff font=12px/w400/lh=17
+      >> "TIER III, ISO 27001, PCI DSS, SOC 1, HIPAA"
+  [FRAME] "Frame 33" xy=(33,1813) 241x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "TIER III, ISO 27001, PCI DSS, SOC 1, HIPAA" xy=(39,1815) 229x17 #ffffff font=12px/w400/lh=17
+      >> "TIER III, ISO 27001, PCI DSS, SOC 1, HIPAA"
+  [FRAME] "Frame 19" xy=(125,892) 35x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "IPMI" xy=(131,894) 23x17 #ffffff font=12px/w400/lh=17
+      >> "IPMI"
+  [FRAME] "Frame 34" xy=(125,1784) 35x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "IPMI" xy=(131,1786) 23x17 #ffffff font=12px/w400/lh=17
+      >> "IPMI"
+  [FRAME] "Frame 20" xy=(168,892) 56x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "FreeBSD" xy=(174,894) 44x17 #ffffff font=12px/w400/lh=17
+      >> "FreeBSD"
+  [FRAME] "Frame 35" xy=(168,1784) 56x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "FreeBSD" xy=(174,1786) 44x17 #ffffff font=12px/w400/lh=17
+      >> "FreeBSD"
+  [FRAME] "Frame 21" xy=(232,892) 39x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "Linux" xy=(238,894) 27x17 #ffffff font=12px/w400/lh=17
+      >> "Linux"
+  [FRAME] "Frame 36" xy=(232,1784) 39x21 | fill=#27e35c | layout=HORIZONTAL | pad=2/6/2/6 | alignCross=CENTER
+    [TEXT] "Linux" xy=(238,1786) 27x17 #ffffff font=12px/w400/lh=17
+      >> "Linux"
+  [FRAME] "Frame 25" xy=(94,952) 232x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "Хост: Hosteons" xy=(94,953) 76x17 #ffffff font=12px/w400/lh=17
+      >> "Хост: Hosteons"
+    [FRAME] "Frame 24" xy=(176,952) 98x18 | layout=HORIZONTAL | gap=2 | alignCross=CENTER
+      [FRAME] "Frame" xy=(176,952) 18x18 | fill=#ffffff
+      [FRAME] "Frame" xy=(196,952) 18x18 | fill=#ffffff
+      [FRAME] "Frame" xy=(216,952) 18x18 | fill=#ffffff
+      [FRAME] "Frame" xy=(236,952) 18x18 | fill=#ffffff
+      [FRAME] "Frame" xy=(256,952) 18x18 | fill=#ffffff
+    [TEXT] "(1 отзыв)" xy=(280,953) 46x17 #ffffff font=12px/w400/lh=17
+      >> "(1 отзыв)"
+  [FRAME] "Frame 37" xy=(94,1844) 232x18 | layout=HORIZONTAL | gap=6 | alignCross=CENTER
+    [TEXT] "Хост: Hosteons" xy=(94,1845) 76x17 #ffffff font=12px/w400/lh=17
+      >> "Хост: Hosteons"
+    [FRAME] "Frame 24" xy=(176,1844) 98x18 | layout=HORIZONTAL | gap=2 | alignCross=CENTER
+      [FRAME] "Frame" xy=(176,1844) 18x18 | fill=#ffffff
+      [FRAME] "Frame" xy=(196,1844) 18x18 | fill=#ffffff
+      [FRAME] "Frame" xy=(216,1844) 18x18 | fill=#ffffff
+      [FRAME] "Frame" xy=(236,1844) 18x18 | fill=#ffffff
+      [FRAME] "Frame" xy=(256,1844) 18x18 | fill=#ffffff
+    [TEXT] "(1 отзыв)" xy=(280,1845) 46x17 #ffffff font=12px/w400/lh=17
+      >> "(1 отзыв)"
+  [TEXT] "1x Intel Xeon E5530" xy=(59,709) 119x20 #ffffff font=14px/w400/lh=20
+    >> "1x Intel Xeon E5530"
+  [TEXT] "1x Intel Xeon E5530" xy=(59,1601) 119x20 #ffffff font=14px/w400/lh=20
+    >> "1x Intel Xeon E5530"
+  [TEXT] "Windows 2020, 2016 • Linux • CentOS, Debian,Ubuntu" xy=(59,747) 238x40 #ffffff font=14px/w400/lh=20
+    >> "Windows 2020, 2016 • Linux • CentOS,
+Debian,Ubuntu"
+  [TEXT] "Windows 2020, 2016 • Linux • CentOS, Debian,Ubuntu" xy=(59,1639) 238x40 #ffffff font=14px/w400/lh=20
+    >> "Windows 2020, 2016 • Linux • CentOS,
+Debian,Ubuntu"
+  [FRAME] "Frame" xy=(33,710) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(33,1602) 18x18 | fill=#ffffff
+  [TEXT] "Frankfut • 200 Mbps • 1 TB" xy=(59,671) 159x20 #ffffff font=14px/w400/lh=20
+    >> "Frankfut • 200 Mbps • 1 TB"
+  [TEXT] "Frankfut • 200 Mbps • 1 TB" xy=(59,1563) 159x20 #ffffff font=14px/w400/lh=20
+    >> "Frankfut • 200 Mbps • 1 TB"
+  [FRAME] "Frame" xy=(33,672) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(33,1564) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(33,748) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(33,1640) 18x18 | fill=#ffffff
+  [TEXT] "Беспалтная установка" xy=(33,1295) 119x17 #27e35c font=12px/w500/lh=17/align=RIGHT
+    >> "Беспалтная установка"
+  [TEXT] "Беспалтная установка" xy=(33,2187) 119x17 #27e35c font=12px/w500/lh=17/align=RIGHT
+    >> "Беспалтная установка"
+  [TEXT] "Доступ через 3-5 мин" xy=(33,1318) 120x17 #f50e38 font=12px/w500/lh=17/align=RIGHT
+    >> "Доступ через 3-5 мин"
+  [TEXT] "Доступ через 3-5 мин" xy=(33,2210) 120x17 #f50e38 font=12px/w500/lh=17/align=RIGHT
+    >> "Доступ через 3-5 мин"
+  [FRAME] "Frame" xy=(33,806) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(33,1698) 18x18 | fill=#ffffff
+  [TEXT] "Игровой сервер • Сервер для стримминга Сервер для высоких нагрузок" xy=(59,805) 262x40 #ff8311 font=14px/w400/lh=20
+    >> "Игровой сервер • Сервер для стримминга
+Сервер для высоких нагрузок"
+  [TEXT] "Игровой сервер • Сервер для стримминга Сервер для высоких нагрузок" xy=(59,1697) 262x40 #ff8311 font=14px/w400/lh=20
+    >> "Игровой сервер • Сервер для стримминга
+Сервер для высоких нагрузок"
+  [FRAME] "Frame" xy=(135,1127) 24x24 | fill=#ffffff
+  [FRAME] "Frame" xy=(135,2019) 24x24 | fill=#ffffff
+  [TEXT] "SSD: 1x 120 GB" xy=(33,1129) 96x20 #ffffff font=14px/w400/lh=20
+    >> "SSD: 1x 120 GB"
+  [TEXT] "SSD: 1x 120 GB" xy=(33,2021) 96x20 #ffffff font=14px/w400/lh=20
+    >> "SSD: 1x 120 GB"
+  [TEXT] "HDD: 2x 20 TB" xy=(33,1165) 91x20 #ffffff font=14px/w400/lh=20
+    >> "HDD: 2x 20 TB"
+  [TEXT] "HDD: 2x 20 TB" xy=(33,2057) 91x20 #ffffff font=14px/w400/lh=20
+    >> "HDD: 2x 20 TB"
+  [TEXT] "HDD: 1x 10 TB" xy=(33,1201) 88x20 #ffffff font=14px/w400/lh=20
+    >> "HDD: 1x 10 TB"
+  [TEXT] "HDD: 1x 10 TB" xy=(33,2093) 88x20 #ffffff font=14px/w400/lh=20
+    >> "HDD: 1x 10 TB"
+  [RECTANGLE] "Rectangle 97" xy=(15,1353) 330x156 | fill=#215aee
+  [RECTANGLE] "Rectangle 99" xy=(15,2245) 330x156 | fill=#215aee
+  [GROUP] "Group 49" xy=(83,1367) 195x24
+    [TEXT] "Сравнить с конкурентами" xy=(115,1369) 163x20 #ffffff font=14px/w500/lh=20
+      >> "Сравнить с конкурентами"
+    [FRAME] "Frame" xy=(83,1367) 24x24 | fill=#ffffff
+  [GROUP] "Group 52" xy=(83,2259) 195x24
+    [TEXT] "Сравнить с конкурентами" xy=(115,2261) 163x20 #ffffff font=14px/w500/lh=20
+      >> "Сравнить с конкурентами"
+    [FRAME] "Frame" xy=(83,2259) 24x24 | fill=#ffffff
+  [GROUP] "Group 50" xy=(91,1419) 178x24
+    [TEXT] "Добавить в избранное" xy=(123,1421) 146x20 #ffffff font=14px/w500/lh=20
+      >> "Добавить в избранное"
+    [FRAME] "Frame" xy=(91,1419) 24x24 | fill=#ffffff
+  [GROUP] "Group 53" xy=(91,2311) 178x24
+    [TEXT] "Добавить в избранное" xy=(123,2313) 146x20 #ffffff font=14px/w500/lh=20
+      >> "Добавить в избранное"
+    [FRAME] "Frame" xy=(91,2311) 24x24 | fill=#ffffff
+  [GROUP] "Group 51" xy=(91,1471) 178x24
+    [FRAME] "Frame" xy=(91,1471) 24x24 | fill=#ffffff
+    [TEXT] "Смотреть подробности" xy=(123,1473) 146x20 #ffffff font=14px/w500/lh=20
+      >> "Смотреть подробности"
+  [GROUP] "Group 54" xy=(91,2363) 178x24
+    [FRAME] "Frame" xy=(91,2363) 24x24 | fill=#ffffff
+    [TEXT] "Смотреть подробности" xy=(123,2365) 146x20 #ffffff font=14px/w500/lh=20
+      >> "Смотреть подробности"
+  [RECTANGLE] "Rectangle 45" xy=(0,2781) 360x1683 | fill=#010437
+  [RECTANGLE] "Rectangle 46" xy=(0,2457) 360x324 | fill=linear-gradient(#ff8311@0%,#ff5c00@100%)
+  [GROUP] "Group 23" xy=(15,2669) 330x54
+    [RECTANGLE] "Rectangle 50" xy=(25,2680) 310x43 | fill=#d66702 | blur=20
+    [RECTANGLE] "Rectangle 47" xy=(15,2669) 330x48 | fill=#ffffff
+    [TEXT] "Выбрать сервер" xy=(118,2681) 125x24 #0041be font=16px/w600/lh=23/align=CENTER
+      >> "Выбрать сервер"
+  [TEXT] "Оформи заказ в течение 10 минут и получи бонус $50 на счет!" xy=(15,2581) 303x54 #ffffff font=19px/w600/lh=27
+    >> "Оформи заказ в течение 10 минут
+и получи бонус $50 на счет!"
+  [TEXT] "Хочу скидку!" xy=(15,2531) 149x28 #ffffff font=25px/w500/lh=28
+    >> "Хочу скидку!"
+  [TEXT] "Хочу скидку!" xy=(15,2511) 194x43 #ffffff font=30px/w700/lh=43 opacity=0.08
+    >> "Хочу скидку!"
+  [RECTANGLE] "Rectangle 48" xy=(15,2796) 330x48 | border:#ffffff
+  [TEXT] "Пожаловаться директору!" xy=(98,2808) 197x24 #ffffff font=16px/w600/lh=23/align=CENTER
+    >> "Пожаловаться директору!"
+  [FRAME] "Frame" xy=(66,2808) 24x24 | fill=#ffffff
+  [RECTANGLE] "Rectangle 49" xy=(15,2858) 330x48 | border:#ffffff
+  [GROUP] "Group 24" xy=(87,2870) 187x24
+    [TEXT] "Заработайте на нас!" xy=(119,2870) 155x24 #ffffff font=16px/w600/lh=23/align=CENTER
+      >> "Заработайте на нас!"
+    [FRAME] "Frame" xy=(87,2870) 24x24 | fill=#ffffff
+  [TEXT] "Аренда Windows сервера" xy=(15,3093) 163x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда Windows сервера"
+  [TEXT] "Аренда Linux Сервера" xy=(15,3125) 141x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда Linux Сервера"
+  [TEXT] "Аренда игрового сервера" xy=(15,3157) 161x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда игрового сервера"
+  [TEXT] "Аренда хранилища" xy=(15,3189) 123x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда хранилища"
+  [TEXT] "Аренда офисного сервера" xy=(15,3221) 165x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда офисного сервера"
+  [TEXT] "Резервное копирование" xy=(15,3253) 150x20 #ffffff font=14px/w400/lh=20
+    >> "Резервное копирование"
+  [TEXT] "Администрирование серверов" xy=(15,3285) 190x20 #ffffff font=14px/w400/lh=20
+    >> "Администрирование серверов"
+  [TEXT] "Аренда сервера в США" xy=(15,2965) 151x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в США"
+  [TEXT] "Аренда сервера в Германии" xy=(15,2997) 176x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в Германии"
+  [TEXT] "Аренда сервера во Франции" xy=(15,3029) 182x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера во Франции"
+  [TEXT] "Аренда сервера в Голландии" xy=(15,3061) 185x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера в Голландии"
+  [TEXT] "Аренда сервера" xy=(15,2934) 104x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Аренда сервера"
+  [TEXT] "Аренда виртуального сервера" xy=(15,3333) 200x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Аренда виртуального сервера"
+  [TEXT] "Аренда VPS/VDS на Windows" xy=(15,3492) 190x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS на Windows"
+  [TEXT] "Аренда VPS/VDS на Linux" xy=(15,3524) 165x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS на Linux"
+  [TEXT] "Аренда VPS/VDS в США" xy=(15,3364) 159x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в США"
+  [TEXT] "Аренда VPS/VDS в Германии" xy=(15,3396) 185x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в Германии"
+  [TEXT] "Аренда VPS/VDS во Франции" xy=(15,3428) 191x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS во Франции"
+  [TEXT] "Аренда VPS/VDS в Голландии" xy=(15,3460) 193x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда VPS/VDS в Голландии"
+  [TEXT] "Остальное" xy=(15,3572) 72x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Остальное"
+  [TEXT] "Аренда сервера с тестовым периодом" xy=(15,3603) 238x20 #ffffff font=14px/w400/lh=20
+    >> "Аренда сервера с тестовым периодом"
+  [TEXT] "Помощь" xy=(15,3635) 53x20 #ffffff font=14px/w400/lh=20
+    >> "Помощь"
+  [TEXT] "Оплата и доставка" xy=(15,3667) 114x20 #ffffff font=14px/w400/lh=20
+    >> "Оплата и доставка"
+  [TEXT] "Блог" xy=(15,3699) 28x20 #ffffff font=14px/w400/lh=20
+    >> "Блог"
+  [TEXT] "Партнерская программа" xy=(15,3731) 149x20 #ffffff font=14px/w400/lh=20
+    >> "Партнерская программа"
+  [FRAME] "Frame" xy=(15,3843) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,3946) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,3811) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,3875) 18x18 | fill=#ffffff
+  [FRAME] "Frame" xy=(15,3978) 18x18 | fill=#ffffff
+  [TEXT] "Контакты" xy=(15,3779) 63x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "Контакты"
+  [TEXT] "служба поддержки" xy=(15,3914) 135x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "служба поддержки"
+  [TEXT] "мы в социальных сетях" xy=(15,4017) 161x17 #ffffff font=12px/w500/lh=17 opacity=0.40
+    >> "мы в социальных сетях"
+  [TEXT] "Sepapaja 6 Tallinn" xy=(41,3810) 108x20 #ffffff font=14px/w400/lh=20
+    >> "Sepapaja 6 Tallinn"
+  [TEXT] "+380 (44) 23 88 946" xy=(41,3945) 130x20 #ffffff font=14px/w400/lh=20
+    >> "+380 (44) 23 88 946"
+  [TEXT] "+372 (800) 7873" xy=(41,3842) 103x20 #ffffff font=14px/w400/lh=20
+    >> "+372 (800) 7873"
+  [TEXT] "support@data-xata.com" xy=(41,3874) 136x20 #ffffff font=14px/w400/lh=20
+    >> "support@data-xata.com"
+  [TEXT] "support@data-xata.com" xy=(41,3977) 136x20 #ffffff font=14px/w400/lh=20
+    >> "support@data-xata.com"
+  [INSTANCE] "Vkontakte (VK)" xy=(103,4048) 24x24 | fill=#ffffff
+    [GROUP] "Vkontakte (VK)" xy=(103,4048) 24x24
+  [INSTANCE] "Twitter" xy=(59,4048) 24x24 | fill=#ffffff
+    [GROUP] "Twitter" xy=(59,4048) 24x24
+  [INSTANCE] "Slack" xy=(147,4048) 24x24 | fill=#ffffff
+    [GROUP] "Slack" xy=(147,4048) 24x24
+  [INSTANCE] "Facebook" xy=(15,4048) 24x24 | fill=#ffffff
+    [GROUP] "Facebook" xy=(15,4048) 24x24
+  [FRAME] "logo 2" xy=(121,4124) 118x26
+    [GROUP] "Layer 2" xy=(121,4124) 118x26
+      [GROUP] "Слой 1" xy=(121,4124) 118x26
+  [TEXT] "Посмотреть все способы оплаты" xy=(81,4176) 199x20 #ffffff font=14px/w400/lh=20 opacity=0.40
+    >> "Посмотреть все способы оплаты"
+  [GROUP] "Group 25" xy=(62,4220) 237x24
+    [GROUP] "Group" xy=(62,4222) 67x20 | fill=#ffffff | opacity=0.40
+    [FRAME] "Mastercard-logo 1" xy=(161,4220) 31x24 | fill=#ffffff | opacity=0.40
+      [GROUP] "Group" xy=(161,4220) 31x24
+        [GROUP] "Group" xy=(161,4220) 31x24
+          [GROUP] "Group" xy=(163,4240) 29x4
+          [GROUP] "Group" xy=(191,4235) 1x0
+          [GROUP] "Group" xy=(161,4220) 15x19
+          [GROUP] "Group" xy=(177,4220) 16x19
+    [GROUP] "Group 8" xy=(224,4222) 75x20
+  [GROUP] "Group 26" xy=(78,4268) 204x24
+    [TEXT] "Безналичный расчёт" xy=(215,4268) 67x24 #ffffff font=11px/w500/lh=12 opacity=0.40
+      >> "Безналичный
+расчёт"
+    [GROUP] "Group" xy=(78,4268) 104x24 | opacity=0.40
+      [GROUP] "Group" xy=(108,4273) 74x15
+  [TEXT] "Terms and conditions" xy=(36,4324) 126x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Terms and conditions"
+  [TEXT] "Privacy policy" xy=(219,4324) 82x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Privacy policy"
+  [TEXT] "Refund policy" xy=(58,4367) 82x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Refund policy"
+  [TEXT] "Delivery time frame" xy=(202,4362) 116x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Delivery time frame"
+  [TEXT] "Abuse" xy=(80,4405) 38x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Abuse"
+  [TEXT] "Acceptable Use Policy" xy=(194,4400) 131x20 #ffffff font=14px/w400/lh=20/align=CENTER
+    >> "Acceptable Use Policy"
+  [FRAME] "Frame 104" xy=(15,73) 243x24 | layout=HORIZONTAL | gap=8 | alignCross=CENTER
+    [FRAME] "Frame" xy=(15,73) 24x24 | fill=#ffffff
+    [RECTANGLE] "Rectangle 555" xy=(47,85) 18x1 | fill=#839ada
+    [TEXT] "Поиск" xy=(73,75) 39x20 #839ada font=14px/w400/lh=20
+      >> "Поиск"
+    [RECTANGLE] "Rectangle 556" xy=(120,85) 18x1 | fill=#839ada
+    [TEXT] "Результаты поиска" xy=(146,75) 112x20 #839ada font=14px/w400/lh=20
+      >> "Результаты поиска"

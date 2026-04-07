@@ -8,29 +8,52 @@ interface HomeSearchResultsProps {
 
 export default function HomeSearchResults({ servers }: HomeSearchResultsProps) {
   return (
-    <div className="search-section hidden-xs">
+    <div className="server-table-section">
       <div className="container">
-        {servers.map((s) => (
-          <ServerCard
-            key={s.id}
-            id={s.id}
-            name={s.name}
-            cpu={s.cpu}
-            ram={s.ram}
-            storage={s.storage}
-            location={s.location}
-            locationFlag={s.locationFlag}
-            price={s.price}
-            priceOld={s.priceOld}
-            discount={s.discount}
-            os={s.os}
-            instant={s.instant}
-          />
-        ))}
-        <div className="search-section-bottom text-center wrap-link">
-          <Link href="/search" className="bold-link">Показать больше конфигураций</Link>
-          <p>еще 1378+ шт от €6.00</p>
+
+        {/* Шапка таблицы — только desktop */}
+        <div className="server-table-head hidden-xs">
+          <span className="server-table-head__col server-table-head__col--name">Сервер</span>
+          <span className="server-table-head__col server-table-head__col--product">Продукт</span>
+          <span className="server-table-head__col server-table-head__col--ram">RAM</span>
+          <span className="server-table-head__col server-table-head__col--disk">Место на диске</span>
+          <span className="server-table-head__col server-table-head__col--price">
+            Цена в месяц
+          </span>
         </div>
+
+        {/* Строки */}
+        <div className="server-rows-wrap">
+          {servers.map((s, i) => (
+            <ServerCard
+              key={s.id}
+              id={s.id}
+              name={s.name}
+              cpu={s.cpu}
+              ram={s.ram}
+              storage={s.storage}
+              location={s.location}
+              locationFlag={s.locationFlag}
+              bandwidth={s.bandwidth}
+              locationStorage={s.locationStorage}
+              price={s.price}
+              priceOld={s.priceOld}
+              discount={s.discount}
+              os={s.os}
+              instant={s.instant}
+              active={i === 1}
+            />
+          ))}
+        </div>
+
+        {/* Показать больше */}
+        <div className="server-table-more">
+          <Link href="/search" className="server-table-more__link">
+            Показать больше конфигураций
+          </Link>
+          <p className="server-table-more__hint">еще 1378шт от €7.89</p>
+        </div>
+
       </div>
     </div>
   );

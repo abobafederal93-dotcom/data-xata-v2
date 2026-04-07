@@ -62,55 +62,77 @@ h5, .h5 { font-size: 1.9rem; line-height: 2.7rem; font-weight: 500; margin: 2.6r
   line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
-.i-admin:before { content: '\e800'; }
-.i-backup:before { content: '\e801'; }
-.i-caret:before { content: '\e802'; }
+.i-admin:before    { content: '\e800'; }
+.i-backup:before   { content: '\e801'; }
+.i-caret:before    { content: '\e802'; }
 .i-caret-right:before { content: '\e803'; }
-.i-edit:before { content: '\e804'; }
-.i-basic:before { content: '\e805'; }
+.i-edit:before     { content: '\e804'; }
+.i-basic:before    { content: '\e805'; }
 .i-caret-sm:before { content: '\e806'; }
-.i-check:before { content: '\e807'; }
-.i-close:before { content: '\e808'; }
-.i-cloud:before { content: '\e80a'; }
-.i-compare:before { content: '\e80b'; }
-.i-email:before { content: '\e80e'; }
-.i-fb:before { content: '\e80f'; }
+.i-check:before    { content: '\e807'; }
+.i-close:before    { content: '\e808'; }
+.i-close-bold:before { content: '\e809'; }
+.i-cloud:before    { content: '\e80a'; }
+.i-compare:before  { content: '\e80b'; }
+.i-contract:before { content: '\e80c'; }
+.i-dots:before     { content: '\e80d'; }
+.i-email:before    { content: '\e80e'; }
+.i-fb:before       { content: '\e80f'; }
 .i-features:before { content: '\e810'; }
-.i-hand:before { content: '\e811'; }
-.i-hdd:before { content: '\e812'; }
-.i-memory:before { content: '\e813'; }
-.i-mess:before { content: '\e814'; }
+.i-hand:before     { content: '\e811'; }
+.i-hdd:before      { content: '\e812'; }
+.i-memory:before   { content: '\e813'; }
+.i-mess:before     { content: '\e814'; }
 .i-processor:before { content: '\e815'; }
 .i-provider:before { content: '\e816'; }
-.i-share:before { content: '\e817'; }
-.i-skype:before { content: '\e818'; }
-.i-star:before { content: '\e819'; }
+.i-share:before    { content: '\e817'; }
+.i-skype:before    { content: '\e818'; }
+.i-star:before     { content: '\e819'; }
 .i-star-border:before { content: '\e81a'; }
-.i-tg:before { content: '\e81b'; }
-.i-tool:before { content: '\e81c'; }
-.i-twitter:before { content: '\e81d'; }
-.i-tw:before { content: '\e81d'; }
-.i-vk:before { content: '\e81e'; }
-.i-phone:before { content: '\e81f'; }
-.i-present:before { content: '\e820'; }
-.i-arrow:before { content: '\e821'; }
+.i-tg:before       { content: '\e81b'; }
+.i-tool:before     { content: '\e81c'; }
+.i-traffic:before  { content: '\e81d'; }
+.i-windows:before  { content: '\e81e'; }
+.i-map:before      { content: '\e81f'; }
+.i-favorites:before { content: '\e820'; }
+.i-present:before  { content: '\e821'; }
 .i-search-block:before { content: '\e822'; }
-.i-flag { display: inline-block; width: 1.8rem; height: 1.2rem; background-size: cover; background-repeat: no-repeat; vertical-align: middle; margin-right: 0.8rem; }
-.i-de:before { content: '\e825'; }
-.i-ee:before { content: '\e826'; }
-.i-fr:before { content: '\e827'; }
-.i-nl:before { content: '\e828'; }
-.i-us:before { content: '\e829'; }
-.i-windows:before { content: '\e82a'; }
-.i-linux:before { content: '\e82b'; }
-.i-game:before { content: '\e82c'; }
-.i-office:before { content: '\e82d'; }
-.i-repository:before { content: '\e82e'; }
-.i-login:before { content: '\e82f'; }
-.i-map:before { content: '\e830'; }
+.i-phone:before    { content: '\e823'; }
+.i-rewards:before  { content: '\e824'; }
+.i-map-bg:before   { content: '\e825'; }
+.i-remote:before   { content: '\e826'; }
+.i-price:before    { content: '\e827'; }
+.i-speed:before    { content: '\e828'; }
+.i-info:before     { content: '\e829'; }
+.i-server:before   { content: '\e82a'; }
+.i-yandex:before   { content: '\e82b'; }
+.i-mail:before     { content: '\e82c'; }
+.i-quote:before    { content: '\e82d'; }
+.i-payments:before { content: '\e82e'; }
+.i-home:before     { content: '\e82f'; }
+.i-search:before   { content: '\e830'; }
+.i-protection:before { content: '\e831'; }
+.i-office:before   { content: '\e832'; }
+.i-login:before    { content: '\e833'; }
+.i-game:before     { content: '\e834'; }
+.i-repository:before { content: '\e835'; }
+.i-del:before      { content: '\e836'; }
+.i-system:before   { content: '\e837'; }
+.i-delivery:before { content: '\e838'; }
+.i-support:before  { content: '\e839'; }
+.i-gmail:before    { content: '\e83a'; }
+.i-github:before   { content: '\e83b'; }
+.i-bonus:before    { content: '\e83c'; }
+.i-vk:before       { content: '\e83d'; }
+.i-linux:before    { content: '\e83e'; }
+.i-reporting:before { content: '\e83f'; }
+/* aliases */
+.i-arrow:before    { content: '\e821'; } /* same as i-present — check font */
+.i-tw:before       { content: '\e81d'; }
+.i-twitter:before  { content: '\e81d'; }
 
 /* Layout */
-#wrap { overflow: hidden; min-height: 100%; }
+#wrap { overflow-x: hidden; min-height: 100%; }
 .container { max-width: 1276px; margin: 0 auto; padding: 0 1.5rem; }
 .site-header { padding: 1.1rem 0; }
 
@@ -203,7 +225,7 @@ h5, .h5 { font-size: 1.9rem; line-height: 2.7rem; font-weight: 500; margin: 2.6r
 .bold-link:hover { color: #ff8311; }
 .wrap-link { margin-top: 3.5rem; }
 .buttons-group { margin: 3.5rem 0 4.5rem; }
-.buttons-group .btn { min-width: 155px; text-align: center; }
+.buttons-group .btn { min-width: 15.5rem; height: 4.8rem; font-size: 1.6rem; font-weight: 600; text-align: center; }
 .buttons-group .btn + .btn { margin-left: 1rem; }
 .img-responsive { max-width: 100%; height: auto; }
 .pull-right-md { float: right; }
@@ -222,12 +244,149 @@ h5, .h5 { font-size: 1.9rem; line-height: 2.7rem; font-weight: 500; margin: 2.6r
 .wrap-scroll-row { overflow: hidden; }
 .scroll-row { display: flex; }
 
-/* First screen / Hero */
+/* ── Hero (главная страница) ──────────────────────────────── */
+/* Figma: frame 1440×6923, hero area ~856px (ActionBar40+Header66+content~750) */
+.hero {
+  position: relative;
+  min-height: 85.6rem; /* Figma: кнопки заканчиваются ~y=625, footer y=813 → ~856px */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* 3D-иллюстрация справа: Figma Group2 xy=(563,9) 784×743
+   right = 1440-(563+784) = 93px = 9.3rem
+   top = 9-106(actionbar+header) = -97px = -9.7rem */
+.hero__bg-img {
+  position: absolute;
+  top: -9.7rem;
+  right: 9.3rem;
+  width: 54.4vw; /* 784/1440 */
+  max-width: 78.4rem;
+  pointer-events: none;
+  z-index: 0;
+}
+.hero__bg-img img { width: 100%; height: auto; display: block; }
+
+/* Контент */
+.hero__inner {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 7.2rem; /* Figma: ghost y=186, header ends ~y=106 → padding ~80px */
+}
+
+.hero__text {
+  width: 50%;
+  min-width: 0;
+}
+
+/* Ghost: Figma 65px/700/lh=94 opacity=0.08 */
+.hero__ghost {
+  display: block;
+  font-size: 6.5rem;
+  line-height: 9.4rem;
+  font-weight: 700;
+  color: #fff;
+  opacity: 0.08;
+  margin-bottom: -6.8rem; /* перекрывает title сверху */
+  white-space: nowrap;
+}
+
+/* Title h1: Figma 60px/500/lh=87 */
+.hero__title {
+  font-size: 6rem;
+  line-height: 8.7rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+}
+
+/* Subtitle "для DevOps|": Figma 40px/500/lh=58 */
+.hero__subtitle {
+  font-size: 4rem;
+  line-height: 5.8rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0 0 1rem;
+}
+.hero__subtitle-accent { color: #ff8311; }
+.hero__cursor { opacity: 0.5; }
+
+/* Description: Figma 20px/400/lh=27 color=#839ada */
+.hero__desc {
+  font-size: 2rem;
+  line-height: 2.7rem;
+  font-weight: 400;
+  color: #839ada;
+  margin: 2rem 0 0;
+  max-width: 51.3rem;
+}
+
+/* Кнопки */
+.hero__btns {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+/* Ссылка "Я знаю что делаю": Figma 16px/600 white center */
+.hero__all-link {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  align-self: center;
+}
+.hero__all-link:hover { color: #ff8311; }
+
+/* Footer строка: Figma y=813, "Скрольте..." + контакты */
+.hero__footer {
+  position: relative;
+  z-index: 1;
+  margin-top: auto;
+  padding: 4rem 0 4rem;
+}
+.hero__footer-inner {
+  display: flex;
+  align-items: center;
+}
+.hero__scroll-hint {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #839ada;
+}
+.hero__contacts {
+  margin: 0 0 0 auto;
+  display: flex;
+  gap: 2.7rem;
+}
+.hero__contacts li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+}
+.hero__contacts a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+.hero__contacts .icons {
+  font-size: 1.8rem;
+}
+
+/* Старые классы (используются в других компонентах) */
 .first-screen { min-height: 100vh; display: flex; flex-direction: column; }
-.preview { }
-.preview-text { margin: auto 0; padding-top: 2.1rem; }
 .preview-title { color: #fff; font-size: 6rem; line-height: 7.9rem; font-weight: 500; margin: 3rem 0 2.2rem; }
-.preview-title .title { margin: 0; }
 .preview-text-inside { width: 50%; font-size: 2rem; line-height: 2.8rem; }
 .preview-btn { display: inline-block; font-size: 1.6rem; line-height: 2.3rem; margin: 3rem 0; }
 .preview-btn p { margin-bottom: 2rem; }
@@ -240,22 +399,115 @@ h5, .h5 { font-size: 1.9rem; line-height: 2.7rem; font-weight: 500; margin: 2.6r
 .footer-contatcs .icons:first-of-type { margin: -3px 1rem 0 0; font-size: 2rem; }
 .footer-contatcs .icons.i-phone { font-size: 1.8rem; margin-right: 1.1rem; }
 
+/* Mobile hero */
+@media (max-width: 767px) {
+  .hero { min-height: 0; overflow: visible; }
+  .hero__bg-img {
+    position: static;
+    width: calc(100% + 6rem);
+    margin-left: -1.5rem;
+    margin-top: -6rem;
+    max-width: none;
+  }
+  .hero__inner { padding-top: 0; display: block; }
+  .hero__text { width: 100%; padding-top: 3rem; }
+  /* Ghost mobile: Figma 40px/700/lh=58 */
+  .hero__ghost { font-size: 4rem; line-height: 5.8rem; margin-bottom: -5.2rem; }
+  /* Title mobile: 35px/500/lh=51 */
+  .hero__title { font-size: 3.5rem; line-height: 5.1rem; }
+  /* Subtitle mobile: 20px/500/lh=29 */
+  .hero__subtitle { font-size: 2rem; line-height: 2.9rem; }
+  /* Desc mobile: 15px/400/lh=20 */
+  .hero__desc { font-size: 1.5rem; line-height: 2rem; max-width: 100%; }
+  .hero__btns { gap: 1.5rem; margin-top: 2.5rem; }
+  .hero__all-link { align-self: flex-start; }
+  .hero__footer { display: none; }
+}
+
 /* Header */
 header { padding: 2rem 0; }
 .header-container { display: flex; align-items: center; }
-.logo { display: inline-block; margin-right: 5.5%; transition: opacity 0.3s ease-out; }
+.logo { display: inline-block; margin-right: 5.5%; transition: opacity 0.3s ease-out; flex-shrink: 0; }
 .logo:hover { opacity: 0.7; }
-.wrap-nav ul { display: flex; list-style: none; margin: 0; padding: 0; }
+.wrap-nav { flex: 1; }
+.wrap-nav ul { display: flex; list-style: none; margin: 0; padding: 0; align-items: center; }
+.wrap-nav ul li { position: relative; }
 .wrap-nav ul li a,
-.header-dropdown__title { padding: 1rem 1.67rem; font-weight: 500; color: #fff; cursor: pointer; display: block; }
+.header-dropdown__title { padding: 1rem 1.67rem; font-weight: 500; color: #fff; cursor: pointer; display: block; white-space: nowrap; font-size: 1.4rem; }
 .wrap-nav ul li a:hover,
 .header-dropdown__title:hover { color: #ff8311; }
-.language-login { margin-left: auto; display: flex; align-items: center; gap: 1rem; }
+.language-login { margin-left: auto; display: flex; align-items: center; gap: 1rem; flex-shrink: 0; }
+/* Правый блок хедера: язык + кнопка в одну строку. Figma gap ~69px */
+.header-right { margin-left: auto; display: flex; flex-direction: row; align-items: center; gap: 2.4rem; flex-shrink: 0; flex-wrap: nowrap; }
+/* Кнопка Личный кабинет: Figma 141×36px */
+.login-btn { min-width: 14.1rem; height: 3.6rem; padding: 0 1.6rem; font-size: 1.4rem; font-weight: 500; white-space: nowrap; flex-shrink: 0; }
+/* Action Bar — полоска акции сверху (Figma: 1440×40, gradient orange) */
+.action-bar {
+  background: linear-gradient(to right, #ff8311 0%, #ff5c00 100%);
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+.action-bar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.action-bar__inner .icons {
+  font-size: 2.4rem;
+  flex-shrink: 0;
+}
+.action-bar__text { color: #fff; }
+
 .action-banner { padding: 1rem 0 0.8rem; line-height: 2rem; }
 .action-banner .i-present { font-size: 1.9rem; margin: -1px 16px 2px 0; }
-.navbar-toggle { padding: 0; margin: 0 2px 0 2rem; width: 20px; height: 18px; display: flex; flex-direction: column; justify-content: space-between; background: none; border: none; cursor: pointer; }
+.navbar-toggle { padding: 0; margin: 0 2px 0 2rem; width: 20px; height: 18px; display: flex; flex-direction: column; justify-content: space-between; background: none; border: none; cursor: pointer; flex-shrink: 0; }
 .icon-bar { width: 1.8rem; height: 2px; background: #fff; display: block; }
 .icon-bar:nth-child(2) { width: 1.2rem; margin-left: 6px; }
+
+/* Dropdown */
+.dropdown { position: relative; }
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background: #0041be;
+  min-width: 22rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+.dropdown:hover .dropdown-menu { display: block; }
+.dropdown-menu-large { min-width: 52rem; }
+.dropdown-menu .row { margin: 0; flex-wrap: nowrap; gap: 2rem; }
+.dropdown-menu .col-sm-5 { flex: 0 0 auto; width: 45%; }
+.dropdown-menu .col-sm-7 { flex: 0 0 auto; width: 55%; }
+.dropdown-menu ul { flex-direction: column; }
+.dropdown-menu ul li { padding: 0; }
+.dropdown-menu ul li a { padding: 0.5rem 0; font-size: 1.3rem; font-weight: 400; display: flex; align-items: center; gap: 0.6rem; }
+.dropdown-menu ul li a:hover { color: #ff8311; }
+.dropdown-link { font-weight: 500; }
+.header-dropdown__title { padding: 0.8rem 0; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 0.05em; color: rgba(255,255,255,0.5) !important; cursor: default; }
+.header-dropdown__title:hover { color: rgba(255,255,255,0.5) !important; }
+
+/* Language dropdown */
+.language { position: relative; }
+.language .dropdown-menu { min-width: 10rem; left: auto; right: 0; }
+.language:hover .dropdown-menu { display: block; }
+.language .dropdown-toggle { display: flex; align-items: center; gap: 0.5rem; font-size: 1.4rem; font-weight: 500; color: #fff; cursor: pointer; padding: 1rem 0; }
+.language .dropdown-toggle:hover { color: #ff8311; }
+
+/* Flag images */
+.flag-img { display: inline-block; vertical-align: middle; margin-right: 0.6rem; flex-shrink: 0; }
+
+/* Icon list (dropdown with icons) */
+.icon-list li a { display: flex; align-items: center; }
 
 /* Search block */
 .search-block { margin-bottom: 1.5rem; display: flex; }
@@ -294,8 +546,7 @@ header { padding: 2rem 0; }
 .advantages-list li::before { content: "#" counter(list); color: #839ada; font-size: 1.2rem; opacity: 0.5; }
 
 /* Footer */
-.footer-content { background: #010437; padding-top: 9.4rem; padding-bottom: 4rem; }
-.footer-bottom { border-top: 1px solid rgba(131,154,218,0.15); padding: 3rem 0; background: #010437; }
+.footer-content { background: #010437; padding-top: 4rem; padding-bottom: 0; }
 .footer-nav { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 1.5rem; }
 .footer-nav li a { font-size: 1.2rem; color: #839ada; }
 .footer-payment { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; }
@@ -341,10 +592,965 @@ header { padding: 2rem 0; }
   .visible-xs { display: none !important; }
   .hidden-sm { display: none !important; }
   .pull-right-md { display: flex; justify-content: flex-end; }
+  .navbar-toggle { display: none !important; }
 }
 @media (min-width: 992px) {
   .hidden-sm { display: block !important; }
 }
 @media (min-width: 1200px) {
   .container { max-width: 1170px; padding: 0 1.5rem; }
+}
+
+/* ── Breadcrumb ── */
+.breadcrumb { display: flex; align-items: center; gap: 0.8rem; font-size: 1.2rem; color: #839ada; padding: 2rem 0 0; }
+.breadcrumb__home { color: #839ada; font-size: 1.4rem; }
+.breadcrumb__home:hover { color: #ff8311; }
+.breadcrumb__item { display: flex; align-items: center; gap: 0.8rem; }
+.breadcrumb__sep { color: #839ada; }
+.breadcrumb__link { color: #839ada; }
+.breadcrumb__link:hover { color: #ff8311; }
+.breadcrumb__current { color: #fff; }
+
+/* ── Promo banner ── */
+.promo-banner { background: linear-gradient(to right, #ff5c00 0%, #ff8311 100%); }
+.promo-banner__inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; padding: 2.8rem 0; flex-wrap: wrap; }
+/* Figma: ghost 55px/700 lh=79 opacity~0.15 */
+.promo-banner__ghost { font-size: 5.5rem; line-height: 7.9rem; font-weight: 700; color: #fff; opacity: 0.15; user-select: none; white-space: nowrap; pointer-events: none; }
+.promo-banner__text { flex: 1 1 30rem; font-size: 1.9rem; line-height: 2.7rem; font-weight: 600; color: #fff; margin: 0; }
+.promo-banner__btn { white-space: nowrap; flex-shrink: 0; }
+
+/* ── Action buttons ── */
+.action-buttons { background: #010437; border-bottom: 1px solid rgba(131,154,218,0.15); }
+.action-buttons__inner { display: flex; gap: 1px; background: rgba(131,154,218,0.15); }
+.action-buttons__btn { flex: 1; display: flex; align-items: center; justify-content: center; gap: 1rem; padding: 2.2rem 1.5rem; background: #010437; color: #fff; font-size: 1.6rem; font-weight: 600; text-decoration: none; transition: background 0.3s; }
+.action-buttons__btn:hover { background: #0041be; color: #fff; }
+
+/* ── 404 page — иллюстрация выходит за нижний край hero ── */
+/* #wrap имеет overflow:hidden — обходим через padding на promo */
+.error-page .promo-banner { position: relative; z-index: 1; }
+
+/* ── 404 page ── */
+/* Figma: hero y=66..800 = 734px. Frame fill горизонтальный #0041be→#020983 (body bg).
+   Нижняя часть (promo+action+footer) = #010437 через .error-dark-section */
+.error-hero {
+  /* Figma: frame fill горизонтальный #0041be→#020983.
+     Снизу накладывается Rectangle 45 #010437 начиная с y=886/1609=55%.
+     Имитируем через многослойный фон: горизонтальный градиент + тёмный снизу */
+  background:
+    linear-gradient(to bottom, transparent 60%, #010437 100%),
+    linear-gradient(to right, #0041be 0%, #020983 100%);
+  min-height: 73.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 0;
+}
+.error-hero__inner {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  /* Текст в Figma начинается с y=186, header=66 → отступ сверху ~12rem */
+  padding-top: 12rem;
+  /* Контейнер шире чем 1110px чтобы иллюстрация могла выйти за правый край */
+  overflow: visible;
+}
+/* Text: x=165..700 = 48.2% от 1110px контейнера */
+.error-hero__text {
+  flex: 0 0 42%;
+  min-width: 0;
+}
+/* Ghost: Figma 65px/700 lh=94 opacity=0.08, xy=(165,186) */
+.error-hero__ghost {
+  display: block;
+  font-size: 6.5rem;
+  line-height: 9.4rem;
+  font-weight: 700;
+  color: #fff;
+  opacity: 0.08;
+  /* Перекрывает заголовок сверху */
+  margin-bottom: -5rem;
+  pointer-events: none;
+  user-select: none;
+}
+/* Title: Figma 60px/500 lh=87 xy=(165,216) */
+.error-hero__title {
+  font-size: 6rem;
+  line-height: 8.7rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0 0 2rem;
+  white-space: nowrap;
+}
+/* Desc: Figma 20px/400 lh=27 color=#829ad9 xy=(165,327) */
+.error-hero__desc {
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: #829ad9;
+  max-width: 51.3rem;
+  margin: 0 0 4rem;
+}
+/* Button: 168×48 #ff8311 xy=(165,429) */
+.error-hero .btn-warning {
+  min-width: 16.8rem;
+  height: 4.8rem;
+  padding: 0 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+/* Illustration: Group69 в Figma xy=(467,139) w=790 h=527
+   В Figma frame=1440px, иллюстрация = 790/1440 = 54.9% от всего экрана
+   Выходит за правый край контейнера: container right=1275, illus right=1257 — почти до края
+   Левый край иллюстрации = 467px от frame = 302px от container left */
+.error-hero__img {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  /* Figma: Group69 y=139, header=66 → от верха hero 73px = 7.3rem.
+     padding-top на inner = 12rem, значит margin-top компенсация = -(12-7.3)= -4.7rem */
+  margin-top: -4.7rem;
+  overflow: visible;
+  /* Figma: illus left=302px от container, текст=42%≈466px → overlap=164px
+     Но нужно правее чем сейчас → -17% */
+  margin-left: -17%;
+  margin-right: -1.5rem;
+}
+/* Grid stack: bg (790x527) + fg barrier (308x361)
+   Figma: 790px при frame 1440px = 54.9% от viewport.
+   При container max-width=1170: нужно выйти за контейнер.
+   Используем vw единицы: 790/1440 = 54.86vw */
+.error-hero__img-wrap {
+  display: grid;
+  width: 54.86vw;
+  max-width: 79rem;
+  flex-shrink: 0;
+}
+.error-hero__img-bg {
+  grid-area: 1 / 1;
+  width: 100%;
+  height: auto;
+}
+/* Barrier: x=(777-467)=310px, y=(258-139)=119px, w=308px — всё от Group69
+   CSS margin-% считается от ШИРИНЫ родителя (790px), не высоты (527px)!
+   margin-left: 310/790 = 39.24%
+   margin-top:  119/790 = 15.06%  (НЕ 22.6% — это % от высоты, а нужно от ширины) */
+.error-hero__img-fg {
+  grid-area: 1 / 1;
+  width: 39%;
+  height: auto;
+  align-self: start;
+  justify-self: start;
+  margin-left: 39.24%;
+  margin-top: 15.06%;
+}
+
+
+/* ── Footer cols ── */
+/* Figma: 4 cols at x=165,450,735,1024 → gaps of 285,285,289px in 1440frame */
+/* Container=1110px → col widths ~25% each */
+.footer-cols { display: flex; gap: 0; padding-top: 4rem; padding-bottom: 6rem; }
+.footer-col { flex: 1 1 25%; min-width: 0; padding-right: 2rem; }
+.footer-col__title { font-size: 1.2rem; line-height: 1.7rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; color: #fff; opacity: 0.40; margin: 0 0 3rem; }
+.footer-links { list-style: none; padding: 0; margin: 0; }
+.footer-links li { margin-bottom: 2rem; }
+.footer-links li a { font-size: 1.4rem; line-height: 2rem; color: #fff; }
+.footer-links li a:hover { color: #ff8311; }
+.footer-contacts { list-style: none; padding: 0; margin: 0; }
+.footer-contacts li { display: flex; align-items: flex-start; gap: 0.8rem; margin-bottom: 1.2rem; font-size: 1.4rem; line-height: 2rem; color: #fff; }
+.footer-contacts li a { color: #fff; font-size: 1.4rem; }
+.footer-contacts li a:hover { color: #ff8311; }
+.footer-contacts .icons { font-size: 1.6rem; flex-shrink: 0; margin-top: 0.2rem; color: #fff; }
+.footer-col__subtitle { font-size: 1.2rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; color: #fff; opacity: 0.40; margin: 3.2rem 0 1.5rem; }
+.social-list { display: flex; gap: 1rem; margin: 0; list-style: none; padding: 0; }
+.social-list a { display: flex; align-items: center; justify-content: center; width: 2.4rem; height: 2.4rem; color: #fff; font-size: 2.4rem; }
+.social-list a:hover { color: #ff8311; }
+/* Footer bottom */
+.footer-bottom { background: #010437; border-top: 1px solid rgba(131,154,218,0.15); padding: 3.5rem 0; }
+.footer-bottom__inner { display: flex; align-items: center; flex-wrap: wrap; gap: 2rem; }
+.footer-bottom__logo { flex-shrink: 0; }
+.footer-payment { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap; margin-left: auto; }
+.footer-payment img { opacity: 0.40; }
+.footer-payment__link { font-size: 1.4rem; color: #fff; opacity: 0.40; white-space: nowrap; }
+.footer-payment__link:hover { color: #ff8311; opacity: 1; }
+.footer-payment__cash { font-size: 1.1rem; line-height: 1.2rem; font-weight: 500; color: #fff; opacity: 0.40; }
+.footer-nav { width: 100%; }
+.footer-nav ul { display: flex; flex-wrap: wrap; gap: 1rem 3rem; list-style: none; padding: 0; margin: 0; }
+.footer-nav ul li a { font-size: 1.4rem; color: #829ad9; }
+.footer-nav ul li a:hover { color: #ff8311; }
+
+@media (max-width: 767px) {
+  /* 404 hero — mobile: text first, illustration below */
+  .error-hero { height: auto; padding: 3rem 0 0; min-height: 0; }
+  /* Mobile: column layout, text first, illus below */
+  .error-hero { padding: 3rem 0 0; min-height: 0; overflow: visible; }
+  .error-hero__inner { flex-direction: column; align-items: flex-start; }
+  .error-hero__text { flex: none; width: 100%; padding: 0 0 3rem; }
+  /* Ghost: Figma 40px/700 */
+  .error-hero__ghost { font-size: 4rem; margin-bottom: -2.8rem; }
+  /* Title: Figma 35px/500 lh=51 */
+  .error-hero__title { font-size: 3.5rem; line-height: 5.1rem; margin: 0 0 1.5rem; white-space: normal; }
+  /* Desc: 20px same */
+  .error-hero__desc { font-size: 2rem; line-height: 2.7rem; margin: 0 0 3rem; max-width: none; }
+  /* Illustration: 430px wide, bleeds right on 360px screen */
+  .error-hero__img { flex: none; justify-content: flex-start; margin-right: 0; margin-bottom: 0; align-items: flex-start; }
+  .error-hero__img-wrap { width: 43rem; max-width: 43rem; }
+
+  /* Promo banner */
+  .promo-banner__ghost { font-size: 3rem; }
+  .promo-banner__inner { flex-direction: column; align-items: flex-start; padding: 2rem 0; }
+
+  /* Action buttons */
+  .action-buttons__inner { flex-direction: column; background: none; gap: 0; }
+  .action-buttons__btn { border-bottom: 1px solid rgba(131,154,218,0.15); justify-content: center; }
+
+  /* Footer */
+  .footer-cols { flex-direction: column; padding-top: 4rem; }
+  .footer-col { padding-right: 0; margin-bottom: 3rem; }
+  .footer-bottom__inner { flex-direction: column; align-items: flex-start; }
+  .footer-payment { margin-left: 0; }
+  .footer-nav { width: 100%; }
+  .footer-nav ul { gap: 0.8rem 2rem; }
+}
+
+/* ══════════════════════════════════════════════════════
+   Filter Section — блок фильтра + таблица серверов
+   Figma: y=907..1780, bg — body gradient
+   ══════════════════════════════════════════════════════ */
+
+/* Общие заголовки секций (ghost + title) */
+.section-heading {
+  position: relative;
+  margin-bottom: 3rem;
+}
+.section-ghost {
+  display: block;
+  font-size: 5.5rem;
+  line-height: 7.9rem;
+  font-weight: 700;
+  color: #fff;
+  opacity: 0.08;
+  pointer-events: none;
+  user-select: none;
+  margin-bottom: -4.9rem;
+  white-space: nowrap;
+}
+.section-title {
+  font-size: 4rem;
+  line-height: 5.8rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+  position: relative;
+}
+
+/* ── Filter section ── */
+.filter-section { padding: 9rem 0 0; }
+
+
+/* Filter bar: три поля + кнопка в одну строку */
+/* Figma: 3 rect по 334×48 от x=165, кнопка 108×48 от x=1167 */
+.filter-bar {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  margin-bottom: 1rem;
+}
+
+/* Поле фильтра: белый прямоугольник 334×48 */
+.filter-field {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: #fff;
+  height: 4.8rem;
+  padding: 0 1.4rem;
+  min-width: 0;
+}
+.filter-field__label {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #0041be;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.filter-field__value {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #ff8311;
+  margin-left: auto;
+  white-space: nowrap;
+}
+.filter-field__caret {
+  font-size: 1rem;
+  color: #0041be;
+  flex-shrink: 0;
+}
+
+/* Кнопка поиска: Figma 108×48 #ff8311 */
+.filter-bar__btn {
+  flex-shrink: 0;
+  width: 10.8rem;
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0;
+}
+
+/* Больше опций: справа, Figma x=1180 */
+.filter-more {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.8rem;
+}
+.filter-more__link {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+}
+.filter-more__link:hover { color: #ff8311; }
+
+/* ── Server table ── */
+.server-table-section {
+  padding-top: 0;
+  padding-bottom: 3rem;
+  background-image: url('/img/bg-search-section.svg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 100% auto;
+}
+.server-table-section .container > .server-table-head,
+.server-table-section .container > .server-row {
+  /* rows inside container */
+}
+/* Обёртка строк с рамкой */
+.server-rows-wrap {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+/* Шапка таблицы: Figma y=1161, 12px/500 #839ada, ls=0.24 */
+.server-table-head {
+  display: flex;
+  align-items: center;
+  padding: 0 1.8rem 0.8rem;
+}
+.server-table-head__col {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #839ada;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+.server-table-head__sub {
+  font-size: 1.2rem;
+  letter-spacing: 0.24em;
+  color: #839ada;
+  font-weight: 500;
+  text-align: right;
+}
+
+/* Ширины колонок по Figma (контейнер=1110):
+   Сервер: x=183..514 = 332px = 29.9%
+   Продукт: x=514..692 = 178px = 16%
+   RAM: x=694..872 = 178px = 16%
+   Диски: x=873..1163 = 290px = 26.1%
+   Цена: x=1163..1275 = 112px = 10.1% */
+.server-table-head__col--name  { flex: 0 0 30%; }
+.server-table-head__col--product { flex: 0 0 16%; }
+.server-table-head__col--ram   { flex: 0 0 16%; }
+.server-table-head__col--disk  { flex: 1; }
+.server-table-head__col--price { flex: 0 0 14rem; text-align: right; align-items: flex-end; }
+
+/* ── Server row ── */
+.server-row {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  margin-bottom: 0;
+  background: rgba(0, 0, 0, 0.15);
+}
+.server-row:first-child { border-top: 1px solid rgba(255, 255, 255, 0.07); }
+.server-row--active {
+  background: #215aee;
+  border-color: transparent;
+}
+
+.server-row__main {
+  display: flex;
+  align-items: center;
+  padding: 1.4rem 1.8rem;
+  min-height: 11.4rem;
+  gap: 0;
+}
+
+/* Колонки строки — те же ширины что шапка */
+.server-col { display: flex; align-items: center; gap: 0.8rem; min-width: 0; }
+.server-col--name    { flex: 0 0 30%; align-items: flex-start; flex-direction: column; gap: 0.4rem; }
+.server-col--product { flex: 0 0 16%; }
+.server-col--ram     { flex: 0 0 16%; }
+.server-col--disk    { flex: 1; }
+.server-col__storage { display: flex; flex-direction: column; gap: 0.3rem; }
+.server-col--price   { flex: 0 0 11.2rem; flex-direction: column; align-items: flex-end; gap: 0.2rem; }
+
+/* Флаг */
+.server-col__flag { flex-shrink: 0; display: block; }
+
+/* Название сервера */
+.server-col__name-wrap { display: flex; flex-direction: column; gap: 0.4rem; min-width: 0; }
+.server-col__name { font-size: 1.4rem; font-weight: 400; color: #fff; }
+.server-col__sub {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.server-col__sub .icons { font-size: 1.6rem; }
+
+/* Иконки в колонках */
+.server-col .icons { font-size: 2rem; color: #fff; flex-shrink: 0; }
+.server-col span { font-size: 1.4rem; font-weight: 400; color: #fff; }
+
+/* Цена */
+.server-col__price {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+.server-col__price-old {
+  font-size: 1.2rem;
+  color: #839ada;
+  text-decoration: line-through;
+}
+.server-col__discount {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ff8311;
+}
+/* Figma: "Беспалтная установка" 12px #27e35c */
+.server-col__free-install {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #27e35c !important;
+}
+/* Figma: "Доступ через 3-5 мин" 12px #f50e38 */
+.server-col__instant {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #f50e38 !important;
+}
+
+/* Расширенный блок активной строки */
+.server-row__expanded {
+  border-top: 1px solid rgba(131,154,218,0.3);
+  padding: 1.2rem 1.8rem;
+}
+.server-row__actions {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.server-row__action-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+}
+.server-row__action-btn:hover { color: #ff8311; }
+.server-row__action-btn .icons { font-size: 2rem; }
+.server-row__order-btn {
+  margin-left: auto;
+  height: 3.6rem;
+  padding: 0 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+/* "Показать больше": Figma y=1728, text center, hint #839ada */
+.server-table-more {
+  text-align: center;
+  padding: 2.8rem 0;
+}
+.server-table-more__link {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.server-table-more__link:hover { color: #ff8311; }
+.server-table-more__hint {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #839ada;
+  margin: 0;
+}
+
+/* Mobile: фильтр + таблица */
+@media (max-width: 767px) {
+  .filter-section { padding: 5rem 0 0; }
+  .section-ghost { font-size: 3.5rem; margin-bottom: -4rem; }
+  .section-title { font-size: 2.5rem; line-height: 3.6rem; }
+  .filter-bar { flex-wrap: wrap; gap: 0.8rem; }
+  .filter-field { flex: 1 1 calc(50% - 0.4rem); }
+  .filter-bar__btn { width: 100%; flex: 1 1 100%; }
+  .server-row__main { flex-wrap: wrap; gap: 1rem; }
+  .server-col--name    { flex: 0 0 100%; }
+  .server-col--product,
+  .server-col--ram     { flex: 0 0 calc(50% - 0.5rem); }
+  .server-col--disk    { flex: 0 0 100%; }
+  .server-col--price   { flex: 0 0 100%; align-items: flex-start; }
+  .server-row__actions { flex-wrap: wrap; gap: 1rem; }
+  .server-row__order-btn { margin-left: 0; width: 100%; justify-content: center; }
+}
+
+/* ══════════════════════════════════════════════════════
+   About Section — О нас и выделенных серверах
+   Figma: y=1856..2800, два блока 555×485 border:#215aee
+   Правый сдвинут вниз на 243px относительно левого
+   ══════════════════════════════════════════════════════ */
+.about-section {
+  padding: 9rem 0 9rem;
+}
+
+/* Два столбца */
+.about-cols {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.about-col {
+  flex: 0 0 calc(50% - 1rem);
+  min-width: 0;
+}
+
+/* Правый сдвинут вниз: Figma левый y=1998, правый y=2241 → разница 243px = 24.3rem */
+.about-col--right {
+  margin-top: 24.3rem;
+}
+
+/* Блок с рамкой: Figma border:#215aee, 555×485 */
+.about-block {
+  border: 1px solid #215aee;
+  padding: 1.4rem 1.5rem;
+  min-height: 48.5rem;
+}
+
+.about-block p {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-weight: 400;
+  color: #839ada;
+  margin-bottom: 1.4rem;
+}
+
+.about-block p:last-child {
+  margin-bottom: 0;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .about-section { padding: 5rem 0; }
+  .about-cols { flex-direction: column; gap: 0; }
+  .about-col--right { margin-top: 0; }
+  /* Figma mobile: два rect 330×330 в колонку */
+  .about-block { min-height: 33rem; padding: 2.4rem; }
+  /* Mobile ghost: 30px, title: 25px */
+  .about-section .section-ghost { font-size: 3rem; margin-bottom: -3.8rem; }
+  .about-section .section-title { font-size: 2.5rem; line-height: 2.8rem; }
+}
+/* "Подробнее" — только mobile, под вторым блоком */
+.about-more {
+  display: none;
+}
+@media (max-width: 767px) {
+  .about-more {
+    display: block;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .about-more__link {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+  }
+  .about-more__link:hover { color: #ff8311; }
+}
+
+/* ══════════════════════════════════════════════════════
+   Order Section — Как оформить заказ + Процесс заказа
+   Figma: y=2798..3860
+   ══════════════════════════════════════════════════════ */
+.order-section {
+  padding: 9rem 0;
+}
+
+/* Intro блок с текстом и кнопками */
+.order-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+  margin-bottom: 9rem;
+}
+.order-intro__text {
+  flex: 1;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #839ada;
+  margin: 0;
+  max-width: 50.7rem;
+}
+.order-intro__btns {
+  display: flex;
+  gap: 1.4rem;
+  flex-shrink: 0;
+  align-items: flex-start;
+}
+
+/* Отступ между двумя подсекциями */
+.order-steps-heading {
+  margin-top: 4rem;
+}
+
+/* 4 шага в строку */
+/* Figma: 4 шага от x=165..1275, каждый ~277px */
+.order-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin-top: 3rem;
+}
+
+.order-step {
+  padding-right: 2rem;
+  position: relative;
+}
+.order-step:last-child { padding-right: 0; }
+
+/* Название шага: Figma 25px/500/lh=36 */
+.order-step__title {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  line-height: 3.6rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+
+/* Стрелка/галочка */
+.order-step__arrow {
+  margin-bottom: 1.2rem;
+}
+.order-step__arrow .icons {
+  font-size: 2rem;
+  color: #fff;
+}
+.order-step__check {
+  color: #ff8311 !important;
+}
+
+/* Описание шага: Figma 14px/400/lh=17 #839ada */
+.order-step__desc {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #839ada;
+  margin: 0;
+  max-width: 22.5rem;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .order-section { padding: 5rem 0; }
+  .order-intro { flex-direction: column; gap: 2rem; margin-bottom: 5rem; }
+  .order-intro__btns { flex-direction: row; flex-wrap: nowrap; width: 100%; }
+  .order-intro__btns .btn { flex: 1; text-align: center; padding: 0 1rem; }
+  /* Figma mobile: 4 шага горизонтально 990px → скролл */
+  .order-steps {
+    grid-template-columns: repeat(4, 22.5rem);
+    overflow-x: auto;
+    gap: 0;
+    padding-bottom: 1rem;
+    /* hide scrollbar visually */
+    scrollbar-width: none;
+  }
+  .order-steps::-webkit-scrollbar { display: none; }
+  .order-step { padding-right: 2rem; }
+  /* Mobile title: 20px/500 */
+  .order-step__title { font-size: 2rem; line-height: 2.9rem; }
+  /* Mobile ghost/title */
+  .order-section .section-ghost { font-size: 3rem; margin-bottom: -3.8rem; }
+  .order-section .section-title { font-size: 2.5rem; line-height: 2.8rem; }
+}
+
+/* ══════════════════════════════════════════════════════
+   Clients Section — Наши клиенты используют для:
+   Figma: y=3915..4500, 4 карточки 277×250 border:#215aee
+   Активная: fill=#215aee (4-я)
+   ══════════════════════════════════════════════════════ */
+.clients-section {
+  padding: 9rem 0;
+}
+
+/* 4 карточки в строку */
+/* Figma: x=165,442,720,997 → шаг ~277px, контейнер 1110px */
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  margin-top: 3rem;
+}
+
+/* Карточка */
+.clients-card {
+  border: 1px solid #215aee;
+  padding: 1.8rem 1.8rem 2rem;
+  min-height: 25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Активная карточка */
+.clients-card--active {
+  background: #215aee;
+}
+.clients-card--active .clients-card__desc {
+  color: #fff;
+}
+
+/* Иконка: Figma Frame 36×36 fill=#fff */
+.clients-card__icon {
+  width: 3.6rem;
+  height: 3.6rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.4rem;
+  flex-shrink: 0;
+}
+.clients-card__icon .icons {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* Заголовок: Figma 19px/600/lh=27 */
+.clients-card__title {
+  font-size: 1.9rem;
+  line-height: 2.7rem;
+  font-weight: 600;
+  color: #839ada;
+  margin: 0 0 1rem;
+}
+.clients-card--active .clients-card__title {
+  color: #fff;
+}
+
+/* Описание: Figma 14px/400/lh=17 #839ada, ширина 241px */
+.clients-card__desc {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #839ada;
+  margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .clients-section { padding: 5rem 0; }
+  /* Figma mobile: 4 карточки горизонтально 1110px → скролл */
+  .clients-grid {
+    grid-template-columns: repeat(4, 27.7rem);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .clients-grid::-webkit-scrollbar { display: none; }
+  .clients-card { min-height: 25rem; }
+  .clients-section .section-ghost { font-size: 3rem; margin-bottom: -3.8rem; }
+  .clients-section .section-title { font-size: 2.5rem; line-height: 2.8rem; }
+}
+
+/* ══════════════════════════════════════════════════════
+   Features Section — 9 уникальных характеристик Дата-Хата
+   Figma: y=4970..6050, 9 карточек 3×3, 370×310 border:#215aee
+   Шаг: x=165,535,905 y=5112,5422,5732
+   ══════════════════════════════════════════════════════ */
+.features-section {
+  padding: 9rem 0;
+}
+
+/* 9 карточек 3×3 */
+/* Figma: 3 столбца x=165,535,905 → шаг 370px, контейнер 1110px */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin-top: 3rem;
+}
+
+/* Карточка: Figma 370×310 border:#215aee */
+.features-card {
+  border: 1px solid #215aee;
+  padding: 1.8rem 1.8rem 2rem;
+  min-height: 31rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Номер: Figma 40px/500/lh=58 #ff8311 */
+.features-card__num {
+  font-size: 4rem;
+  line-height: 5.8rem;
+  font-weight: 500;
+  color: #ff8311;
+  margin-bottom: 0.4rem;
+}
+
+/* Заголовок: Figma 19px/600/lh=27 */
+.features-card__title {
+  font-size: 1.9rem;
+  line-height: 2.7rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 1rem;
+}
+
+/* Описание: Figma 14px/400/lh=17 #839ada, 334×187 */
+.features-card__desc {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #839ada;
+  margin: 0;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .features-section { padding: 5rem 0; }
+  /* Figma mobile: 2 колонки, карточки 277×344 */
+  .features-grid { grid-template-columns: 1fr 1fr; }
+  /* Только 6 карточек видно (3 строки × 2), #7 #8 #9 скрыты */
+  .features-card { min-height: 34.4rem; }
+  /* Номер mobile: 40px/500 (так же как десктоп) */
+  .features-section .section-ghost { font-size: 3rem; margin-bottom: -3.8rem; }
+  .features-section .section-title { font-size: 2.5rem; line-height: 2.8rem; }
+}
+
+/* ══════════════════════════════════════════════════════
+   Rating Section — Наш сервис просто супер!
+   Figma: y=4419..4897, Rectangle 1440×479, gradient orange
+   Фоновое изображение xy=(648,4330) 756×665
+   ══════════════════════════════════════════════════════ */
+.rating-section {
+  position: relative;
+  background: linear-gradient(to right, #ff8311 0%, #ff5c00 100%);
+  min-height: 47.9rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+/* Фоновое изображение: Figma xy=(648,4330) 756×665 — выходит за верхний/нижний край секции */
+.rating-section__img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52.5vw; /* 756/1440 */
+  max-width: 75.6rem;
+  pointer-events: none;
+}
+.rating-section__img img { width: 100%; height: auto; display: block; }
+
+.rating-section__inner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+/* Контент — левая половина */
+.rating-section__content {
+  width: 48%;
+}
+
+/* Ghost у rating чуть другой opacity: Figma 0.15 */
+.rating-ghost {
+  opacity: 0.15 !important;
+  font-size: 5.5rem !important;
+  margin-bottom: -4.9rem !important;
+}
+
+/* Заголовок секции переопределение цвета не нужно — белый стандарт */
+
+/* Subtitle: Figma 20px/500 */
+.rating-section__subtitle {
+  font-size: 2rem;
+  line-height: 2.9rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 2rem 0 1.4rem;
+  display: block;
+}
+
+/* Оценка: 4.7 из 5 */
+.rating-section__score {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Числа: Figma 65px/600 */
+.rating-section__num {
+  font-size: 6.5rem;
+  line-height: 9.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+/* 4.7 — оранжевый по Figma: #ff8311 */
+.rating-section__num--accent {
+  color: #ff8311;
+}
+
+/* "из" — Figma 25px/500 */
+.rating-section__of {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #fff;
+  line-height: 3.6rem;
+}
+
+/* Логотипы рейтингов */
+.rating-section__logos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.rating-section__logos img { display: block; }
+
+/* Mobile */
+@media (max-width: 767px) {
+  .rating-section { min-height: 0; padding: 4rem 0; }
+  .rating-section__img { display: none; }
+  .rating-section__content { width: 100%; }
+  /* Figma mobile ghost: 30px/w700/lh=43 opacity=0.08 (не 0.15) */
+  .rating-ghost { font-size: 3rem !important; margin-bottom: -3.8rem !important; opacity: 0.08 !important; }
+  .rating-section .section-title { font-size: 2.5rem; line-height: 2.8rem; }
+  /* Figma mobile: 4.7 = 45px/600, "из" = 20px/500, "5" = 45px */
+  .rating-section__num { font-size: 4.5rem; line-height: 6.5rem; }
+  .rating-section__of { font-size: 2rem; }
 }
