@@ -6,7 +6,7 @@
 
   --spacing: 0.1rem;
 
-  --color-bg: #010437;
+  --color-bg: #0041be;
   --color-primary: #215aee;
   --color-primary-dark: #0041be;
   --color-primary-hover: #215aee;
@@ -84,10 +84,12 @@
 
   body {
     font-family: var(--font-sans);
-    background-color: #010437;
+    background: linear-gradient(180deg, #0041be 0%, #020983 100%) fixed;
+    background-color: #020983;
     color: #ffffff;
     font-size: 1.6rem;
     line-height: 2.3rem;
+    min-height: 100vh;
   }
 
   *, *::before, *::after {

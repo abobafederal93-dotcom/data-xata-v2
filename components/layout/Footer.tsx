@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-bg">
+    <footer className="bg-primary">
       {/* Top action buttons row */}
       <div className="pt-40">
         <Container>
