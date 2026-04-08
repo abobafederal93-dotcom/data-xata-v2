@@ -1,25 +1,24 @@
-import { cn } from '../../lib/cn';
-
-const variantClasses = {
-  green: 'bg-green',
-  secondary: 'bg-secondary',
-  red: 'bg-red',
-  primary: 'bg-primary',
-};
+import { cn } from '@/lib/cn';
 
 interface BadgeProps {
-  variant?: keyof typeof variantClasses;
   children: React.ReactNode;
+  tone?: 'default' | 'green' | 'red';
   className?: string;
 }
 
-export default function Badge({ variant = 'green', children, className }: BadgeProps) {
+const toneClasses = {
+  default: 'bg-white/10 text-white',
+  green: 'bg-green/10 text-green',
+  red: 'bg-red/10 text-red',
+};
+
+export default function Badge({ children, tone = 'default', className }: BadgeProps) {
   return (
     <span
       className={cn(
-        'inline-flex items-center h-21 px-6 py-2 text-12 leading-17 text-white font-normal rounded-sm',
-        variantClasses[variant],
-        className
+        'inline-flex items-center text-12 leading-17 font-normal px-6 py-2 rounded-sm',
+        toneClasses[tone],
+        className,
       )}
     >
       {children}

@@ -1,37 +1,29 @@
-import { cn } from '../../lib/cn';
-
-interface Spec {
+interface SpecRow {
   label: string;
   value: string;
-  highlight?: boolean;
 }
 
 interface SpecBlockProps {
-  title: string;
-  specs: Spec[];
+  title?: string;
+  rows: SpecRow[];
 }
 
-export default function SpecBlock({ title, specs }: SpecBlockProps) {
+export default function SpecBlock({ title, rows }: SpecBlockProps) {
   return (
-    <div className="mb-40">
-      <h3 className="text-20 leading-29 font-medium text-white mb-15">{title}</h3>
-      <div className="grid grid-cols-2 tablet:grid-cols-3 desktop:grid-cols-6 gap-0">
-        {specs.map((s, i) => (
+    <div className="flex flex-col gap-0">
+      {title && (
+        <h3 className="text-20 leading-29 font-medium text-white mb-12">{title}</h3>
+      )}
+      <div className="flex flex-col">
+        {rows.map((row) => (
           <div
-            key={i}
-            className="border border-white/10 p-15 flex flex-col gap-4 h-86"
+            key={row.label}
+            className="flex items-center justify-between py-10 border-b border-white/10 last:border-b-0"
           >
-            <span className="text-12 leading-17 font-medium text-secondary uppercase tracking-wide">
-              {s.label}
+            <span className="text-12 font-medium text-secondary tracking-[0.024em] leading-17 uppercase">
+              {row.label}
             </span>
-            <span
-              className={cn(
-                'text-14 leading-20',
-                s.highlight ? 'text-accent' : 'text-white'
-              )}
-            >
-              {s.value}
-            </span>
+            <span className="text-14 leading-20 font-medium text-white">{row.value}</span>
           </div>
         ))}
       </div>

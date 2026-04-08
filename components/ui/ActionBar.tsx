@@ -1,20 +1,19 @@
-import { cn } from '../../lib/cn';
+import { cn } from '@/lib/cn';
 
 interface ActionBarProps {
-  text?: string;
-  children?: React.ReactNode;
+  text: string;
   className?: string;
 }
 
-export default function ActionBar({ text, children, className }: ActionBarProps) {
+export default function ActionBar({ text, className }: ActionBarProps) {
   return (
     <div
       className={cn(
-        'h-40 flex items-center justify-center bg-gradient-to-r from-accent to-accent-dark px-15',
-        className
+        'bg-accent text-white text-14 leading-20 font-medium text-center py-10 px-20',
+        className,
       )}
     >
-      <p className="text-14 leading-20 font-medium text-white text-center">{children ?? text}</p>
+      {text}
     </div>
   );
 }

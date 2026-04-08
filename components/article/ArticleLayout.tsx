@@ -1,11 +1,15 @@
+import { cn } from '@/lib/cn';
+
 interface ArticleLayoutProps {
-  children: React.ReactNode;
+  sidebar: React.ReactNode;
+  content: React.ReactNode;
 }
 
-export default function ArticleLayout({ children }: ArticleLayoutProps) {
+export default function ArticleLayout({ sidebar, content }: ArticleLayoutProps) {
   return (
-    <div className="flex flex-col desktop:grid desktop:grid-cols-[25.5rem_82.5rem] desktop:gap-30 desktop:items-start mt-40">
-      {children}
+    <div className={cn('flex flex-col desktop:flex-row gap-30 items-start')}>
+      {sidebar}
+      {content}
     </div>
   );
 }

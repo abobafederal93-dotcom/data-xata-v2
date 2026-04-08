@@ -1,183 +1,123 @@
-import Container from '../../../components/ui/Container';
-import PromoBanner from '../../../components/ui/PromoBanner';
-import SectionHeading from '../../../components/ui/SectionHeading';
-import ServerHero from '../../../components/server/ServerHero';
-import PricingCards from '../../../components/server/PricingCards';
-import SpecBlock from '../../../components/server/SpecBlock';
-import OrderSidebar from '../../../components/server/OrderSidebar';
-import IncludesSection from '../../../components/server/IncludesSection';
-import { servers } from '../../../data/servers';
+import Container from '@/components/ui/Container';
+import ServerHero from '@/components/server/ServerHero';
+import SpecBlock from '@/components/server/SpecBlock';
+import PricingCards from '@/components/server/PricingCards';
+import IncludesSection from '@/components/server/IncludesSection';
+import OrderSidebar from '@/components/server/OrderSidebar';
+import { servers } from '@/data/servers';
+import { serverSpecs, pricingPlans, networkPlans } from '@/data/server-details';
 
-export default function ServerDetailPage() {
-  const server = servers[0]!;
+interface PageProps {
+  params: Promise<{ id: string }>;
+}
 
-  const pricingPeriods = [
-    { label: '1 месяц', price: '€46.75', isActive: true },
-    { label: '3 месяца', discount: '-2.5%', price: '€136.75' },
-    { label: '6 месяцев', discount: '-5%', price: '€266.50' },
-    { label: '12 месяцев', discount: '-10%', price: '€504.90' },
-  ];
+export default async function ServerPage({ params }: PageProps) {
+  const { id } = await params;
+  const server = servers.find((s) => s.id === id) ?? servers[0];
 
-  const cpuSpecs = [
-    { label: 'количество cpu', value: '2' },
-    { label: 'название cpu', value: 'Intel Hexa-Core Xeon E5-2620V2', highlight: true },
-    { label: 'частота', value: '2.1 Ghz' },
-    { label: 'количество ядер', value: '2х 6 cores' },
-    { label: 'cpu benchmark', value: '-' },
-    { label: 'фишки', value: '-' },
-  ];
-
-  const memSpecs = [
-    { label: 'память', value: '32GB DDR3 ECC', highlight: true },
-    { label: 'жесткие диски', value: '1х 480GB SSD', highlight: true },
-  ];
-
-  const networkSpecs = [
-    { label: 'порт', value: '1x 1000Mbps Full-Duplex', highlight: true },
-    { label: 'ip v4', value: '6 шт' },
-    { label: 'ip v6', value: '/64 бесплатно' },
-    { label: 'трафик', value: '30 TB', highlight: true },
-    { label: 'защита от Ddos', value: 'Базовая' },
-    { label: 'firewall', value: 'Бесплатно' },
-  ];
-
-  const ferment =
-    'Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество предложений физических выделенных серверов в Америке и Европе.';
-
-  const includesItems = [
-    { icon: 'server', title: 'Реальное железо', description: ferment },
-    { icon: 'admin', title: 'Удаленное управление', description: ferment },
-    { icon: 'cloud', title: 'DDoS защита', description: ferment },
-    { icon: 'present', title: 'Многовенная доставка', description: ferment },
-    { icon: 'phone', title: 'Поддержка 24/7', description: ferment },
-    { icon: 'traffic', title: 'Бесплатный трафик', description: ferment },
-  ];
-
-  const zoneRows = ['Корпус сервера', 'Подключение к интернету', 'Аппаратные средства'];
-  const clientRows = [
-    'Операционная система',
-    'Программная платформа',
-    'Управление сервером',
-    'Установка приложений',
-    'Управление приложениями',
-  ];
-
-  const osList: { name: string; src: string }[] = [
-    { name: 'Windows', src: '/img/icons/Windows.svg' },
-    { name: 'Ubuntu', src: '/img/figma/os-ubuntu.svg' },
-    { name: 'CentOs', src: '/img/icons/CentOs.svg' },
-    { name: 'Debian', src: '/img/figma/os-debian.svg' },
-    { name: 'CloudLinux', src: '/img/figma/os-cloudlinux.svg' },
-    { name: 'VMware', src: '/img/figma/os-vmware.svg' },
-  ];
-  const panelsList: { name: string; src: string }[] = [
-    { name: 'DirectAdmin', src: '/img/figma/panel-directadmin.svg' },
-    { name: 'cPanel', src: '/img/figma/panel-cpanel.svg' },
-    { name: 'R1Soft', src: '/img/icons/R1Soft.svg' },
-  ];
-
-  const faq = [
-    {
-      q: 'Каковы требования ?',
-      a: 'Это неуправляемое предложение. Так что вам нужно знать, как использовать сервер.',
-    },
-    {
-      q: 'Как я могу оформить возврат ?',
-      a: 'Вы можете запросить возврат средств, если услуга не предоставлена. Возврат средств после активации не производится.',
-    },
-  ];
+  const basicSpecs = serverSpecs.slice(0, 8);
+  const cpuSpecs = serverSpecs.slice(8, 14);
+  const networkSpecs = serverSpecs.slice(14, 21);
 
   return (
-    <main>
-      <Container>
-        <div className="flex flex-col desktop:flex-row gap-30 pt-40">
-          <div className="flex-1 flex flex-col gap-60">
-            <ServerHero server={server} />
-            <PricingCards periods={pricingPeriods} />
-            <SpecBlock title="Процессор" specs={cpuSpecs} />
-            <SpecBlock title="Память и жесткие диски" specs={memSpecs} />
-            <SpecBlock title="Подключение" specs={networkSpecs} />
+    <div className="min-h-screen">
+      {/* Hero breadcrumb */}
+      <div className="bg-primary py-30 desktop:py-40">
+        <Container>
+          <nav className="flex items-center gap-8 mb-20" aria-label="Breadcrumb">
+            <a href="/" className="text-secondary hover:text-white transition-colors">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M3 12L12 3L21 12V21H15V15H9V21H3V12Z" stroke="currentColor" strokeWidth="1.2" strokeLinejoin="round" />
+              </svg>
+            </a>
+            <span className="w-18 h-1 bg-secondary" />
+            <span className="text-14 leading-20 font-normal text-secondary">Сервер</span>
+            <span className="w-18 h-1 bg-secondary" />
+            <span className="text-14 leading-20 font-normal text-secondary">Описание сервера</span>
+          </nav>
+          <ServerHero server={server} />
+        </Container>
+      </div>
 
-            <IncludesSection items={includesItems} />
+      <Container className="py-40">
+        <div className="flex flex-col desktop:flex-row gap-30 items-start">
+          {/* Main content */}
+          <div className="flex-1 min-w-0 flex flex-col gap-40">
+            {/* Specs */}
+            <section className="flex flex-col gap-30">
+              <h2 className="text-40 leading-58 font-medium text-white">Цены и сроки</h2>
+              <div className="grid grid-cols-1 tablet:grid-cols-2 gap-30">
+                <SpecBlock title="Основные" rows={basicSpecs} />
+                <SpecBlock title="Процессор" rows={cpuSpecs} />
+                <SpecBlock title="Сеть" rows={networkSpecs} />
+              </div>
+            </section>
 
-            <div>
-              <SectionHeading ghost="Обязанности" title="Обязанности делятся следующим образом:" />
-              <div className="grid grid-cols-1 tablet:grid-cols-2 gap-30 mt-30">
-                <div className="bg-gradient-to-b from-cyan to-[#0085ff] p-30 flex flex-col gap-15">
-                  <h4 className="text-20 leading-29 font-medium text-white">Зона</h4>
-                  {zoneRows.map((row) => (
-                    <div key={row} className="text-14 leading-20 text-white">
-                      {row}
+            {/* Traffic plans */}
+            <section className="flex flex-col gap-16">
+              <h2 className="text-20 leading-29 font-medium text-white">Трафик</h2>
+              <PricingCards plans={pricingPlans} />
+            </section>
+
+            {/* Network plans */}
+            <section className="flex flex-col gap-16">
+              <h2 className="text-20 leading-29 font-medium text-white">Сеть</h2>
+              <PricingCards plans={networkPlans} />
+            </section>
+
+            {/* Includes */}
+            <IncludesSection />
+
+            {/* OS */}
+            <section className="flex flex-col gap-20">
+              <h2 className="text-40 leading-58 font-medium text-white">Операционные системы</h2>
+              <div className="grid grid-cols-2 tablet:grid-cols-3 desktop:grid-cols-6 gap-20">
+                {[
+                  { name: 'Windows', src: '/img/figma/os-windows.svg' },
+                  { name: 'CentOs', src: '/img/figma/os-centos.svg' },
+                  { name: 'Debian', src: '/img/figma/os-debian.svg' },
+                  { name: 'VMware', src: '/img/figma/os-vmware.svg' },
+                  { name: 'CloudLinux', src: '/img/figma/os-cloudlinux.svg' },
+                  { name: 'Ubuntu', src: '/img/figma/os-ubuntu.svg' },
+                ].map((os) => (
+                  <div key={os.name} className="flex flex-col items-center gap-12 p-20 border border-white/10 rounded-sm hover:border-white/30 transition-colors">
+                    <img src={os.src} alt={os.name} width={73} height={73} className="object-contain" />
+                    <span className="text-20 leading-29 font-medium text-white">{os.name}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            {/* FAQ */}
+            <section className="flex flex-col gap-16">
+              <h2 className="text-40 leading-58 font-medium text-white">FAQ</h2>
+              <div className="flex flex-col gap-4">
+                {[
+                  { q: 'Каковы требования ?', a: 'Это неуправляемое предложение. Так что вам нужно знать, как использовать сервер.' },
+                  { q: 'Как я могу оформить возврат ?', a: 'Вы можете запросить возврат средств, если услуга не предоставлена. Возврат средств не распространяется на уже использованные ресурсы.' },
+                ].map((item) => (
+                  <details key={item.q} className="group border-b border-white/10">
+                    <summary className="flex items-center justify-between py-16 cursor-pointer list-none select-none">
+                      <span className="text-20 leading-29 font-medium text-white">{item.q}</span>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-secondary transition-transform group-open:rotate-180 flex-shrink-0">
+                        <path d="M6 9L12 15L18 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      </svg>
+                    </summary>
+                    <div className="pb-16">
+                      <p className="text-14 leading-17 font-normal text-secondary">{item.a}</p>
                     </div>
-                  ))}
-                </div>
-                <div className="bg-gradient-to-b from-accent to-accent-dark p-30 flex flex-col gap-15">
-                  <h4 className="text-20 leading-29 font-medium text-white">Клиент</h4>
-                  {clientRows.map((row) => (
-                    <div key={row} className="text-14 leading-20 text-white">
-                      {row}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <SectionHeading ghost="ОС" title="Операционные системы" />
-              <div className="grid grid-cols-2 tablet:grid-cols-3 desktop:grid-cols-6 gap-30 mt-30">
-                {osList.map((os) => (
-                  <div
-                    key={os.name}
-                    className="flex flex-col items-center gap-12"
-                  >
-                    <img src={os.src} alt={os.name} className="h-[7.3rem] w-auto mb-10" />
-                    <span className="text-20 leading-29 font-medium text-white text-center">
-                      {os.name}
-                    </span>
-                  </div>
+                  </details>
                 ))}
               </div>
-            </div>
-
-            <div>
-              <SectionHeading ghost="Управления" title="Панели управления" />
-              <div className="grid grid-cols-2 tablet:grid-cols-3 gap-30 mt-30">
-                {panelsList.map((p) => (
-                  <div
-                    key={p.name}
-                    className="flex flex-col items-center gap-12"
-                  >
-                    <img src={p.src} alt={p.name} className="h-40 w-auto" />
-                    <span className="text-20 leading-29 font-medium text-white text-center">
-                      {p.name}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <SectionHeading ghost="Помощь" title="FAQ" />
-              <div className="grid grid-cols-1 tablet:grid-cols-2 gap-30 mt-30">
-                {faq.map((item, i) => (
-                  <div key={i} className="flex flex-col gap-15">
-                    <h4 className="text-20 leading-29 font-medium text-white">{item.q}</h4>
-                    <p className="text-14 leading-17 font-normal text-secondary">{item.a}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+            </section>
           </div>
 
-          <div className="w-full desktop:w-[35rem] shrink-0">
+          {/* Sidebar */}
+          <div className="w-full desktop:w-[35rem] flex-shrink-0">
             <OrderSidebar server={server} />
           </div>
         </div>
       </Container>
-
-      <Container className="py-60">
-        <PromoBanner />
-      </Container>
-    </main>
+    </div>
   );
 }

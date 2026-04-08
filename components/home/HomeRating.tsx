@@ -1,47 +1,32 @@
-import Container from '../ui/Container';
-import SectionHeading from '../ui/SectionHeading';
+import Container from '@/components/ui/Container';
+import Icon from '@/components/ui/Icon';
 
 export default function HomeRating() {
   return (
-    <section className="py-60">
+    <section className="py-80">
       <Container>
-        <div className="grid desktop:grid-cols-[1fr_auto] items-center gap-30">
-          <div>
-            <SectionHeading ghost="Клиенты считают, что" title="Наш сервис просто супер!" />
-            <div className="mt-30 flex items-baseline gap-12 mb-30">
-              <span className="text-45 leading-65 desktop:text-65 desktop:leading-94 font-semibold text-accent w-[10.2rem] h-[9.4rem] inline-block">
-                4.7
-              </span>
-              <span className="text-25 leading-36 font-medium text-white">из</span>
-              <span className="text-45 leading-65 desktop:text-65 desktop:leading-94 font-semibold text-white">
-                5
-              </span>
+        <div className="flex flex-col desktop:flex-row items-center gap-60">
+          {/* Rating number + stars */}
+          <div className="flex flex-col items-center desktop:items-start gap-20">
+            <span className="text-65 leading-65 font-bold text-white">
+              4.9
+            </span>
+            <div className="flex items-center gap-5">
+              {[1, 2, 3, 4, 5].map((star) => (
+                <Icon key={star} name="star" className="text-24 text-accent" />
+              ))}
             </div>
-            <div className="flex items-center gap-30">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/rating-host1.png"
-                alt="Rating provider 1"
-                width={136}
-                height={20}
-              />
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/img/rating-top300.png"
-                alt="Rating provider 2"
-                width={100}
-                height={20}
-              />
-            </div>
+            <p className="text-16 leading-23 font-normal text-secondary text-center desktop:text-left">
+              Средняя оценка клиентов
+            </p>
           </div>
-          <div className="hidden desktop:block w-[42rem]">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
+
+          {/* Rating logos */}
+          <div className="flex-1 flex justify-center desktop:justify-end">
             <img
-              src="/img/rating-section-image.png"
-              alt=""
-              width={420}
-              height={332}
-              className="w-full h-auto"
+              src="/img/figma/rating-logos-group.svg"
+              alt="Рейтинговые агентства"
+              className="h-[8rem] w-auto"
             />
           </div>
         </div>

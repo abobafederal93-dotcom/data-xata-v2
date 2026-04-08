@@ -1,37 +1,43 @@
-import { cn } from '../../lib/cn';
+import { cn } from '@/lib/cn';
 
-interface PricingPeriod {
+interface Plan {
+  id: string;
   label: string;
-  discount?: string;
-  price: string;
-  isActive?: boolean;
+  active: boolean;
+  extra?: string | null;
 }
 
-interface PricingCardsProps {
-  periods: PricingPeriod[];
+interface PlanCardProps {
+  plans: Plan[];
+  title?: string;
 }
 
-export default function PricingCards({ periods }: PricingCardsProps) {
+export default function PricingCards({ plans, title }: PlanCardProps) {
   return (
-    <div className="mb-40">
-      <h3 className="text-20 leading-29 font-medium text-white mb-20">Цены и сроки</h3>
-      <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-4 gap-20">
-        {periods.map((p, i) => (
-          <div
-            key={i}
+    <div className="flex flex-col gap-12">
+      {title && (
+        <h4 className="text-20 leading-29 font-medium text-white">{title}</h4>
+      )}
+      <div className="flex flex-wrap gap-12">
+        {plans.map((plan) => (
+          <button
+            key={plan.id}
+            type="button"
             className={cn(
-              'border p-20 flex flex-col gap-8 cursor-pointer transition-colors',
-              p.isActive
-                ? 'border-[#ff8311] bg-[#215aee]/30'
-                : 'border-white/20 hover:border-[#215aee]'
+              'flex flex-col items-center justify-center gap-4 px-20 py-16 rounded-sm border transition-colors',
+              'text-14 leading-20 font-medium',
+              plan.active
+                ? 'bg-primary border-primary text-white'
+                : 'bg-transparent border-white/20 text-white hover:border-white/40',
             )}
           >
-            <span className="text-16 leading-23 font-medium text-white">{p.label}</span>
-            {p.discount && (
-              <span className="text-12 leading-17 text-[#27e35c]">{p.discount}</span>
+            <span>{plan.label}</span>
+            {plan.extra && (
+              <span className={cn('text-12 leading-17 font-normal', plan.active ? 'text-white/70' : 'text-secondary')}>
+                {plan.extra}
+              </span>
             )}
-            <span className="text-20 leading-29 font-semibold text-white">{p.price}</span>
-          </div>
+          </button>
         ))}
       </div>
     </div>

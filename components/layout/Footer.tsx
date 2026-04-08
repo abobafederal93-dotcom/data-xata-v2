@@ -1,136 +1,176 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import Container from '../ui/Container';
+import Container from '@/components/ui/Container';
 import {
-  footerColumns,
-  footerNavLinks,
+  footerLegal,
   socials,
-  paymentMethods,
-} from '../../data/navigation';
+  footerColumns,
+  contacts,
+  phone,
+} from '@/data/navigation';
 
 export default function Footer() {
   return (
-    <footer className="bg-primary">
-      {/* Top action buttons row */}
-      <div className="pt-40">
-        <Container>
-          <div className="grid grid-cols-1 tablet:grid-cols-2 gap-20">
-            <a
-              href="/complaint"
-              className="flex items-center justify-center gap-12 h-56 border border-white/20 text-16 leading-23 font-semibold text-white hover:border-accent hover:text-accent transition-colors"
-            >
-              <i className="icons i-mess text-20" aria-hidden="true" />
-              Пожаловаться директору!
-            </a>
-            <a
-              href="/affiliate"
-              className="flex items-center justify-center gap-12 h-56 border border-white/20 text-16 leading-23 font-semibold text-white hover:border-accent hover:text-accent transition-colors"
-            >
-              <i className="icons i-bonus text-20" aria-hidden="true" />
-              Заработайте на нас!
-            </a>
-          </div>
-        </Container>
-      </div>
-
-      {/* Main footer content */}
-      <div className="pt-40 pb-60">
-        <Container>
-          <div className="grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-5 gap-40">
-            {footerColumns.map((col) => (
-              <div key={col.title}>
-                <p className="text-12 leading-17 font-medium uppercase text-white/40 mb-20">
-                  {col.title}
-                </p>
-                <ul>
-                  {col.links.map((l) => (
-                    <li key={l.href + l.label} className="mb-10 last:mb-0">
-                      <Link
-                        href={l.href}
-                        className="text-14 leading-20 text-white hover:text-accent transition-colors"
-                      >
-                        {l.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-
-                {col.title === 'Служба поддержки' && (
-                  <>
-                    <p className="text-12 leading-17 font-medium uppercase text-white/40 mt-30 mb-20">
-                      Мы в социальных сетях
-                    </p>
-                    <ul className="flex items-center gap-20">
-                      {socials.map((s) => (
-                        <li key={s.name}>
-                          <a
-                            href={s.href}
-                            target="_blank"
-                            rel="nofollow noopener"
-                            aria-label={s.name}
-                            className="text-white hover:text-accent inline-flex items-center justify-center w-24 h-24"
-                          >
-                            {s.svgSrc ? (
-                              // eslint-disable-next-line @next/next/no-img-element
-                              <img src={s.svgSrc} width={24} height={24} alt={s.name} />
-                            ) : (
-                              <i className={`icons i-${s.icon} text-24`} aria-hidden="true" />
-                            )}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </>
-                )}
-              </div>
-            ))}
-          </div>
-        </Container>
-      </div>
-
-      {/* Footer bottom */}
-      <div className="border-t border-white/10 py-20">
-        <Container>
-          <div className="flex flex-wrap items-center gap-20 justify-between">
-            <Link href="/" className="shrink-0">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/img/figma/logo.svg" width={118} height={26} alt="Дата-Хата" />
-            </Link>
-
-            <div className="flex flex-wrap items-center gap-15">
-              <Link
-                href="/payment"
-                className="text-12 text-white hover:text-accent"
-              >
-                Посмотреть все способы оплаты
-              </Link>
-              {paymentMethods.map((p) => (
-                <a key={p.name} href="/payment" aria-label={p.name}>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={p.icon} height={20} alt={p.name} className="h-20 w-auto" />
-                </a>
-              ))}
-              <span className="text-11 leading-12 font-medium text-white/40">
-                Безналичный<br />расчёт
-              </span>
-            </div>
-
-            <nav>
-              <ul className="flex flex-wrap items-center gap-20">
-                {footerNavLinks.map((l) => (
-                  <li key={l.href}>
+    <footer className="bg-primary py-40">
+      <Container>
+        {/* Nav columns */}
+        <div className="flex flex-col tablet:flex-row gap-30 tablet:gap-40 mb-40">
+          {footerColumns.map((col) => (
+            <div key={col.title} className="flex-1">
+              <p className="text-14 leading-20 font-medium text-white mb-15">{col.title}</p>
+              <ul className="flex flex-col gap-10">
+                {col.links.map((link) => (
+                  <li key={link.label}>
                     <Link
-                      href={l.href}
-                      className="text-12 text-white/60 hover:text-accent"
+                      href={link.href}
+                      className="text-14 leading-20 font-normal text-secondary hover:text-white transition-colors"
                     >
-                      {l.label}
+                      {link.label}
                     </Link>
                   </li>
                 ))}
               </ul>
-            </nav>
+            </div>
+          ))}
+
+          {/* Contacts column */}
+          <div className="flex-1">
+            <p className="text-14 leading-20 font-medium text-white mb-15">Контакты</p>
+            <ul className="flex flex-col gap-10">
+              {contacts.map((contact) => (
+                <li key={contact.value}>
+                  <Link
+                    href={contact.href}
+                    className="flex items-center gap-8 text-14 leading-20 font-medium text-white hover:text-white/80 transition-colors"
+                  >
+                    <span className={`icons i-${contact.type} text-16`} />
+                    {contact.value}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link
+                  href={`tel:${phone.replace(/\s/g, '')}`}
+                  className="flex items-center gap-8 text-14 leading-20 font-medium text-accent hover:text-accent/80 transition-colors"
+                >
+                  <span className="icons i-phone text-16" />
+                  {phone}
+                </Link>
+              </li>
+            </ul>
           </div>
-        </Container>
-      </div>
+        </div>
+
+        {/* Divider */}
+        <div className="border-t border-white/10 mb-30" />
+
+        {/* Legal links */}
+        <div className="flex flex-wrap gap-x-64 gap-y-10 mb-20">
+          {footerLegal.map((item) => (
+            <Link
+              key={item.label}
+              href={item.href}
+              className="text-14 leading-20 font-normal text-white hover:text-white/80 transition-colors"
+            >
+              {item.label}
+            </Link>
+          ))}
+        </div>
+
+        {/* Social icons + Payment logos row */}
+        <div className="flex items-center justify-between flex-wrap gap-15">
+          {/* Social icons */}
+          <div className="flex items-center gap-10">
+            {socials.map((social) => {
+              if (social.icon === 'vk') {
+                return (
+                  <Link
+                    key={social.icon}
+                    href={social.href}
+                    aria-label={social.label}
+                    className="flex items-center justify-center w-24 h-24 rounded-full"
+                    style={{ backgroundColor: social.color }}
+                  >
+                    <span className="icons i-vk text-12 text-white" />
+                  </Link>
+                );
+              }
+              if (social.icon === 'tw') {
+                return (
+                  <Link
+                    key={social.icon}
+                    href={social.href}
+                    aria-label={social.label}
+                    className="flex items-center justify-center w-24 h-24 rounded-full"
+                    style={{ backgroundColor: social.color }}
+                  >
+                    <Image
+                      src="/img/figma/icon-twitter-24.svg"
+                      alt={social.label}
+                      width={24}
+                      height={24}
+                    />
+                  </Link>
+                );
+              }
+              if (social.icon === 'slack') {
+                return (
+                  <Link
+                    key={social.icon}
+                    href={social.href}
+                    aria-label={social.label}
+                    className="flex items-center justify-center w-24 h-24 rounded-full"
+                    style={{ backgroundColor: social.color }}
+                  >
+                    <Image
+                      src="/img/figma/icon-slack-24.svg"
+                      alt={social.label}
+                      width={24}
+                      height={24}
+                    />
+                  </Link>
+                );
+              }
+              if (social.icon === 'fb') {
+                return (
+                  <Link
+                    key={social.icon}
+                    href={social.href}
+                    aria-label={social.label}
+                    className="flex items-center justify-center w-24 h-24 rounded-full"
+                    style={{ backgroundColor: social.color }}
+                  >
+                    <Image
+                      src="/img/figma/icon-facebook-24.svg"
+                      alt={social.label}
+                      width={24}
+                      height={24}
+                    />
+                  </Link>
+                );
+              }
+              return null;
+            })}
+          </div>
+
+          {/* Payment logos */}
+          <div className="flex items-center gap-15">
+            <Image
+              src="/img/figma/logo-mastercard-sm.svg"
+              alt="Mastercard"
+              width={40}
+              height={25}
+              className="opacity-40"
+            />
+            <Image
+              src="/img/figma/logo-qiwi.svg"
+              alt="QIWI"
+              width={40}
+              height={25}
+            />
+          </div>
+        </div>
+      </Container>
     </footer>
   );
 }

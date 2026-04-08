@@ -1,40 +1,33 @@
-import Container from '../ui/Container';
-import SectionHeading from '../ui/SectionHeading';
-import Icon from '../ui/Icon';
-import type { IconName } from '../../types';
-
-interface Feature {
-  id: string;
-  title: string;
-  icon: string;
-  description: string;
-}
+import Container from '@/components/ui/Container';
+import SectionHeading from '@/components/ui/SectionHeading';
+import Icon from '@/components/ui/Icon';
+import type { Feature } from '@/data/features';
 
 interface OurFeaturesProps {
-  features: readonly Feature[];
-}
-
-function stripIconPrefix(icon: string): IconName {
-  return (icon.startsWith('i-') ? icon.slice(2) : icon) as IconName;
+  features: Feature[];
 }
 
 export default function OurFeatures({ features }: OurFeaturesProps) {
   return (
-    <section className="py-60">
+    <section className="py-80">
       <Container>
-        <SectionHeading ghost="Иновация" title="9 уникальных характеристик Дата-Хата" />
-        <div className="mt-30 grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-30">
-          {features.map((f, idx) => (
-            <div
-              key={f.id}
-              className="border border-white/10 p-24 flex flex-col gap-12"
-            >
-              <span className="text-40 leading-58 font-semibold text-accent">
-                #{idx + 1}
-              </span>
-              <Icon name={stripIconPrefix(f.icon)} className="text-30 text-white" />
-              <h3 className="text-19 leading-27 font-semibold text-white">{f.title}</h3>
-              <p className="text-14 leading-17 text-[#839ada]">{f.description}</p>
+        <SectionHeading
+          ghost="Преимущества"
+          title="Наши"
+          subtitle="преимущества"
+        />
+
+        {/* 3×3 grid */}
+        <div className="mt-60 grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-3 gap-30">
+          {features.map((feature) => (
+            <div key={feature.icon} className="flex flex-col gap-15">
+              <Icon name={feature.icon} className="text-24 text-cyan" />
+              <h3 className="text-16 leading-23 font-medium text-white">
+                {feature.title}
+              </h3>
+              <p className="text-14 leading-20 font-normal text-secondary">
+                {feature.text}
+              </p>
             </div>
           ))}
         </div>

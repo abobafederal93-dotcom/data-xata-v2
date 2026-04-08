@@ -1,57 +1,44 @@
-import Container from '../ui/Container';
-import SectionHeading from '../ui/SectionHeading';
-import Button from '../ui/Button';
-
-interface OrderStep {
-  id: number;
-  title: string;
-  description: string;
-}
+import Container from '@/components/ui/Container';
+import SectionHeading from '@/components/ui/SectionHeading';
+import Icon from '@/components/ui/Icon';
+import type { ProcessStep } from '@/data/process';
 
 interface OrderProcessProps {
-  steps?: readonly OrderStep[];
+  steps: ProcessStep[];
 }
 
-// Figma steps: y=3604/3635, fs=25 lh=36
-const figmaSteps: { line1: string; line2: string }[] = [
-  { line1: 'Приходи', line2: 'и выбирай' },
-  { line1: 'Добавляй', line2: 'в корзину' },
-  { line1: 'Оплачивай', line2: 'счёт' },
-  { line1: 'Пользуйся', line2: 'сервисом' },
-];
-
-export default function OrderProcess(_props: OrderProcessProps) {
+export default function OrderProcess({ steps }: OrderProcessProps) {
   return (
-    <section className="py-60">
+    <section className="py-80">
       <Container>
-        {/* Top: Ghost + Title + Buttons */}
-        <SectionHeading ghost="Как оформить заказ?" title="Начитались? Айда выбирать!" />
-        <div className="mt-30 flex flex-col tablet:flex-row flex-wrap gap-20">
-          <Button href="/search" variant="secondary" className="h-43 desktop:w-[13.5rem]">
-            Искать сейчас
-          </Button>
-          <Button href="#chat" variant="accent" className="h-48 desktop:w-[15.5rem]">
-            Спросить в чате
-          </Button>
-          <Button href="#callback" variant="white" className="h-48 desktop:w-[15.5rem]">
-            Перезвоните мне
-          </Button>
-          <Button href="/contacts" variant="secondary" className="h-43 desktop:w-[13.5rem]">
-            Контакты
-          </Button>
-        </div>
+        <SectionHeading
+          ghost="Процесс"
+          title="Как это"
+          subtitle="работает?"
+        />
 
-        {/* Bottom: Process steps */}
-        <div className="mt-80">
-          <SectionHeading ghost="Процесс заказа" title="Пошаговая инструкция" />
-          <div className="mt-30 grid grid-cols-2 desktop:grid-cols-4 gap-30">
-            {figmaSteps.map((step, idx) => (
-              <div key={idx} className="flex flex-col gap-4">
-                <div className="text-25 leading-36 font-medium text-white">{step.line1}</div>
-                <div className="text-25 leading-36 font-medium text-white">{step.line2}</div>
-              </div>
-            ))}
-          </div>
+        <div className="mt-60 grid grid-cols-1 tablet:grid-cols-2 desktop:grid-cols-4 gap-30">
+          {steps.map((step) => (
+            <div key={step.number} className="flex flex-col">
+              {/* Big step number */}
+              <span className="text-65 leading-65 font-bold text-accent select-none">
+                {step.number}
+              </span>
+
+              {/* Icon */}
+              <Icon name={step.icon} className="text-24 text-cyan mt-20 mb-15" />
+
+              {/* Title */}
+              <h3 className="text-20 leading-27 font-semibold text-white mb-10">
+                {step.title}
+              </h3>
+
+              {/* Description */}
+              <p className="text-16 leading-23 font-normal text-secondary">
+                {step.text}
+              </p>
+            </div>
+          ))}
         </div>
       </Container>
     </section>

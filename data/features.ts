@@ -1,57 +1,17 @@
-export const features = [
-  {
-    id: "uniqueness",
-    title: "Уникальность",
-    icon: "i-star",
-    description:
-      "Уникальные конфигурации серверов под любые задачи и нагрузки.",
-  },
-  {
-    id: "speed",
-    title: "Скорость",
-    icon: "i-speed",
-    description: "Высокая скорость работы и доступа к вашим данным 24/7.",
-  },
-  {
-    id: "memory",
-    title: "Память",
-    icon: "i-memory",
-    description: "До 768 ГБ оперативной памяти и быстрые NVMe-накопители.",
-  },
-  {
-    id: "innovation",
-    title: "Иновация",
-    icon: "i-cloud",
-    description: "Современные технологии и регулярные обновления оборудования.",
-  },
-  {
-    id: "assistant",
-    title: "Ассистент",
-    icon: "i-info",
-    description: "Персональный ассистент поможет с настройкой и выбором.",
-  },
-  {
-    id: "number-one",
-    title: "Номер один",
-    icon: "i-server",
-    description: "Лидеры рынка аренды выделенных серверов в Европе.",
-  },
-  {
-    id: "management",
-    title: "Менеджмент",
-    icon: "i-admin",
-    description: "Профессиональное управление и администрирование серверов.",
-  },
-  {
-    id: "worldwide-dna",
-    title: "Worldwide DNA",
-    icon: "i-traffic",
-    description: "Дата-центры по всему миру: США, Германия, Франция, Голландия.",
-  },
-  {
-    id: "service",
-    title: "Сервис",
-    icon: "i-tool",
-    description: "Круглосуточная поддержка на русском, украинском и английском.",
-  },
-] as const;
+export interface Feature {
+  icon: string;
+  title: string;
+  text: string;
+}
+
+export const features: Feature[] = [
+  { icon: 'speed', title: 'Быстрая активация', text: 'Сервер готов к работе через 3-5 минут после оплаты' },
+  { icon: 'server', title: 'Своё железо', text: 'Только собственное оборудование в надёжных дата-центрах' },
+  { icon: 'protection', title: 'DDoS защита', text: 'Бесплатная защита от DDoS атак включена в каждый тариф' },
+  { icon: 'support', title: 'Поддержка 24/7', text: 'Техническая поддержка круглосуточно без выходных' },
+  { icon: 'map', title: '11 локаций', text: 'Дата-центры в Европе, России и США' },
+  { icon: 'hdd', title: '1278 конфигураций', text: 'Более 1278 вариантов оборудования на любой бюджет' },
+  { icon: 'backup', title: 'Резервное копирование', text: 'Автоматическое резервное копирование данных' },
+  { icon: 'admin', title: 'Полный root-доступ', text: 'Полный контроль над сервером с момента активации' },
+  { icon: 'tool', title: 'Любая ОС', text: 'Windows, Linux, FreeBSD — установим нужную операционную систему' },
+];

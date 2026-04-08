@@ -1,60 +1,72 @@
-import Link from "next/link";
-import type { Server } from "@/types";
-import ServerCard from "./ServerCard";
+import { cn } from '@/lib/cn';
+import Container from '@/components/ui/Container';
+import HomeServerCard from '@/components/home/HomeServerCard';
+import type { Server } from '@/data/servers';
 
 interface HomeSearchResultsProps {
   servers: Server[];
 }
 
 export default function HomeSearchResults({ servers }: HomeSearchResultsProps) {
-  return (
-    <div className="server-table-section">
-      <div className="container">
+  const displayServers = servers.slice(0, 5);
 
-        {/* Шапка таблицы — только desktop */}
-        <div className="server-table-head hidden-xs">
-          <span className="server-table-head__col server-table-head__col--name">Сервер</span>
-          <span className="server-table-head__col server-table-head__col--product">Продукт</span>
-          <span className="server-table-head__col server-table-head__col--ram">RAM</span>
-          <span className="server-table-head__col server-table-head__col--disk">Место на диске</span>
-          <span className="server-table-head__col server-table-head__col--price">
-            Цена в месяц
+  return (
+    <section className="py-60">
+      <Container>
+        {/* Section heading */}
+        <div className="mb-40">
+          <span
+            className="block text-65 leading-94 font-bold text-white opacity-[0.08] select-none pointer-events-none"
+            aria-hidden="true"
+          >
+            Конфигурации
           </span>
+          <h2 className="-mt-65 text-60 leading-87 font-medium text-white">
+            Серверы
+          </h2>
+          <p className="text-40 leading-58 font-medium text-white">
+            для любых задач
+          </p>
         </div>
 
-        {/* Строки */}
-        <div className="server-rows-wrap">
-          {servers.map((s, i) => (
-            <ServerCard
-              key={s.id}
-              id={s.id}
-              name={s.name}
-              cpu={s.cpu}
-              ram={s.ram as number}
-              storage={s.storage as { ssd?: string; hdd?: string } | string}
-              location={s.location as string}
-              locationFlag={s.locationFlag as string}
-              bandwidth={s.bandwidth}
-              locationStorage={s.locationStorage}
-              price={s.price}
-              priceOld={s.priceOld}
-              discount={s.discount}
-              os={(s.os ?? []) as string[]}
-              instant={s.instant}
-              active={i === 1}
+        {/* Server list */}
+        <div className="flex flex-col gap-0">
+          {displayServers.map((server, index) => (
+            <HomeServerCard
+              key={server.id}
+              cpu={server.cpu}
+              type={server.type}
+              ram={server.ram}
+              ssd={server.ssd}
+              hdd={server.hdd}
+              location={server.location}
+              network={server.network}
+              traffic={server.traffic}
+              flag={server.flag}
+              price={server.price}
+              oldPrice={server.oldPrice}
+              freeSetup={server.freeSetup}
+              fastAccess={server.fastAccess}
+              expanded={index === displayServers.length - 1}
             />
           ))}
         </div>
 
-        {/* Показать больше */}
-        <div className="server-table-more">
-          <Link href="/search" className="server-table-more__link">
-            Показать больше конфигураций
-          </Link>
-          <p className="server-table-more__hint">еще 1378шт от €7.89</p>
+        {/* Show all link */}
+        <div className="mt-30 flex justify-center">
+          <a
+            href="/servers"
+            className={cn(
+              'flex items-center justify-center',
+              'w-[35rem] h-48',
+              'border border-white bg-transparent hover:bg-white/10 transition-colors',
+              'text-16 leading-23 font-semibold text-white',
+            )}
+          >
+            Смотреть все конфигурации
+          </a>
         </div>
-
-      </div>
-    </div>
+      </Container>
+    </section>
   );
 }

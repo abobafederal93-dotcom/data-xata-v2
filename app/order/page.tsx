@@ -1,31 +1,35 @@
-import Container from '../../components/ui/Container';
-import Breadcrumb from '../../components/ui/Breadcrumb';
-import PromoBanner from '../../components/ui/PromoBanner';
-import OrderSummary from '../../components/order/OrderSummary';
-import OrderForm from '../../components/order/OrderForm';
+import Container from '@/components/ui/Container';
+import OrderSteps from '@/components/order/OrderSteps';
+import OrderForm from '@/components/order/OrderForm';
+import OrderSummary from '@/components/order/OrderSummary';
+import { servers } from '@/data/servers';
 
 export default function OrderPage() {
-  const summary = [
-    { label: 'Аренда сервера', description: '2x Xeon E5-2430 v2 • 32GB DDR3 • 2x240GB SSD' },
-    { label: 'Подключение', description: '1 Gbps, 100TB, NL - Netherlands' },
-    { label: 'Абонплата', description: '€99' },
-  ];
+  const server = servers[0];
 
   return (
-    <main>
-      <Container>
-        <div className="pt-40">
-          <Breadcrumb items={[{ label: 'Оформление заказа' }]} className="mb-30" />
+    <div className="min-h-screen">
+      {/* Hero */}
+      <div className="bg-primary py-40 desktop:py-60">
+        <Container>
+          <OrderSteps active={3} />
+          <h1 className="text-40 leading-58 font-medium text-white mt-20">Оформление заказа</h1>
+        </Container>
+      </div>
 
-          <OrderSummary items={summary} />
+      <Container className="py-40">
+        <div className="flex flex-col desktop:flex-row gap-30 items-start">
+          {/* Form */}
+          <div className="flex-1 min-w-0">
+            <OrderForm serverId={server.id} />
+          </div>
 
-          <OrderForm />
+          {/* Summary */}
+          <div className="w-full desktop:w-[33rem] flex-shrink-0 desktop:sticky desktop:top-20">
+            <OrderSummary server={server} />
+          </div>
         </div>
       </Container>
-
-      <Container className="py-60">
-        <PromoBanner />
-      </Container>
-    </main>
+    </div>
   );
 }

@@ -1,46 +1,38 @@
-import Container from '../ui/Container';
-import SectionHeading from '../ui/SectionHeading';
+import Container from '@/components/ui/Container';
+import SectionHeading from '@/components/ui/SectionHeading';
 
 export default function AboutUs() {
   return (
-    <section className="py-60">
+    <section className="py-80">
       <Container>
-        <SectionHeading ghost="Предыстория" title="О нас и выделенных серверах" />
-        <div className="mt-30 grid grid-cols-1 desktop:grid-cols-[50.7rem_1fr] gap-40 items-start">
-          {/* Текст: w=507, fs=14 lh=17 color=#839ada */}
-          <div className="flex flex-col gap-16 max-w-[50.7rem]">
-            <p className="text-14 leading-17 text-[#839ada]">
-              Дата-хата работает на рынке с 2006 года. На нашем сайте есть огромное количество
-              предложений физических выделенных серверов, которые могут быть доступны в данный
-              момент времени для сдачи в аренду.
-            </p>
-            <p className="text-14 leading-17 text-[#839ada]">
-              Оформление заказа происходит в дистанционном режиме, поэтому купить нужные мощности
-              можно, находясь в любом городе. Должен лишь оплатить аренду и предоставить емейл, на
-              который будут отправлены данные доступа.
-            </p>
-            <p className="text-14 leading-17 text-[#839ada]">
-              Сколько стоит длительная аренда выделенного online сервера и услуга интернет
-              хостинга для сайта? Дата-Хата предоставляет лучшие цены на рынке.
-            </p>
+        <div className="flex items-start gap-60 flex-col desktop:flex-row">
+          {/* Left: text */}
+          <div className="flex-1">
+            <SectionHeading
+              ghost="О компании"
+              title="Кто мы"
+              subtitle="такие?"
+            />
+
+            <div className="mt-40 flex flex-col gap-20">
+              <p className="text-20 leading-27 font-normal text-secondary">
+                DATA-XATA — хостинг-провайдер с собственным оборудованием в 11 дата-центрах Европы и России. Мы не перепродаём чужие ресурсы — всё железо наше, поэтому мы контролируем качество на каждом уровне.
+              </p>
+              <p className="text-20 leading-27 font-normal text-secondary">
+                Более 1278 конфигураций выделенных серверов доступны к аренде прямо сейчас. Мгновенная активация, честные цены и техподдержка 24/7 — вот наши основные принципы.
+              </p>
+              <p className="text-20 leading-27 font-normal text-secondary">
+                Мы работаем с 2012 года и обслуживаем тысячи клиентов по всему миру — от индивидуальных разработчиков до крупных компаний.
+              </p>
+            </div>
           </div>
-          {/* Картинки: image 18 (386x270) сверху, image 19 (420x332) снизу */}
-          <div className="relative flex flex-col items-start gap-20">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
+
+          {/* Right: image */}
+          <div className="flex-shrink-0 desktop:w-[48rem]">
             <img
               src="/img/about-img-1.png"
-              alt=""
-              width={386}
-              height={270}
-              className="w-full max-w-[38.6rem] h-auto"
-            />
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/img/about-img-2.png"
-              alt=""
-              width={420}
-              height={332}
-              className="w-full max-w-[42rem] h-auto desktop:self-end desktop:-mt-20"
+              alt="Дата-центр DATA-XATA"
+              className="w-full h-auto"
             />
           </div>
         </div>

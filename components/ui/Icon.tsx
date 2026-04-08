@@ -1,8 +1,7 @@
-import type { IconName } from '../../types';
-import { cn } from '../../lib/cn';
+import { cn } from '@/lib/cn';
 
 interface IconProps {
-  name: IconName;
+  name: string;
   className?: string;
 }
 

@@ -1,30 +1,17 @@
-import { cn } from '../../lib/cn';
+import { cn } from '@/lib/cn';
 
 interface PriceTagProps {
-  current: number;
-  old?: number;
-  currency?: string;
-  size?: 'sm' | 'md';
+  price: string;
+  oldPrice?: string;
   className?: string;
 }
 
-export default function PriceTag({ current, old, currency = '€', size = 'md', className }: PriceTagProps) {
+export default function PriceTag({ price, oldPrice, className }: PriceTagProps) {
   return (
-    <div className={cn('flex items-center gap-8', className)}>
-      <span
-        className={cn(
-          'font-semibold text-white',
-          size === 'sm' ? 'text-14 leading-20' : 'text-16 leading-23'
-        )}
-      >
-        {currency}
-        {current.toFixed(2)}
-      </span>
-      {old && (
-        <span className="text-14 leading-20 font-normal text-secondary line-through">
-          {currency}
-          {old.toFixed(2)}
-        </span>
+    <div className={cn('flex items-center gap-8 text-14 leading-20 font-semibold', className)}>
+      <span className="text-white">{price}</span>
+      {oldPrice && (
+        <span className="text-secondary line-through font-normal">{oldPrice}</span>
       )}
     </div>
   );
