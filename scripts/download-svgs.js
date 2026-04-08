@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const TOKEN = 'FIGMA_TOKEN_REMOVED';
+const TOKEN = process.env.FIGMA_TOKEN || ''; // Set FIGMA_TOKEN env variable
 const FILE_KEY = 'ObgrnQDn7H2QR3rjTK9fRk';
 const OUT_DIR = path.join(__dirname, '..', 'public', 'img', 'figma');
 fs.mkdirSync(OUT_DIR, { recursive: true });

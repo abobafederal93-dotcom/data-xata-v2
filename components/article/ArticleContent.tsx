@@ -13,7 +13,7 @@ interface ArticleContentProps {
 
 export default function ArticleContent({ content }: ArticleContentProps) {
   return (
-    <article className="flex-1 desktop:max-w-[82.5rem] order-1">
+    <article className="flex-1 desktop:max-w-[82.5rem] order-2 min-w-0">
       {content.map((block, i) => {
         switch (block.type) {
           case 'h1':

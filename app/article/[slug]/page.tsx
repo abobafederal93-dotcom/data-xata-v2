@@ -138,7 +138,7 @@ export default function ArticlePage() {
                 { title: 'Пространства и мониторинг', bg: 'bg-[#215aee]' },
                 { title: 'Нет подключения к Интернету после обновления', bg: 'border border-white/10' },
               ].map((c) => (
-                <article key={c.title} className={'p-20 flex flex-col gap-15 ' + c.bg}>
+                <article key={c.title} className={'p-24 flex flex-col gap-15 min-h-[19.5rem] ' + c.bg}>
                   <h3 className="text-20 leading-29 desktop:text-30 desktop:leading-43 font-medium text-white">
                     {c.title}
                   </h3>
@@ -146,8 +146,8 @@ export default function ArticlePage() {
                     Раньше это работало нормально, пока я не реализовал ssl моих каплях, поскольку я не могу...
                   </p>
                   <div className="flex flex-wrap items-center gap-8 mt-auto">
-                    <span className="text-12 leading-17 text-white bg-secondary/40 px-6 py-2">Сеть</span>
-                    <span className="text-12 leading-17 text-white bg-secondary/40 px-6 py-2">Мониторинг</span>
+                    <span className="text-12 leading-17 text-white bg-secondary px-6 py-2">Сеть</span>
+                    <span className="text-12 leading-17 text-white bg-secondary px-6 py-2">Мониторинг</span>
                   </div>
                 </article>
               ))}

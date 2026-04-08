@@ -20,11 +20,11 @@ const requisites: { id: string; label: string }[] = [
   { id: 'company-address', label: 'Адрес компании' },
 ];
 
-const socials: { name: string; bgClass: string; letter: string }[] = [
-  { name: 'Twitter', bgClass: 'bg-[#1da1f2]', letter: 't' },
-  { name: 'Facebook', bgClass: 'bg-[#4267b2]', letter: 'f' },
+const socials: { name: string; src?: string; bgClass?: string; letter?: string }[] = [
+  { name: 'Twitter', src: '/img/figma/icon-twitter-36.svg' },
+  { name: 'Facebook', src: '/img/figma/icon-facebook-36.svg' },
   { name: 'Github', bgClass: 'bg-[#24292e]', letter: 'g' },
-  { name: 'Yandex', bgClass: 'bg-[#ff0000]', letter: 'Я' },
+  { name: 'Yandex', src: '/img/figma/icon-yandex-36.svg' },
   { name: 'Mail.ru', bgClass: 'bg-[#005ff9]', letter: 'm' },
   { name: 'Gmail', bgClass: 'bg-[#dd4b39]', letter: 'G' },
 ];
@@ -81,19 +81,31 @@ export default function OrderForm(_props: OrderFormProps) {
             или зарегистрироваться через социальные сети
           </span>
           <div className="flex items-center gap-10">
-            {socials.map((s) => (
-              <button
-                key={s.name}
-                type="button"
-                aria-label={s.name}
-                className={
-                  'w-36 h-36 rounded-full flex items-center justify-center text-white text-14 font-bold ' +
-                  s.bgClass
-                }
-              >
-                {s.letter}
-              </button>
-            ))}
+            {socials.map((s) =>
+              s.src ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  key={s.name}
+                  src={s.src}
+                  alt={s.name}
+                  width={36}
+                  height={36}
+                  className="w-36 h-36"
+                />
+              ) : (
+                <button
+                  key={s.name}
+                  type="button"
+                  aria-label={s.name}
+                  className={
+                    'w-36 h-36 rounded-full flex items-center justify-center text-white text-14 font-bold ' +
+                    (s.bgClass ?? '')
+                  }
+                >
+                  {s.letter}
+                </button>
+              )
+            )}
           </div>
         </div>
       </div>

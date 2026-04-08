@@ -14,7 +14,7 @@ interface ArticleSidebarProps {
 
 export default function ArticleSidebar({ items }: ArticleSidebarProps) {
   return (
-    <aside className="hidden desktop:block order-2 w-[25.5rem] shrink-0 desktop:sticky desktop:top-88">
+    <aside className="hidden desktop:block order-1 w-[25.5rem] shrink-0 desktop:sticky desktop:top-88">
       <nav className="bg-[#215aee] p-20">
         <h3 className="text-16 leading-23 font-medium text-white mb-15">Содержание</h3>
         <ul className="flex flex-col gap-8">
